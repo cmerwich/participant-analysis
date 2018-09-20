@@ -1,0 +1,247 @@
+################################################################
+#                                                              #
+#      Grammar at word level in Biblical Hebrew                #
+#                                                              #
+################################################################
+
+#ident "@(#)word_grammar	2.1 01/10/24"
+
+word
+   inflection
+      prefix =
+	 pfm: {"!", "!"} "preformative"
+	 vbs: {"]", "]"} "verbal stem"
+      core =
+	 lex: {} "lexeme"
+      suffix =
+	 vbe: {"["} "verbal ending"
+	 nme: {"/"} "nominal ending"
+	 loc: {"~"} "locative"
+	 prs: {"+"} "pronominal suffix"
+      pattern =
+	 vpm: {":"} "vowel pattern mark"
+
+   derivation
+      core =
+	 rt: {} "root"
+
+forms
+   meta "(" "&" "_" "="
+
+   pfm = "", ">", "H", "J", "M", "N", "T", "T="
+   vbs = ">T", "H", "HT", "N", "NT", "T"
+   lex < lexicon
+   vbe = "", "H", "H=", "W", "WN", "J", "JN", "NH", "NW", "T", "T=",
+	 "TH", "TJ", "TM", "TN"
+   nme = "", "H", "WT", "WTJ", "J", "J=", "JM", "JM=", "JN", "T", "TJ",
+	 "TJM"
+   loc = "H"
+   prs = "H", "HW", "HM", "HN", "W", "J", "K", "K=", "KM", "KN", "M",
+	 "MW", "N", "NW", "NJ"
+   vpm = a, c, d, da, dc, dp, dpa, dpc, n, p, pa, pc
+
+   rt < lexicon
+
+# Definition of grammatical functions: mnemonic and function name
+functions
+   gn: "gender" =
+      f: "feminine", m: "masculine"
+   nu: "number" =
+      sg: "singular", du: "dual", pl: "plural"
+   ps: "person" =
+      first: "first", second: "second", third: "third"
+   ls: "lexical set" =
+      card: "cardinal",
+      gens: "people's name",
+      gntl: "gentilic",
+      mult: "noun of multitude",
+      nmdi: "noun of distribution",
+      nmex: "noun of existence",
+      ordn: "ordinal",
+      padv: "possible adverb",
+      pcon: "possible conjunction",
+      pers: "person's name",
+      pinr: "possible interrogative",
+      ppde: "possible demonstrative pronoun",
+      ppre: "possible preposition",
+      quot: "verb of direct speech",
+      topo: "topographical name",
+      vbex: "verb of existence"
+   sp: "part of speech" =
+      adjv: "adjective",
+      advb: "adverb",
+      art: "article",
+      conj: "conjunction",
+      inrg: "interrogative",
+      intj: "interjection",
+      nega: "negative",
+      nmpr: "proper noun",
+      prde: "demonstrative pronoun",
+      prep: "preposition",
+      prin: "interrogative pronoun",
+      prps: "personal pronoun",
+      subs: "substantive",
+      verb: "verb"
+   st: "state" =
+      cst: "construct", abs: "absolute"
+   vs: "verbal stem" =
+      qal: "qal",
+      pq: "passive qal",
+      ni: "niphal",
+      nt: "nitpael",
+      pi: "piel",
+      pu: "pual",
+      hi: "hiphil",
+      ho: "hophal",
+      ht: "hitpael",
+      hp: "hotpaal",
+      et: "etpaal",
+      ti: "tiphal"
+   vt: "verbal tense" =
+      pf: "perfect", ipf: "imperfect", imp: "imperative",
+      inf: "infinitive", ptc: "participle"
+   su: "pronominal suffix" =
+      s3msg: "suffix third masculine singular",
+      s3fsg: "suffix third feminine singular",
+      s2msg: "suffix second masculine singular",
+      s2fsg: "suffix second feminine singular",
+      s1sg: "suffix first person singular",
+      s3mpl: "suffix third masculine plural",
+      s3fpl: "suffix third feminine plural",
+      s2mpl: "suffix second masculine plural",
+      s2fpl: "suffix second feminine plural",
+      s1pl: "suffix first person plural"
+
+
+rules
+
+inflection
+
+   not (exist(pfm) || exist(vbs) || exist(vbe) || exist(nme))::
+      +sp, -gn, -ls, -nu, -ps, -st, -vs, -vt
+
+# Nouns
+   shared {
+      not (exist(pfm) || exist(vbs) || exist(vbe)) && exist(nme) ::
+	 -vt, -ps, sp=subs
+   }
+      nme == ""    :: nu=sg, +gn, +st
+      nme == "H"   :: nu=sg, gn=f, st=abs
+      nme == "WT"  :: nu=pl, gn=f, +st
+      nme == "WTJ" :: nu=pl, gn=f, st=cst
+      nme == "J"   :: nu=pl, gn=m, st=cst
+      nme == "J="  :: nu=du,  +gn, st=cst
+      nme == "JM"  :: nu=pl, gn=m, st=abs
+      nme == "JM=" :: nu=du,  +gn, st=abs
+      nme == "JN"  :: nu=pl, gn=m, st=abs
+      nme == "T"   :: nu=sg, gn=f, +st
+      nme == "TJ"  :: nu=du,  gn=f, st=cst
+      nme == "TJM" :: nu=du,  gn=f, st=abs
+   end
+
+# Imperfecta
+   shared {
+      exist(pfm) && exist(vbe) && not exist(nme) :: -st, vt=ipf
+   }
+      pfm == ">" && vbe == {"", "H="} ::
+	 ps=first, nu=sg, +gn
+      pfm == "N" && vbe == {"", "H="} ::
+	 ps=first, nu=pl, +gn
+      pfm == "T" && vbe == {"J", "JN"} ::
+	 ps=second, nu=sg, gn=f
+      pfm == "T" && vbe == "" ::
+	 ps=second, nu=sg, gn=m
+      pfm == "T" && vbe == "NH" ::
+	 ps=second, nu=pl, gn=f
+      pfm == "T" && vbe == {"W", "WN"} ::
+	 ps=second, nu=pl, gn=m
+      pfm == "T=" && vbe == "" ::
+	 ps=third, nu=sg, gn=f
+      pfm == "J" && vbe == "" ::
+	 ps=third, nu=sg, gn=m
+      pfm == "T=" && vbe == "NH" ::
+	 ps=third, nu=pl, gn=f
+      pfm == "J" && vbe == {"W", "WN"} ::
+	 ps=third, nu=pl, gn=m
+   end
+
+# Perfecta
+   shared {
+      not exist(pfm) && exist(vbe) && not exist(nme) :: -st, vt=pf
+   }
+      vbe == "H" :: ps=third, nu=sg, gn=f
+      vbe == "NW" :: ps=first, nu=pl, +gn
+      vbe == {"T", "TH"} :: ps=second, nu=sg, gn=m
+      vbe == "T=" :: ps=second, nu=sg, gn=f
+      vbe == "TJ" :: ps=first, nu=sg, +gn
+      vbe == "TM" :: ps=second, nu=pl, gn=m
+      vbe == "TN" :: ps=second, nu=pl, gn=f
+      vbe == "" :: ps=third, nu=sg, gn=m
+      vbe == {"W", "WN"} :: ps=third, nu=pl, +gn
+   end
+
+# Imperativa
+   shared {
+      pfm == {"", "H"} && exist(vbe) && not exist(nme) ::
+	 vt=imp, -st, ps=second
+   }
+      vbe == {"", "H="} :: nu=sg, gn=m
+      vbe == "J" :: nu=sg, gn=f
+      vbe == "W" :: nu=pl, gn=m
+      pfm == "" && vbe == "NH" :: nu=pl, gn=f
+   end
+
+# Infinitivi
+   shared {
+      pfm == {"", "H"} && vbe == "" && exist(nme) ::
+	 +ps, +nu, +gn, +st, vt=inf
+   }
+      nme != "" :: st=cst
+      exist(prs) :: st=cst
+   end
+
+# Participia
+   shared {
+      (pfm == "M" || not exist(pfm)) && vbe == "" && exist(nme) ::
+	 vt=ptc, +ps
+   }
+      nme == "H" :: nu=sg, gn=f, st=abs
+      nme == "T" :: nu=sg, gn=f, +st
+      nme == "" :: nu=sg, gn=m, +st
+      nme == "WT" :: nu=pl, gn=f, +st
+      nme == "JM" :: nu=pl, gn=m, st=abs
+      nme == "J" :: nu=pl, gn=m, st=cst
+   end
+
+# Verbal stems
+   shared { exist(vbe) :: sp=verb }
+      not exist(vbs) && not vpm == d && not vpm == p :: vs=qal
+      not exist(vbs) && not vpm == d &&     vpm == p :: vs=pq
+      not exist(vbs) &&     vpm == d && not vpm == p :: vs=pi
+      not exist(vbs) &&     vpm == d &&     vpm == p :: vs=pu
+      vbs == "N" :: vs=ni
+      vbs == "NT" :: vs=nt
+      vbs == "H"  && not vpm == p :: vs=hi
+      vbs == "H"  &&     vpm == p :: vs=ho
+      vbs == "HT" && not vpm == p :: vs=ht
+      vbs == "HT" &&     vpm == p :: vs=hp
+      vbs == ">T" :: vs=et
+      vbs == "T" :: vs=ti
+   end
+
+# Status
+   vpm == a :: st=abs
+   vpm == c :: st=cst
+   not exist(pfm) && exist(nme) && exist(prs) :: st=cst
+
+# Personal pronoun
+   prs == {"J", "NJ"} :: su=s1sg
+   prs == "K" :: su=s2msg
+   prs == "K=" :: su=s2fsg
+   prs == {"HW", "W"} :: su=s3msg
+   prs == "H" :: su=s3fsg
+   prs == "NW" :: su=s1pl
+   prs == "KM" :: su=s2mpl
+   prs == "KN" :: su=s2fpl
+   prs == {"HN", "N"} :: su=s3fpl
+   prs == {"HM", "M", "MW"} :: su=s3mpl
