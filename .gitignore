@@ -1,15 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
 .DS_Store
-.swp
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files #
+###################
 *.swp
-.idea/
 *.pyc
-*.pyo
-client/*.zip
-databases/*.table
-databases/*.log
-databases/*.sqlite
-languages/*
-sessions/*
-uploads/*
-errors/*
-cache/*
+*.tfx
+
+# Build directories #
+#####################
+site/
+_site/
+_themes/
+build/
+_build/
+__pycache__/
+_temp/
+.tf/
+.ipynb_checkpoints/
+
+# Config files which get locally modified
+#########################################
+.jekyll-metadata
