@@ -1,0 +1,1 @@
+This repository contains code for calculating inter-annotator agreement for coreference resolution annotations of the Psalms and other Hebrew Bible texts. 
