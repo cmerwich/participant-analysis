@@ -1,0 +1,106 @@
+T1	Mention 14 17	DWD
+T2	Mention 18 23	MFKJL
+T3	Mention 24 37	>CRJ NFWJ&PC<
+T4	Mention 38 47	KSWJ XV>H
+T5	Mention 53 61	>CRJ >DM
+T6	Mention 65 69	JXCB
+T7	Mention 70 74	JHWH
+T8	Mention 76 77	W
+T9	Mention 78 81	<WN
+T10	Mention 88 91	RWX
+T11	Mention 91 92	W
+T12	Mention 93 97	RMJH
+T13	Mention 106 112	HXRCTJ
+T14	Mention 113 116	BLW
+T15	Mention 117 120	<YM
+T16	Mention 120 121	J
+T17	Mention 127 128	J
+T18	Mention 123 127	C>GT
+T19	Mention 129 136	KL&HJWM
+T20	Mention 147 157	JWMM WLJLH
+T21	Mention 158 162	TKBD
+T22	Mention 165 166	J
+T23	Mention 167 169	JD
+T24	Mention 169 170	K
+T25	Mention 171 175	NHPK
+T26	Mention 176 179	LCD
+T27	Mention 179 180	J
+T28	Mention 182 191	XRBNJ QJY
+T29	Mention 205 206	J
+T30	Mention 201 205	XV>T
+T31	Mention 212 213	K
+T32	Mention 207 212	>WDJ<
+T33	Mention 575 579	JHWH
+T34	Mention 218 219	J
+T35	Mention 215 218	<WN
+T36	Mention 223 228	KSJTJ
+T37	Mention 229 234	>MRTJ
+T38	Mention 235 239	>WDH
+T39	Mention 247 248	J
+T40	Mention 244 247	PC<
+T41	Mention 250 254	JHWH
+T42	Mention 256 259	>TH
+T43	Mention 260 264	NF>T
+T44	Mention 265 273	<WN XV>T
+T45	Mention 273 274	J
+T46	Mention 287 290	Z>T
+T47	Mention 291 296	JTPLL
+T48	Mention 297 304	KL&XSJD
+T49	Mention 310 311	K
+T50	Mention 313 315	<T
+T52	Mention 324 331	CVP MJM
+T53	Mention 340 341	W
+T54	Mention 345 350	JGJ<W
+T55	Mention 356 359	>TH
+T56	Mention 362 365	STR
+T57	Mention 367 368	J
+T58	Mention 370 372	YR
+T59	Mention 373 376	TYR
+T60	Mention 376 378	NJ
+T61	Mention 379 382	RNJ
+T63	Mention 392 394	NJ
+T64	Mention 387 392	TSWBB
+T65	Mention 409 410	K
+T66	Mention 404 409	>FKJL
+T67	Mention 414 417	>WR
+T68	Mention 417 418	K
+T69	Mention 420 423	DRK
+T70	Mention 427 430	TLK
+T71	Mention 431 436	>J<YH
+T72	Mention 440 441	K
+T73	Mention 442 445	<JN
+T74	Mention 445 446	J
+T75	Mention 455 459	THJW
+T76	Mention 463 466	SWS
+T77	Mention 468 471	PRD
+T79	Mention 482 485	MTG
+T80	Mention 487 490	RSN
+T81	Mention 491 494	<DJ
+T82	Mention 494 495	W
+T85	Mention 512 513	K
+T87	Mention 534 537	RC<
+T88	Mention 540 544	BWVX
+T89	Mention 546 550	JHWH
+T90	Mention 551 554	XSD
+T91	Mention 561 562	W
+T92	Mention 555 561	JSWBBN
+T86	Mention 525 532	MK>WBJM
+T93	Mention 569 573	FMXW
+T94	Mention 581 585	GJLW
+T95	Mention 586 592	YDJQJM
+T96	Mention 594 600	HRNJNW
+T97	Mention 601 611	KL&JCRJ&LB
+*	Coreference T8 T5 T11
+*	Coreference T15 T14
+*	Coreference T16 T13 T17 T22 T27 T29 T32 T34 T36 T37 T38 T39 T45 T57 T60 T63 T65 T68 T70 T72 T75 T85 T93 T94 T95 T96 T97
+*	Coreference T23 T21
+*	Coreference T26 T25
+#1	AnnotatorNotes T44	The head of the NP is guilt, therefore no coreference with the first occurrence of 'sin' at the beginning of the verse. Semantically it does seem to be the same.
+*	Coreference T48 T47 T53
+*	Coreference T54 T52
+#2	AnnotatorNotes T66	Is the 1Csg YHWH? Intuition: yes. 
+*	Coreference T77 T76 T82
+*	Coreference T89 T64 T7 T6 T24 T31 T41 T42 T43 T49 T55 T59 T66 T67 T71 T74 T33
+*	Coreference T92 T90
+*	Coreference T91 T88
+*	Coreference T35 T44

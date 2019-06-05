@@ -1,0 +1,70 @@
+T1	Mention 20 23	DWD
+T2	Mention 195 199	JHWH
+T3	Mention 177 181	JHWH
+T4	Mention 248 252	JHWH
+T5	Mention 355 359	JHWH
+T6	Mention 25 29	JHWH
+T7	Mention 32 37	XSJTJ
+T8	Mention 42 47	T>MRW
+T9	Mention 49 52	NPC
+T10	Mention 52 53	J
+T11	Mention 64 68	YPWR
+T12	Mention 61 63	KM
+T13	Mention 59 61	HR
+T14	Mention 54 58	NWDW
+T15	Mention 82 87	RC<JM
+T16	Mention 88 94	JDRKWN
+T17	Mention 99 104	KWNNW
+T18	Mention 107 108	M
+T19	Mention 105 107	XY
+T21	Mention 136 138	LB
+T22	Mention 148 152	CTWT
+T23	Mention 153 159	JHRSWN
+T24	Mention 160 164	YDJQ
+T25	Mention 168 171	P<L
+T26	Mention 185 193	HJKL QDC
+T27	Mention 193 194	W
+T28	Mention 201 205	CMJM
+T29	Mention 206 209	KS>
+T30	Mention 209 210	W
+T31	Mention 215 216	W
+T32	Mention 211 215	<JNJ
+T33	Mention 217 221	JXZW
+T34	Mention 222 227	<P<PJ
+T35	Mention 227 228	W
+T36	Mention 229 234	JBXNW
+T37	Mention 235 242	BNJ >DM
+T38	Mention 253 257	YDJQ
+T39	Mention 258 262	JBXN
+T40	Mention 264 267	RC<
+T41	Mention 277 281	FN>H
+T42	Mention 282 285	NPC
+T43	Mention 285 286	W
+T44	Mention 292 296	JMVR
+T45	Mention 300 305	RC<JM
+T46	Mention 333 340	MNT KWS
+T47	Mention 340 341	M
+T48	Mention 306 310	PXJM
+T49	Mention 322 332	RWX ZL<PWT
+T50	Mention 360 365	YDQWT
+T51	Mention 366 369	>HB
+T52	Mention 370 373	JCR
+T53	Mention 374 378	JXZW
+T54	Mention 382 384	MW
+T55	Mention 379 382	PNJ
+T56	Mention 14 18	MNYX
+*	Coreference T10 T7 T14 T12
+*	Coreference T16 T15 T17 T18 T40 T45 T47
+T57	Mention 95 98	QCT
+T58	Mention 112 115	JTR
+T59	Mention 126 129	>PL
+*	Coreference T24 T21 T25 T38 T52 T53
+*	Coreference T23 T22
+*	Coreference T3 T6 T27 T2 T30 T31 T35 T4 T39 T43 T44 T5 T51 T54
+*	Coreference T33 T32
+*	Coreference T36 T34
+T60	Mention 269 276	>HB XMS
+*	Coreference T42 T41
+T61	Mention 311 313	>C
+T62	Mention 315 320	GPRJT
+#1	AnnotatorNotes T54	To whom does the suffix 3Mpl refer? 
