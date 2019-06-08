@@ -17,7 +17,7 @@ def print_total(name):
     '''
     
     data = np.loadtxt(name, usecols=(2,3,4), dtype=int)
-
+    
     Lt = data[:,0].sum()
     Mt = data[:,1].sum()
     Rt = data[:,2].sum()
@@ -25,6 +25,7 @@ def print_total(name):
     dt = round(Dt/(Lt+Mt+Rt),4)
     
     print(name, '-', Lt, Mt, Rt, Dt, dt, sep='\t')
+    return name, Lt, Mt, Rt, Dt, dt
 
 if __name__ == "__main__":
     for i in range(1, len(argv)):

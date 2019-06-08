@@ -15,7 +15,7 @@ Psalms_%.iaa: iaa.py $(PS_A)/Psalms_%.ann $(PS_B)/Psalms_%.ann
 	$(PYTHON3) iaa.py $(PS_A)/Psalms_$*.ann $(PS_B)/Psalms_$*.ann > $@
 
 all: total_numbers total_psalms
-	sort -k 6n,6 total_numbers total_psalms
+	sort -k 7n,7 total_numbers total_psalms
 	$(PYTHON3) acc.py total_numbers total_psalms
 
 total_numbers: acc.py $(NU_IAA)

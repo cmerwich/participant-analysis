@@ -152,6 +152,7 @@ def print_set_distance(sA, tagA, sB, tagB):
     Returns the difference (Left, Right),
     intersection (M), symmetric difference (D) and delta() (d) of two sets. 
     '''
+    
     L = len(sA-sB)
     M = len(sA&sB)
     R = len(sB-sA)
