@@ -1,6 +1,7 @@
 <img align="right" src="images/tf-small.png" width="90"/>
 <img align="right" src="images/etcbc.png" width="100"/>
 
+To cite this repository please use: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3243812.svg)](https://doi.org/10.5281/zenodo.3243812)
 
 # Participant Analyis 
 
