@@ -1,3 +1,7 @@
+<img align="right" src="images/tf-small.png" width="90"/>
+<img align="right" src="images/etcbc.png" width="100"/>
+
+
 # Participant Analyis 
 
 This repository contains (Python) code and data that I have created for my NWO funded PhD research project 'Who is Who is in the Psalms?'
