@@ -1,0 +1,309 @@
+T1	Mention 20 24	JHWH
+T2	Mention 28 31	MCH
+T3	Mention 33 36	>MR
+T4	Mention 15 19	JDBR
+T5	Mention 42 45	DBR
+T6	Mention 49 53	>HRN
+T7	Mention 55 59	>MRT
+T8	Mention 63 64	W
+T9	Mention 66 71	H<LTK
+T10	Mention 76 79	NRT
+T11	Mention 83 97	MWL PNJ HMNWRH
+T12	Mention 98 103	J>JRW
+T13	Mention 104 114	CB<T HNRWT
+T14	Mention 121 124	J<F
+T15	Mention 128 132	>HRN
+T16	Mention 136 150	MWL PNJ HMNWRH
+T17	Mention 151 155	H<LH
+T18	Mention 160 161	H
+T19	Mention 156 160	NRTJ
+T20	Mention 167 170	YWH
+T21	Mention 171 175	JHWH
+T22	Mention 179 182	MCH
+T23	Mention 189 191	ZH
+T24	Mention 193 202	<FH HMNRH
+T26	Mention 203 211	MQCH ZHB
+T27	Mention 215 218	JRK
+T28	Mention 218 219	H
+T29	Mention 223 226	PRX
+T30	Mention 226 227	H
+T31	Mention 228 232	MQCH
+T32	Mention 233 236	HW>
+T33	Mention 238 242	MR>H
+T34	Mention 247 251	HR>H
+T35	Mention 252 256	JHWH
+T36	Mention 260 263	MCH
+T37	Mention 267 270	<FH
+T38	Mention 275 279	MNRH
+T39	Mention 288 292	JDBR
+T40	Mention 293 297	JHWH
+T41	Mention 301 304	MCH
+T42	Mention 306 309	>MR
+T43	Mention 315 317	QX
+T44	Mention 322 326	LWJM
+T45	Mention 328 341	TWK BNJ JFR>L
+T46	Mention 343 347	VHRT
+T47	Mention 350 351	M
+T48	Mention 361 365	T<FH
+T49	Mention 367 369	HM
+T50	Mention 374 375	M
+T51	Mention 371 374	VHR
+T52	Mention 376 379	HZH
+T53	Mention 383 385	HM
+T54	Mention 386 393	MJ XV>T
+T55	Mention 395 401	H<BJRW
+T56	Mention 402 405	T<R
+T57	Mention 409 415	KL&BFR
+T58	Mention 415 416	M
+T59	Mention 418 422	KBSW
+T60	Mention 427 429	HM
+T61	Mention 423 427	BGDJ
+T62	Mention 431 436	HVHRW
+T63	Mention 443 447	LQXW
+T64	Mention 448 450	PR
+T65	Mention 451 457	BN&BQR
+#1	AnnotatorNotes T65	In apposition with "young bull".
+T66	Mention 459 463	MNXT
+T67	Mention 463 464	W
+T68	Mention 465 468	SLT
+T69	Mention 470 474	LWLH
+T70	Mention 476 479	CMN
+T71	Mention 481 487	PR&CNJ
+T72	Mention 488 494	BN&BQR
+#2	AnnotatorNotes T72	In apposition with "second young bull". 
+T73	Mention 495 498	TQX
+T74	Mention 500 504	XV>T
+T75	Mention 511 516	HQRBT
+T76	Mention 521 525	LWJM
+T77	Mention 527 539	PNJ >HL MW<D
+T78	Mention 541 546	HQHLT
+T79	Mention 550 566	KL&<DT BNJ JFR>L
+T80	Mention 574 579	HQRBT
+T81	Mention 584 588	LWJM
+T82	Mention 590 598	PNJ JHWH
+#3	AnnotatorNotes T82	Nested mention: (face of (YHWH)). 
+T83	Mention 600 604	SMKW
+T84	Mention 605 614	BNJ&JFR>L
+#4	AnnotatorNotes T84	Nested mention: (children of (Israel)).
+T85	Mention 618 621	JDJ
+T86	Mention 621 623	HM
+T87	Mention 628 632	LWJM
+T88	Mention 640 644	HNJP
+T89	Mention 645 649	>HRN
+T90	Mention 654 658	LWJM
+T91	Mention 659 664	TNWPH
+T92	Mention 666 674	PNJ JHWH
+#5	AnnotatorNotes T92	Nested mention: (face of (YHWH)).
+T93	Mention 679 688	BNJ JFR>L
+#6	AnnotatorNotes T93	Nested mention: (children of (Israel)).
+T94	Mention 690 693	HJW
+T95	Mention 702 711	<BDT JHWH
+#7	AnnotatorNotes T95	Nested mention: (work of (YHWH)).
+T96	Mention 720 724	LWJM
+T97	Mention 725 730	JSMKW
+T98	Mention 734 738	JDJH
+T99	Mention 738 739	M
+T100	Mention 743 752	R>C HPRJM
+T101	Mention 754 757	<FH
+T102	Mention 762 765	>XD
+T103	Mention 766 770	XV>T
+T104	Mention 776 779	>XD
+T105	Mention 780 783	<LH
+T106	Mention 785 789	JHWH
+T107	Mention 799 803	LWJM
+T108	Mention 811 816	H<MDT
+T109	Mention 821 825	LWJM
+T110	Mention 827 835	PNJ >HRN
+#8	AnnotatorNotes T110	Nested mention: (face of (Aaron)).
+T111	Mention 838 845	PNJ BNJ
+T112	Mention 845 846	W
+T113	Mention 848 852	HNPT
+T114	Mention 855 856	M
+T115	Mention 857 862	TNWPH
+T116	Mention 864 868	JHWH
+T117	Mention 876 881	HBDLT
+T118	Mention 886 890	LWJM
+T119	Mention 892 905	TWK BNJ JFR>L
+#9	AnnotatorNotes T119	Nested mention: (midst of (the children of (YHWH))).
+T120	Mention 907 910	HJW
+T121	Mention 912 913	J
+T122	Mention 915 919	LWJM
+T123	Mention 935 939	JB>W
+T124	Mention 941 945	LWJM
+T125	Mention 954 962	>HL MW<D
+T126	Mention 964 968	VHRT
+T127	Mention 971 972	M
+T128	Mention 974 978	HNPT
+T129	Mention 981 982	M
+T130	Mention 983 988	TNWPH
+T131	Mention 998 1003	NTNJM
+T132	Mention 1004 1009	NTNJM
+T133	Mention 1010 1013	HMH
+T134	Mention 1015 1016	J
+T135	Mention 1018 1031	TWK BNJ JFR>L
+#10	AnnotatorNotes T135	Nested mention: (midst of (the children of (YHWH))).
+T136	Mention 1036 1047	PVRT KL&RXM
+T137	Mention 1048 1055	BKWR KL
+#11	AnnotatorNotes T137	In apposition with "firstborn". 
+T138	Mention 1057 1066	BNJ JFR>L
+#12	AnnotatorNotes T138	Nested mention: (children of (Israel)).
+T139	Mention 1068 1072	QXTJ
+T140	Mention 1075 1076	M
+T141	Mention 1078 1079	J
+T142	Mention 1090 1091	J
+T143	Mention 1092 1099	KL&BKWR
+T144	Mention 1101 1110	BNJ JFR>L
+#13	AnnotatorNotes T144	Nested mention: (children of (Israel)).
+T145	Mention 1112 1115	>DM
+T146	Mention 1118 1122	BHMH
+T147	Mention 1124 1127	JWM
+T148	Mention 1128 1132	HKTJ
+T149	Mention 1133 1140	KL&BKWR
+T150	Mention 1142 1151	>RY MYRJM
+#14	AnnotatorNotes T150	Nested mention: (land of (Egypt)).
+T151	Mention 1152 1158	HQDCTJ
+T152	Mention 1161 1162	M
+T153	Mention 1164 1165	J
+T154	Mention 1173 1176	>QX
+T155	Mention 1181 1185	LWJM
+T156	Mention 1190 1197	KL&BKWR
+T157	Mention 1199 1208	BNJ JFR>L
+#15	AnnotatorNotes T157	Nested mention: (children of (Israel)).
+T158	Mention 1216 1220	>TNH
+T159	Mention 1225 1229	LWJM
+T160	Mention 1230 1235	NTNJM
+T161	Mention 1239 1243	>HRN
+T162	Mention 1246 1249	BNJ
+T163	Mention 1249 1250	W
+T164	Mention 1252 1265	TWK BNJ JFR>L
+#16	AnnotatorNotes T164	Nested mention: (midst of (the children of (YHWH))).
+T165	Mention 1274 1288	<BDT BNJ&JFR>L
+#17	AnnotatorNotes T165	Nested mention: (work of (the children of (YHWH))).
+T166	Mention 1290 1298	>HL MW<D
+T167	Mention 791 794	KPR
+T168	Mention 1301 1304	KPR
+T169	Mention 1308 1317	BNJ JFR>L
+#18	AnnotatorNotes T169	Nested mention: (children of (Israel)).
+T170	Mention 1322 1326	JHJH
+T171	Mention 1328 1337	BNJ JFR>L
+#19	AnnotatorNotes T171	Nested mention: (children of (Israel)).
+T172	Mention 1338 1341	NGP
+T173	Mention 1347 1356	BNJ&JFR>L
+#20	AnnotatorNotes T173	Nested mention: (children of (Israel)).
+T174	Mention 1360 1364	HQDC
+T175	Mention 1372 1375	J<F
+T178	Mention 1376 1403	MCH W>HRN WKL&<DT BNJ&JFR>L
+#21	AnnotatorNotes T178	Nested mention: (all of (the gathering of (the children of (Israel)))).
+T179	Mention 1405 1409	LWJM
+T180	Mention 1411 1413	KL
+T181	Mention 1418 1421	YWH
+T182	Mention 1422 1426	JHWH
+T183	Mention 1430 1433	MCH
+T184	Mention 1435 1439	LWJM
+T185	Mention 1443 1446	<FW
+T186	Mention 1448 1450	HM
+T187	Mention 1451 1460	BNJ JFR>L
+#22	AnnotatorNotes T187	Nested mention: (children of (Israel)).
+T188	Mention 1469 1474	TXV>W
+T189	Mention 1476 1480	LWJM
+T190	Mention 1482 1487	JKBSW
+T191	Mention 1492 1494	HM
+T192	Mention 1488 1492	BGDJ
+T193	Mention 1496 1499	JNP
+T194	Mention 1500 1504	>HRN
+T195	Mention 1507 1508	M
+T196	Mention 1509 1514	TNWPH
+T197	Mention 1516 1524	PNJ JHWH
+#23	AnnotatorNotes T197	Nested mention: (face of (YHWH)).
+T198	Mention 1526 1530	JKPR
+T199	Mention 1534 1536	HM
+T200	Mention 1537 1541	>HRN
+T201	Mention 1543 1546	VHR
+T202	Mention 1546 1547	M
+T203	Mention 1563 1566	B>W
+T204	Mention 1568 1572	LWJM
+T205	Mention 1574 1577	<BD
+T206	Mention 1581 1585	<BDT
+T207	Mention 1585 1586	M
+T208	Mention 1588 1596	>HL MW<D
+T209	Mention 1598 1606	PNJ >HRN
+#24	AnnotatorNotes T209	Nested mention: (face of (Aaron)).
+T210	Mention 1609 1616	PNJ BNJ
+T211	Mention 1616 1617	W
+T212	Mention 1623 1626	YWH
+T213	Mention 1627 1631	JHWH
+T214	Mention 1635 1638	MCH
+T215	Mention 1643 1647	LWJM
+T216	Mention 1651 1654	<FW
+T217	Mention 1656 1658	HM
+T218	Mention 1668 1672	JDBR
+T219	Mention 1673 1677	JHWH
+T220	Mention 1681 1684	MCH
+T221	Mention 1686 1689	>MR
+T222	Mention 1696 1699	Z>T
+T223	Mention 1705 1709	LWJM
+T224	Mention 1711 1728	BN XMC W<FRJM CNH
+T225	Mention 1730 1734	M<LH
+T226	Mention 1735 1739	JBW>
+T227	Mention 1741 1744	YB>
+T228	Mention 1745 1748	YB>
+*	Coreference T227 T228 T232
+T229	Mention 1750 1763	<BDT >HL MW<D
+T230	Mention 1772 1784	BN XMCJM CNH
+T231	Mention 1785 1789	JCWB
+T232	Mention 1791 1800	YB> H<BDH
+T233	Mention 1805 1809	J<BD
+T234	Mention 1821 1824	CRT
+T235	Mention 1828 1831	>XJ
+T236	Mention 1831 1832	W
+T237	Mention 1834 1842	>HL MW<D
+T238	Mention 1848 1853	MCMRT
+T239	Mention 1855 1859	<BDH
+T240	Mention 1863 1867	J<BD
+T241	Mention 1872 1876	T<FH
+T242	Mention 1878 1882	LWJM
+T243	Mention 1884 1889	MCMRT
+T244	Mention 1889 1890	M
+*	Coreference T2 T5 T7 T22 T36 T41 T43 T46 T48 T51 T52 T73 T75 T78 T80 T101 T108 T113 T117 T126 T128 T183 T214 T220 T241
+*	Coreference T13 T12
+*	Coreference T16 T11 T18
+*	Coreference T10 T19
+*	Coreference T30 T28 T32 T24
+*	Coreference T23 T26 T31 T27 T29
+*	Coreference T35 T34
+#25	AnnotatorNotes T37	"It" was made.
+*	Coreference T40 T39
+*	Coreference T3 T42 T221
+*	Coreference T65 T64 T67
+*	Coreference T68 T69
+*	Coreference T72 T71
+#26	AnnotatorNotes T79	Nested mention: (all of (the gathering of (the children of (Israel)))).
+*	Coreference T92 T82 T197
+T25	Mention 695 698	<BD
+*	Coreference T74 T103
+*	Coreference T100 T114
+*	Coreference T91 T115 T130 T196
+T245	Mention 947 950	<BD
+*	Coreference T132 T131 T133 T124 T123 T127 T47 T44 T49 T50 T53 T55 T58 T59 T60 T62 T63 T76 T81 T87 T90 T94 T96 T97 T99 T107 T109 T118 T120 T122 T129 T140 T155 T159 T179 T184 T186 T215 T217 T223 T242 T244
+*	Coreference T119 T135 T164
+*	Coreference T137 T136 T143 T149 T156
+*	Coreference T152 T150
+T246	Mention 1267 1270	<BD
+*	Coreference T25 T246 T205 T245 T206
+*	Coreference T171 T169 T84 T83 T86 T93 T138 T144 T157 T173
+*	Coreference T167 T168
+*	Coreference T172 T170
+*	Coreference T166 T125 T208 T237
+#27	AnnotatorNotes T174	Coreference with ">HL MW<D"?
+*	Coreference T178 T175
+*	Coreference T187 T185
+*	Coreference T189 T188 T190 T191 T195 T199 T202 T203 T204 T207
+*	Coreference T61 T192
+*	Coreference T194 T193 T163 T161 T89 T88 T8 T6 T9 T14 T15 T17 T198 T200 T201
+*	Coreference T211 T209 T112 T110
+*	Coreference T210 T111
+#28	AnnotatorNotes T216	Refers to Aaron and his sons or is it general: "they did"?
+*	Coreference T219 T218 T213 T212 T181 T182 T21 T20 T4 T1 T106 T116 T121 T134 T139 T141 T142 T148 T151 T153 T154 T158
+*	Coreference T224 T226 T222
+*	Coreference T231 T230 T233 T234 T236 T240
+*	Coreference T243 T238

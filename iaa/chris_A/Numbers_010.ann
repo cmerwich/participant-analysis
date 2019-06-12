@@ -1,0 +1,372 @@
+T1	Mention 15 19	JDBR
+T2	Mention 20 24	JHWH
+T3	Mention 28 31	MCH
+T4	Mention 42 45	<FH
+T5	Mention 47 48	K
+T6	Mention 49 63	CTJ XYWYRT KSP
+T7	Mention 64 68	MQCH
+T8	Mention 69 73	T<FH
+T9	Mention 76 77	M
+T10	Mention 79 82	HJW
+T11	Mention 84 85	K
+T12	Mention 98 102	LMS<
+T13	Mention 107 112	MXNWT
+T14	Mention 87 96	MQR> H<DH
+T15	Mention 119 123	TQ<W
+T16	Mention 125 127	HN
+T17	Mention 129 134	NW<DW
+T18	Mention 138 139	K
+T19	Mention 140 147	KL&H<DH
+T20	Mention 151 163	PTX >HL MW<D
+T21	Mention 174 177	>XT
+T22	Mention 178 183	JTQ<W
+T23	Mention 185 190	NW<DW
+T24	Mention 194 195	K
+T25	Mention 197 203	NFJ>JM
+T26	Mention 204 219	R>CJ >LPJ JFR>L
+#1	AnnotatorNotes T26	In apposition with 'chiefs'.
+T27	Mention 226 231	TQ<TM
+T28	Mention 232 237	TRW<H
+T29	Mention 239 243	NS<W
+T30	Mention 245 250	MXNWT
+T31	Mention 252 256	XNJM
+T32	Mention 257 261	QDMH
+T33	Mention 268 273	TQ<TM
+T34	Mention 274 284	TRW<H CNJT
+T35	Mention 286 290	NS<W
+T36	Mention 292 297	MXNWT
+T37	Mention 299 303	XNJM
+T38	Mention 304 309	TJMNH
+T39	Mention 310 315	TRW<H
+T40	Mention 316 321	JTQ<W
+T41	Mention 323 327	MS<J
+T42	Mention 327 329	HM
+T43	Mention 347 350	QHL
+T44	Mention 337 342	HQHJL
+T46	Mention 361 366	TRJ<W
+T47	Mention 373 381	BNJ >HRN
+T48	Mention 383 388	KHNJM
+#2	AnnotatorNotes T48	In apposition with 'Sons of Aaron'.
+T49	Mention 389 394	JTQ<W
+T50	Mention 396 402	XYYRWT
+T51	Mention 404 407	HJW
+T52	Mention 409 411	KM
+T53	Mention 413 421	XQT <WLM
+T54	Mention 423 427	DRTJ
+T55	Mention 427 429	KM
+T56	Mention 439 443	TB>W
+T57	Mention 444 449	MLXMH
+T58	Mention 451 454	>RY
+T59	Mention 454 456	KM
+T60	Mention 461 463	YR
+T61	Mention 465 468	YRR
+T62	Mention 471 473	KM
+T63	Mention 475 480	HR<TM
+T64	Mention 482 488	XYYRWT
+T65	Mention 490 496	NZKRTM
+T66	Mention 498 506	PNJ JHWH
+T67	Mention 507 511	>LHJ
+T68	Mention 511 513	KM
+#3	AnnotatorNotes T67	In apposition with (face of (YHWH)).
+#4	AnnotatorNotes T66	Nested mention: (face of (YHWH)). 
+T69	Mention 515 521	NWC<TM
+T70	Mention 523 527	>JBJ
+T71	Mention 527 529	KM
+T72	Mention 538 546	JWM FMXT
+T73	Mention 546 548	KM
+T74	Mention 551 556	MW<DJ
+T75	Mention 556 558	KM
+T76	Mention 561 570	R>CJ XDCJ
+T77	Mention 570 572	KM
+T78	Mention 574 579	TQ<TM
+T79	Mention 581 586	XYYRT
+T80	Mention 590 594	<LTJ
+T81	Mention 594 596	KM
+T82	Mention 601 610	ZBXJ CLMJ
+T83	Mention 610 612	KM
+T84	Mention 614 617	HJW
+T85	Mention 619 621	KM
+T86	Mention 623 628	ZKRWN
+T87	Mention 630 638	PNJ >LHJ
+T88	Mention 638 640	KM
+#5	AnnotatorNotes T87	Nested mention: (face of (God)). 
+T89	Mention 641 644	>NJ
+T90	Mention 645 649	JHWH
+T91	Mention 650 654	>LHJ
+T92	Mention 654 656	KM
+#6	AnnotatorNotes T91	In apposition with 'YHWH'.
+T93	Mention 666 669	JHJ
+T94	Mention 671 680	CNH HCNJT
+T95	Mention 682 690	XDC HCNJ
+T96	Mention 692 697	<FRJM
+T97	Mention 699 702	XDC
+T98	Mention 703 707	N<LH
+T99	Mention 709 712	<NN
+T100	Mention 717 726	MCKN H<DT
+T101	Mention 734 738	JS<W
+T102	Mention 739 748	BNJ&JFR>L
+#7	AnnotatorNotes T102	Nested mention: (sons of (Israel)). 
+T103	Mention 750 754	MS<J
+T104	Mention 754 756	HM
+T105	Mention 758 767	MDBR SJNJ
+#8	AnnotatorNotes T105	Nested mention: (desert of (Sinai)).
+T107	Mention 775 778	<NN
+T108	Mention 780 789	MDBR P>RN
+T109	Mention 797 801	JS<W
+T110	Mention 803 808	R>CNH
+T111	Mention 812 819	PJ JHWH
+#9	AnnotatorNotes T111	Nested mention: (mout of (YHWH)).
+T112	Mention 821 827	JD&MCH
+#10	AnnotatorNotes T112	Nested mention: (hand of (Moses)).
+T113	Mention 835 838	JS<
+T114	Mention 839 857	DGL MXNH BNJ&JHWDH
+#11	AnnotatorNotes T114	Nested mention: (divisions of (the camp of (the sons of (Judah)))).
+T115	Mention 859 864	R>CNH
+T116	Mention 866 870	YB>T
+T117	Mention 870 871	M
+T118	Mention 876 879	YB>
+T119	Mention 879 880	W
+T120	Mention 881 886	NXCWN
+T121	Mention 887 896	BN&<MJNDB
+#12	AnnotatorNotes T121	In apposition with 'Nahshon'. Nested mention: (son of (Amminadab)).
+T122	Mention 907 924	YB> MVH BNJ JFFKR
+T123	Mention 925 930	NTN>L
+T124	Mention 931 938	BN&YW<R
+#13	AnnotatorNotes T124	In apposition with 'Nethanel'. Nested mention: (son of (Zuar)).
+#14	AnnotatorNotes T122	Nested mention: (division of (the staff of (the sons of (Issachar))))).
+T125	Mention 949 966	YB> MVH BNJ ZBWLN
+T126	Mention 967 972	>LJ>B
+T127	Mention 973 980	BN&XLWN
+#15	AnnotatorNotes T127	In apposition with 'Eliab'. Nested mention: (son of (Eliab)).
+#16	AnnotatorNotes T125	Nested mention: (division of (the staff of (the sons of (Zebulun))))).
+T128	Mention 988 992	HWRD
+T129	Mention 994 998	MCKN
+T130	Mention 1000 1004	NS<W
+T131	Mention 1005 1014	BNJ&GRCWN
+T132	Mention 1016 1024	BNJ MRRJ
+T133	Mention 1025 1035	NF>J HMCKN
+#17	AnnotatorNotes T131	Nested mention: (sons of (Gershon)).
+#18	AnnotatorNotes T132	Nested mention: (sons of (Merari)).
+#19	AnnotatorNotes T133	In apposition with 'sons of Gershon and sons of Merari'. 
+T134	Mention 1045 1048	NS<
+T135	Mention 1049 1063	DGL MXNH R>WBN
+#20	AnnotatorNotes T135	Nested mention: (division of (the camp of (Reuben))).
+T136	Mention 1065 1069	YB>T
+T137	Mention 1069 1070	M
+T138	Mention 1075 1078	YB>
+T139	Mention 1078 1079	W
+T140	Mention 1080 1086	>LJYWR
+T141	Mention 1087 1096	BN&CDJ>WR
+#21	AnnotatorNotes T141	In apposition with 'Elizur'. Nested mention: (son of (Shedeur)).
+T142	Mention 1107 1124	YB> MVH BNJ CM<WN
+T143	Mention 1125 1131	CLMJ>L
+T144	Mention 1132 1143	BN&YWRJ_CDJ
+#22	AnnotatorNotes T142	Nested mention: (division of (the staff of (the sons of (Simeon))))).
+#23	AnnotatorNotes T144	In apposition with 'Shelumiel'. Nested mention: (son of (Zurishaddai)).
+T145	Mention 1154 1168	YB> MVH BNJ&GD
+#24	AnnotatorNotes T145	Nested mention: (division of (the staff of (the sons of (Gad))))).
+T146	Mention 1169 1174	>LJSP
+T147	Mention 1175 1183	BN&D<W>L
+#25	AnnotatorNotes T147	In apposition with 'Eliasaph'. Nested mention: (son of (Deuel)).
+T148	Mention 1191 1195	NS<W
+T149	Mention 1197 1202	QHTJM
+T150	Mention 1203 1213	NF>J HMQDC
+T151	Mention 1215 1220	HQJMW
+T152	Mention 1225 1229	MCKN
+T153	Mention 1233 1236	B>M
+T154	Mention 1246 1249	NS<
+T155	Mention 1250 1268	DGL MXNH BNJ&>PRJM
+#26	AnnotatorNotes T155	Nested mention: (division of (the camp of (the sons of (Ephraim))))).
+T156	Mention 1270 1274	YB>T
+T157	Mention 1274 1275	M
+T158	Mention 1280 1283	YB>
+T159	Mention 1283 1284	W
+T160	Mention 1285 1291	>LJCM<
+T161	Mention 1292 1301	BN&<MJHWD
+#27	AnnotatorNotes T161	In apposition with: Elishama. Nested mention: (son of (Ammihud)).
+T162	Mention 1312 1328	YB> MVH BNJ MNCH
+#28	AnnotatorNotes T162	Nested mention: (division of (the staff of (the sons of (Manasseh))))).
+T163	Mention 1329 1335	GMLJ>L
+T164	Mention 1336 1346	BN&PDH_YWR
+#29	AnnotatorNotes T164	In apposition with: 'Gamaliel'. Nested mention: (son of (Pedahzur)).
+T165	Mention 1357 1374	YB> MVH BNJ BNJMN
+#30	AnnotatorNotes T165	Nested mention: (division of (the staff of (the sons of (Benjamin))))).
+T166	Mention 1375 1380	>BJDN
+T167	Mention 1381 1390	BN&GD<WNJ
+#31	AnnotatorNotes T167	In apposition with: 'Gamaliel'. Nested mention: (son of (Gideoni)).
+T168	Mention 1400 1403	NS<
+T169	Mention 1404 1419	DGL MXNH BNJ&DN
+#32	AnnotatorNotes T169	Nested mention: (division of (the camp of (the sons of (Dan))))).
+T170	Mention 1420 1424	M>SP
+T171	Mention 1426 1434	KL&HMXNT
+T172	Mention 1436 1440	YB>T
+T173	Mention 1440 1441	M
+T174	Mention 1446 1449	YB>
+T175	Mention 1449 1450	W
+T176	Mention 1451 1457	>XJ<ZR
+T177	Mention 1458 1468	BN&<MJ_CDJ
+#33	AnnotatorNotes T177	In apposition with Ahiezer. Nested mention: (son of (Ammishaddai)). 
+T178	Mention 1480 1494	B> MVH BNJ >CR
+#34	AnnotatorNotes T178	Nested mention: (division of (the staff of (the sons of (Asher))))).
+T179	Mention 1495 1501	PG<J>L
+T180	Mention 1502 1509	BN&<KRN
+#35	AnnotatorNotes T180	In apposition with: 'Pagiel'.  Nested mention: (son of (Ocran)).
+T181	Mention 1520 1537	YB> MVH BNJ NPTLJ
+#36	AnnotatorNotes T181	Nested mention: (division of (the staff of (the sons of (Naphtali))))).
+#37	AnnotatorNotes T108	Nested mention: (desert of (Paran)).
+T182	Mention 1538 1543	>XJR<
+T183	Mention 1544 1551	BN&<JNN
+#38	AnnotatorNotes T183	In apposition with: 'Ahira'. Nested mention: (son of (Enan)).
+T184	Mention 1562 1576	MS<J BNJ&JFR>L
+#39	AnnotatorNotes T184	Nested mention: (marches of (the sons of (Israel))).
+T185	Mention 1578 1582	YB>T
+T186	Mention 1582 1583	M
+T188	Mention 1599 1603	J>MR
+T189	Mention 1604 1607	MCH
+T190	Mention 1609 1612	XBB
+T191	Mention 1613 1621	BN&R<W>L
+#40	AnnotatorNotes T191	In apposition with: 'Hobab'. Nested mention: (son of (Reuel)).
+T192	Mention 1623 1628	MDJNJ
+#41	AnnotatorNotes T192	In apposition with: 'son of Reuel'. 
+T193	Mention 1629 1636	XTN MCH
+#42	AnnotatorNotes T193	In apposition with: 'Midianite'. Nested mention: (father in law of (Moses)).
+T194	Mention 1637 1642	NS<JM
+T195	Mention 1645 1650	>NXNW
+T196	Mention 1655 1659	MQWM
+T197	Mention 1664 1667	>MR
+T198	Mention 1668 1672	JHWH
+T199	Mention 1675 1676	W
+T200	Mention 1677 1680	>TN
+T201	Mention 1682 1684	KM
+T202	Mention 1685 1688	LKH
+T203	Mention 1691 1693	NW
+T204	Mention 1695 1700	HVBNW
+T205	Mention 1702 1703	K
+T206	Mention 1707 1711	JHWH
+T207	Mention 1712 1715	DBR
+T208	Mention 1716 1719	VWB
+T209	Mention 1723 1728	JFR>L
+T210	Mention 1736 1740	J>MR
+T211	Mention 1744 1745	W
+T212	Mention 1749 1752	>LK
+T213	Mention 1762 1765	>RY
+T214	Mention 1765 1766	J
+T215	Mention 1771 1776	MWLDT
+T216	Mention 1776 1777	J
+T217	Mention 1778 1781	>LK
+T218	Mention 1789 1793	J>MR
+T219	Mention 1800 1804	T<ZB
+T220	Mention 1807 1809	NW
+T221	Mention 1821 1825	JD<T
+T222	Mention 1826 1831	XNTNW
+T223	Mention 1833 1837	MDBR
+T224	Mention 1839 1843	HJJT
+T225	Mention 1845 1847	NW
+T226	Mention 1849 1854	<JNJM
+T227	Mention 1862 1865	HJH
+T228	Mention 1869 1872	TLK
+T229	Mention 1875 1877	NW
+T230	Mention 1879 1882	HJH
+T231	Mention 1886 1889	VWB
+T232	Mention 1891 1894	HW>
+T233	Mention 1899 1904	JJVJB
+T234	Mention 1905 1909	JHWH
+T235	Mention 1912 1914	NW
+T236	Mention 1916 1921	HVBNW
+T237	Mention 1923 1924	K
+T238	Mention 1932 1936	JS<W
+T239	Mention 1938 1945	HR JHWH
+#43	AnnotatorNotes T239	Nested mention: (mountain of (YHWH)).
+T240	Mention 1946 1959	DRK CLCT JMJM
+T241	Mention 1961 1975	>RWN BRJT&JHWH
+#44	AnnotatorNotes T241	Nested mention: (ark of (the covenant of (YHWH))).
+T242	Mention 1976 1979	NS<
+T243	Mention 1981 1984	PNJ
+T244	Mention 1984 1986	HM
+T245	Mention 1987 2000	DRK CLCT JMJM
+T247	Mention 2007 2009	HM
+T248	Mention 2010 2015	MNWXH
+T249	Mention 2023 2031	<NN JHWH
+#45	AnnotatorNotes T249	Nested mention: (cloud of (YHWH)).
+T250	Mention 2035 2037	HM
+T251	Mention 2038 2042	JWMM
+T252	Mention 2044 2048	NS<M
+T253	Mention 2053 2057	MXNH
+T254	Mention 2069 2072	JHJ
+T255	Mention 2079 2082	>RN
+T256	Mention 2084 2088	J>MR
+T257	Mention 2089 2092	MCH
+T258	Mention 2093 2097	QWMH
+T259	Mention 2100 2104	JHWH
+T260	Mention 2106 2110	JPYW
+T261	Mention 2111 2115	>JBJ
+T262	Mention 2115 2116	K
+T263	Mention 2118 2122	JNSW
+T264	Mention 2123 2128	MFN>J
+T265	Mention 2128 2129	K
+T266	Mention 2131 2134	PNJ
+T267	Mention 2134 2135	K
+T268	Mention 2143 2147	BNXH
+T269	Mention 2148 2152	J>MR
+T270	Mention 2153 2157	CWBH
+T271	Mention 2158 2162	JHWH
+T272	Mention 2163 2179	RBBWT >LPJ JFR>L
+#46	AnnotatorNotes T272	Nested mention: (multitude of (thousands of (Israel))).
+*	Coreference T9 T6 T10 T15 T16 T50 T64 T79
+#47	AnnotatorNotes T16	3Fpl refers to trumpets?
+*	Coreference T17 T19
+*	Coreference T23 T25 T26
+*	Coreference T22 T21
+#48	AnnotatorNotes T27	2Mpl refers to trumpets. 
+*	Coreference T29 T30 T31
+*	Coreference T35 T36 T37 T42
+#49	AnnotatorNotes T33	2Mpl refers to trumpets. 
+*	Coreference T27 T33 T45 T46
+*	Coreference T39 T28
+*	Coreference T44 T43
+T45	Mention 351 356	TTQ<W
+*	Coreference T48 T47 T49
+*	Coreference T52 T55 T56 T59 T62 T63 T65 T68 T69 T71 T73 T75 T77 T78 T81 T83 T85 T88 T92 T201
+#50	AnnotatorNotes T51	3Cpl refers to the trumpets? 
+*	Coreference T60 T61
+*	Coreference T80 T82 T84
+T106	Mention 769 773	JCKN
+*	Coreference T106 T107 T249 T99 T98
+*	Coreference T114 T113 T117
+*	Coreference T120 T121 T119
+*	Coreference T123 T124
+*	Coreference T126 T127
+*	Coreference T128 T129 T152 T100
+*	Coreference T130 T131 T132 T133
+*	Coreference T134 T135 T137
+*	Coreference T139 T140 T141
+*	Coreference T143 T144
+*	Coreference T146 T147
+*	Coreference T149 T148 T150 T153
+#51	AnnotatorNotes T151	Who is 3Cpl? Not the Kohathites. 'Others'.
+#52	AnnotatorNotes T150	In apposition with 'the Kohathites'.
+*	Coreference T154 T155 T157
+*	Coreference T159 T160 T161
+*	Coreference T163 T164
+*	Coreference T166 T167
+*	Coreference T168 T169 T170 T173
+*	Coreference T175 T176 T177
+*	Coreference T179 T180
+*	Coreference T182 T183
+T273	Mention 1558 1561	>LH
+*	Coreference T186 T184 T273
+T187	Mention 1585 1589	JS<W
+*	Coreference T185 T187
+*	Coreference T191 T190 T192 T193 T202 T205 T210 T212 T214 T216 T217 T219 T221 T224 T228 T237
+*	Coreference T194 T195
+*	Coreference T199 T196
+*	Coreference T203 T204 T220 T222 T225 T229 T235 T236
+*	Coreference T230 T231 T232
+*	Coreference T242 T241
+*	Coreference T244 T238 T101 T102 T104 T109 T209 T247 T250 T252
+*	Coreference T240 T245
+*	Coreference T254 T255 T268
+*	Coreference T256 T257 T188 T189 T4 T3 T5 T8 T11 T18 T24 T211 T218 T269
+*	Coreference T261 T260
+*	Coreference T264 T263
+*	Coreference T270 T271 T259 T258 T233 T234 T197 T198 T200 T206 T1 T2 T67 T66 T87 T89 T90 T91 T207 T262 T265 T267 T266
