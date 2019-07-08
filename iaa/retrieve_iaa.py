@@ -5,6 +5,7 @@ from sys import stderr
 
 import numpy as np
 from scipy.optimize import linear_sum_assignment
+from difflib import ndiff
 
 def error(*args, **kwargs):
     '''
@@ -57,6 +58,10 @@ def parse_ann(annFile):
                     error(f'{epos}T-line mention does not have exactly 3 parts: "{line}"')
                     errors += 1
                     continue
+                (mm, aStart, aEnd) = mParts
+                aStart = int(aStart)
+                aEnd = int(aEnd)
+                
                 t2mDict[tPart] = mentionStr
                 singletonSet.add(mentionStr)
                 m2wDict[mentionStr] = aWord
@@ -87,9 +92,7 @@ def parse_ann(annFile):
         results_list.append(singletonSet) #results_list[-1] is the singletonSet
     
     if errors:
-        error(f'There are {errors} errors in annotation file')    
-    
-    #print(f'There are {cClass} coreference classes and {len(singletonSet)} singletons in specified annotation file(s)\n')
+        error(f'There are {errors} errors in annotation file')
     
     results_array = np.array(results_list)
 
@@ -169,33 +172,86 @@ def compare_corefs(A, B, uA, rx, cx, uB):
     for i in uB:
         print_set_distance(set(), '-', B[i], tag(B, i))
 
+def sort_this(l, dic):
+    '''
+    Sorts a list of mention strings of the form 'Mention 1 5'. 
+    Sorts the end index (5), before the start index (1). 
+    Returns list of sorted mention strings.
+    '''
+    
+    words_list = []
+    l_2 = sorted(l, key=lambda s: int(s.split()[2]))
+    l_3 = sorted(l_2, key=lambda s: int(s.split()[1]))
+    for i in l_3:
+        words_list.append(dic[i])
+    
+    return words_list
+        
+def get_ndiff(A, B):
+    '''
+    Prints the difference between A's and B's annotations 
+    which are contained in strings.
+    '''
+    
+    diff_a = []
+    diff_b = []
+    
+    for s in ndiff(A, B):
+        
+        if s[0]==' ': continue # ignore the common annotations of A and B
+        elif s[0]=='-':
+            diff_a.append((s[2:], A.index(s[2:])))
+        elif s[0]=='+': 
+            diff_b.append((s[2:], B.index(s[2:])))
+    
+    if diff_a == diff_b:
+        pass
+    else:
+        print('A diff', diff_a, '\n', sep='\t')
+        print('B diff', diff_b, '\n', sep='\t')        
+
 def retrieve_corefs(A, B, uA, rx, cx, uB, m2wDict_A, m2wDict_B):
+    divide = '-'*60
+    
+    print('ann_A','ann_B', 'L', 'M', 'R', 'D', 'd', '\n', sep='\t')
+    
     for i in range(len(rx)):
+        print(divide)
         print_set_distance(A[rx[i]], tag(A, rx[i]), B[cx[i]], tag(B, cx[i]))
+        print(divide)
         
         coList_A = []
         for Ae in A[rx[i]]:
-            coList_A.append(m2wDict_A[Ae])
-        print('A', coList_A, sep='\t')
+            coList_A.append(Ae)
+        A_list = sort_this(coList_A, m2wDict_A)
+        print('A', A_list, '\n', sep='\t')
         
         coList_B = []
         for Be in B[cx[i]]:
-            coList_B.append(m2wDict_B[Be])
-        print('B', coList_B, '\n', sep='\t')
+            coList_B.append(Be)
+        B_list = sort_this(coList_B, m2wDict_B)
+        print('B', B_list, '\n', sep='\t')
+        get_ndiff(A_list, B_list)
     
-    coList_uA = []
     for i in uA:
+        print(divide)
         print_set_distance(A[i], tag(A, i), set(), '-')
+        print(divide)
+        
+        coList_uA = []
         for uAe in A[i]:
-            coList_uA.append(m2wDict_A[uAe])
-        print('unp A', coList_uA, sep='\t')
+            coList_uA.append(uAe)
+        print('unp A', sort_this(coList_uA, m2wDict_A), '\n', sep='\t')
     
-    coList_uB = []
     for i in uB:
-        print_set_distance(set(), '-', B[i], tag(B, i))  
+        print(divide)
+        print_set_distance(set(), '-', B[i], tag(B, i))
+        print(divide)
+        
+        coList_uB = []
         for uBe in B[i]:
-            coList_uB.append(m2wDict_B[uBe])
-        print('unp B', coList_uB, '\n', sep='\t')        
+            coList_uB.append(uBe)
+        print('unp B', sort_this(coList_uB, m2wDict_B), '\n', sep='\t')        
 
 def retrieve_ann(pathA, pathB):
     '''
