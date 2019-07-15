@@ -195,15 +195,22 @@ def get_ndiff(A, B):
     
     diff_a = []
     diff_b = []
+    i_A = 0
+    i_B = 0
     
     for s in ndiff(A, B):
         
-        if s[0]==' ': continue # ignore the common annotations of A and B
-        elif s[0]=='-':
-            diff_a.append((s[2:], A.index(s[2:])))
+        #if s[0]==' ': continue # ignore the common annotations of A and B
+        if s[0]=='-':
+            diff_a.append((s[2:], i_A)) # A.index(s[2:])
+            i_A += 1
         elif s[0]=='+': 
-            diff_b.append((s[2:], B.index(s[2:])))
-    
+            diff_b.append((s[2:], i_B)) # B.index(s[2:])
+            i_B += 1
+        else:
+            i_A += 1
+            i_B += 1
+        
     if diff_a == diff_b:
         pass
     else:
