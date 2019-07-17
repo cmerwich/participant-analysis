@@ -1,0 +1,330 @@
+T3103	Mention 15 19	JDBR
+T3104	Mention 20 24	JHWH
+T3105	Mention 28 31	MCH
+T3106	Mention 33 42	MDBR&SJNJ
+#457	AnnotatorNotes T3106	Nested mention: (desert of (Sinai)).
+T3107	Mention 44 47	CNH
+T3108	Mention 55 58	Y>T
+T3109	Mention 58 59	M
+T3110	Mention 61 70	>RY MYRJM
+#458	AnnotatorNotes T3110	Nested mention: (earth of (Egypt)).
+T3111	Mention 72 75	XDC
+T3112	Mention 84 87	>MR
+#459	AnnotatorNotes T3112	UUU, but the actor is assumed as YHWH
+T3113	Mention 94 98	J<FW
+T3114	Mention 99 108	BNJ&JFR>L
+#460	AnnotatorNotes T3114	Nested mention: (sons of (Israel)).
+T3115	Mention 113 116	PSX
+T3116	Mention 118 122	MW<D
+T3117	Mention 122 123	W
+T3118	Mention 130 143	>RB<H <FR&JWM
+T3119	Mention 150 152	ZH
+T3120	Mention 145 148	XDC
+T3121	Mention 158 163	<RBJM
+T3122	Mention 164 168	T<FW
+T3123	Mention 171 172	W
+T3124	Mention 174 178	MW<D
+T3125	Mention 178 179	W
+T3126	Mention 181 188	KL&XQTJ
+T3127	Mention 188 189	W
+T3128	Mention 191 200	KKL&MCPVJ
+T3129	Mention 200 201	W
+T3130	Mention 202 206	T<FW
+T3131	Mention 209 210	W
+T3132	Mention 217 221	JDBR
+T3133	Mention 222 225	MCH
+T3134	Mention 229 238	BNJ JFR>L
+#461	AnnotatorNotes T3134	Nested mention: (sons of (Israel)).
+T3135	Mention 240 243	<FT
+#462	AnnotatorNotes T3135	UUU, but the actor is assumed as Israel
+T3136	Mention 245 248	PSX
+T3137	Mention 255 259	J<FW
+T3138	Mention 264 267	PSX
+#463	AnnotatorNotes T3138	specific Passover
+T3139	Mention 269 274	R>CWN
+T3140	Mention 276 289	>RB<H <FR JWM
+T3141	Mention 291 294	XDC
+T3142	Mention 300 305	<RBJM
+T3143	Mention 307 316	MDBR SJNJ
+#464	AnnotatorNotes T3143	Nested mention: (desert of (Sinai)).
+T3144	Mention 318 320	KL
+T3145	Mention 325 328	YWH
+T3146	Mention 329 333	JHWH
+T3147	Mention 337 340	MCH
+T3148	Mention 344 347	<FW
+T3149	Mention 348 357	BNJ JFR>L
+#465	AnnotatorNotes T3149	Nested mention: (sons of (Israel)).
+T3150	Mention 364 367	JHJ
+#466	AnnotatorNotes T3150	singular
+T3151	Mention 368 373	>NCJM
+T3152	Mention 378 381	HJW
+T3153	Mention 389 396	NPC >DM
+T3154	Mention 401 405	JKLW
+T3155	Mention 407 410	<FT
+#467	AnnotatorNotes T3155	UUU, but the actor is assumed as men
+T3157	Mention 417 425	JWM HHW>
+T3158	Mention 427 432	JQRBW
+T3159	Mention 434 441	PNJ MCH
+#468	AnnotatorNotes T3159	Nested mention: (faces of (Moses)). / first occurrence only in Ch. 9
+T3160	Mention 444 452	PNJ >HRN
+#469	AnnotatorNotes T3160	Nested mention: (faces of (Aaron)).
+T3161	Mention 454 462	JWM HHW>
+T3162	Mention 469 474	J>MRW
+T3163	Mention 476 486	>NCJM HHMH
+T3164	Mention 490 491	W
+T3165	Mention 492 497	>NXNW
+T3166	Mention 505 512	NPC >DM
+T3167	Mention 517 521	NGR<
+T3168	Mention 523 532	BLTJ HQRB
+T3169	Mention 536 545	QRBN JHWH
+#470	AnnotatorNotes T3169	Nested mention: (offering of (YHWH)).
+T3170	Mention 547 550	M<D
+T3172	Mention 573 577	J>MR
+T3173	Mention 580 582	HM
+T3174	Mention 583 586	MCH
+T3175	Mention 587 591	<MDW
+T3176	Mention 593 598	>CM<H
+T3177	Mention 602 606	JYWH
+T3178	Mention 607 611	JHWH
+T3179	Mention 613 615	KM
+T3180	Mention 624 628	JDBR
+T3181	Mention 629 633	JHWH
+T3182	Mention 637 640	MCH
+T3183	Mention 642 645	>MR
+#471	AnnotatorNotes T3183	UUU, but the actor is assumed YHWH
+T3184	Mention 652 655	DBR
+T3186	Mention 670 673	>MR
+#472	AnnotatorNotes T3186	UUU, but the actor is assumed Moses
+T3187	Mention 674 681	>JC >JC
+#473	AnnotatorNotes T3187	arbitrary person in Israel
+T3188	Mention 685 689	JHJH
+T3189	Mention 697 700	NPC
+T3190	Mention 705 708	DRK
+T3192	Mention 722 726	DRTJ
+T3194	Mention 730 733	<FH
+T3195	Mention 734 737	PSX
+T3196	Mention 739 743	JHWH
+T3197	Mention 751 754	XDC
+T3198	Mention 761 774	>RB<H <FR JWM
+T3199	Mention 780 785	<RBJM
+T3200	Mention 786 790	J<FW
+T3201	Mention 793 794	W
+#474	AnnotatorNotes T3201	specific Passover
+T3202	Mention 798 802	MYWT
+T3203	Mention 804 809	MRRJM
+T3204	Mention 810 814	J>KL
+T3205	Mention 814 816	HW
+#475	AnnotatorNotes T3205	matzo and bitter (pl), but here singualr
+T3206	Mention 826 832	JC>JRW
+T3207	Mention 833 836	MMN
+T3208	Mention 836 837	W
+T3209	Mention 841 844	BQR
+T3210	Mention 846 849	<YM
+T3211	Mention 853 858	JCBRW
+T3212	Mention 860 861	W
+T3213	Mention 863 874	KL&XQT HPSX
+#476	AnnotatorNotes T3213	In verse 3, the whole regulation and justice occurs, but here they were updated adding 6-11
+T3214	Mention 875 879	J<FW
+T3215	Mention 882 883	W
+T3216	Mention 892 895	>JC
+#477	AnnotatorNotes T3216	A man in Israel
+T3217	Mention 900 903	HW>
+T3218	Mention 911 914	DRK
+T3219	Mention 918 921	HJH
+T3220	Mention 923 926	XDL
+T3221	Mention 928 932	<FWT
+#478	AnnotatorNotes T3221	the man or Passover
+T3222	Mention 934 937	PSX
+#479	AnnotatorNotes T3222	Why is this Subject?
+T3223	Mention 939 944	NKRTH
+T3224	Mention 946 954	NPC HHW>
+T3225	Mention 956 959	<MJ
+#480	AnnotatorNotes T3225	Israel except for the man
+T3226	Mention 959 960	H
+T3227	Mention 966 975	QRBN JHWH
+#481	AnnotatorNotes T3227	Nested mention: (offering of (YHWH)). / the man's offering
+T3228	Mention 979 984	HQRJB
+T3229	Mention 986 989	M<D
+T3230	Mention 989 990	W
+T3231	Mention 991 994	XV>
+T3233	Mention 996 999	JF>
+T3234	Mention 1001 1009	>JC HHW>
+T3235	Mention 1020 1024	JGWR
+T3236	Mention 1027 1029	KM
+T3237	Mention 1030 1032	GR
+#482	AnnotatorNotes T3237	unique participant in Ch. 9.
+T3238	Mention 1034 1037	<FH
+T3239	Mention 1038 1041	PSX
+T3240	Mention 1043 1047	JHWH
+T3241	Mention 1049 1057	XQT HPSX
+#483	AnnotatorNotes T3241	In verse 12, the regulation of Passover occurs, but here it is updated from verse 13
+T3242	Mention 1060 1064	MCPV
+#484	AnnotatorNotes T3242	In verse 3, it occurs, but here it was updated
+T3243	Mention 1064 1065	W
+T3244	Mention 1069 1073	J<FH
+T3245	Mention 1074 1081	XQH >XT
+#485	AnnotatorNotes T3245	Why Subject?
+T3246	Mention 1082 1086	JHJH
+#486	AnnotatorNotes T3246	one regulation is faminine, but the subject here is masculine
+T3247	Mention 1088 1090	KM
+T3248	Mention 1093 1095	GR
+T3249	Mention 1098 1107	>ZRX H>RY
+#487	AnnotatorNotes T3249	Native, unique participant
+T3250	Mention 1118 1121	JWM
+T3251	Mention 1122 1126	HQJM
+#488	AnnotatorNotes T3251	In Ex40:18, the actor who built up the tabernacle is Moses
+T3252	Mention 1131 1135	MCKN
+T3253	Mention 1136 1139	KSH
+T3254	Mention 1141 1144	<NN
+#489	AnnotatorNotes T3254	re-activated participant after Exo40 / compact occurrences of cloud in closing section
+T3255	Mention 1149 1153	MCKN
+T3256	Mention 1155 1163	>HL H<DT
+#490	AnnotatorNotes T3256	tent of reminder is an unique expression
+T3257	Mention 1166 1169	<RB
+T3258	Mention 1170 1174	JHJH
+#491	AnnotatorNotes T3258	cloud on each day would be different, but I assume all of it as one participant
+T3259	Mention 1179 1183	MCKN
+T3260	Mention 1185 1192	MR>H&>C
+T3261	Mention 1196 1199	BQR
+T3262	Mention 1209 1213	JHJH
+T3263	Mention 1220 1223	<NN
+T3264	Mention 1224 1227	JKS
+T3265	Mention 1227 1229	NW
+T3266	Mention 1231 1238	MR>H&>C
+T3267	Mention 1252 1254	PJ
+T3268	Mention 1255 1259	H<LT
+#492	AnnotatorNotes T3268	UUU, but the actor is assumed as cloud
+T3269	Mention 1261 1264	<NN
+T3270	Mention 1270 1273	>HL
+T3271	Mention 1283 1287	JS<W
+T3272	Mention 1288 1297	BNJ JFR>L
+#493	AnnotatorNotes T3272	Nested mention: (sons of (Israel)).
+T3273	Mention 1300 1304	MQWM
+T3274	Mention 1318 1321	<NN
+T3275	Mention 1309 1313	JCKN
+T3276	Mention 1325 1329	JXNW
+T3277	Mention 1330 1339	BNJ JFR>L
+#494	AnnotatorNotes T3277	Nested mention: (sons of (Israel)).
+T3278	Mention 1349 1356	PJ JHWH
+#495	AnnotatorNotes T3278	Nested mention: (mouth of (YHWH)).
+T3279	Mention 1357 1361	JS<W
+T3280	Mention 1362 1371	BNJ JFR>L
+#496	AnnotatorNotes T3280	Nested mention: (sons of (Israel)).
+T3281	Mention 1376 1383	PJ JHWH
+#497	AnnotatorNotes T3281	Nested mention: (mouth of (YHWH)).
+T3282	Mention 1384 1388	JXNW
+#498	AnnotatorNotes T3282	After Ch.1, 3, encamp re-occurs
+T3283	Mention 1389 1395	KL&JMJ
+T3284	Mention 1400 1404	JCKN
+T3285	Mention 1406 1409	<NN
+T3286	Mention 1414 1418	MCKN
+T3287	Mention 1419 1423	JXNW
+T3288	Mention 1432 1437	H>RJK
+#499	AnnotatorNotes T3288	UUU, but the actor is assumed as cloud
+T3289	Mention 1439 1442	<NN
+T3290	Mention 1447 1451	MCKN
+T3291	Mention 1452 1456	JMJM
+T3292	Mention 1463 1467	CMRW
+T3293	Mention 1468 1477	BNJ&JFR>L
+#500	AnnotatorNotes T3293	Nested mention: (sons of (Israel)).
+T3294	Mention 1481 1491	MCMRT JHWH
+#501	AnnotatorNotes T3294	Nested mention: (guard-post of (YHWH)). / Previous chapters had many guard-post, but unique here
+T3295	Mention 1496 1500	JS<W
+T3296	Mention 1508 1510	JC
+#502	AnnotatorNotes T3296	In Ch. 9. unique expression, participant
+T3297	Mention 1515 1519	JHJH
+T3298	Mention 1521 1524	<NN
+T3299	Mention 1525 1534	JMJM MSPR
+T3300	Mention 1539 1543	MCKN
+T3301	Mention 1547 1554	PJ JHWH
+#503	AnnotatorNotes T3301	Nested mention: (mouth of (YHWH)).
+T3302	Mention 1555 1559	JXNW
+T3303	Mention 1564 1571	PJ JHWH
+#504	AnnotatorNotes T3303	Nested mention: (mouth of (YHWH)).
+T3304	Mention 1572 1576	JS<W
+T3305	Mention 1584 1586	JC
+T3306	Mention 1591 1595	JHJH
+T3307	Mention 1597 1600	<NN
+T3308	Mention 1602 1605	<RB
+T3309	Mention 1609 1612	BQR
+T3310	Mention 1614 1618	N<LH
+T3311	Mention 1620 1623	<NN
+T3312	Mention 1625 1628	BQR
+T3313	Mention 1630 1634	NS<W
+T3314	Mention 1650 1654	N<LH
+T3315	Mention 1656 1659	<NN
+T3316	Mention 1661 1665	NS<W
+T3317	Mention 1675 1679	JMJM
+T3318	Mention 1683 1686	XDC
+T3319	Mention 1690 1694	JMJM
+T3320	Mention 1696 1701	H>RJK
+#505	AnnotatorNotes T3320	UUU, but the actor is assumed as cloud
+T3321	Mention 1703 1706	<NN
+T3322	Mention 1711 1715	MCKN
+T3323	Mention 1717 1720	CKN
+#506	AnnotatorNotes T3323	UUU, but the actor is assumed as cloud
+T3324	Mention 1724 1725	W
+T3325	Mention 1726 1730	JXNW
+T3326	Mention 1731 1740	BNJ&JFR>L
+#507	AnnotatorNotes T3326	Nested mention: (sons of (Israel)).
+T3327	Mention 1745 1749	JS<W
+T3328	Mention 1752 1756	H<LT
+#508	AnnotatorNotes T3328	UUU, but the actor is assumed as cloud
+T3329	Mention 1756 1757	W
+T3330	Mention 1758 1762	JS<W
+T3331	Mention 1772 1779	PJ JHWH
+#509	AnnotatorNotes T3331	Nested mention: (mouth of (YHWH)).
+T3332	Mention 1780 1784	JXNW
+T3333	Mention 1789 1796	PJ JHWH
+#510	AnnotatorNotes T3333	Nested mention: (mouth of (YHWH)).
+T3334	Mention 1797 1801	JS<W
+T3335	Mention 1805 1815	MCMRT JHWH
+#511	AnnotatorNotes T3335	Nested mention: (guard-post of (YHWH)). / unique expression, maybe closing signal?
+T3336	Mention 1816 1820	CMRW
+T3337	Mention 1824 1831	PJ JHWH
+#512	AnnotatorNotes T3337	Nested mention: (mouth of (YHWH)). / compacted occurrences of mouth of YHWH
+T3338	Mention 1833 1839	JD&MCH
+#513	AnnotatorNotes T3338	Nested mention: (hand of (Moses)).
+T3156	Mention 412 415	PSX
+T3339	Mention 268 305	BR>CWN B>RB<H <FR JWM LXDC BJN H<RBJM
+#514	AnnotatorNotes T3339	1. 14.
+T3340	Mention 523 527	BLTJ
+T3341	Mention 528 532	HQRB
+T3342	Mention 550 551	W
+T3171	Mention 553 566	TWK BNJ JFR>L
+#515	AnnotatorNotes T3171	Nested mention: (midst of sons of (Israel)). / they except for the men
+T3343	Mention 798 809	MYWT WMRRJM
+#516	AnnotatorNotes T3343	matzo and bitter, both are plural
+T3185	Mention 659 668	BNJ JFR>L
+#517	AnnotatorNotes T3185	Nested mention: (sons of (Israel)).
+T3191	Mention 715 717	KM
+T3193	Mention 726 728	KM
+T3232	Mention 994 995	W
+*	Coreference T3160
+*	Coreference T3110
+*	Coreference T3106 T3143
+*	Coreference T3278 T3281 T3301 T3303 T3331 T3333 T3337
+*	Coreference T3338
+*	Coreference T3108
+*	Coreference T3115 T3123 T3125 T3127 T3129 T3131 T3136 T3195
+*	Coreference T3151 T3152 T3154 T3155 T3158 T3162 T3163 T3165 T3167 T3341 T3173 T3175 T3179
+*	Coreference T3138 T3156 T3342
+*	Coreference T3339 T3157 T3161
+*	Coreference T3153 T3166
+*	Coreference T3187 T3188 T3194
+*	Coreference T3343 T3205 T3208
+*	Coreference T3209 T3212
+*	Coreference T3201 T3215 T3222 T3230 T3239 T3243
+*	Coreference T3216 T3217 T3219 T3220 T3232 T3233 T3234
+*	Coreference T3237 T3235 T3238 T3244 T3248
+*	Coreference T3245 T3246
+*	Coreference T3260 T3266
+*	Coreference T3256 T3270
+*	Coreference T3294 T3335
+*	Coreference T3321 T3320 T3314 T3315 T3310 T3311 T3306 T3307 T3297 T3298 T3289 T3288 T3275 T3274 T3254 T3258 T3262 T3263 T3264 T3268 T3269 T3284 T3285 T3323 T3328
+*	Coreference T3252 T3255 T3259 T3265 T3286 T3290 T3300 T3322 T3324 T3329
+*	Coreference T3279 T3280 T3276 T3277 T3272 T3271 T3185 T3191 T3193 T3148 T3113 T3114 T3109 T3117 T3122 T3130 T3134 T3135 T3137 T3200 T3204 T3206 T3211 T3214 T3149 T3236 T3247 T3282 T3287 T3293 T3292 T3295 T3302 T3304 T3313 T3316 T3325 T3326 T3327 T3330 T3332 T3334 T3336
+*	Coreference T3224 T3223 T3226 T3228
+*	Coreference T3225
+*	Coreference T3177 T3178 T3145 T3146 T3103 T3104 T3112 T3180 T3181 T3183 T3196 T3240
+*	Coreference T3172 T3174 T3105 T3132 T3133 T3147 T3164 T3176 T3182 T3184 T3186 T3251
