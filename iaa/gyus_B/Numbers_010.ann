@@ -1,418 +1,325 @@
-T3344	Mention 15 19	JDBR
-T3345	Mention 20 24	JHWH
-T3346	Mention 28 31	MCH
-T3347	Mention 33 36	>MR
-#518	AnnotatorNotes T3347	UUU, but the actor is assumed as Moses
-T3348	Mention 42 45	<FH
-T3349	Mention 47 48	K
-T3350	Mention 49 59	CTJ XYWYRT
-T3351	Mention 60 63	KSP
-T3352	Mention 64 68	MQCH
-T3353	Mention 69 73	T<FH
-T3354	Mention 76 77	M
-T3355	Mention 79 82	HJW
-T3356	Mention 84 85	K
-T3357	Mention 88 96	QR> H<DH
-T3358	Mention 99 102	MS<
-T3359	Mention 107 112	MXNWT
-T3361	Mention 124 127	BHN
-T3362	Mention 129 134	NW<DW
-#519	AnnotatorNotes T3362	common plural, but the whole gathering is singular
-T3363	Mention 138 139	K
-T3364	Mention 140 147	KL&H<DH
-T3365	Mention 151 163	PTX >HL MW<D
-T3366	Mention 174 177	>XT
-T3367	Mention 178 183	JTQ<W
-#520	AnnotatorNotes T3367	Interesting phenomena: in Ch. 9 Aaron, his sons did not occur, suddenly occur
-T3368	Mention 185 190	NW<DW
-#521	AnnotatorNotes T3368	common, heads are masculine
-T3369	Mention 194 195	K
-T3370	Mention 197 203	NFJ>JM
-T3371	Mention 204 219	R>CJ >LPJ JFR>L
-#522	AnnotatorNotes T3371	Nested mention: (heads of group of thousand of (Israel)).
-T3372	Mention 226 231	TQ<TM
-T3373	Mention 232 237	TRW<H
-T3374	Mention 239 243	NS<W
-T3375	Mention 245 250	MXNWT
-T3376	Mention 252 256	XNJM
-T3377	Mention 257 261	QDMH
-T3378	Mention 268 273	TQ<TM
-T3379	Mention 274 279	TRW<H
-T3380	Mention 286 290	NS<W
-T3381	Mention 292 297	MXNWT
-T3382	Mention 299 303	XNJM
-T3383	Mention 304 309	TJMNH
-T3384	Mention 310 315	TRW<H
-T3385	Mention 316 321	JTQ<W
-T3386	Mention 323 327	MS<J
-T3387	Mention 327 329	HM
-T3388	Mention 337 342	HQHJL
-#523	AnnotatorNotes T3388	Subject is not fixed
-T3389	Mention 347 350	QHL
-T3390	Mention 351 356	TTQ<W
-T3392	Mention 373 381	BNJ >HRN
-#524	AnnotatorNotes T3392	Nested mention: (sons of (Aaron)). / first occurrence as a separated participant
-T3393	Mention 383 388	KHNJM
-T3394	Mention 389 394	JTQ<W
-#525	AnnotatorNotes T3394	from 2 personal to 3 personal, what is the intention? or are 2 personal really them? or clarions?
-T3395	Mention 396 402	XYYRWT
-T3396	Mention 404 407	HJW
-T3397	Mention 409 411	KM
-#526	AnnotatorNotes T3397	Aaron's sons? or Israel?
-T3398	Mention 413 421	XQT <WLM
-T3399	Mention 423 427	DRTJ
-#527	AnnotatorNotes T3399	In 9:10, their generations were Israel's, here Aaron's sons' 
-T3400	Mention 427 429	KM
-T3401	Mention 439 443	TB>W
-#528	AnnotatorNotes T3401	the whole Israel? or Aaron's sons? : I chose Israel
-T3402	Mention 444 449	MLXMH
-T3403	Mention 451 454	>RY
-T3404	Mention 454 456	KM
-T3405	Mention 461 463	YR
-#529	AnnotatorNotes T3405	unique participant, but occurs only once in Ch. 10, but could occur again later
-T3406	Mention 465 468	YRR
-T3407	Mention 471 473	KM
-T3408	Mention 475 480	HR<TM
-#530	AnnotatorNotes T3408	Aaron's sons
-T3409	Mention 482 488	XYYRWT
-T3410	Mention 490 496	NZKRTM
-T3411	Mention 498 506	PNJ JHWH
-#531	AnnotatorNotes T3411	Nested mention: (mouth of (YHWH)).
-T3413	Mention 507 513	>LHJKM
-T3414	Mention 515 521	NWC<TM
-T3416	Mention 523 527	>JBJ
-#532	AnnotatorNotes T3416	different morphology, but both are assumed as the same participant
-T3417	Mention 527 529	KM
-T3418	Mention 538 546	JWM FMXT
-T3419	Mention 546 548	KM
-T3420	Mention 551 556	MW<DJ
-T3421	Mention 556 558	KM
-T3422	Mention 561 570	R>CJ XDCJ
-T3423	Mention 570 572	KM
-T3424	Mention 574 579	TQ<TM
-#533	AnnotatorNotes T3424	Aaron's sons
-T3425	Mention 581 586	XYYRT
-T3426	Mention 590 594	<LTJ
-T3427	Mention 594 596	KM
-T3428	Mention 601 610	ZBXJ CLMJ
-T3429	Mention 610 612	KM
-T3430	Mention 614 617	HJW
-T3431	Mention 619 621	KM
-T3432	Mention 623 628	ZKRWN
-T3433	Mention 630 638	PNJ >LHJ
-#534	AnnotatorNotes T3433	Nested mention: (faces of (YHWH)).
-T3434	Mention 638 640	KM
-T3435	Mention 641 644	>NJ
-T3436	Mention 645 649	JHWH
-T3437	Mention 650 654	>LHJ
-T3438	Mention 654 656	KM
-T3439	Mention 666 669	JHJ
-#535	AnnotatorNotes T3439	How will I co-refer this with what?
-T3440	Mention 671 674	CNH
-T3441	Mention 682 685	XDC
-T3442	Mention 692 697	<FRJM
-T3443	Mention 699 702	XDC
-T3444	Mention 703 707	N<LH
-T3445	Mention 709 712	<NN
-T3446	Mention 717 726	MCKN H<DT
-#536	AnnotatorNotes T3446	The identical phrase occurred three times at Ch. 1. Then, here it re-occurs
-T3447	Mention 734 738	JS<W
-T3448	Mention 739 748	BNJ&JFR>L
-#537	AnnotatorNotes T3448	Nested mention: (sons of (Israel)).
-T3449	Mention 750 754	MS<J
-T3450	Mention 754 756	HM
-T3451	Mention 758 767	MDBR SJNJ
-#538	AnnotatorNotes T3451	Nested mention: (desert of (Sinai)).
-T3452	Mention 769 773	JCKN
-#539	AnnotatorNotes T3452	unique description only in Ch. 10. first description the cloud stopped
-T3453	Mention 775 778	<NN
-T3454	Mention 780 789	MDBR P>RN
-#540	AnnotatorNotes T3454	Nested mention: (desert of (Paran)). / unique occurrence only in Ch. 10
-T3455	Mention 797 801	JS<W
-T3456	Mention 803 808	R>CNH
-T3457	Mention 812 819	PJ JHWH
-#541	AnnotatorNotes T3457	Nested mention: (mouth of (YHWH)).
-T3458	Mention 821 827	JD&MCH
-T3459	Mention 835 838	JS<
-T3460	Mention 839 857	DGL MXNH BNJ&JHWDH
-#542	AnnotatorNotes T3460	Nested mention: (banner of camp of sons of (Judah)).
-T3461	Mention 859 864	R>CNH
-T3462	Mention 866 869	YB>
-T3463	Mention 869 871	TM
-T3464	Mention 876 879	YB>
-T3465	Mention 879 880	W
-T3466	Mention 881 886	NXCWN
-T3467	Mention 887 896	BN&<MJNDB
-#543	AnnotatorNotes T3467	Nested mention: (son of (Amminadab)).
-T3468	Mention 907 924	YB> MVH BNJ JFFKR
-#544	AnnotatorNotes T3468	Nested mention: (service of staff of sons of (Issachar)).
-T3469	Mention 925 930	NTN>L
-T3470	Mention 931 938	BN&YW<R
-#545	AnnotatorNotes T3470	Nested mention: (son of (Zuar)).
-T3471	Mention 949 966	YB> MVH BNJ ZBWLN
-#546	AnnotatorNotes T3471	Nested mention: (service of staff of sons of (Zebulun)).
-T3472	Mention 967 972	>LJ>B
-T3473	Mention 973 980	BN&XLWN
-#547	AnnotatorNotes T3473	Nested mention: (son of (Helon)).
-T3474	Mention 988 992	HWRD
-T3475	Mention 994 998	MCKN
-T3476	Mention 1000 1004	NS<W
-T3477	Mention 1005 1014	BNJ&GRCWN
-#548	AnnotatorNotes T3477	Nested mention: (sons of (Gershon)).
-T3478	Mention 1016 1024	BNJ MRRJ
-#549	AnnotatorNotes T3478	Nested mention: (sons of (Merari)).
-T3479	Mention 1025 1035	NF>J HMCKN
-T3480	Mention 1045 1048	NS<
-T3481	Mention 1049 1063	DGL MXNH R>WBN
-#550	AnnotatorNotes T3481	Nested mention: (banner of camp of (Reuben)).
-T3482	Mention 1065 1068	YB>
-T3483	Mention 1068 1070	TM
-#551	AnnotatorNotes T3483	divisions of camp of Reuben? or does it accord with the camp of Reuben?
-T3484	Mention 1075 1078	YB>
-T3485	Mention 1078 1079	W
-T3486	Mention 1080 1086	>LJYWR
-T3487	Mention 1087 1096	BN&CDJ>WR
-#552	AnnotatorNotes T3487	Nested mention: (son of (Shedeur)).
-T3488	Mention 1107 1124	YB> MVH BNJ CM<WN
-#553	AnnotatorNotes T3488	Nested mention: (service of staff of sons of (Simeon)).
-T3489	Mention 1125 1131	CLMJ>L
-T3490	Mention 1132 1143	BN&YWRJ_CDJ
-#554	AnnotatorNotes T3490	Nested mention: (son of (Zurishaddai)).
-T3491	Mention 1154 1168	YB> MVH BNJ&GD
-#555	AnnotatorNotes T3491	Nested mention: (service of staff of sons of (Gad)).
-T3492	Mention 1169 1174	>LJSP
-T3493	Mention 1175 1183	BN&D<W>L
-#556	AnnotatorNotes T3493	Nested mention: (son of (Deuel)).
-T3494	Mention 1191 1195	NS<W
-T3495	Mention 1197 1202	QHTJM
-#557	AnnotatorNotes T3495	Kohathite, first ocurrence as plural
-T3496	Mention 1203 1213	NF>J HMQDC
-T3498	Mention 1225 1229	MCKN
-T3499	Mention 1233 1235	B>
-T3500	Mention 1235 1236	M
-T3501	Mention 1246 1249	NS<
-T3502	Mention 1250 1268	DGL MXNH BNJ&>PRJM
-#558	AnnotatorNotes T3502	Nested mention: (banner of camp of sons of (Ephraim)).
-T3503	Mention 1270 1273	YB>
-T3504	Mention 1273 1275	TM
-T3505	Mention 1280 1283	YB>
-T3506	Mention 1283 1284	W
-T3507	Mention 1285 1291	>LJCM<
-T3508	Mention 1292 1301	BN&<MJHWD
-#559	AnnotatorNotes T3508	Nested mention: (son of (Ammihud)).
-T3509	Mention 1312 1328	YB> MVH BNJ MNCH
-#560	AnnotatorNotes T3509	Nested mention: (service of staff of sons of (Manasseh)).
-T3510	Mention 1329 1335	GMLJ>L
-T3511	Mention 1336 1346	BN&PDH_YWR
-#561	AnnotatorNotes T3511	Nested mention: (son of (Pedahzur)).
-T3512	Mention 1357 1374	YB> MVH BNJ BNJMN
-#562	AnnotatorNotes T3512	Nested mention: (service of staff of sons of (Benjamin)).
-T3513	Mention 1375 1380	>BJDN
-T3514	Mention 1381 1390	BN&GD<WNJ
-#563	AnnotatorNotes T3514	Nested mention: (son of (Gideoni)).
-T3515	Mention 1400 1403	NS<
-T3516	Mention 1404 1419	DGL MXNH BNJ&DN
-#564	AnnotatorNotes T3516	Nested mention: (banner of camp of sons of (Dan)).
-T3517	Mention 1420 1424	M>SP
-T3518	Mention 1426 1434	KL&HMXNT
-T3519	Mention 1436 1439	YB>
-T3520	Mention 1439 1441	TM
-T3521	Mention 1446 1449	YB>
-T3522	Mention 1449 1450	W
-T3523	Mention 1451 1457	>XJ<ZR
-T3524	Mention 1458 1468	BN&<MJ_CDJ
-#565	AnnotatorNotes T3524	Nested mention: (son of (Ammishaddai)).
-T3525	Mention 1479 1494	YB> MVH BNJ >CR
-#566	AnnotatorNotes T3525	Nested mention: (service of staff of sons of (Asher)).
-T3526	Mention 1495 1501	PG<J>L
-T3527	Mention 1502 1509	BN&<KRN
-#567	AnnotatorNotes T3527	Nested mention: (son of (Ocran)).
-T3528	Mention 1520 1537	YB> MVH BNJ NPTLJ
-#568	AnnotatorNotes T3528	Nested mention: (service of staff of sons of (Naphtali)).
-T3529	Mention 1538 1543	>XJR<
-T3530	Mention 1544 1551	BN&<JNN
-#569	AnnotatorNotes T3530	Nested mention: (son of (Enan)).
-T3531	Mention 1558 1561	>LH
-T3532	Mention 1562 1576	MS<J BNJ&JFR>L
-#570	AnnotatorNotes T3532	Nested mention: (breaking of sons of (Israel)).
-T3533	Mention 1578 1581	YB>
-T3535	Mention 1585 1589	JS<W
-T3536	Mention 1599 1603	J>MR
-T3537	Mention 1604 1607	MCH
-T3538	Mention 1609 1612	XBB
-#571	AnnotatorNotes T3538	unique participant only Ch. 10. so far
-T3539	Mention 1613 1621	BN&R<W>L
-#572	AnnotatorNotes T3539	Nested mention: (son of (Reuel)).
-T3540	Mention 1623 1628	MDJNJ
-T3541	Mention 1629 1636	XTN MCH
-#573	AnnotatorNotes T3541	Nested mention: (father-in-law of (Moses)).
-T3542	Mention 1637 1642	NS<JM
-#574	AnnotatorNotes T3542	sons of Israel
-T3543	Mention 1645 1650	>NXNW
-#575	AnnotatorNotes T3543	first occurrence of Israel as 1 personal plural
-T3544	Mention 1655 1659	MQWM
-T3545	Mention 1664 1667	>MR
-T3546	Mention 1668 1672	JHWH
-T3547	Mention 1675 1676	W
-T3548	Mention 1677 1680	>TN
-T3549	Mention 1682 1684	KM
-T3550	Mention 1685 1688	LKH
-T3551	Mention 1691 1693	NW
-T3552	Mention 1695 1700	HVBNW
-T3553	Mention 1702 1703	K
-T3554	Mention 1707 1711	JHWH
-T3555	Mention 1712 1715	DBR
-T3556	Mention 1716 1719	VWB
-#576	AnnotatorNotes T3556	unique participant in Ch. 10 so far
-T3557	Mention 1723 1728	JFR>L
-T3558	Mention 1736 1740	J>MR
-T3559	Mention 1744 1745	W
-T3560	Mention 1749 1752	>LK
-T3561	Mention 1762 1765	>RY
-T3562	Mention 1765 1766	J
-T3563	Mention 1771 1776	MWLDT
-T3564	Mention 1776 1777	J
-T3565	Mention 1778 1781	>LK
-T3566	Mention 1789 1793	J>MR
-T3567	Mention 1800 1804	T<ZB
-T3568	Mention 1807 1809	NW
-T3569	Mention 1821 1825	JD<T
-T3570	Mention 1826 1829	XNT
-T3571	Mention 1829 1831	NW
-T3572	Mention 1833 1837	MDBR
-T3573	Mention 1839 1843	HJJT
-T3574	Mention 1845 1847	NW
-T3575	Mention 1849 1854	<JNJM
-T3576	Mention 1862 1865	HJH
-T3577	Mention 1869 1872	TLK
-T3578	Mention 1875 1877	NW
-T3579	Mention 1879 1882	HJH
-T3580	Mention 1886 1894	VWB HHW>
-T3581	Mention 1899 1904	JJVJB
-T3582	Mention 1905 1909	JHWH
-T3583	Mention 1912 1914	NW
-T3584	Mention 1916 1921	HVBNW
-T3585	Mention 1923 1924	K
-T3586	Mention 1932 1936	JS<W
-#577	AnnotatorNotes T3586	3 personal plural from 2 personal plural
-T3587	Mention 1938 1945	HR JHWH
-#578	AnnotatorNotes T3587	Nested mention: (mountain of (YHWH)).
-T3588	Mention 1946 1959	DRK CLCT JMJM
-T3589	Mention 1961 1975	>RWN BRJT&JHWH
-#579	AnnotatorNotes T3589	Nested mention: (ark of covenant of (YHWH)).
-T3590	Mention 1976 1979	NS<
-T3591	Mention 1981 1984	PNJ
-T3592	Mention 1984 1986	HM
-T3593	Mention 1987 2000	DRK CLCT JMJM
-T3594	Mention 2002 2005	TWR
-#580	AnnotatorNotes T3594	UUU, but the actor is assumed as an ark of the covenant
-T3595	Mention 2007 2009	HM
-T3596	Mention 2010 2015	MNWXH
-#581	AnnotatorNotes T3596	unique participant: resting place
-T3597	Mention 2023 2031	<NN JHWH
-#582	AnnotatorNotes T3597	Nested mention: (cloud of (YHWH)). / first unique naming to the cloud
-T3598	Mention 2035 2037	HM
-T3599	Mention 2044 2047	NS<
-#583	AnnotatorNotes T3599	UUU, but the actor is assumed as Israel
-T3600	Mention 2053 2057	MXNH
-T3601	Mention 2047 2048	M
-T3602	Mention 2069 2072	JHJ
-T3603	Mention 2074 2077	NS<
-#584	AnnotatorNotes T3603	UUU, but the actor is assumed as an ark
-T3604	Mention 2079 2082	>RN
-T3605	Mention 2084 2088	J>MR
-T3606	Mention 2089 2092	MCH
-T3607	Mention 2093 2097	QWMH
-T3608	Mention 2100 2104	JHWH
-T3609	Mention 2106 2110	JPYW
-T3610	Mention 2111 2115	>JBJ
-#585	AnnotatorNotes T3610	In 10:9, their enemies, here his enemies: YHWH identifies enemies of Israel as his ones.
-T3611	Mention 2115 2116	K
-T3612	Mention 2118 2122	JNSW
-T3613	Mention 2123 2128	MFN>J
-T3614	Mention 2128 2129	K
-T3615	Mention 2131 2134	PNJ
-T3616	Mention 2134 2135	K
-T3617	Mention 2144 2147	NXH
-T3618	Mention 2148 2152	J>MR
-T3619	Mention 2153 2157	CWBH
-T3620	Mention 2158 2162	JHWH
-T3621	Mention 2163 2179	RBBWT >LPJ JFR>L
-#586	AnnotatorNotes T3621	Nested mention: (multitude of group of thousand of (Israel)). / unique naming on Is / 1:16,10:4 thread?
-T3360	Mention 119 123	TQ<W
-#589	AnnotatorNotes T3360	Why common? / clarion is Faminine subject in (ESV, NAS, NIV) / they (Aaron's sons) in KJV, YLT
-T3391	Mention 361 366	TRJ<W
-#590	AnnotatorNotes T3391	clarions (faminine) or Aaron's sons, but masculine plural, so I chose Aaron's sons / structure effect?
-T3412	Mention 590 612	<LTJKM W<L ZBXJ CLMJKM
-#591	AnnotatorNotes T3412	combination of burnt offering and sacrifice of final offer
-T3415	Mention 839 847	DGL MXNH
-T3629	Mention 848 857	BNJ&JHWDH
-T3630	Mention 1005 1024	BNJ&GRCWN WBNJ MRRJ
-#592	AnnotatorNotes T3630	combination of sons of Gershon and sons of Merari: unique combination here
-T3631	Mention 1049 1052	DGL
-T3497	Mention 1215 1220	HQJMW
-#593	AnnotatorNotes T3497	Gershon and Merari
-T3632	Mention 1250 1258	DGL MXNH
-T3633	Mention 1259 1268	BNJ&>PRJM
-T3534	Mention 1562 1566	MS<J
-T3636	Mention 1567 1576	BNJ&JFR>L
-T3637	Mention 1581 1583	TM
-*	Coreference T3446
-*	Coreference T3468
-*	Coreference T3471
-*	Coreference T3462
-*	Coreference T3484
-*	Coreference T3488
-*	Coreference T3491
-*	Coreference T3505
-*	Coreference T3509
-*	Coreference T3512
-*	Coreference T3521
-*	Coreference T3525
-*	Coreference T3528
-*	Coreference T3451
-*	Coreference T3457
-*	Coreference T3458
-*	Coreference T3600
-*	Coreference T3365
-*	Coreference T3350 T3354 T3355 T3361 T3395 T3409 T3425
-*	Coreference T3364 T3362 T3389
-*	Coreference T3368 T3370 T3371
-*	Coreference T3380 T3381 T3382 T3518 T3374 T3375 T3359 T3376 T3520
-*	Coreference T3367 T3372 T3360 T3378 T3390 T3391 T3392 T3393 T3394 T3397 T3400 T3408 T3424
-*	Coreference T3405 T3406 T3416 T3610 T3609 T3612 T3613
-*	Coreference T3412 T3430
-*	Coreference T3452 T3453 T3444 T3445 T3597
-*	Coreference T3411 T3433 T3615
-*	Coreference T3459 T3460
-*	Coreference T3629 T3463
-*	Coreference T3415 T3465
-*	Coreference T3466 T3467
-*	Coreference T3464
-*	Coreference T3469 T3470
-*	Coreference T3472 T3473
-*	Coreference T3474 T3475 T3498
-*	Coreference T3481 T3480 T3485
-*	Coreference T3630 T3476 T3479 T3497
-*	Coreference T3486 T3487
-*	Coreference T3489 T3490
-*	Coreference T3492 T3493
-*	Coreference T3494 T3495 T3496 T3500
-*	Coreference T3502 T3501 T3506
-*	Coreference T3633 T3504
-*	Coreference T3507 T3508
-*	Coreference T3510 T3511
-*	Coreference T3513 T3514
-*	Coreference T3516 T3515 T3522
-*	Coreference T3519
-*	Coreference T3523 T3524
-*	Coreference T3526 T3527
-*	Coreference T3529 T3530
-*	Coreference T3531 T3532
-*	Coreference T3538 T3539 T3540 T3541 T3558 T3560 T3562 T3564 T3565 T3567 T3569 T3573 T3577 T3585
-*	Coreference T3542 T3543 T3551 T3552 T3636 T3637 T3535 T3447 T3448 T3450 T3401 T3404 T3407 T3410 T3413 T3414 T3417 T3419 T3421 T3423 T3427 T3429 T3431 T3434 T3438 T3455 T3549 T3557 T3568 T3571 T3574 T3578 T3583 T3584 T3586 T3592 T3595 T3598 T3601
-*	Coreference T3556 T3576 T3579 T3580
-*	Coreference T3587
-*	Coreference T3589 T3594 T3602 T3603 T3604 T3617
-*	Coreference T3619 T3620 T3607 T3608 T3581 T3582 T3545 T3546 T3548 T3435 T3436 T3437 T3344 T3345 T3347 T3554 T3555 T3611 T3614 T3616
-*	Coreference T3605 T3606 T3536 T3537 T3346 T3348 T3349 T3353 T3356 T3363 T3369 T3547 T3550 T3553 T3559 T3566 T3618
+T486	Mention 15 19	JDBR
+T487	Mention 20 24	JHWH
+T488	Mention 28 31	MCH
+T489	Mention 33 36	>MR
+T490	Mention 42 45	<FH
+T491	Mention 47 48	K
+T492	Mention 49 63	CTJ XYWYRT KSP
+T493	Mention 64 68	MQCH
+T494	Mention 69 73	T<FH
+T495	Mention 76 77	M
+T496	Mention 79 82	HJW
+T497	Mention 84 85	K
+T498	Mention 87 96	MQR> H<DH
+T499	Mention 99 102	MS<
+T500	Mention 107 112	MXNWT
+T501	Mention 119 123	TQ<W
+T502	Mention 125 127	HN
+T503	Mention 129 134	NW<DW
+T504	Mention 138 139	K
+T505	Mention 140 147	KL&H<DH
+T506	Mention 151 163	PTX >HL MW<D
+T507	Mention 174 177	>XT
+T508	Mention 178 183	JTQ<W
+T510	Mention 194 195	K
+T511	Mention 197 203	NFJ>JM
+T512	Mention 204 219	R>CJ >LPJ JFR>L
+T513	Mention 226 231	TQ<TM
+T514	Mention 232 237	TRW<H
+T515	Mention 239 243	NS<W
+T516	Mention 245 250	MXNWT
+T517	Mention 251 261	HXNJM QDMH
+T519	Mention 268 273	TQ<TM
+T520	Mention 274 284	TRW<H CNJT
+T521	Mention 286 290	NS<W
+T522	Mention 292 297	MXNWT
+T523	Mention 299 309	XNJM TJMNH
+T525	Mention 310 315	TRW<H
+T526	Mention 316 321	JTQ<W
+T527	Mention 323 327	MS<J
+T528	Mention 327 329	HM
+T529	Mention 337 342	HQHJL
+T530	Mention 346 350	HQHL
+T531	Mention 351 356	TTQ<W
+T532	Mention 361 366	TRJ<W
+T533	Mention 373 381	BNJ >HRN
+T534	Mention 383 388	KHNJM
+T535	Mention 389 394	JTQ<W
+T536	Mention 396 402	XYYRWT
+T537	Mention 404 407	HJW
+T538	Mention 409 411	KM
+T539	Mention 413 421	XQT <WLM
+T540	Mention 423 427	DRTJ
+T541	Mention 427 429	KM
+T542	Mention 439 443	TB>W
+T543	Mention 444 449	MLXMH
+T544	Mention 451 454	>RY
+T545	Mention 454 456	KM
+T546	Mention 461 463	YR
+T547	Mention 465 468	YRR
+T548	Mention 471 473	KM
+T549	Mention 475 480	HR<TM
+T550	Mention 482 488	XYYRWT
+T551	Mention 490 496	NZKRTM
+T552	Mention 498 506	PNJ JHWH
+T553	Mention 507 511	>LHJ
+T554	Mention 511 513	KM
+T555	Mention 515 521	NWC<TM
+T556	Mention 523 527	>JBJ
+T557	Mention 527 529	KM
+T558	Mention 538 546	JWM FMXT
+T559	Mention 546 548	KM
+T560	Mention 551 556	MW<DJ
+T561	Mention 556 558	KM
+T562	Mention 561 570	R>CJ XDCJ
+T563	Mention 570 572	KM
+T564	Mention 574 579	TQ<TM
+T565	Mention 581 586	XYYRT
+T566	Mention 590 594	<LTJ
+T567	Mention 594 596	KM
+T568	Mention 601 610	ZBXJ CLMJ
+T569	Mention 610 612	KM
+T570	Mention 614 617	HJW
+T571	Mention 619 621	KM
+T572	Mention 623 628	ZKRWN
+T573	Mention 630 638	PNJ >LHJ
+T574	Mention 638 640	KM
+T575	Mention 641 644	>NJ
+T576	Mention 645 649	JHWH
+T577	Mention 650 654	>LHJ
+T578	Mention 654 656	KM
+T579	Mention 666 669	JHJ
+T580	Mention 671 680	CNH HCNJT
+T581	Mention 682 690	XDC HCNJ
+T582	Mention 692 697	<FRJM
+T583	Mention 699 702	XDC
+T584	Mention 703 707	N<LH
+T585	Mention 709 712	<NN
+T586	Mention 717 726	MCKN H<DT
+T587	Mention 734 738	JS<W
+T588	Mention 739 748	BNJ&JFR>L
+T589	Mention 750 754	MS<J
+T590	Mention 754 756	HM
+T591	Mention 758 767	MDBR SJNJ
+T592	Mention 769 773	JCKN
+T593	Mention 775 778	<NN
+T594	Mention 780 789	MDBR P>RN
+T595	Mention 797 801	JS<W
+T596	Mention 803 808	R>CNH
+T597	Mention 812 819	PJ JHWH
+T598	Mention 821 827	JD&MCH
+T599	Mention 835 838	JS<
+T600	Mention 839 857	DGL MXNH BNJ&JHWDH
+T601	Mention 859 864	R>CNH
+T602	Mention 866 869	YB>
+T603	Mention 869 871	TM
+T604	Mention 876 879	YB>
+T606	Mention 881 886	NXCWN
+T607	Mention 887 896	BN&<MJNDB
+T608	Mention 907 924	YB> MVH BNJ JFFKR
+T609	Mention 925 930	NTN>L
+T610	Mention 931 938	BN&YW<R
+T611	Mention 949 966	YB> MVH BNJ ZBWLN
+T612	Mention 967 972	>LJ>B
+T613	Mention 973 980	BN&XLWN
+T614	Mention 988 992	HWRD
+T615	Mention 994 998	MCKN
+T616	Mention 1000 1004	NS<W
+T617	Mention 1005 1014	BNJ&GRCWN
+T618	Mention 1016 1024	BNJ MRRJ
+T619	Mention 1025 1035	NF>J HMCKN
+T620	Mention 1045 1048	NS<
+T621	Mention 1049 1063	DGL MXNH R>WBN
+T622	Mention 1065 1068	YB>
+T623	Mention 1068 1070	TM
+T624	Mention 1075 1078	YB>
+T626	Mention 1080 1086	>LJYWR
+T627	Mention 1087 1096	BN&CDJ>WR
+T628	Mention 1107 1124	YB> MVH BNJ CM<WN
+T629	Mention 1125 1131	CLMJ>L
+T630	Mention 1132 1143	BN&YWRJ_CDJ
+T631	Mention 1154 1168	YB> MVH BNJ&GD
+T632	Mention 1169 1174	>LJSP
+T633	Mention 1175 1183	BN&D<W>L
+T634	Mention 1191 1195	NS<W
+T635	Mention 1197 1202	QHTJM
+T636	Mention 1203 1213	NF>J HMQDC
+T637	Mention 1215 1220	HQJMW
+T638	Mention 1225 1229	MCKN
+T639	Mention 1233 1235	B>
+T640	Mention 1235 1236	M
+T641	Mention 1246 1249	NS<
+T642	Mention 1250 1268	DGL MXNH BNJ&>PRJM
+T643	Mention 1270 1273	YB>
+T644	Mention 1273 1275	TM
+T645	Mention 1280 1283	YB>
+T647	Mention 1285 1291	>LJCM<
+T648	Mention 1292 1301	BN&<MJHWD
+T649	Mention 1312 1328	YB> MVH BNJ MNCH
+T650	Mention 1329 1335	GMLJ>L
+T651	Mention 1336 1346	BN&PDH_YWR
+T652	Mention 1357 1374	YB> MVH BNJ BNJMN
+T653	Mention 1375 1380	>BJDN
+T654	Mention 1381 1390	BN&GD<WNJ
+T655	Mention 1400 1403	NS<
+T656	Mention 1404 1419	DGL MXNH BNJ&DN
+T657	Mention 1420 1424	M>SP
+T658	Mention 1426 1434	KL&HMXNT
+T659	Mention 1436 1439	YB>
+T660	Mention 1439 1441	TM
+T661	Mention 1446 1449	YB>
+T662	Mention 1449 1450	W
+T663	Mention 1451 1457	>XJ<ZR
+T664	Mention 1458 1468	BN&<MJ_CDJ
+T665	Mention 1479 1494	YB> MVH BNJ >CR
+T666	Mention 1495 1501	PG<J>L
+T667	Mention 1502 1509	BN&<KRN
+T668	Mention 1520 1537	YB> MVH BNJ NPTLJ
+T669	Mention 1538 1543	>XJR<
+T670	Mention 1544 1551	BN&<JNN
+T671	Mention 1558 1561	>LH
+T672	Mention 1562 1576	MS<J BNJ&JFR>L
+T673	Mention 1578 1581	YB>
+T674	Mention 1581 1583	TM
+T675	Mention 1585 1589	JS<W
+T676	Mention 1599 1603	J>MR
+T677	Mention 1604 1607	MCH
+T678	Mention 1609 1612	XBB
+T679	Mention 1613 1621	BN&R<W>L
+T680	Mention 1623 1628	MDJNJ
+T681	Mention 1629 1636	XTN MCH
+T682	Mention 1637 1642	NS<JM
+T683	Mention 1645 1650	>NXNW
+T684	Mention 1655 1659	MQWM
+T685	Mention 1664 1667	>MR
+T686	Mention 1668 1672	JHWH
+T687	Mention 1675 1676	W
+T688	Mention 1677 1680	>TN
+T690	Mention 1685 1688	LKH
+T691	Mention 1691 1693	NW
+T692	Mention 1695 1700	HVBNW
+T693	Mention 1702 1703	K
+T694	Mention 1707 1711	JHWH
+T695	Mention 1712 1715	DBR
+T696	Mention 1716 1719	VWB
+T697	Mention 1723 1728	JFR>L
+T698	Mention 1736 1740	J>MR
+T699	Mention 1744 1745	W
+T700	Mention 1749 1752	>LK
+T701	Mention 1762 1765	>RY
+T702	Mention 1765 1766	J
+T703	Mention 1771 1776	MWLDT
+T704	Mention 1776 1777	J
+T705	Mention 1778 1781	>LK
+T706	Mention 1789 1793	J>MR
+T707	Mention 1800 1804	T<ZB
+T708	Mention 1807 1809	NW
+T710	Mention 1826 1829	XNT
+T711	Mention 1829 1831	NW
+T712	Mention 1833 1837	MDBR
+T713	Mention 1839 1843	HJJT
+T714	Mention 1845 1847	NW
+T715	Mention 1849 1854	<JNJM
+T716	Mention 1862 1865	HJH
+T717	Mention 1869 1872	TLK
+T718	Mention 1875 1877	NW
+T719	Mention 1879 1882	HJH
+T720	Mention 1886 1889	VWB
+T721	Mention 1891 1894	HW>
+T722	Mention 1899 1904	JJVJB
+T723	Mention 1905 1909	JHWH
+T724	Mention 1912 1914	NW
+T725	Mention 1916 1921	HVBNW
+T726	Mention 1923 1924	K
+T727	Mention 1932 1936	JS<W
+T728	Mention 1938 1945	HR JHWH
+T729	Mention 1946 1959	DRK CLCT JMJM
+T730	Mention 1961 1975	>RWN BRJT&JHWH
+T731	Mention 1976 1979	NS<
+T732	Mention 1981 1984	PNJ
+T733	Mention 1984 1986	HM
+T734	Mention 1987 2000	DRK CLCT JMJM
+T735	Mention 2002 2005	TWR
+T736	Mention 2007 2009	HM
+T737	Mention 2010 2015	MNWXH
+T738	Mention 2023 2031	<NN JHWH
+T739	Mention 2035 2037	HM
+T740	Mention 2044 2047	NS<
+T741	Mention 2047 2048	M
+T742	Mention 2053 2057	MXNH
+T743	Mention 2069 2072	JHJ
+T744	Mention 2074 2082	NS< H>RN
+T745	Mention 2084 2088	J>MR
+T746	Mention 2089 2092	MCH
+T747	Mention 2093 2097	QWMH
+T748	Mention 2100 2104	JHWH
+T749	Mention 2106 2110	JPYW
+T751	Mention 2115 2116	K
+T752	Mention 2118 2122	JNSW
+T753	Mention 2123 2128	MFN>J
+T754	Mention 2128 2129	K
+T755	Mention 2130 2134	MPNJ
+T756	Mention 2134 2135	K
+T757	Mention 2144 2147	NXH
+T758	Mention 2148 2152	J>MR
+T759	Mention 2153 2157	CWBH
+T760	Mention 2158 2162	JHWH
+T761	Mention 2163 2179	RBBWT >LPJ JFR>L
+T461	Mention 185 190	NW<DW
+T509	Mention 1283 1284	W
+T518	Mention 1078 1079	W
+T524	Mention 879 880	W
+T605	Mention 1682 1684	KM
+T625	Mention 1821 1825	JD<T
+T646	Mention 2111 2115	>JBJ
+*	Coreference T591
+*	Coreference T488 T490 T491 T494 T497 T504 T510 T538 T541 T542 T545 T548
+*	Coreference T486 T487 T489
+*	Coreference T597
+*	Coreference T493 T492 T495 T496 T501 T503 T508 T526
+*	Coreference T502 T500
+*	Coreference T461 T511 T512 T513 T519 T532 T529 T531
+*	Coreference T515 T516 T517
+*	Coreference T521 T522 T523 T528
+*	Coreference T533 T534 T535 T549 T551 T554
+*	Coreference T539 T537
+*	Coreference T546 T547 T556
+*	Coreference T550 T536 T565
+*	Coreference T557 T555 T559 T561 T563 T564 T567 T569 T571 T574 T578
+*	Coreference T570 T568 T566
+*	Coreference T575 T576 T577 T552 T553 T573 T755
+*	Coreference T584 T585
+*	Coreference T592 T593
+*	Coreference T598
+*	Coreference T599 T600 T603 T524
+*	Coreference T606 T607
+*	Coreference T609 T610
+*	Coreference T612 T613
+*	Coreference T614 T615 T638
+*	Coreference T621 T620 T623 T518
+*	Coreference T616 T617 T618 T619
+*	Coreference T626 T627
+*	Coreference T629 T630
+*	Coreference T632 T633
+*	Coreference T635 T636 T634 T637 T640
+*	Coreference T641 T642 T644 T509
+*	Coreference T647 T648
+*	Coreference T650 T651
+*	Coreference T653 T654
+*	Coreference T655 T656 T657 T662
+*	Coreference T663 T664
+*	Coreference T666 T667
+*	Coreference T669 T670
+*	Coreference T682 T683 T674 T675 T587 T588 T590 T595 T660 T676 T677 T605 T691 T692 T697 T699 T706 T708 T711 T714 T718 T724 T725
+*	Coreference T685 T686 T688
+*	Coreference T684 T687
+*	Coreference T694 T695
+*	Coreference T721 T719
+*	Coreference T730 T731
+*	Coreference T733 T727 T736 T739 T741
+*	Coreference T745 T746 T678 T679 T680 T681 T690 T693 T698 T700 T702 T704 T705 T707 T625 T713 T717 T726 T758
+*	Coreference T747 T748 T722 T723 T751 T754 T756
+*	Coreference T646 T749
+*	Coreference T752 T753
+*	Coreference T759 T760
+*	Coreference T744 T757

@@ -5,7 +5,7 @@ PS_B   = $(HOME)/Sites/brat/data/gyusang/coref/Psalms/annotate
 
 PYTHON3 = python3
 
-NU_IAA = $(shell ls $(NU_B)/*.ann |awk -F/ '{print $$NF}' | sed 's/ann$$/iaa/')
+NU_IAA = $(shell ls $(NU_A)/*.ann |awk -F/ '{print $$NF}' | sed 's/ann$$/iaa/')
 PS_IAA = $(shell ls $(PS_B)/*.ann |awk -F/ '{print $$NF}' | sed 's/ann$$/iaa/')
 
 Numbers_%.iaa: iaa.py $(NU_A)/Numbers_%.ann $(NU_B)/Numbers_%.ann
