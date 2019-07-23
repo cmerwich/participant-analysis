@@ -1,11 +1,11 @@
 @node
-@author=Christiaan Erwich
+@author=Christiaan Erwich (Psalms, Genesis 1, Isaiah 42) and Gyusang Jin (Numbers)
 @description=coreference equivalence class of mention annotations made through Brat
 @explanation=the analysis is per chapter
 @title=Participant analysis
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-07-22T09:10:54Z
+@dateWritten=2019-07-23T14:06:40Z
 
 2	T,1,,,
 C,57,,,

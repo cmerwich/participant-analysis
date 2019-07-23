@@ -1,11 +1,11 @@
 @node
-@author=Christiaan Erwich
+@author=Christiaan Erwich (Psalms, Genesis 1, Isaiah 42) and Gyusang Jin (Numbers)
 @description=comments on mention annotations made through Brat
 @explanation=the analysis is per chapter
 @title=Participant analysis
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-07-22T09:10:54Z
+@dateWritten=2019-07-23T14:06:40Z
 
 36	Is this the same light as the ensuing light that God creates?
 53	Is this the same light as the light that God creates before it is separated from the darkness?
