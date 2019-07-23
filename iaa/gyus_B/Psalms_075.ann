@@ -1,0 +1,85 @@
+T1	Mention 14 18	MNYX
+T2	Mention 22 26	TCXT
+T3	Mention 27 32	MZMWR
+T4	Mention 34 37	>SP
+T5	Mention 38 41	CJR
+T6	Mention 47 53	HWDJNW
+T7	Mention 55 56	K
+T8	Mention 59 64	>LHJM
+T9	Mention 65 71	HWDJNW
+T10	Mention 73 77	QRWB
+T11	Mention 78 80	CM
+T12	Mention 80 81	K
+T13	Mention 82 86	SPRW
+T14	Mention 87 94	NPL>WTJ
+T15	Mention 94 95	K
+T16	Mention 104 107	>QX
+T17	Mention 108 112	MW<D
+T18	Mention 113 116	>NJ
+T20	Mention 124 128	>CPV
+T21	Mention 134 139	NMGJM
+T22	Mention 140 143	>RY
+T23	Mention 145 152	KL&JCBJ
+T24	Mention 152 153	H
+T25	Mention 154 158	>NKJ
+T26	Mention 159 164	TKNTJ
+T28	Mention 165 170	<MWDJ
+T29	Mention 170 171	H
+T31	Mention 181 186	>MRTJ
+T32	Mention 188 194	HWLLJM
+T33	Mention 198 202	THLW
+T34	Mention 205 210	RC<JM
+T35	Mention 214 219	TRJMW
+T36	Mention 220 223	QRN
+T37	Mention 232 237	TRJMW
+T38	Mention 239 243	MRWM
+T39	Mention 244 247	QRN
+T40	Mention 247 249	KM
+T41	Mention 250 255	TDBRW
+T42	Mention 257 261	YW>R
+T44	Mention 278 282	MWY>
+T45	Mention 285 289	M<RB
+T46	Mention 295 299	MDBR
+T47	Mention 300 304	HRJM
+T48	Mention 313 318	>LHJM
+T49	Mention 319 322	CPV
+T50	Mention 323 325	ZH
+T51	Mention 326 331	JCPJL
+T52	Mention 333 335	ZH
+T53	Mention 336 340	JRJM
+T54	Mention 349 352	KWS
+T55	Mention 354 361	JD&JHWH
+T56	Mention 363 366	JJN
+T57	Mention 367 370	XMR
+T58	Mention 373 380	ML> MSK
+T60	Mention 382 385	JGR
+T61	Mention 387 389	ZH
+T62	Mention 393 397	CMRJ
+T63	Mention 397 398	H
+T64	Mention 399 403	JMYW
+T65	Mention 404 408	JCTW
+T66	Mention 409 420	KL RC<J&>RY
+T67	Mention 428 431	>NJ
+T68	Mention 432 436	>GJD
+T69	Mention 438 441	<LM
+T70	Mention 442 447	>ZMRH
+T71	Mention 449 458	>LHJ J<QB
+T72	Mention 466 479	KL&QRNJ RC<JM
+T73	Mention 480 484	>GD<
+T74	Mention 485 492	TRWMMNH
+T75	Mention 493 503	QRNWT YDJQ
+*	Coreference T13 T14
+*	Coreference T22 T24 T29 T63
+T19	Mention 140 153	>RY WKL&JCBJH
+#1	AnnotatorNotes T19	combination of earth and the whole sit
+*	Coreference T21 T19
+*	Coreference T32 T33 T41
+*	Coreference T34 T35 T37 T40
+#2	AnnotatorNotes T55	Nested mention (hand of (YHWH)).
+*	Coreference T56 T57 T58 T61
+*	Coreference T66 T64 T65
+#3	AnnotatorNotes T71	Nested mention (God of (Jacob)).
+*	Coreference T74 T75
+*	Coreference T39 T72
+*	Coreference T6 T9
+*	Coreference T67 T68 T7 T8 T12 T15 T18 T20 T16 T25 T26 T31 T48 T49 T51 T53 T60 T71 T73

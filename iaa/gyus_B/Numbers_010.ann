@@ -272,10 +272,8 @@ T524	Mention 879 880	W
 T605	Mention 1682 1684	KM
 T625	Mention 1821 1825	JD<T
 T646	Mention 2111 2115	>JBJ
-*	Coreference T591
 *	Coreference T488 T490 T491 T494 T497 T504 T510 T538 T541 T542 T545 T548
 *	Coreference T486 T487 T489
-*	Coreference T597
 *	Coreference T493 T492 T495 T496 T501 T503 T508 T526
 *	Coreference T502 T500
 *	Coreference T461 T511 T512 T513 T519 T532 T529 T531
@@ -290,7 +288,6 @@ T646	Mention 2111 2115	>JBJ
 *	Coreference T575 T576 T577 T552 T553 T573 T755
 *	Coreference T584 T585
 *	Coreference T592 T593
-*	Coreference T598
 *	Coreference T599 T600 T603 T524
 *	Coreference T606 T607
 *	Coreference T609 T610
