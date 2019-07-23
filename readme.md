@@ -1,7 +1,7 @@
 <img align="right" src="images/tf-small.png" width="90"/>
 <img align="right" src="images/etcbc.png" width="100"/>
 
-To cite this repository please use: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3243812.svg)](https://doi.org/10.5281/zenodo.3243812)
+To cite this repository please use: [![DOI](https://zenodo.org/badge/106433812.svg)](https://zenodo.org/badge/latestdoi/106433812)
 
 # Participant Analyis 
 
@@ -23,10 +23,10 @@ With the code in `tf_conversion` the coreference annotations can be converted to
 In `coreference` the converted data can be found. This data can be loaded into your notebook. 
 
 ### 4. Inter-annotator Agreement
-The `iaa` folder contains code and data to calculate and analyse inter-annotator agreement of the coreference annotations. 
+The `iaa` folder contains code and data to calculate and analyse inter-annotator agreement of the coreference annotations. In the [iaa-analysis notebook](https://nbviewer.jupyter.org/github/cmerwich/participant-analysis/blob/master/iaa/iaa-analysis.ipynb) I explain what kind of inter-annotator agreement algorithm I have used and I analyse and interpret the iaa measures. 
 
 ### 5. Programs 
-In `programs` I have started to develop a deterministic coreference resolver. Like all repositories, this work in progress and very unfinished. 
+In `programs` I have started to develop a deterministic coreference resolver. Like all repositories, this is work in progress and very unfinished. 
 
 ### 6. Test
 The `test` folder contains the data that `programs` has produced.  
