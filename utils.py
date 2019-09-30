@@ -5,8 +5,6 @@ def known(s):
     
     if s == 'unknown':
         return 'u'
-    elif s == 'NA':
-        return ''
     else:
         return s
 
@@ -20,14 +18,6 @@ def converse_pgn(F, w):
     pgn += known(str(F.nu.v(w)))
     return pgn
 
-def converse_pgn_suffix(sf):
-    '''
-    Concatenates features ps, gn, nu into one PGN property. 
-    '''
-    pgn = suffix_dict.get(sf, None)
-    if pgn is None:
-        return '-MISTAKE?' # the none returns are mostly and probably annotation mistakes
-    return pgn[0]
 
 '''
 This dict and set contain readable forms of Person, Gender and Number (PGN) information of the verb
@@ -73,7 +63,7 @@ pgn_set = {'P1Cpl',
 This dict and set contain paradigmatic forms of the pronominal suffix (Hebrew and Aramaic) and converts it to a readable form
 '''
 
-suffix_dict_c = {'NJ': ['P1Csg','i'],
+suffix_dict = {'NJ': ['P1Csg','i'],
                'J': ['P1Csg', 'i'],
                'NW': ['P1Cpl', 'we'],
                'K': ['P2Msg', 'you'],
@@ -95,7 +85,7 @@ suffix_dict_c = {'NJ': ['P1Csg','i'],
                'N>': ['P1Cpl', 'we']
               }
 
-suffix_dict = {'NJ': ['p1usg','i'],
+suffix_dict_u = {'NJ': ['p1usg','i'],
                'J': ['p1usg', 'i'],
                'NW': ['p1upl', 'we'],
                'K': ['p2msg', 'you'],
@@ -116,6 +106,15 @@ suffix_dict = {'NJ': ['p1usg','i'],
                'HWN': ['p3mpl', 'they'],
                'N>': ['p1upl', 'we']
               }
+
+def converse_pgn_suffix(sf):
+    '''
+    Concatenates features ps, gn, nu into one PGN property. 
+    '''
+    pgn = suffix_dict_u.get(sf, None)
+    if pgn is None:
+        return '-MISTAKE?' # the none returns are mostly and probably annotation mistakes
+    return pgn[0]
 
 
 prs_set = {'P1Cpl',

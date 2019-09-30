@@ -3,7 +3,7 @@
 # example: python3 declust.py -a Nu22--24.ann Nu22.txt Nu23.txt Nu24.txt
 # shorter: python3 declust.py -a Nu22--24.ann Numbers_02[2-4].txt
 
-__author__ = 'erwich/sikkel'
+__author__ = 'erwich/sikkel/roorda'
 
 import getopt
 import os, sys
@@ -31,7 +31,7 @@ class Mention:
         
 def GetOffsets(texts):
     '''
-    The offsets of the
+    The offsets of the text files.
     Makes the cumulative sizes of the text files 
     for which the corresponding .ann files are generated.  
     '''
@@ -182,7 +182,7 @@ def WriteCoref(mention_list, file_object):
 def FindIndex(off_sets, coor):
     i = 0
     while off_sets[i+1] < coor:
-        i+= 1
+        i += 1
     return i
 
 def Reindex(mentions, offsets):

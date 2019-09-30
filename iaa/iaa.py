@@ -86,9 +86,7 @@ def parse_ann(annFile):
         results_list.append(singletonSet) #results_list[-1] is the singletonSet
     
     if errors:
-        error(f'There are {errors} errors in annotation file')    
-    
-    #print(f'There are {cClass} coreference classes and {len(singletonSet)} singletons in specified annotation file(s)\n')
+        error(f'There are {errors} errors in annotation file')
     
     results_array = np.array(results_list)
 
