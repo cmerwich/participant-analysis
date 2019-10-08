@@ -12,3 +12,8 @@ def MakeTable(iaa_file):
     #cols = ['L', 'ann_A', 'M', 'ann_B', 'R', 'D', 'd']
     #iaa_table = iaa_table[cols]
     return iaa_table
+
+
+def ExportToLatex(output_loc, file_name, data_frame, indx = True):
+    with open(f'{output_loc}{file_name}.tex','w') as texf:
+        texf.write(data_frame.to_latex(index=indx))

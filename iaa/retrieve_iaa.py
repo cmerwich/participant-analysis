@@ -98,20 +98,28 @@ def parse_ann(annFile):
 
     return results_array, m2wDict
 
-def f(V, s):
+def selection_size(L, s):
+    '''
+    L is a list of sets, s is a set of indices in L. This function
+    returns the total of the cardinalities of the sets selected by s.
+    '''
+    
     r = 0
     for e in s:
-        r += len(V[e])
+        r += len(L[e])
     return r
 
-def distance(A, B, i, j):
-    return len(A[i]^B[j])
+#def ds(A, B, i, j):
+#    return len(A[i]^B[j])
+
+def distance(s1, s2):
+    return (len(s1 - s2), len(s1 & s2), len(s2 - s1))
     
 def match(A, B, d):
     '''
     Matches the nodes in a bipartite graph with n and k nodes using the
     distance function d(i,j) and stores the matching in array r.
-    The unpaired corefs are calculated by f().
+    The unpaired corefs are calculated by selection_size().
     '''
 
     n = len(A)
@@ -120,10 +128,12 @@ def match(A, B, d):
     
     for i in range(n):
         for j in range(k):
-            cost[i, j] = d(A, B, i, j)
+            (L, M, R) = distance(A[i], B[j])
+            cost[i, j] = (L + R) / (L + M + R)
+            #cost[i, j] = d(A, B, i, j)
     row_ind, col_ind = linear_sum_assignment(cost)
-    unpaired_A = f(A, set(range(n)) - set(row_ind))
-    unpaired_B = f(B, set(range(k)) - set(col_ind))
+    unpaired_A = selection_size(A, set(range(n)) - set(row_ind))
+    unpaired_B = selection_size(B, set(range(k)) - set(col_ind))
     total_cost = cost[row_ind, col_ind].sum() + unpaired_A + unpaired_B
     uA = set(range(n)) - set(row_ind)
     uB = set(range(k)) - set(col_ind)
