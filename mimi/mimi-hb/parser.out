@@ -1,0 +1,1414 @@
+Grammar:
+
+Rule 0     S' -> text
+Rule 1     text -> text term_atom
+Rule 2     text -> term_atom
+Rule 3     term_atom -> error EOA
+Rule 4     term_atom -> phrase_atom EOA
+Rule 5     phrase_atom -> complex_noun_phrase
+Rule 6     phrase_atom -> verbal_phrase
+Rule 7     phrase_atom -> complex_prepositional_phrase
+Rule 8     phrase_atom -> adverbial_phrase
+Rule 9     phrase_atom -> adjective_phrase
+Rule 10    phrase_atom -> interrogative_phrase
+Rule 11    verbal_phrase -> prepositional_VP
+Rule 12    verbal_phrase -> normal_VP
+Rule 13    prepositional_VP -> PREP verbal_phrase
+Rule 14    normal_VP -> VERB PRS
+Rule 15    normal_VP -> VERB
+Rule 16    complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase
+Rule 17    complex_noun_phrase -> complex_noun_phrase noun_phrase
+Rule 18    complex_noun_phrase -> noun_phrase
+Rule 19    complex_prepositional_phrase -> prepositional_phrase
+Rule 20    complex_prepositional_phrase -> complex_prepositional_phrase CONJ_P prepositional_phrase
+Rule 21    prepositional_phrase -> PREP INRG
+Rule 22    prepositional_phrase -> PREP PRIN
+Rule 23    prepositional_phrase -> PREP ADVB
+Rule 24    prepositional_phrase -> focussed_prepositional_phrase
+Rule 25    focussed_prepositional_phrase -> extended_prepositional_phrase
+Rule 26    focussed_prepositional_phrase -> ADVB focussed_prepositional_phrase
+Rule 27    extended_prepositional_phrase -> PREP complex_noun_phrase
+Rule 28    extended_prepositional_phrase -> PREP extended_prepositional_phrase
+Rule 29    adverbial_phrase -> ADVB complex_noun_phrase
+Rule 30    adjective_phrase -> ADJV_C noun_phrase
+Rule 31    noun_phrase -> undetermined_phrase
+Rule 32    noun_phrase -> determined_phrase opt_determination
+Rule 33    determined_phrase -> determined_noun
+Rule 34    determined_phrase -> SUBS_C determined_phrase
+Rule 35    determined_noun -> NMPR ADJV_A
+Rule 36    determined_noun -> PRDE
+Rule 37    determined_noun -> PRPS
+Rule 38    determined_noun -> NMPR
+Rule 39    determined_noun -> PRS
+Rule 40    determined_noun -> ART absolute_noun
+Rule 41    absolute_noun -> NMPR
+Rule 42    absolute_noun -> SUBS_A
+Rule 43    undetermined_phrase -> undetermined_noun
+Rule 44    undetermined_phrase -> SUBS_C undetermined_phrase
+Rule 45    undetermined_noun -> SUBS_A ADJV_A
+Rule 46    undetermined_noun -> SUBS_P
+Rule 47    undetermined_noun -> SUBS_A
+Rule 48    interrogative_phrase -> PRIN
+Rule 49    opt_determination -> ART SUBS_A
+Rule 50    opt_determination -> ART ADJV_A
+Rule 51    opt_determination -> ART PRDE
+Rule 52    opt_determination -> <empty>
+
+Unused terminals:
+
+    ADJV_E
+    SUBS_E
+    NEGA
+    INTJ
+
+Terminals, with rules where they appear:
+
+ADJV_A               : 35 45 50
+ADJV_C               : 30
+ADJV_E               : 
+ADVB                 : 23 26 29
+ART                  : 40 49 50 51
+CONJ                 : 16
+CONJ_P               : 20
+EOA                  : 3 4
+INRG                 : 21
+INTJ                 : 
+NEGA                 : 
+NMPR                 : 35 38 41
+PRDE                 : 36 51
+PREP                 : 13 21 22 23 27 28
+PRIN                 : 22 48
+PRPS                 : 37
+PRS                  : 14 39
+SUBS_A               : 42 45 47 49
+SUBS_C               : 34 44
+SUBS_E               : 
+SUBS_P               : 46
+VERB                 : 14 15
+error                : 3
+
+Nonterminals, with rules where they appear:
+
+absolute_noun        : 40
+adjective_phrase     : 9
+adverbial_phrase     : 8
+complex_noun_phrase  : 5 16 17 27 29
+complex_prepositional_phrase : 7 20
+determined_noun      : 33
+determined_phrase    : 32 34
+extended_prepositional_phrase : 25 28
+focussed_prepositional_phrase : 24 26
+interrogative_phrase : 10
+normal_VP            : 12
+noun_phrase          : 16 17 18 30
+opt_determination    : 32
+phrase_atom          : 4
+prepositional_VP     : 11
+prepositional_phrase : 19 20
+term_atom            : 1 2
+text                 : 1 0
+undetermined_noun    : 43
+undetermined_phrase  : 31 44
+verbal_phrase        : 6 13
+
+
+state 0
+
+    (0) S' -> . text
+    (1) text -> . text term_atom
+    (2) text -> . term_atom
+    (3) term_atom -> . error EOA
+    (4) term_atom -> . phrase_atom EOA
+    (5) phrase_atom -> . complex_noun_phrase
+    (6) phrase_atom -> . verbal_phrase
+    (7) phrase_atom -> . complex_prepositional_phrase
+    (8) phrase_atom -> . adverbial_phrase
+    (9) phrase_atom -> . adjective_phrase
+    (10) phrase_atom -> . interrogative_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (11) verbal_phrase -> . prepositional_VP
+    (12) verbal_phrase -> . normal_VP
+    (19) complex_prepositional_phrase -> . prepositional_phrase
+    (20) complex_prepositional_phrase -> . complex_prepositional_phrase CONJ_P prepositional_phrase
+    (29) adverbial_phrase -> . ADVB complex_noun_phrase
+    (30) adjective_phrase -> . ADJV_C noun_phrase
+    (48) interrogative_phrase -> . PRIN
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (13) prepositional_VP -> . PREP verbal_phrase
+    (14) normal_VP -> . VERB PRS
+    (15) normal_VP -> . VERB
+    (21) prepositional_phrase -> . PREP INRG
+    (22) prepositional_phrase -> . PREP PRIN
+    (23) prepositional_phrase -> . PREP ADVB
+    (24) prepositional_phrase -> . focussed_prepositional_phrase
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (25) focussed_prepositional_phrase -> . extended_prepositional_phrase
+    (26) focussed_prepositional_phrase -> . ADVB focussed_prepositional_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    error           shift and go to state 3
+    ADVB            shift and go to state 15
+    ADJV_C          shift and go to state 16
+    PRIN            shift and go to state 17
+    PREP            shift and go to state 20
+    VERB            shift and go to state 21
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    text                           shift and go to state 1
+    term_atom                      shift and go to state 2
+    phrase_atom                    shift and go to state 4
+    complex_noun_phrase            shift and go to state 5
+    verbal_phrase                  shift and go to state 6
+    complex_prepositional_phrase   shift and go to state 7
+    adverbial_phrase               shift and go to state 8
+    adjective_phrase               shift and go to state 9
+    interrogative_phrase           shift and go to state 10
+    noun_phrase                    shift and go to state 11
+    prepositional_VP               shift and go to state 12
+    normal_VP                      shift and go to state 13
+    prepositional_phrase           shift and go to state 14
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    focussed_prepositional_phrase  shift and go to state 23
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+    extended_prepositional_phrase  shift and go to state 27
+
+state 1
+
+    (0) S' -> text .
+    (1) text -> text . term_atom
+    (3) term_atom -> . error EOA
+    (4) term_atom -> . phrase_atom EOA
+    (5) phrase_atom -> . complex_noun_phrase
+    (6) phrase_atom -> . verbal_phrase
+    (7) phrase_atom -> . complex_prepositional_phrase
+    (8) phrase_atom -> . adverbial_phrase
+    (9) phrase_atom -> . adjective_phrase
+    (10) phrase_atom -> . interrogative_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (11) verbal_phrase -> . prepositional_VP
+    (12) verbal_phrase -> . normal_VP
+    (19) complex_prepositional_phrase -> . prepositional_phrase
+    (20) complex_prepositional_phrase -> . complex_prepositional_phrase CONJ_P prepositional_phrase
+    (29) adverbial_phrase -> . ADVB complex_noun_phrase
+    (30) adjective_phrase -> . ADJV_C noun_phrase
+    (48) interrogative_phrase -> . PRIN
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (13) prepositional_VP -> . PREP verbal_phrase
+    (14) normal_VP -> . VERB PRS
+    (15) normal_VP -> . VERB
+    (21) prepositional_phrase -> . PREP INRG
+    (22) prepositional_phrase -> . PREP PRIN
+    (23) prepositional_phrase -> . PREP ADVB
+    (24) prepositional_phrase -> . focussed_prepositional_phrase
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (25) focussed_prepositional_phrase -> . extended_prepositional_phrase
+    (26) focussed_prepositional_phrase -> . ADVB focussed_prepositional_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    error           shift and go to state 3
+    ADVB            shift and go to state 15
+    ADJV_C          shift and go to state 16
+    PRIN            shift and go to state 17
+    PREP            shift and go to state 20
+    VERB            shift and go to state 21
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    term_atom                      shift and go to state 34
+    phrase_atom                    shift and go to state 4
+    complex_noun_phrase            shift and go to state 5
+    verbal_phrase                  shift and go to state 6
+    complex_prepositional_phrase   shift and go to state 7
+    adverbial_phrase               shift and go to state 8
+    adjective_phrase               shift and go to state 9
+    interrogative_phrase           shift and go to state 10
+    noun_phrase                    shift and go to state 11
+    prepositional_VP               shift and go to state 12
+    normal_VP                      shift and go to state 13
+    prepositional_phrase           shift and go to state 14
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    focussed_prepositional_phrase  shift and go to state 23
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+    extended_prepositional_phrase  shift and go to state 27
+
+state 2
+
+    (2) text -> term_atom .
+    error           reduce using rule 2 (text -> term_atom .)
+    ADVB            reduce using rule 2 (text -> term_atom .)
+    ADJV_C          reduce using rule 2 (text -> term_atom .)
+    PRIN            reduce using rule 2 (text -> term_atom .)
+    PREP            reduce using rule 2 (text -> term_atom .)
+    VERB            reduce using rule 2 (text -> term_atom .)
+    SUBS_C          reduce using rule 2 (text -> term_atom .)
+    SUBS_A          reduce using rule 2 (text -> term_atom .)
+    SUBS_P          reduce using rule 2 (text -> term_atom .)
+    NMPR            reduce using rule 2 (text -> term_atom .)
+    PRDE            reduce using rule 2 (text -> term_atom .)
+    PRPS            reduce using rule 2 (text -> term_atom .)
+    PRS             reduce using rule 2 (text -> term_atom .)
+    ART             reduce using rule 2 (text -> term_atom .)
+    $end            reduce using rule 2 (text -> term_atom .)
+
+
+state 3
+
+    (3) term_atom -> error . EOA
+    EOA             shift and go to state 35
+
+
+state 4
+
+    (4) term_atom -> phrase_atom . EOA
+    EOA             shift and go to state 36
+
+
+state 5
+
+    (5) phrase_atom -> complex_noun_phrase .
+    (16) complex_noun_phrase -> complex_noun_phrase . CONJ noun_phrase
+    (17) complex_noun_phrase -> complex_noun_phrase . noun_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    EOA             reduce using rule 5 (phrase_atom -> complex_noun_phrase .)
+    CONJ            shift and go to state 37
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    noun_phrase                    shift and go to state 38
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 6
+
+    (6) phrase_atom -> verbal_phrase .
+    EOA             reduce using rule 6 (phrase_atom -> verbal_phrase .)
+
+
+state 7
+
+    (7) phrase_atom -> complex_prepositional_phrase .
+    (20) complex_prepositional_phrase -> complex_prepositional_phrase . CONJ_P prepositional_phrase
+    EOA             reduce using rule 7 (phrase_atom -> complex_prepositional_phrase .)
+    CONJ_P          shift and go to state 39
+
+
+state 8
+
+    (8) phrase_atom -> adverbial_phrase .
+    EOA             reduce using rule 8 (phrase_atom -> adverbial_phrase .)
+
+
+state 9
+
+    (9) phrase_atom -> adjective_phrase .
+    EOA             reduce using rule 9 (phrase_atom -> adjective_phrase .)
+
+
+state 10
+
+    (10) phrase_atom -> interrogative_phrase .
+    EOA             reduce using rule 10 (phrase_atom -> interrogative_phrase .)
+
+
+state 11
+
+    (18) complex_noun_phrase -> noun_phrase .
+    CONJ            reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    SUBS_C          reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    SUBS_A          reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    SUBS_P          reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    NMPR            reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    PRDE            reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    PRPS            reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    PRS             reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    ART             reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    EOA             reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+    CONJ_P          reduce using rule 18 (complex_noun_phrase -> noun_phrase .)
+
+
+state 12
+
+    (11) verbal_phrase -> prepositional_VP .
+    EOA             reduce using rule 11 (verbal_phrase -> prepositional_VP .)
+
+
+state 13
+
+    (12) verbal_phrase -> normal_VP .
+    EOA             reduce using rule 12 (verbal_phrase -> normal_VP .)
+
+
+state 14
+
+    (19) complex_prepositional_phrase -> prepositional_phrase .
+    CONJ_P          reduce using rule 19 (complex_prepositional_phrase -> prepositional_phrase .)
+    EOA             reduce using rule 19 (complex_prepositional_phrase -> prepositional_phrase .)
+
+
+state 15
+
+    (29) adverbial_phrase -> ADVB . complex_noun_phrase
+    (26) focussed_prepositional_phrase -> ADVB . focussed_prepositional_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (25) focussed_prepositional_phrase -> . extended_prepositional_phrase
+    (26) focussed_prepositional_phrase -> . ADVB focussed_prepositional_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    ADVB            shift and go to state 40
+    PREP            shift and go to state 43
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    complex_noun_phrase            shift and go to state 41
+    focussed_prepositional_phrase  shift and go to state 42
+    noun_phrase                    shift and go to state 11
+    extended_prepositional_phrase  shift and go to state 27
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 16
+
+    (30) adjective_phrase -> ADJV_C . noun_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    noun_phrase                    shift and go to state 44
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 17
+
+    (48) interrogative_phrase -> PRIN .
+    EOA             reduce using rule 48 (interrogative_phrase -> PRIN .)
+
+
+state 18
+
+    (31) noun_phrase -> undetermined_phrase .
+    CONJ            reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    SUBS_C          reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    SUBS_A          reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    SUBS_P          reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    NMPR            reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    PRDE            reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    PRPS            reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    PRS             reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    ART             reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    EOA             reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+    CONJ_P          reduce using rule 31 (noun_phrase -> undetermined_phrase .)
+
+
+state 19
+
+    (32) noun_phrase -> determined_phrase . opt_determination
+    (49) opt_determination -> . ART SUBS_A
+    (50) opt_determination -> . ART ADJV_A
+    (51) opt_determination -> . ART PRDE
+    (52) opt_determination -> .
+  ! shift/reduce conflict for ART resolved as shift
+    ART             shift and go to state 46
+    CONJ            reduce using rule 52 (opt_determination -> .)
+    SUBS_C          reduce using rule 52 (opt_determination -> .)
+    SUBS_A          reduce using rule 52 (opt_determination -> .)
+    SUBS_P          reduce using rule 52 (opt_determination -> .)
+    NMPR            reduce using rule 52 (opt_determination -> .)
+    PRDE            reduce using rule 52 (opt_determination -> .)
+    PRPS            reduce using rule 52 (opt_determination -> .)
+    PRS             reduce using rule 52 (opt_determination -> .)
+    EOA             reduce using rule 52 (opt_determination -> .)
+    CONJ_P          reduce using rule 52 (opt_determination -> .)
+
+    opt_determination              shift and go to state 45
+
+state 20
+
+    (13) prepositional_VP -> PREP . verbal_phrase
+    (21) prepositional_phrase -> PREP . INRG
+    (22) prepositional_phrase -> PREP . PRIN
+    (23) prepositional_phrase -> PREP . ADVB
+    (27) extended_prepositional_phrase -> PREP . complex_noun_phrase
+    (28) extended_prepositional_phrase -> PREP . extended_prepositional_phrase
+    (11) verbal_phrase -> . prepositional_VP
+    (12) verbal_phrase -> . normal_VP
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    (13) prepositional_VP -> . PREP verbal_phrase
+    (14) normal_VP -> . VERB PRS
+    (15) normal_VP -> . VERB
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    INRG            shift and go to state 49
+    PRIN            shift and go to state 50
+    ADVB            shift and go to state 51
+    PREP            shift and go to state 47
+    VERB            shift and go to state 21
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    verbal_phrase                  shift and go to state 48
+    complex_noun_phrase            shift and go to state 52
+    extended_prepositional_phrase  shift and go to state 53
+    prepositional_VP               shift and go to state 12
+    normal_VP                      shift and go to state 13
+    noun_phrase                    shift and go to state 11
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 21
+
+    (14) normal_VP -> VERB . PRS
+    (15) normal_VP -> VERB .
+    PRS             shift and go to state 54
+    EOA             reduce using rule 15 (normal_VP -> VERB .)
+
+
+state 22
+
+    (39) determined_noun -> PRS .
+    ART             reduce using rule 39 (determined_noun -> PRS .)
+    CONJ            reduce using rule 39 (determined_noun -> PRS .)
+    SUBS_C          reduce using rule 39 (determined_noun -> PRS .)
+    SUBS_A          reduce using rule 39 (determined_noun -> PRS .)
+    SUBS_P          reduce using rule 39 (determined_noun -> PRS .)
+    NMPR            reduce using rule 39 (determined_noun -> PRS .)
+    PRDE            reduce using rule 39 (determined_noun -> PRS .)
+    PRPS            reduce using rule 39 (determined_noun -> PRS .)
+    PRS             reduce using rule 39 (determined_noun -> PRS .)
+    EOA             reduce using rule 39 (determined_noun -> PRS .)
+    CONJ_P          reduce using rule 39 (determined_noun -> PRS .)
+
+
+state 23
+
+    (24) prepositional_phrase -> focussed_prepositional_phrase .
+    CONJ_P          reduce using rule 24 (prepositional_phrase -> focussed_prepositional_phrase .)
+    EOA             reduce using rule 24 (prepositional_phrase -> focussed_prepositional_phrase .)
+
+
+state 24
+
+    (43) undetermined_phrase -> undetermined_noun .
+    CONJ            reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    SUBS_C          reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    SUBS_A          reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    SUBS_P          reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    NMPR            reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    PRDE            reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    PRPS            reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    PRS             reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    ART             reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    EOA             reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+    CONJ_P          reduce using rule 43 (undetermined_phrase -> undetermined_noun .)
+
+
+state 25
+
+    (44) undetermined_phrase -> SUBS_C . undetermined_phrase
+    (34) determined_phrase -> SUBS_C . determined_phrase
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    undetermined_phrase            shift and go to state 55
+    determined_phrase              shift and go to state 56
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 26
+
+    (33) determined_phrase -> determined_noun .
+    ART             reduce using rule 33 (determined_phrase -> determined_noun .)
+    CONJ            reduce using rule 33 (determined_phrase -> determined_noun .)
+    SUBS_C          reduce using rule 33 (determined_phrase -> determined_noun .)
+    SUBS_A          reduce using rule 33 (determined_phrase -> determined_noun .)
+    SUBS_P          reduce using rule 33 (determined_phrase -> determined_noun .)
+    NMPR            reduce using rule 33 (determined_phrase -> determined_noun .)
+    PRDE            reduce using rule 33 (determined_phrase -> determined_noun .)
+    PRPS            reduce using rule 33 (determined_phrase -> determined_noun .)
+    PRS             reduce using rule 33 (determined_phrase -> determined_noun .)
+    EOA             reduce using rule 33 (determined_phrase -> determined_noun .)
+    CONJ_P          reduce using rule 33 (determined_phrase -> determined_noun .)
+
+
+state 27
+
+    (25) focussed_prepositional_phrase -> extended_prepositional_phrase .
+    CONJ_P          reduce using rule 25 (focussed_prepositional_phrase -> extended_prepositional_phrase .)
+    EOA             reduce using rule 25 (focussed_prepositional_phrase -> extended_prepositional_phrase .)
+
+
+state 28
+
+    (45) undetermined_noun -> SUBS_A . ADJV_A
+    (47) undetermined_noun -> SUBS_A .
+    ADJV_A          shift and go to state 57
+    CONJ            reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    SUBS_C          reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    SUBS_A          reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    SUBS_P          reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    NMPR            reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    PRDE            reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    PRPS            reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    PRS             reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    ART             reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    EOA             reduce using rule 47 (undetermined_noun -> SUBS_A .)
+    CONJ_P          reduce using rule 47 (undetermined_noun -> SUBS_A .)
+
+
+state 29
+
+    (46) undetermined_noun -> SUBS_P .
+    CONJ            reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    SUBS_C          reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    SUBS_A          reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    SUBS_P          reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    NMPR            reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    PRDE            reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    PRPS            reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    PRS             reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    ART             reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    EOA             reduce using rule 46 (undetermined_noun -> SUBS_P .)
+    CONJ_P          reduce using rule 46 (undetermined_noun -> SUBS_P .)
+
+
+state 30
+
+    (35) determined_noun -> NMPR . ADJV_A
+    (38) determined_noun -> NMPR .
+    ADJV_A          shift and go to state 58
+    ART             reduce using rule 38 (determined_noun -> NMPR .)
+    CONJ            reduce using rule 38 (determined_noun -> NMPR .)
+    SUBS_C          reduce using rule 38 (determined_noun -> NMPR .)
+    SUBS_A          reduce using rule 38 (determined_noun -> NMPR .)
+    SUBS_P          reduce using rule 38 (determined_noun -> NMPR .)
+    NMPR            reduce using rule 38 (determined_noun -> NMPR .)
+    PRDE            reduce using rule 38 (determined_noun -> NMPR .)
+    PRPS            reduce using rule 38 (determined_noun -> NMPR .)
+    PRS             reduce using rule 38 (determined_noun -> NMPR .)
+    EOA             reduce using rule 38 (determined_noun -> NMPR .)
+    CONJ_P          reduce using rule 38 (determined_noun -> NMPR .)
+
+
+state 31
+
+    (36) determined_noun -> PRDE .
+    ART             reduce using rule 36 (determined_noun -> PRDE .)
+    CONJ            reduce using rule 36 (determined_noun -> PRDE .)
+    SUBS_C          reduce using rule 36 (determined_noun -> PRDE .)
+    SUBS_A          reduce using rule 36 (determined_noun -> PRDE .)
+    SUBS_P          reduce using rule 36 (determined_noun -> PRDE .)
+    NMPR            reduce using rule 36 (determined_noun -> PRDE .)
+    PRDE            reduce using rule 36 (determined_noun -> PRDE .)
+    PRPS            reduce using rule 36 (determined_noun -> PRDE .)
+    PRS             reduce using rule 36 (determined_noun -> PRDE .)
+    EOA             reduce using rule 36 (determined_noun -> PRDE .)
+    CONJ_P          reduce using rule 36 (determined_noun -> PRDE .)
+
+
+state 32
+
+    (37) determined_noun -> PRPS .
+    ART             reduce using rule 37 (determined_noun -> PRPS .)
+    CONJ            reduce using rule 37 (determined_noun -> PRPS .)
+    SUBS_C          reduce using rule 37 (determined_noun -> PRPS .)
+    SUBS_A          reduce using rule 37 (determined_noun -> PRPS .)
+    SUBS_P          reduce using rule 37 (determined_noun -> PRPS .)
+    NMPR            reduce using rule 37 (determined_noun -> PRPS .)
+    PRDE            reduce using rule 37 (determined_noun -> PRPS .)
+    PRPS            reduce using rule 37 (determined_noun -> PRPS .)
+    PRS             reduce using rule 37 (determined_noun -> PRPS .)
+    EOA             reduce using rule 37 (determined_noun -> PRPS .)
+    CONJ_P          reduce using rule 37 (determined_noun -> PRPS .)
+
+
+state 33
+
+    (40) determined_noun -> ART . absolute_noun
+    (41) absolute_noun -> . NMPR
+    (42) absolute_noun -> . SUBS_A
+    NMPR            shift and go to state 60
+    SUBS_A          shift and go to state 61
+
+    absolute_noun                  shift and go to state 59
+
+state 34
+
+    (1) text -> text term_atom .
+    error           reduce using rule 1 (text -> text term_atom .)
+    ADVB            reduce using rule 1 (text -> text term_atom .)
+    ADJV_C          reduce using rule 1 (text -> text term_atom .)
+    PRIN            reduce using rule 1 (text -> text term_atom .)
+    PREP            reduce using rule 1 (text -> text term_atom .)
+    VERB            reduce using rule 1 (text -> text term_atom .)
+    SUBS_C          reduce using rule 1 (text -> text term_atom .)
+    SUBS_A          reduce using rule 1 (text -> text term_atom .)
+    SUBS_P          reduce using rule 1 (text -> text term_atom .)
+    NMPR            reduce using rule 1 (text -> text term_atom .)
+    PRDE            reduce using rule 1 (text -> text term_atom .)
+    PRPS            reduce using rule 1 (text -> text term_atom .)
+    PRS             reduce using rule 1 (text -> text term_atom .)
+    ART             reduce using rule 1 (text -> text term_atom .)
+    $end            reduce using rule 1 (text -> text term_atom .)
+
+
+state 35
+
+    (3) term_atom -> error EOA .
+    error           reduce using rule 3 (term_atom -> error EOA .)
+    ADVB            reduce using rule 3 (term_atom -> error EOA .)
+    ADJV_C          reduce using rule 3 (term_atom -> error EOA .)
+    PRIN            reduce using rule 3 (term_atom -> error EOA .)
+    PREP            reduce using rule 3 (term_atom -> error EOA .)
+    VERB            reduce using rule 3 (term_atom -> error EOA .)
+    SUBS_C          reduce using rule 3 (term_atom -> error EOA .)
+    SUBS_A          reduce using rule 3 (term_atom -> error EOA .)
+    SUBS_P          reduce using rule 3 (term_atom -> error EOA .)
+    NMPR            reduce using rule 3 (term_atom -> error EOA .)
+    PRDE            reduce using rule 3 (term_atom -> error EOA .)
+    PRPS            reduce using rule 3 (term_atom -> error EOA .)
+    PRS             reduce using rule 3 (term_atom -> error EOA .)
+    ART             reduce using rule 3 (term_atom -> error EOA .)
+    $end            reduce using rule 3 (term_atom -> error EOA .)
+
+
+state 36
+
+    (4) term_atom -> phrase_atom EOA .
+    error           reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    ADVB            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    ADJV_C          reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    PRIN            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    PREP            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    VERB            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    SUBS_C          reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    SUBS_A          reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    SUBS_P          reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    NMPR            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    PRDE            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    PRPS            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    PRS             reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    ART             reduce using rule 4 (term_atom -> phrase_atom EOA .)
+    $end            reduce using rule 4 (term_atom -> phrase_atom EOA .)
+
+
+state 37
+
+    (16) complex_noun_phrase -> complex_noun_phrase CONJ . noun_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    noun_phrase                    shift and go to state 62
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 38
+
+    (17) complex_noun_phrase -> complex_noun_phrase noun_phrase .
+    CONJ            reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    SUBS_C          reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    SUBS_A          reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    SUBS_P          reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    NMPR            reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    PRDE            reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    PRPS            reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    PRS             reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    ART             reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    EOA             reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+    CONJ_P          reduce using rule 17 (complex_noun_phrase -> complex_noun_phrase noun_phrase .)
+
+
+state 39
+
+    (20) complex_prepositional_phrase -> complex_prepositional_phrase CONJ_P . prepositional_phrase
+    (21) prepositional_phrase -> . PREP INRG
+    (22) prepositional_phrase -> . PREP PRIN
+    (23) prepositional_phrase -> . PREP ADVB
+    (24) prepositional_phrase -> . focussed_prepositional_phrase
+    (25) focussed_prepositional_phrase -> . extended_prepositional_phrase
+    (26) focussed_prepositional_phrase -> . ADVB focussed_prepositional_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    PREP            shift and go to state 64
+    ADVB            shift and go to state 40
+
+    prepositional_phrase           shift and go to state 63
+    focussed_prepositional_phrase  shift and go to state 23
+    extended_prepositional_phrase  shift and go to state 27
+
+state 40
+
+    (26) focussed_prepositional_phrase -> ADVB . focussed_prepositional_phrase
+    (25) focussed_prepositional_phrase -> . extended_prepositional_phrase
+    (26) focussed_prepositional_phrase -> . ADVB focussed_prepositional_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    ADVB            shift and go to state 40
+    PREP            shift and go to state 43
+
+    focussed_prepositional_phrase  shift and go to state 42
+    extended_prepositional_phrase  shift and go to state 27
+
+state 41
+
+    (29) adverbial_phrase -> ADVB complex_noun_phrase .
+    (16) complex_noun_phrase -> complex_noun_phrase . CONJ noun_phrase
+    (17) complex_noun_phrase -> complex_noun_phrase . noun_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    EOA             reduce using rule 29 (adverbial_phrase -> ADVB complex_noun_phrase .)
+    CONJ            shift and go to state 37
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    noun_phrase                    shift and go to state 38
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 42
+
+    (26) focussed_prepositional_phrase -> ADVB focussed_prepositional_phrase .
+    CONJ_P          reduce using rule 26 (focussed_prepositional_phrase -> ADVB focussed_prepositional_phrase .)
+    EOA             reduce using rule 26 (focussed_prepositional_phrase -> ADVB focussed_prepositional_phrase .)
+
+
+state 43
+
+    (27) extended_prepositional_phrase -> PREP . complex_noun_phrase
+    (28) extended_prepositional_phrase -> PREP . extended_prepositional_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    PREP            shift and go to state 43
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    complex_noun_phrase            shift and go to state 52
+    extended_prepositional_phrase  shift and go to state 53
+    noun_phrase                    shift and go to state 11
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 44
+
+    (30) adjective_phrase -> ADJV_C noun_phrase .
+    EOA             reduce using rule 30 (adjective_phrase -> ADJV_C noun_phrase .)
+
+
+state 45
+
+    (32) noun_phrase -> determined_phrase opt_determination .
+    CONJ            reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    SUBS_C          reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    SUBS_A          reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    SUBS_P          reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    NMPR            reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    PRDE            reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    PRPS            reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    PRS             reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    ART             reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    EOA             reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+    CONJ_P          reduce using rule 32 (noun_phrase -> determined_phrase opt_determination .)
+
+
+state 46
+
+    (49) opt_determination -> ART . SUBS_A
+    (50) opt_determination -> ART . ADJV_A
+    (51) opt_determination -> ART . PRDE
+    SUBS_A          shift and go to state 65
+    ADJV_A          shift and go to state 66
+    PRDE            shift and go to state 67
+
+
+state 47
+
+    (27) extended_prepositional_phrase -> PREP . complex_noun_phrase
+    (28) extended_prepositional_phrase -> PREP . extended_prepositional_phrase
+    (13) prepositional_VP -> PREP . verbal_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    (11) verbal_phrase -> . prepositional_VP
+    (12) verbal_phrase -> . normal_VP
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (13) prepositional_VP -> . PREP verbal_phrase
+    (14) normal_VP -> . VERB PRS
+    (15) normal_VP -> . VERB
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    PREP            shift and go to state 47
+    VERB            shift and go to state 21
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    complex_noun_phrase            shift and go to state 52
+    extended_prepositional_phrase  shift and go to state 53
+    verbal_phrase                  shift and go to state 48
+    noun_phrase                    shift and go to state 11
+    prepositional_VP               shift and go to state 12
+    normal_VP                      shift and go to state 13
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 48
+
+    (13) prepositional_VP -> PREP verbal_phrase .
+    EOA             reduce using rule 13 (prepositional_VP -> PREP verbal_phrase .)
+
+
+state 49
+
+    (21) prepositional_phrase -> PREP INRG .
+    CONJ_P          reduce using rule 21 (prepositional_phrase -> PREP INRG .)
+    EOA             reduce using rule 21 (prepositional_phrase -> PREP INRG .)
+
+
+state 50
+
+    (22) prepositional_phrase -> PREP PRIN .
+    CONJ_P          reduce using rule 22 (prepositional_phrase -> PREP PRIN .)
+    EOA             reduce using rule 22 (prepositional_phrase -> PREP PRIN .)
+
+
+state 51
+
+    (23) prepositional_phrase -> PREP ADVB .
+    CONJ_P          reduce using rule 23 (prepositional_phrase -> PREP ADVB .)
+    EOA             reduce using rule 23 (prepositional_phrase -> PREP ADVB .)
+
+
+state 52
+
+    (27) extended_prepositional_phrase -> PREP complex_noun_phrase .
+    (16) complex_noun_phrase -> complex_noun_phrase . CONJ noun_phrase
+    (17) complex_noun_phrase -> complex_noun_phrase . noun_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    CONJ_P          reduce using rule 27 (extended_prepositional_phrase -> PREP complex_noun_phrase .)
+    EOA             reduce using rule 27 (extended_prepositional_phrase -> PREP complex_noun_phrase .)
+    CONJ            shift and go to state 37
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    noun_phrase                    shift and go to state 38
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 53
+
+    (28) extended_prepositional_phrase -> PREP extended_prepositional_phrase .
+    CONJ_P          reduce using rule 28 (extended_prepositional_phrase -> PREP extended_prepositional_phrase .)
+    EOA             reduce using rule 28 (extended_prepositional_phrase -> PREP extended_prepositional_phrase .)
+
+
+state 54
+
+    (14) normal_VP -> VERB PRS .
+    EOA             reduce using rule 14 (normal_VP -> VERB PRS .)
+
+
+state 55
+
+    (44) undetermined_phrase -> SUBS_C undetermined_phrase .
+    CONJ            reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    SUBS_C          reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    SUBS_A          reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    SUBS_P          reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    NMPR            reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    PRDE            reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    PRPS            reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    PRS             reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    ART             reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    EOA             reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+    CONJ_P          reduce using rule 44 (undetermined_phrase -> SUBS_C undetermined_phrase .)
+
+
+state 56
+
+    (34) determined_phrase -> SUBS_C determined_phrase .
+    ART             reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    CONJ            reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    SUBS_C          reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    SUBS_A          reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    SUBS_P          reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    NMPR            reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    PRDE            reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    PRPS            reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    PRS             reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    EOA             reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+    CONJ_P          reduce using rule 34 (determined_phrase -> SUBS_C determined_phrase .)
+
+
+state 57
+
+    (45) undetermined_noun -> SUBS_A ADJV_A .
+    CONJ            reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    SUBS_C          reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    SUBS_A          reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    SUBS_P          reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    NMPR            reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    PRDE            reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    PRPS            reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    PRS             reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    ART             reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    EOA             reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+    CONJ_P          reduce using rule 45 (undetermined_noun -> SUBS_A ADJV_A .)
+
+
+state 58
+
+    (35) determined_noun -> NMPR ADJV_A .
+    ART             reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    CONJ            reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    SUBS_C          reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    SUBS_A          reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    SUBS_P          reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    NMPR            reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    PRDE            reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    PRPS            reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    PRS             reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    EOA             reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+    CONJ_P          reduce using rule 35 (determined_noun -> NMPR ADJV_A .)
+
+
+state 59
+
+    (40) determined_noun -> ART absolute_noun .
+    ART             reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    CONJ            reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    SUBS_C          reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    SUBS_A          reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    SUBS_P          reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    NMPR            reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    PRDE            reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    PRPS            reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    PRS             reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    EOA             reduce using rule 40 (determined_noun -> ART absolute_noun .)
+    CONJ_P          reduce using rule 40 (determined_noun -> ART absolute_noun .)
+
+
+state 60
+
+    (41) absolute_noun -> NMPR .
+    ART             reduce using rule 41 (absolute_noun -> NMPR .)
+    CONJ            reduce using rule 41 (absolute_noun -> NMPR .)
+    SUBS_C          reduce using rule 41 (absolute_noun -> NMPR .)
+    SUBS_A          reduce using rule 41 (absolute_noun -> NMPR .)
+    SUBS_P          reduce using rule 41 (absolute_noun -> NMPR .)
+    NMPR            reduce using rule 41 (absolute_noun -> NMPR .)
+    PRDE            reduce using rule 41 (absolute_noun -> NMPR .)
+    PRPS            reduce using rule 41 (absolute_noun -> NMPR .)
+    PRS             reduce using rule 41 (absolute_noun -> NMPR .)
+    EOA             reduce using rule 41 (absolute_noun -> NMPR .)
+    CONJ_P          reduce using rule 41 (absolute_noun -> NMPR .)
+
+
+state 61
+
+    (42) absolute_noun -> SUBS_A .
+    ART             reduce using rule 42 (absolute_noun -> SUBS_A .)
+    CONJ            reduce using rule 42 (absolute_noun -> SUBS_A .)
+    SUBS_C          reduce using rule 42 (absolute_noun -> SUBS_A .)
+    SUBS_A          reduce using rule 42 (absolute_noun -> SUBS_A .)
+    SUBS_P          reduce using rule 42 (absolute_noun -> SUBS_A .)
+    NMPR            reduce using rule 42 (absolute_noun -> SUBS_A .)
+    PRDE            reduce using rule 42 (absolute_noun -> SUBS_A .)
+    PRPS            reduce using rule 42 (absolute_noun -> SUBS_A .)
+    PRS             reduce using rule 42 (absolute_noun -> SUBS_A .)
+    EOA             reduce using rule 42 (absolute_noun -> SUBS_A .)
+    CONJ_P          reduce using rule 42 (absolute_noun -> SUBS_A .)
+
+
+state 62
+
+    (16) complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .
+    CONJ            reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    SUBS_C          reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    SUBS_A          reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    SUBS_P          reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    NMPR            reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    PRDE            reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    PRPS            reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    PRS             reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    ART             reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    EOA             reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+    CONJ_P          reduce using rule 16 (complex_noun_phrase -> complex_noun_phrase CONJ noun_phrase .)
+
+
+state 63
+
+    (20) complex_prepositional_phrase -> complex_prepositional_phrase CONJ_P prepositional_phrase .
+    CONJ_P          reduce using rule 20 (complex_prepositional_phrase -> complex_prepositional_phrase CONJ_P prepositional_phrase .)
+    EOA             reduce using rule 20 (complex_prepositional_phrase -> complex_prepositional_phrase CONJ_P prepositional_phrase .)
+
+
+state 64
+
+    (21) prepositional_phrase -> PREP . INRG
+    (22) prepositional_phrase -> PREP . PRIN
+    (23) prepositional_phrase -> PREP . ADVB
+    (27) extended_prepositional_phrase -> PREP . complex_noun_phrase
+    (28) extended_prepositional_phrase -> PREP . extended_prepositional_phrase
+    (16) complex_noun_phrase -> . complex_noun_phrase CONJ noun_phrase
+    (17) complex_noun_phrase -> . complex_noun_phrase noun_phrase
+    (18) complex_noun_phrase -> . noun_phrase
+    (27) extended_prepositional_phrase -> . PREP complex_noun_phrase
+    (28) extended_prepositional_phrase -> . PREP extended_prepositional_phrase
+    (31) noun_phrase -> . undetermined_phrase
+    (32) noun_phrase -> . determined_phrase opt_determination
+    (43) undetermined_phrase -> . undetermined_noun
+    (44) undetermined_phrase -> . SUBS_C undetermined_phrase
+    (33) determined_phrase -> . determined_noun
+    (34) determined_phrase -> . SUBS_C determined_phrase
+    (45) undetermined_noun -> . SUBS_A ADJV_A
+    (46) undetermined_noun -> . SUBS_P
+    (47) undetermined_noun -> . SUBS_A
+    (35) determined_noun -> . NMPR ADJV_A
+    (36) determined_noun -> . PRDE
+    (37) determined_noun -> . PRPS
+    (38) determined_noun -> . NMPR
+    (39) determined_noun -> . PRS
+    (40) determined_noun -> . ART absolute_noun
+    INRG            shift and go to state 49
+    PRIN            shift and go to state 50
+    ADVB            shift and go to state 51
+    PREP            shift and go to state 43
+    SUBS_C          shift and go to state 25
+    SUBS_A          shift and go to state 28
+    SUBS_P          shift and go to state 29
+    NMPR            shift and go to state 30
+    PRDE            shift and go to state 31
+    PRPS            shift and go to state 32
+    PRS             shift and go to state 22
+    ART             shift and go to state 33
+
+    complex_noun_phrase            shift and go to state 52
+    extended_prepositional_phrase  shift and go to state 53
+    noun_phrase                    shift and go to state 11
+    undetermined_phrase            shift and go to state 18
+    determined_phrase              shift and go to state 19
+    undetermined_noun              shift and go to state 24
+    determined_noun                shift and go to state 26
+
+state 65
+
+    (49) opt_determination -> ART SUBS_A .
+    CONJ            reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    SUBS_C          reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    SUBS_A          reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    SUBS_P          reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    NMPR            reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    PRDE            reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    PRPS            reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    PRS             reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    ART             reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    EOA             reduce using rule 49 (opt_determination -> ART SUBS_A .)
+    CONJ_P          reduce using rule 49 (opt_determination -> ART SUBS_A .)
+
+
+state 66
+
+    (50) opt_determination -> ART ADJV_A .
+    CONJ            reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    SUBS_C          reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    SUBS_A          reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    SUBS_P          reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    NMPR            reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    PRDE            reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    PRPS            reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    PRS             reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    ART             reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    EOA             reduce using rule 50 (opt_determination -> ART ADJV_A .)
+    CONJ_P          reduce using rule 50 (opt_determination -> ART ADJV_A .)
+
+
+state 67
+
+    (51) opt_determination -> ART PRDE .
+    CONJ            reduce using rule 51 (opt_determination -> ART PRDE .)
+    SUBS_C          reduce using rule 51 (opt_determination -> ART PRDE .)
+    SUBS_A          reduce using rule 51 (opt_determination -> ART PRDE .)
+    SUBS_P          reduce using rule 51 (opt_determination -> ART PRDE .)
+    NMPR            reduce using rule 51 (opt_determination -> ART PRDE .)
+    PRDE            reduce using rule 51 (opt_determination -> ART PRDE .)
+    PRPS            reduce using rule 51 (opt_determination -> ART PRDE .)
+    PRS             reduce using rule 51 (opt_determination -> ART PRDE .)
+    ART             reduce using rule 51 (opt_determination -> ART PRDE .)
+    EOA             reduce using rule 51 (opt_determination -> ART PRDE .)
+    CONJ_P          reduce using rule 51 (opt_determination -> ART PRDE .)
+
+
+Conflicts:
+
+shift/reduce conflict for ART in state 19 resolved as shift

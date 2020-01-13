@@ -1,6 +1,3 @@
-%load_ext autoreload
-%autoreload 2
-
 import re
 from collections import defaultdict, Counter
 from IPython.display import display, HTML
@@ -53,6 +50,11 @@ def converse_pgn_suffix(sf):
     if pgn is None:
         return '-MISTAKE?' # the none returns are mostly and probably annotation mistakes
     return pgn[0]
+
+    
+def ExportToLatex(output_loc, file_name, data_frame, indx = True):
+    with open(f'{output_loc}{file_name}.tex','w') as texf:
+        texf.write(data_frame.to_latex(index=indx))
 
 '''
 This dict and set contain readable forms of Person, Gender and Number (PGN) information of the verb

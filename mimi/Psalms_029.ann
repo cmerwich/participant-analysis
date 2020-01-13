@@ -1,0 +1,86 @@
+T1	Mention 13 18	MZMWR
+T2	Mention 21 24	DWD
+T3	Mention 25 28	HBW
+T4	Mention 31 35	JHWH
+T5	Mention 36 44	BNJ >LJM
+T6	Mention 45 48	HBW
+T7	Mention 51 55	JHWH
+T8	Mention 56 65	KBWD W-<Z
+T9	Mention 69 72	HBW
+T10	Mention 75 79	JHWH
+T11	Mention 80 87	KBWD CM
+T12	Mention 87 89	+W
+T13	Mention 90 96	HCTXWW
+T14	Mention 99 103	JHWH
+T15	Mention 106 114	HDRT QDC
+T16	Mention 118 126	QWL JHWH
+T17	Mention 130 135	H-MJM
+T18	Mention 136 145	>L H-KBWD
+T19	Mention 146 151	HR<JM
+T20	Mention 152 156	JHWH
+T21	Mention 160 168	MJM RBJM
+T22	Mention 172 180	QWL JHWH
+T23	Mention 183 186	-KX
+T24	Mention 187 195	QWL JHWH
+T25	Mention 198 202	-HDR
+T26	Mention 206 214	QWL JHWH
+T27	Mention 215 218	CBR
+T28	Mention 219 224	>RZJM
+T29	Mention 227 231	JCBR
+T30	Mention 232 236	JHWH
+T31	Mention 240 252	>RZJ H-LBNWN
+T32	Mention 258 263	JRQJD
+T33	Mention 263 265	+M
+T34	Mention 270 273	<GL
+T35	Mention 274 286	LBNWN W-FRJN
+T36	Mention 291 299	BN R>MJM
+T37	Mention 303 311	QWL JHWH
+T38	Mention 312 315	XYB
+T39	Mention 316 324	LHBWT >C
+T40	Mention 328 336	QWL JHWH
+T41	Mention 337 341	JXJL
+T42	Mention 342 346	MDBR
+T43	Mention 347 351	JXJL
+T44	Mention 352 356	JHWH
+T45	Mention 357 365	MDBR QDC
+T46	Mention 369 377	QWL JHWH
+T47	Mention 378 383	JXWLL
+T48	Mention 384 389	>JLWT
+T49	Mention 392 396	JXFP
+T50	Mention 397 402	J<RWT
+T51	Mention 407 411	HJKL
+T52	Mention 411 413	+W
+T53	Mention 414 416	KL
+T54	Mention 416 418	+W
+T55	Mention 419 422	>MR
+T56	Mention 423 427	KBWD
+T57	Mention 432 436	JHWH
+T58	Mention 439 444	-MBWL
+T59	Mention 445 448	JCB
+T60	Mention 451 454	JCB
+T61	Mention 455 459	JHWH
+T62	Mention 460 463	MLK
+T63	Mention 466 470	<WLM
+T64	Mention 475 479	JHWH
+T65	Mention 480 482	<Z
+T66	Mention 485 487	<M
+T67	Mention 487 489	+W
+T68	Mention 490 493	JTN
+T69	Mention 494 498	JHWH
+T70	Mention 499 503	JBRK
+T71	Mention 507 509	<M
+T72	Mention 509 511	+W
+T73	Mention 514 519	-CLWM
+*	Coreference T3 T5 T6 T9 T13
+*	Coreference T18 T19
+*	Coreference T26 T27
+*	Coreference T29 T30 T32
+*	Coreference T37 T38
+*	Coreference T40 T41
+*	Coreference T43 T44
+*	Coreference T46 T47
+*	Coreference T53 T55
+*	Coreference T57 T59
+*	Coreference T60 T61
+*	Coreference T64 T68
+*	Coreference T69 T70

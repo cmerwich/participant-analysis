@@ -23,8 +23,8 @@ def print_total_corpus():
     R = 0
     D = 0
     d = 0
-    d_str = os.path.expanduser('~/github/cmerwich/participant-analysis/iaa/iaa-files')
-    for dirpath,_,filenames in os.walk(d_str):
+    doc_str = os.path.expanduser('~/github/cmerwich/participant-analysis/iaa/iaa-files')
+    for dirpath,_,filenames in os.walk(doc_str):
         for f in filenames:
             if f.endswith('.iaa'):
                 fs = os.path.abspath(os.path.join(dirpath, f))

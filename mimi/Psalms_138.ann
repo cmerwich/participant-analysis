@@ -1,0 +1,79 @@
+T1	Mention 15 18	DWD
+T2	Mention 19 22	>WD
+T3	Mention 22 24	+K
+T4	Mention 27 32	KL LB
+T5	Mention 32 34	+J
+T6	Mention 39 44	>LHJM
+T7	Mention 45 49	>ZMR
+T8	Mention 49 51	+K
+T9	Mention 55 61	>CTXWH
+T10	Mention 65 73	HJKL QDC
+T11	Mention 73 75	+K
+T12	Mention 78 82	>WDH
+T13	Mention 86 88	CM
+T14	Mention 88 90	+K
+T15	Mention 94 97	XSD
+T16	Mention 97 99	+K
+T17	Mention 105 108	>MT
+T18	Mention 108 110	+K
+T19	Mention 114 119	HGDLT
+T20	Mention 123 128	KL CM
+T21	Mention 128 130	+K
+T22	Mention 131 135	>MRT
+T23	Mention 135 137	+K
+T24	Mention 143 146	JWM
+T25	Mention 147 152	QR>TJ
+T26	Mention 155 158	T<N
+T27	Mention 158 161	+NJ
+T28	Mention 162 166	TRHB
+T29	Mention 166 169	+NJ
+T30	Mention 172 175	NPC
+T31	Mention 175 177	+J
+T32	Mention 178 180	<Z
+T33	Mention 184 188	JWDW
+T34	Mention 188 190	+K
+T35	Mention 191 195	JHWH
+T36	Mention 196 207	KL MLKJ >RY
+T37	Mention 211 215	CM<W
+T38	Mention 216 223	>MRJ PJ
+T39	Mention 223 225	+K
+T40	Mention 231 236	JCJRW
+T41	Mention 239 248	DRKJ JHWH
+T42	Mention 257 266	KBWD JHWH
+T43	Mention 276 280	JHWH
+T44	Mention 283 286	CPL
+T45	Mention 287 291	JR>H
+T46	Mention 294 297	GBH
+T47	Mention 300 304	MRXQ
+T48	Mention 305 309	JJD<
+T49	Mention 316 319	>LK
+T50	Mention 322 329	QRB YRH
+T51	Mention 330 333	TXJ
+T52	Mention 333 336	+NJ
+T53	Mention 340 347	>P >JBJ
+T54	Mention 347 348	+
+T55	Mention 349 353	TCLX
+T56	Mention 354 356	JD
+T57	Mention 356 358	+K
+T58	Mention 361 366	TWCJ<
+T59	Mention 366 369	+NJ
+T60	Mention 370 374	JMJN
+T61	Mention 374 376	+K
+T62	Mention 380 384	JHWH
+T63	Mention 385 389	JGMR
+T64	Mention 393 395	+J
+T65	Mention 396 400	JHWH
+T66	Mention 401 404	XSD
+T67	Mention 404 406	+K
+T68	Mention 409 413	<WLM
+T69	Mention 414 422	M<FJ JDJ
+T70	Mention 422 424	+K
+T71	Mention 428 431	TRP
+*	Coreference T5 T27 T29 T31 T52 T54 T59 T64
+*	Coreference T33 T36 T37 T40
+*	Coreference T45 T48
+*	Coreference T2 T7 T9 T12 T49
+*	Coreference T51 T55
+*	Coreference T58 T60
+*	Coreference T62 T63
+*	Coreference T3 T8 T11 T14 T16 T18 T21 T23 T34 T35 T39 T57 T61 T65 T67 T70

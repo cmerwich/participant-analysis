@@ -1,0 +1,93 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 21 25	HLLJ
+T4	Mention 26 29	NPC
+T5	Mention 29 31	+J
+T6	Mention 35 39	JHWH
+T7	Mention 43 48	>HLLH
+T8	Mention 49 53	JHWH
+T9	Mention 56 59	XJJ
+T10	Mention 59 60	+
+T11	Mention 61 66	>ZMRH
+T12	Mention 69 73	>LHJ
+T13	Mention 73 74	+
+T14	Mention 77 80	<WD
+T15	Mention 80 82	+J
+T16	Mention 89 94	TBVXW
+T17	Mention 97 103	NDJBJM
+T18	Mention 106 112	BN >DM
+T19	Mention 120 122	+W
+T20	Mention 123 128	TCW<H
+T21	Mention 132 135	TY>
+T22	Mention 136 139	RWX
+T23	Mention 139 141	+W
+T24	Mention 142 145	JCB
+T25	Mention 148 152	>DMT
+T26	Mention 152 154	+W
+T27	Mention 157 167	-JWM H-HW>
+T28	Mention 168 172	>BDW
+T29	Mention 173 179	<CTNTJ
+T30	Mention 179 181	+W
+T31	Mention 185 189	>CRJ
+T32	Mention 192 199	>L J<QB
+T33	Mention 202 205	<ZR
+T34	Mention 205 207	+W
+T35	Mention 208 211	FBR
+T36	Mention 211 213	+W
+T37	Mention 217 221	JHWH
+T38	Mention 222 226	>LHJ
+T39	Mention 226 228	+W
+T40	Mention 232 235	<FH
+T41	Mention 236 246	CMJM W->RY
+T42	Mention 250 254	H-JM
+T43	Mention 260 262	KL
+T44	Mention 268 270	+M
+T45	Mention 273 276	CMR
+T46	Mention 277 280	>MT
+T47	Mention 283 287	<WLM
+T48	Mention 291 294	<FH
+T49	Mention 295 299	MCPV
+T50	Mention 302 309	-<CWQJM
+T51	Mention 310 313	NTN
+T52	Mention 314 317	LXM
+T53	Mention 320 326	-R<BJM
+T54	Mention 327 331	JHWH
+T55	Mention 332 336	MTJR
+T56	Mention 337 343	>SWRJM
+T57	Mention 347 351	JHWH
+T58	Mention 352 355	PQX
+T59	Mention 356 361	<WRJM
+T60	Mention 362 366	JHWH
+T61	Mention 367 370	ZQP
+T62	Mention 371 377	KPWPJM
+T63	Mention 378 382	JHWH
+T64	Mention 383 386	>HB
+T65	Mention 387 393	YDJQJM
+T66	Mention 397 401	JHWH
+T67	Mention 402 405	CMR
+T68	Mention 409 413	GRJM
+T69	Mention 414 426	JTWM W->LMNH
+T70	Mention 427 432	J<WDD
+T71	Mention 435 444	DRK RC<JM
+T72	Mention 445 449	J<WT
+T73	Mention 454 458	JMLK
+T74	Mention 459 463	JHWH
+T75	Mention 466 470	<WLM
+T76	Mention 471 475	>LHJ
+T77	Mention 475 477	+K
+T78	Mention 478 482	YJWN
+T79	Mention 485 492	DR W-DR
+T80	Mention 493 497	HLLW
+T81	Mention 498 500	JH
+*	Coreference T1 T5 T4 T10 T13 T15 T16 T80
+*	Coreference T7 T11
+*	Coreference T21 T22
+*	Coreference T28 T29
+*	Coreference T37 T38
+*	Coreference T54 T55
+*	Coreference T57 T58
+*	Coreference T60 T61
+*	Coreference T63 T64
+*	Coreference T66 T67
+*	Coreference T70 T72
+*	Coreference T73 T74
