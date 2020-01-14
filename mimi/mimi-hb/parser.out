@@ -56,10 +56,10 @@ Rule 52    opt_determination -> <empty>
 
 Unused terminals:
 
-    ADJV_E
-    SUBS_E
-    NEGA
     INTJ
+    NEGA
+    SUBS_E
+    ADJV_E
 
 Terminals, with rules where they appear:
 

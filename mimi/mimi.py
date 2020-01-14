@@ -101,6 +101,20 @@ class Statistics:
         self.resolve_apposition = 0
         self.resolve_fronted = 0
         
+    def __iadd__(self, other):
+        
+        self.pa_count += other.pa_count
+        self.error_count += other.error_count
+        self.input_corefs += other.input_corefs
+        self.output_corefs += other.output_corefs
+        self.resolve_predicate += other.resolve_predicate
+        self.resolve_pronouns += other.resolve_pronouns
+        self.resolve_vocative += other.resolve_vocative
+        self.resolve_apposition += other.resolve_apposition
+        self.resolve_fronted += other.resolve_fronted
+        
+        return self        
+        
     def mention_success(self):
         return 1 - self.error_count / self.pa_count
     
@@ -369,66 +383,69 @@ def MakeTokens(chn, stats, index_dict):
     gcons_word = ''
     
     for pa in L.d(chn, 'phrase_atom'):
-        pa_typ = F.typ.v(pa)
-        if pa_typ in TYP_CHOICE:
-            pa_words = L.d(pa, 'word')
-            pa_text = T.text(pa, fmt='text-trans-plain')
-            pa_word = tuple(word for word in pa_words)
-            for word in pa_word:
-                pdp = F.pdp.v(word)
-                status = F.st.v(word)
-                function = F.function.v(L.u(word, 'phrase')[0])
-                vt = F.vt.v(word)
-                gcons_word = F.g_cons.v(word)
-                trailer = F.trailer.v(word)
-                g_prs = F.g_prs.v(word)
-                new_prs = replace(g_prs)
-                ps = F.ps.v(word) # person
-                gn = F.gn.v(word) # gender
-                nu = F.nu.v(word) # number 
-                prs_ps = F.prs_ps.v(word) # person suffix
-                prs_gn = F.prs_gn.v(word) # gender suffix 
-                prs_nu = F.prs_nu.v(word) # number suffix 
-                space_word = process_space(gcons_word, trailer, '')
-                
-                if 'a' in F.prs.v(word):
-                    if pdp not in {'subs', 'adjv'}:
-                        pos = f'{pdp}'.upper()
-                    else:
-                        pos = f'{pdp}_{status}'.upper()
+        langs = set(F.language.v(w) for w in L.d(pa, 'word'))
+        # check if language is Hebrew, and not Aramaic
+        if langs.issubset({'Hebrew'}):
+            pa_typ = F.typ.v(pa)
+            if pa_typ in TYP_CHOICE:
+                pa_words = L.d(pa, 'word')
+                pa_text = T.text(pa, fmt='text-trans-plain')
+                pa_word = tuple(word for word in pa_words)
+                for word in pa_word:
+                    pdp = F.pdp.v(word)
+                    status = F.st.v(word)
+                    function = F.function.v(L.u(word, 'phrase')[0])
+                    vt = F.vt.v(word)
+                    gcons_word = F.g_cons.v(word)
+                    trailer = F.trailer.v(word)
+                    g_prs = F.g_prs.v(word)
+                    new_prs = replace(g_prs)
+                    ps = F.ps.v(word) # person
+                    gn = F.gn.v(word) # gender
+                    nu = F.nu.v(word) # number 
+                    prs_ps = F.prs_ps.v(word) # person suffix
+                    prs_gn = F.prs_gn.v(word) # gender suffix 
+                    prs_nu = F.prs_nu.v(word) # number suffix 
+                    space_word = process_space(gcons_word, trailer, '')
 
-                    begin, end = index_dict[word]
-                    M = Mention(space_word, begin, end, (word, word), ps, gn, nu, False, PTT[pdp], function)
-                    MyTokens.append(Token(pos, M, word))
-                    
-                else:
-                    prs = f'prs'.upper()
-                    g_word, plus_prs = split_prs(gcons_word, new_prs, f'+{new_prs}')
-                    
-                    # mention index administration for brat files based on input text files 
-                    begin_word, end_prs = index_dict[word]
-                    begin_prs = end_word = begin_word + len(g_word)
-                    
-                    # every word with a status is tokenised seperately, except infc with PreS
-                    # only subs and adjv in construct when prs follows
-                    pos = f'{pdp}_p'.upper() if pdp in {'subs', 'adjv'} else f'{pdp}'.upper()
-                    M = Mention(g_word, begin_word, end_word, (word, word), ps, gn, nu, False, PTT[pdp], function)
-                    MyTokens.append(Token(pos, M, word))
-                    
-                    # filter out infinitives with predicate suffix
-                    if pdp in {'verb', 'subs'} and function != 'PreS':
-                        MyTokens.append(Token('EOA', Mention('*'), pa))
-                        stats.pa_count += 1
-                    M = Mention(plus_prs, begin_prs, end_prs, (word, word), prs_ps, prs_gn, prs_nu, True, 'PPrP', function)
-                    MyTokens.append(Token(prs, M, word))
-                    
-                    # add end of atom token after suffix if atom boundary is not reached
-                    if word != pa_word[-1]:
-                        MyTokens.append(Token('EOA', Mention('*'), pa))
-                        stats.pa_count += 1
-            
-            MyTokens.append(Token('EOA', Mention('*'), pa))
-            stats.pa_count += 1
+                    if 'a' in F.prs.v(word):
+                        if pdp not in {'subs', 'adjv'}:
+                            pos = f'{pdp}'.upper()
+                        else:
+                            pos = f'{pdp}_{status}'.upper()
+
+                        begin, end = index_dict[word]
+                        M = Mention(space_word, begin, end, (word, word), ps, gn, nu, False, PTT[pdp], function)
+                        MyTokens.append(Token(pos, M, word))
+
+                    else:
+                        prs = f'prs'.upper()
+                        g_word, plus_prs = split_prs(gcons_word, new_prs, f'+{new_prs}')
+
+                        # mention index administration for brat files based on input text files 
+                        begin_word, end_prs = index_dict[word]
+                        begin_prs = end_word = begin_word + len(g_word)
+
+                        # every word with a status is tokenised seperately, except infc with PreS
+                        # only subs and adjv in construct when prs follows
+                        pos = f'{pdp}_p'.upper() if pdp in {'subs', 'adjv'} else f'{pdp}'.upper()
+                        M = Mention(g_word, begin_word, end_word, (word, word), ps, gn, nu, False, PTT[pdp], function)
+                        MyTokens.append(Token(pos, M, word))
+
+                        # filter out infinitives with predicate suffix
+                        if pdp in {'verb', 'subs'} and function != 'PreS':
+                            MyTokens.append(Token('EOA', Mention('*'), pa))
+                            stats.pa_count += 1
+                        M = Mention(plus_prs, begin_prs, end_prs, (word, word), prs_ps, prs_gn, prs_nu, True, 'PPrP', function)
+                        MyTokens.append(Token(prs, M, word))
+
+                        # add end of atom token after suffix if atom boundary is not reached
+                        if word != pa_word[-1]:
+                            MyTokens.append(Token('EOA', Mention('*'), pa))
+                            stats.pa_count += 1
+
+                MyTokens.append(Token('EOA', Mention('*'), pa))
+                stats.pa_count += 1
     
     # post processing 
     MyTokens = post_process(MyTokens)
@@ -739,14 +756,14 @@ class MyParser(Parser):
         m.rpt = p[1].rpt
         return m
     
-def MentionParseStats(stats):
+def MentionParseStats(stats, my_book_name):
     
     pa_success = stats.pa_count - stats.error_count
     success_percent = round(stats.mention_success() *100, 1)
     failure_percent = round(stats.mention_failure() *100, 1)
 
     print('\n',\
-        f'Mention Parse Statistics: \n',\
+        f'Mention Parse Statistics {my_book_name}: \n',\
         f'{stats.pa_count} total phrase atoms parsed \n', \
         f'{pa_success} phrase atoms SUCCESFULLY parsed \n',\
         f'{stats.error_count} phrase atoms FAILED to parse \n',\
@@ -770,11 +787,14 @@ def ParseMentions(chn, stats, index_dict):
     and returns a mentions list `Mentions' with mention objects.
     '''
     
+    Mentions = []
     MyTokens = MakeTokens(chn, stats, index_dict)
-    Lexer = MyLexer()
-    Parser = MyParser(stats)
-    Mentions = Parser.parse(Lexer.tokenize(MyTokens))
-
+    
+    if len(MyTokens): 
+        Lexer = MyLexer()
+        Parser = MyParser(stats)
+        Mentions = Parser.parse(Lexer.tokenize(MyTokens))
+    
     return Mentions
 
 def PlaceMentions(mentions, ann_file):
@@ -1301,23 +1321,12 @@ def PlaceCoref(mentions, corefs, ann_file):
                 ann_file.write(f' {m}')
             ann_file.write('\n')
             
-def CorefResolutionStats(input_corefs, output_corefs, stats, filename, coreference_list):
-    
-    stats.input_corefs = input_corefs
-    stats.output_corefs = output_corefs
-    
+def CorefResolutionStats(stats, filename, coreference_list):
+
     resolved_corefs = stats.input_corefs - stats.output_corefs
     
     coref_success_percent = round(stats.coref_success() * 100, 1)
     coref_unresolved_percent = round(stats.coref_unresolved() * 100, 1)
-
-    #print('\n',\
-    #    f'Coreference Resolution Statistics {filename}: \n',\
-    #    f'{stats.input_corefs} total input corefs \n', \
-    #    f'{resolved_corefs} corefs RESOLVED \n',\
-    #    f'{stats.output_corefs} corefs UNRESOLVED \n',\
-    #    f'{coref_success_percent}% corefs RESOLVED \n',\
-    #    f'{coref_unresolved_percent}% corefs UNRESOLVED')
     
     coreference_list.append({'chapter' : filename,
                                  'input corefs' : stats.input_corefs,
@@ -1333,7 +1342,7 @@ def CorefResolutionStats(input_corefs, output_corefs, stats, filename, coreferen
     
     return coref_stats_df
 
-def CoResStatsTotal(cores_df):
+def CoResStatsTotal(cores_df, my_book_name):
     
     total_input = cores_df['input corefs'].sum()
     total_resolved = cores_df['resolved'].sum()
@@ -1342,25 +1351,14 @@ def CoResStatsTotal(cores_df):
     total_unresolved_percent = round((total_unresolved / total_input) * 100, 1)
     
     print('\n',\
-        f'Coreference Resolution Statistics: \n',\
+        f'Coreference Resolution Statistics {my_book_name}: \n',\
         f'{total_input} total input corefs \n', \
         f'{total_resolved} corefs RESOLVED \n',\
         f'{total_unresolved} corefs UNRESOLVED \n',\
         f'{total_resolved_percent}% corefs RESOLVED \n',\
         f'{total_unresolved_percent}% corefs UNRESOLVED')
-    
-    return total_input, total_resolved, total_unresolved, total_resolved_percent, total_unresolved
 
 def SieveStats(stats, filename, sieves_list):
-    
-    #print('\n',\
-    #      f'Sieve Statistics Chapter {filename}: \n',\
-    #      f'Resolve Predicate: {stats.resolve_predicate} \n',\
-    #      f'Resolve Pronouns: {stats.resolve_pronouns} \n',\
-    #      f'Resolve Vocative: {stats.resolve_vocative} \n',\
-    #      f'Resolve Apposition: {stats.resolve_apposition} \n',\
-    #      f'Resolve Fronted Element: {stats.resolve_fronted}'
-    #     )
     
     sieves_list.append({'chapter' : filename,
                         'resolve predicate' : stats.resolve_predicate,
@@ -1375,6 +1373,17 @@ def SieveStats(stats, filename, sieves_list):
                                      'resolve vocative', 'resolve apposition', 
                                      'resolve fronted element']]
     return sieve_stats_df
+
+
+def TotalSieveStats(stats, book_name):
+    print('\n',\
+          f'Sieve Statistics {book_name}: \n',\
+          f'Resolve Predicate: {stats.resolve_predicate} \n',\
+          f'Resolve Pronouns: {stats.resolve_pronouns} \n',\
+          f'Resolve Vocative: {stats.resolve_vocative} \n',\
+          f'Resolve Apposition: {stats.resolve_apposition} \n',\
+          f'Resolve Fronted Element: {stats.resolve_fronted}'
+         )
 
 def PrintMentions(Mentions):
     for m in Mentions:
@@ -1393,17 +1402,14 @@ def PrintCorefClasses(Corefs):
 def CreateCoref(my_book_name, first_chapter, last_chapter):
     
     clustername = f'{my_book_name}_{first_chapter:>03}_{last_chapter:>03}'
-    
     global mention_errors 
-    
     mention_errors = OpenErrorFile(clustername)
-    
-    stats = Statistics() 
-    
+    total_stats = Statistics() 
     coreference_list = []
     sieves_list = []
     
     for chapter_number in range(first_chapter, last_chapter+1):
+        stats = Statistics()
         chn = T.nodeFromSection((my_book_name, chapter_number))
         if chn == None:
             error(f'Chapter not found')
@@ -1413,38 +1419,33 @@ def CreateCoref(my_book_name, first_chapter, last_chapter):
         Mentions = ParseMentions(chn, stats, index_dict)
         ann_file = OpenAnn(filename)
         PlaceMentions(Mentions, ann_file)
-        
         EnrichMentions(Mentions)
         Corefs = MakeCorefSets(Mentions)
-        
-        input_corefs = len(Corefs)
-        
+        stats.input_corefs = len(Corefs)
         sieve_list = MakeSieveList()
         ExecuteSieves(sieve_list, Mentions, Corefs, stats)
-        
-        output_corefs = len(Corefs)
-        
-        #PrintCorefClasses(Corefs) For GoMiMi()
-              
+        stats.output_corefs = len(Corefs)
         PlaceCoref(Mentions, Corefs, ann_file)
         CloseFile(ann_file)
         
-    #CheckList(Corefs) For GoMiMi()
-    
-    #print(rule_count)
+        #PrintCorefClasses(Corefs) For GoMiMi()
         
         sieve_stats_df = SieveStats(stats, filename, sieves_list)
-        coref_stats_df = CorefResolutionStats(input_corefs, output_corefs, stats, filename, coreference_list)
+        coref_stats_df = CorefResolutionStats(stats, filename, coreference_list)
         
-    MentionParseStats(stats)
-    
+        total_stats += stats
+        
+    MentionParseStats(total_stats, my_book_name)
     CloseFile(mention_errors)
     
     #PrintMentions(Mentions) For GoMiMi()
+    #CheckList(Corefs) For GoMiMi()
+    #print(rule_count)
     
-    CoResStatsTotal(coref_stats_df)
+    CoResStatsTotal(coref_stats_df, my_book_name)
+    TotalSieveStats(total_stats, my_book_name)
     
-    #return sieve_stats_df, coref_stats_df
+    return coref_stats_df, sieve_stats_df
 
 #def main(argv):
 #    try:

@@ -1,4 +1,4 @@
-__author__ = 'erwich/sikkel/roorda'
+__author__ = 'erwich/sikkel'
 
 import getopt
 import os, sys
@@ -99,6 +99,20 @@ class Statistics:
         self.resolve_apposition = 0
         self.resolve_fronted = 0
         
+    def __iadd__(self, other):
+        
+        self.pa_count += other.pa_count
+        self.error_count += other.error_count
+        self.input_corefs += other.input_corefs
+        self.output_corefs += other.output_corefs
+        self.resolve_predicate += other.resolve_predicate
+        self.resolve_pronouns += other.resolve_pronouns
+        self.resolve_vocative += other.resolve_vocative
+        self.resolve_apposition += other.resolve_apposition
+        self.resolve_fronted += other.resolve_fronted
+        
+        return self
+        
     def mention_success(self):
         return 1 - self.error_count / self.pa_count
     
@@ -110,6 +124,7 @@ class Statistics:
     
     def coref_unresolved(self):
         return self.output_corefs / self.input_corefs
+
     
 def OpenErrorFiles(clustername):
     '''
@@ -200,7 +215,7 @@ def emit_word(w, sep):
     g_word = process_space(g_word, trailer, sep)
     return g_word
 
-def WriteBook(bookNode, filename):
+def WriteBook(chn, filename):
     '''
     For each booknode (integer), i.e. each Hebrew Bible book, the begin and end
     indices of the transliterated Hebrew text are stored in an `index_dict'. 
@@ -215,7 +230,7 @@ def WriteBook(bookNode, filename):
     
     offset += countP(f'{filename}\n') 
     
-    for vn in L.d(bookNode, 'verse'):
+    for vn in L.d(chn, 'verse'):
         
         verse = T.sectionFromNode(vn)[2]
         verse_words = L.d(vn, 'word')
@@ -296,7 +311,7 @@ def split_prs(source_string, replace_what, replace_with):
         replace_with = '+'
     return head, replace_with
 
-def MakeTokens(bookNode, stats, index_dict):
+def MakeTokens(chn, stats, index_dict):
     '''
     Retrieves all relevant phrase atom types, specified in `TYP_CHOICE' 
     that are needed for mention detection. The relevant information is stored 
@@ -316,13 +331,12 @@ def MakeTokens(bookNode, stats, index_dict):
     how succesful the mention detection is. 
     '''
     
-    
     MyTokens = []
     pos = ''
     prs = ''
     gcons_word = ''
    
-    for pa in L.d(bookNode, 'phrase_atom'):
+    for pa in L.d(chn, 'phrase_atom'):
         langs = set(F.language.v(w) for w in L.d(pa, 'word'))
         # check if language is Hebrew, and not Aramaic
         if langs.issubset({'Hebrew'}):
@@ -698,6 +712,7 @@ class MyParser(Parser):
         return m 
 
 def MentionParseStats(stats, book_name, mention_detection_list):   
+    
     pa_success = stats.pa_count - stats.error_count
     success_percent = round(stats.mention_success() *100, 1)
     failure_percent = round(stats.mention_failure() *100, 1)
@@ -723,18 +738,22 @@ def MentionParseStats(stats, book_name, mention_detection_list):
     return mention_stats_df
 
 
-def ParseMentions(book_node, stats, index_dict):
+def ParseMentions(chn, stats, index_dict):
     '''
     Executes MakeTokens(), MyLexer(), MyParser() 
     and returns a mentions list `Mentions' with mention objects.
     '''
     
-    MyTokens = MakeTokens(book_node, stats, index_dict)
-    Lexer = MyLexer()
-    Parser = MyParser(stats)
-    Mentions = Parser.parse(Lexer.tokenize(MyTokens))
-
+    Mentions = []
+    MyTokens = MakeTokens(chn, stats, index_dict)
+    
+    if len(MyTokens): 
+        Lexer = MyLexer()
+        Parser = MyParser(stats)
+        Mentions = Parser.parse(Lexer.tokenize(MyTokens))
+    
     return Mentions
+        
 
 def EnrichMentions(mentions):
     '''
@@ -1218,10 +1237,7 @@ def ExecuteSieves(sieve_list, mentions, corefs, stats):
     for sieve in sieve_list:
         sieve(mentions, corefs, stats)
         
-def CorefResolutionStats(input_corefs, output_corefs, stats, book_name, coreference_list):
-    
-    stats.input_corefs = input_corefs
-    stats.output_corefs = output_corefs
+def CorefResolutionStats(stats, book_name, coreference_list):
     
     resolved_corefs = stats.input_corefs - stats.output_corefs
     
@@ -1274,7 +1290,6 @@ def SieveStats(stats, book_name, sieves_list):
                                      'resolve fronted element']]
     return sieve_stats_df
     
-    
 def GoMiMi():
     
     mention_detection_list = []
@@ -1284,37 +1299,30 @@ def GoMiMi():
     global mention_errors
     
     for book_node in F.otype.s('book'):
-        stats = Statistics() 
+        bk_stats = Statistics() 
         book_name = T.bookName(book_node)
         if book_name == None:
             error(f'Book not found')
             break
         clustername = f'{book_name}'
         mention_errors = OpenErrorFiles(clustername)
-        
         filename = f'{book_name}'
         
-        index_dict = WriteBook(book_node, filename)
-        
-        Mentions = ParseMentions(book_node, stats, index_dict)
-        
-        mention_stats_df = MentionParseStats(stats, book_name, mention_detection_list)
-        
-        EnrichMentions(Mentions)
-        Corefs = MakeCorefSets(Mentions)
-        
-        input_corefs = len(Corefs)
-        
-        sieve_list = MakeSieveList()
-        ExecuteSieves(sieve_list, Mentions, Corefs, stats)
-        
-        output_corefs = len(Corefs)
-        
+        for chn in L.d(book_node, 'chapter'):
+            ch_stats = Statistics()
+            index_dict = WriteBook(chn, filename)
+            Mentions = ParseMentions(chn, ch_stats, index_dict)
+            EnrichMentions(Mentions)
+            Corefs = MakeCorefSets(Mentions)
+            ch_stats.input_corefs = len(Corefs)
+            sieve_list = MakeSieveList()
+            ExecuteSieves(sieve_list, Mentions, Corefs, ch_stats)
+            ch_stats.output_corefs = len(Corefs)
+            bk_stats += ch_stats
+            
         CloseErrorFile(mention_errors)
-        
-        coref_stats_df = CorefResolutionStats(input_corefs, output_corefs, stats, 
-                                                        book_name, coreference_list)
-        
-        sieve_stats_df = SieveStats(stats, book_name, sieves_list)
+        mention_stats_df = MentionParseStats(bk_stats, book_name, mention_detection_list)
+        coref_stats_df = CorefResolutionStats(bk_stats, book_name, coreference_list)
+        sieve_stats_df = SieveStats(bk_stats, book_name, sieves_list)
     
     return mention_stats_df, coref_stats_df, sieve_stats_df
