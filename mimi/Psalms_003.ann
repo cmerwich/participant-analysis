@@ -66,7 +66,7 @@ T65	Mention 403 407	BRKT
 T66	Mention 407 409	+K
 *	Coreference T7 T21 T64 T66
 *	Coreference T8 T9
-*	Coreference T10 T13 T17 T22 T24 T26 T29 T49 T50 T51 T52 T54 T53 T55 T57 T60
+*	Coreference T10 T13 T17 T22 T24 T26 T29 T49 T50 T52 T51 T54 T53 T55 T57 T60
 *	Coreference T11 T12
 *	Coreference T14 T15
 *	Coreference T31 T35 T38 T39 T41 T44 T48

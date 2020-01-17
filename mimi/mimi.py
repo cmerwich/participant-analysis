@@ -450,7 +450,7 @@ def MakeTokens(chn, stats, index_dict):
     
     # post processing 
     MyTokens = post_process(MyTokens)
-        
+    
     return MyTokens
 
 class MyLexer(Lexer):
@@ -759,6 +759,7 @@ class MyParser(Parser):
     
 def MentionParseStats(stats, my_book_name):
     
+    mention_list = []
     pa_success = stats.pa_count - stats.error_count
     success_percent = round(stats.mention_success() *100, 1)
     failure_percent = round(stats.mention_failure() *100, 1)
@@ -770,6 +771,19 @@ def MentionParseStats(stats, my_book_name):
         f'{stats.error_count} phrase atoms FAILED to parse \n',\
         f'{success_percent}% parsing succes \n',\
         f'{failure_percent}% parsing failure')
+    
+    mention_list.append({'book' : my_book_name,
+                                 'phrase atoms' : stats.pa_count,
+                                 'parsed' : pa_success,
+                                 'failure' : stats.error_count,
+                                 '%parsed' : success_percent,
+                                 '%failure' : failure_percent   
+        })
+    
+    mention_stats_df = pd.DataFrame(mention_list)
+    mention_stats_df = mention_stats_df[['book', 'phrase atoms', 'parsed', 'failure', 
+                                     '%parsed', '%failure']]
+    return mention_stats_df
     
 def ProcessText(chn, filename): 
     '''
@@ -1325,7 +1339,6 @@ def PlaceCoref(mentions, corefs, ann_file):
 def CorefResolutionStats(stats, filename, coreference_list):
 
     resolved_corefs = stats.input_corefs - stats.output_corefs
-    
     coref_success_percent = round(stats.coref_success() * 100, 1)
     coref_unresolved_percent = round(stats.coref_unresolved() * 100, 1)
     
@@ -1342,49 +1355,89 @@ def CorefResolutionStats(stats, filename, coreference_list):
                                      '%resolved', '%unresolved']]
     
     return coref_stats_df
-
-def CoResStatsTotal(cores_df, my_book_name):
     
-    total_input = cores_df['input corefs'].sum()
-    total_resolved = cores_df['resolved'].sum()
-    total_unresolved = cores_df['unresolved'].sum()
-    total_resolved_percent = round((total_resolved / total_input) * 100, 1)
-    total_unresolved_percent = round((total_unresolved / total_input) * 100, 1)
+def SumCoResStats(total_stats, my_book_name):
+    
+    coreference_list = []
+    resolved_corefs = total_stats.input_corefs - total_stats.output_corefs
+    coref_success_percent = round(total_stats.coref_success() * 100, 1)
+    coref_unresolved_percent = round(total_stats.coref_unresolved() * 100, 1)
     
     print('\n',\
         f'Coreference Resolution Statistics {my_book_name}: \n',\
-        f'{total_input} total input corefs \n', \
-        f'{total_resolved} corefs RESOLVED \n',\
-        f'{total_unresolved} corefs UNRESOLVED \n',\
-        f'{total_resolved_percent}% corefs RESOLVED \n',\
-        f'{total_unresolved_percent}% corefs UNRESOLVED')
+        f'{total_stats.input_corefs} total input corefs \n', \
+        f'{resolved_corefs} corefs RESOLVED \n',\
+        f'{total_stats.output_corefs} corefs UNRESOLVED \n',\
+        f'{coref_success_percent}% corefs RESOLVED \n',\
+        f'{coref_unresolved_percent}% corefs UNRESOLVED')
+    
+    coreference_list.append({'book' : my_book_name,
+                                 'input corefs' : total_stats.input_corefs,
+                                 'resolved' : resolved_corefs,
+                                 'unresolved' : total_stats.output_corefs,
+                                 '%resolved' : coref_success_percent,
+                                 '%unresolved' : coref_unresolved_percent   
+        })
+    
+    coref_total_stats_df = pd.DataFrame(coreference_list)
+    coref_total_stats_df = coref_total_stats_df[['book', 'input corefs', 'resolved', 'unresolved', 
+                                     '%resolved', '%unresolved']]
+    
+    return coref_total_stats_df
 
 def SieveStats(stats, filename, sieves_list):
     
+    resolve_total = stats.resolve_predicate + stats.resolve_pronouns + stats.resolve_vocative + \
+    stats.resolve_apposition + stats.resolve_fronted
+    
     sieves_list.append({'chapter' : filename,
-                        'resolve predicate' : stats.resolve_predicate,
-                        'resolve pronouns' : stats.resolve_pronouns,
-                        'resolve vocative' : stats.resolve_vocative,
-                        'resolve apposition' : stats.resolve_apposition,
-                        'resolve fronted element' : stats.resolve_fronted   
+                        'predicate sieve' : stats.resolve_predicate,
+                        'pronoun sieve' : stats.resolve_pronouns,
+                        'vocative sieve' : stats.resolve_vocative,
+                        'apposition sieve' : stats.resolve_apposition,
+                        'fronted element sieve' : stats.resolve_fronted,
+                        'total sieves' : resolve_total
         })
         
     sieve_stats_df = pd.DataFrame(sieves_list)
-    sieve_stats_df = sieve_stats_df[['chapter', 'resolve predicate', 'resolve pronouns', 
-                                     'resolve vocative', 'resolve apposition', 
-                                     'resolve fronted element']]
+    sieve_stats_df = sieve_stats_df[['chapter', 'predicate sieve', 'pronoun sieve', 
+                                     'vocative sieve', 'apposition sieve', 
+                                     'fronted element sieve', 'total sieves']]
     return sieve_stats_df
 
 
-def TotalSieveStats(stats, book_name):
+def SumSieveStats(total_stats, book_name):
+    
+    sieves_list = []
+    
+    resolve_total = total_stats.resolve_predicate + total_stats.resolve_pronouns + \
+    total_stats.resolve_vocative + total_stats.resolve_apposition + total_stats.resolve_fronted
+    
+    sieves_list.append({'book' : book_name,
+                        'predicate sieve' : total_stats.resolve_predicate,
+                        'pronoun sieve' : total_stats.resolve_pronouns,
+                        'vocative sieve' : total_stats.resolve_vocative,
+                        'apposition sieve' : total_stats.resolve_apposition,
+                        'fronted element sieve' : total_stats.resolve_fronted,
+                        'total sieves' : resolve_total
+       })
+     
+    sieve_total_stats_df = pd.DataFrame(sieves_list)
+    sieve_total_stats_df = sieve_total_stats_df[['book', 'predicate sieve', 'pronoun sieve', 
+                                                 'vocative sieve', 'apposition sieve', 
+                                                 'fronted element sieve', 'total sieves']]                  
+                       
     print('\n',\
           f'Sieve Statistics {book_name}: \n',\
-          f'Resolve Predicate: {stats.resolve_predicate} \n',\
-          f'Resolve Pronouns: {stats.resolve_pronouns} \n',\
-          f'Resolve Vocative: {stats.resolve_vocative} \n',\
-          f'Resolve Apposition: {stats.resolve_apposition} \n',\
-          f'Resolve Fronted Element: {stats.resolve_fronted}'
+          f'Predicate Sieve: {total_stats.resolve_predicate} \n',\
+          f'Pronoun Sieve: {total_stats.resolve_pronouns} \n',\
+          f'Vocative Sieve: {total_stats.resolve_vocative} \n',\
+          f'Apposition Sieve: {total_stats.resolve_apposition} \n',\
+          f'Fronted Element Sieve: {total_stats.resolve_fronted} \n',\
+          f'Total Sieves: {resolve_total}'
          )
+    
+    return sieve_total_stats_df
 
 def PrintMentions(Mentions):
     for m in Mentions:
@@ -1436,17 +1489,18 @@ def CreateCoref(my_book_name, first_chapter, last_chapter):
         
         total_stats += stats
         
-    MentionParseStats(total_stats, my_book_name)
+    mention_stats_df = MentionParseStats(total_stats, my_book_name)
     CloseFile(mention_errors)
     
     #PrintMentions(Mentions) For GoMiMi()
     #CheckList(Corefs) For GoMiMi()
     #print(rule_count)
     
-    CoResStatsTotal(coref_stats_df, my_book_name)
-    TotalSieveStats(total_stats, my_book_name)
+    coref_total_df = SumCoResStats(total_stats, my_book_name)
+    sieve_total_df = SumSieveStats(total_stats, my_book_name)
     
-    return coref_stats_df, sieve_stats_df
+    return mention_stats_df, coref_stats_df, sieve_stats_df, \
+                        coref_total_df, sieve_total_df
 
 #def main(argv):
 #    try:

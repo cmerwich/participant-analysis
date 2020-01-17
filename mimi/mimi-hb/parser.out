@@ -56,9 +56,9 @@ Rule 52    opt_determination -> <empty>
 
 Unused terminals:
 
+    SUBS_E
     INTJ
     NEGA
-    SUBS_E
     ADJV_E
 
 Terminals, with rules where they appear:

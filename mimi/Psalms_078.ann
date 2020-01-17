@@ -516,7 +516,7 @@ T515	Mention 3424 3434	TBWNWT KPJ
 T516	Mention 3434 3436	+W
 T517	Mention 3437 3440	JNX
 T518	Mention 3440 3442	+M
-*	Coreference T4 T5 T7 T8 T12 T16
+*	Coreference T5 T4 T7 T8 T12 T16
 *	Coreference T13 T17
 *	Coreference T20 T27
 *	Coreference T24 T26 T45

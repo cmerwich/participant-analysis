@@ -54,7 +54,7 @@ def GetPaPatterns():
 
             freq_dict[pa_pattern] += 1
     
-    #for i, (k, v) in enumerate(sorted(freq_dict.items(), reverse=True, key=lambda x: x[1])):
-    #    print(i+1, k, v)
+    for i, (k, v) in enumerate(sorted(freq_dict.items(), reverse=True, key=lambda x: x[1])):
+        print(i+1, k, v)
     
     pprint(token_set)

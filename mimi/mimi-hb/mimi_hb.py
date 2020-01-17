@@ -1268,26 +1268,33 @@ def CorefResolutionStats(stats, book_name, coreference_list):
     
 
 def SieveStats(stats, book_name, sieves_list):
+    
+    resolve_total = stats.resolve_predicate + stats.resolve_pronouns + stats.resolve_vocative + \
+    stats.resolve_apposition + stats.resolve_fronted
+    
     print('\n',\
           f'Sieve Statistics {book_name}: \n',\
-          f'Resolve Predicate: {stats.resolve_predicate} \n',\
-          f'Resolve Pronouns: {stats.resolve_pronouns} \n',\
-          f'Resolve Vocative: {stats.resolve_vocative} \n',\
-          f'Resolve Apposition: {stats.resolve_apposition} \n',\
-          f'Resolve Fronted Element: {stats.resolve_fronted}')
+          f'Predicate Sieve: {stats.resolve_predicate} \n',\
+          f'Pronoun Sieve: {stats.resolve_pronouns} \n',\
+          f'Vocative Sieve: {stats.resolve_vocative} \n',\
+          f'Apposition Sieve: {stats.resolve_apposition} \n',\
+          f'Fronted Element Sieve: {stats.resolve_fronted}\n',\
+          f'Total Sieves: {resolve_total}'
+         )
     
     sieves_list.append({'book' : book_name,
-                        'resolve predicate' : stats.resolve_predicate,
-                        'resolve pronouns' : stats.resolve_pronouns,
-                        'resolve vocative' : stats.resolve_vocative,
-                        'resolve apposition' : stats.resolve_apposition,
-                        'resolve fronted element' : stats.resolve_fronted   
+                        'predicate sieve' : stats.resolve_predicate,
+                        'pronoun sieve' : stats.resolve_pronouns,
+                        'vocative sieve' : stats.resolve_vocative,
+                        'apposition sieve' : stats.resolve_apposition,
+                        'fronted element sieve' : stats.resolve_fronted,
+                        'total sieves' : resolve_total
         })
         
     sieve_stats_df = pd.DataFrame(sieves_list)
-    sieve_stats_df = sieve_stats_df[['book', 'resolve predicate', 'resolve pronouns', 
-                                     'resolve vocative', 'resolve apposition', 
-                                     'resolve fronted element']]
+    sieve_stats_df = sieve_stats_df[['book', 'predicate sieve', 'pronoun sieve', 
+                                     'vocative sieve', 'apposition sieve', 
+                                     'fronted element sieve', 'total sieves']]
     return sieve_stats_df
     
 def GoMiMi():
