@@ -42,7 +42,7 @@ NEGA, L>, start=1089, node=245572
 NEGA, L>, start=1109, node=245577
 ADJV_A, >XRT, start=2180, node=245838
 ADJV_A, NPWY, start=2287, node=245864
-NEGA, L>, start=939, node=246142
+SUBS_A, KN, start=942, node=246143
 ADVB, GM, start=960, node=246147
 ADJV_A, R<, start=1947, node=246371
 ADVB, M>D, start=211, node=246770
@@ -101,7 +101,7 @@ ADJV_C, JPH, start=1485, node=260044
 PREP, B, start=161, node=260272
 VERB, JWCB, start=599, node=260506
 PREP, >L, start=1385, node=260685
-NEGA, L>, start=1924, node=260810
+SUBS_A, KN, start=1927, node=260811
 PREP, <D, start=2210, node=260876
 PREP, L-, start=1063, node=261358
 PREP, B-, start=1285, node=261411

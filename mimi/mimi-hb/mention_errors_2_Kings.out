@@ -3,7 +3,7 @@ VERB, <BR, start=760, node=196653
 ADJV_A, XJH, start=1357, node=196808
 ADJV_A, XJH, start=1462, node=196838
 ADVB, MXR, start=55, node=198930
-NEGA, L>, start=991, node=199172
+SUBS_A, KN, start=994, node=199173
 ADJV_A, >SWR, start=1223, node=199234
 ADVB, MXR, start=2125, node=199468
 PRDE, ZH, start=1365, node=199878

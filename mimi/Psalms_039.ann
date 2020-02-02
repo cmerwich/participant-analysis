@@ -120,19 +120,18 @@ T119	Mention 707 710	HC<
 T120	Mention 714 716	+J
 T121	Mention 719 725	>BLJGH
 T122	Mention 732 735	>LK
+T123	Mention 742 744	+J
 *	Coreference T8 T11 T14 T18
 *	Coreference T6 T12
-*	Coreference T24 T28 T30 T32 T37 T69 T73 T75 T78 T82 T86 T91 T92 T105 T108 T111 T114 T118 T120
+*	Coreference T24 T28 T30 T32 T37 T69 T73 T75 T78 T82 T86 T91 T92 T105 T108 T111 T114 T118 T120 T123
 *	Coreference T23 T25
 *	Coreference T26 T27
 *	Coreference T33 T34
 *	Coreference T5 T19 T21 T35
 *	Coreference T39 T42 T44 T47 T51 T53
 *	Coreference T38 T40 T49
-*	Coreference T43 T45
 *	Coreference T59 T60 T62 T63
 *	Coreference T67 T70 T83 T84 T88 T90 T115
-*	Coreference T68 T71
 *	Coreference T79 T80
 *	Coreference T74 T77 T85 T103 T106 T109 T112 T119
 *	Coreference T121 T122

@@ -18,10 +18,10 @@ ADJV_C, RXB, start=153, node=352442
 ADJV_A, KSJL, start=844, node=352607
 ADJV_C, R<, start=252, node=353050
 ADJV_A, N<JMJM, start=379, node=353080
-INTJ, >WJ, start=1230, node=353272
+EOA, *, start=0, node=1129773
 ADJV_A, N<JM, start=164, node=353391
 ADJV_C, XSR, start=1352, node=353669
-NEGA, >JN, start=1272, node=353999
+SUBS_A, XWMH, start=1276, node=354000
 ADVB, XNM, start=104, node=354038
 ADJV_A, JD<, start=87, node=354599
 ADJV_C, <QC, start=255, node=354637

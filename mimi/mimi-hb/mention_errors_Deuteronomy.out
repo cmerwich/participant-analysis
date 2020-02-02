@@ -58,7 +58,6 @@ ADJV_C, RK, start=715, node=104518
 ADJV_C, JPT, start=839, node=105003
 ADJV_A, MWRH, start=1504, node=105171
 ADJV_C, B<LT, start=1683, node=105699
-CONJ, W-, start=77, node=105911
 ADJV_A, R>CWN, start=315, node=106415
 ADJV_A, >BJWN, start=1141, node=106623
 PREP, L-, start=1576, node=106730

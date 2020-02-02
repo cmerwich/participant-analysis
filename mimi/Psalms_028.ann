@@ -94,7 +94,7 @@ T93	Mention 546 549	NF>
 T94	Mention 549 551	+M
 T95	Mention 555 561	H-<WLM
 *	Coreference T2 T18 T23
-*	Coreference T3 T5 T6 T7 T8 T9 T10 T14 T16 T21 T25 T24 T35 T43 T45
+*	Coreference T3 T5 T6 T7 T8 T9 T10 T14 T16 T21 T24 T25 T35 T43 T45
 *	Coreference T53 T55
 *	Coreference T57 T58
 *	Coreference T61 T64 T66 T70 T74 T76

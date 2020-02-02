@@ -5,6 +5,13 @@ from pprint import pprint
 from tf.app import use
 from tf.fabric import Fabric
 
+def first_phrase_atom(pa):
+    '''
+    Check whether phrase atom is the first atom of the phrase.
+    '''
+    phrase = L.u(pa, 'phrase')[0]
+    return L.d(phrase, 'phrase_atom')[0] == pa
+
 def GetPaPatterns():
     '''
     This funtion has been used for:
@@ -24,7 +31,9 @@ def GetPaPatterns():
     for pa in F.otype.s('phrase_atom'):
         pa_pattern = ''
         pa_typ = F.typ.v(pa)
-        if pa_typ in typ_choice:
+        function = F.function.v(L.u(pa, 'phrase')[0])
+        if pa_typ in TYP_CHOICE or (function.endswith('S') and first_phrase_atom(pa)):
+        #if pa_typ in typ_choice:
             pa_words = L.d(pa, 'word')
             pa_word = tuple(word for word in pa_words)
             for word in pa_word:
@@ -58,3 +67,27 @@ def GetPaPatterns():
         print(i+1, k, v)
     
     pprint(token_set)
+    
+    
+tok = {'ADJV_A',
+ 'ADJV_C',
+ 'ADJV_E',
+ 'ADVB',
+ 'ART',
+ 'CONJ',
+ 'CONJ_P',
+ 'EOA',
+ 'INRG',
+ 'INTJ',
+ 'NEGA',
+ 'NMPR',
+ 'PRDE',
+ 'PREP',
+ 'PRIN',
+ 'PRPS',
+ 'PRS',
+ 'SUBS_A',
+ 'SUBS_C',
+ 'SUBS_E',
+ 'SUBS_P',
+ 'VERB'}

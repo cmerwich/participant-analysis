@@ -11,7 +11,7 @@ ADJV_A, >RMJH, start=1060, node=395188
 SUBS_C, >YRWT, start=1778, node=396416
 SUBS_C, MYD, start=527, node=397851
 ADJV_C, XLWYJ, start=1839, node=398170
-INRG, H-, start=426, node=400331
+SUBS_A, DBR, start=428, node=400332
 ADVB, M>D, start=612, node=400936
 PREP, L-, start=308, node=401203
 PREP, L-, start=1429, node=402852

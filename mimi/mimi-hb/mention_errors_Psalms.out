@@ -2,7 +2,6 @@ ADJV_C, JCRJ, start=134, node=312001
 NEGA, L>, start=63, node=312498
 CONJ_P, W-, start=952, node=312852
 ADJV_C, DCNJ, start=1403, node=313865
-CONJ, W-, start=157, node=313998
 PRDE, ZH, start=349, node=314043
 PRDE, ZH, start=528, node=314187
 ADJV_A, RBJM, start=531, node=315343
@@ -14,8 +13,8 @@ ADJV_C, JQR, start=892, node=316417
 NEGA, L>, start=41, node=317550
 NEGA, L>, start=600, node=317737
 ADJV_A, NDKH, start=844, node=319039
-NEGA, L>, start=201, node=320066
-NEGA, L>, start=212, node=320069
+SUBS_P, PC<, start=204, node=320067
+SUBS_P, XV>T, start=215, node=320070
 ADJV_C, JCRJ, start=489, node=320823
 ADJV_C, JR>J, start=751, node=321120
 ADJV_C, JRQRQ, start=739, node=321381
@@ -35,7 +34,6 @@ ADJV_C, JCRJ, start=591, node=326890
 PREP, L-, start=86, node=327098
 ADJV_C, JCRJ, start=516, node=327347
 ADJV_A, GDWL, start=106, node=327483
-CONJ, W-, start=254, node=327673
 ADJV_C, RC<J, start=419, node=327711
 PREP, M-, start=116, node=329482
 PREP, B, start=1447, node=329767
