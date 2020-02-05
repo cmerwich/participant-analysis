@@ -50,4 +50,4 @@ MiMi produces descriptive statistics in tables and a graph for the mention detec
 
 ### Issues or fixes 
 * (TO DO:) A qualitative validation of MiMi's results with the manual annotations with the `iaa` algorithm. In the folder `iaa-ann-vs-mimi` first experiments have been done. 
-(TO DO:) The mentions and coreference classes can be visualised and analysed with the following functions.
+* (TO DO:) The mentions and coreference classes can be visualised and analysed with the following functions.
