@@ -34,14 +34,11 @@ In `coreference` the converted coreference data is stored by `corefMake`. This c
 ### 5. Inter-annotator Agreement
 The `iaa` folder contains code and data to calculate and analyse inter-annotator agreement (abbreviated to: iaa) of the coreference annotations. An iaa analysis is done since mistakes are inherent to any annotation process. Annotations thus need to be scrutinised for quality and consistency. In the [iaa-analysis notebook](https://nbviewer.jupyter.org/github/cmerwich/participant-analysis/blob/master/iaa/iaa-analysis.ipynb) I explain what kind of inter-annotator agreement algorithm I have used. I also analyse and interpret the iaa measures. 
 
-### 6. Programs 
-In `programs` I have started to develop a deterministic coreference resolver. Like all repositories, this is work in progress and very unfinished. 
-
-### 7. MiMi - A Deterministic Coreference Resolver for Biblical Hebrew
+### 6. MiMi - A Deterministic Coreference Resolver for Biblical Hebrew
 The `MiMi` folder contains a deterministic -- i.e. a rule-driven -- coreference resolver for Biblical Hebrew. MiMi is the concatenation of *Mi* *Mi* which means Who? Who? in Biblical Hebrew.  
 
 1. In the `mimi-hb` folder the notebook [mimi-hb](https://github.com/cmerwich/participant-analysis/blob/master/mimi/mimi-hb/mimi-hb.ipynb) demonstrates MiMi's performance for the whole Hebrew Bible. Hence,`mimi-hb` cannot be used for actual qualitative coreference resolution analysis; [MiMi](https://github.com/cmerwich/participant-analysis/blob/master/mimi/MiMi.ipynb) can however (see point 2). In the notebook is explained how the algorithm works and what kind of files it produces. MiMi operates in two stages: mention detection and coreference resolution. 
-* For the mention detection a Python implemention of the lex and yac tools called [SLY](https://sly.readthedocs.io/en/latest/index.html) is implemented. 
+* For the mention detection stage a Python implemention of the lex and yac parsers called [SLY](https://sly.readthedocs.io/en/latest/index.html) is implemented. 
 * For the coreference resolution stage a sequence of five sieves is applied: predicates, 1P and 2P pronouns, vocatives, appositions and fronted elements. 
 MiMi produces descriptive statistics in tables and graphs for both stages. It is important to note that MiMi operates on hand-coded [BHSA data](https://etcbc.github.io/bhsa/) that has been encoded over a period of about 30 years by the team at the Eep Talstra Centre for Bible and Computer (ETCBC). The BHSA database offers both parsed text objects such as words, phrases, clauses, etc., and a rich data set of features for all these text levels that can possiby contain implicit and explicit semantic information. MiMi gratefully makes use of both the boundaries of the text objects and the features. In that sense MiMi is not a strict application of a coreference resolver as may be formulated and understood by the computerised linguistics community (see for example: [coreference](https://en.wikipedia.org/wiki/Coreference), [Stanford's models](https://stanfordnlp.github.io/CoreNLP/coref.html) and [what is computational linguistics?](https://www.aclweb.org/portal/what-is-cl)). 
 
@@ -51,6 +48,6 @@ MiMi produces descriptive statistics in tables and graphs for both stages. It is
     * A `.tsv` file that keeps track of the words, their positions and word nodes (unique TF identifiers).
 MiMi produces descriptive statistics in tables and a graph for the mention detection and coreference resolution stages.
 
-3. Issues or fixes: 
-(TO DO:) A qualitative validation of MiMi's results with the manual annotations with the `iaa` algorithm. In the folder `iaa-ann-vs-mimi` first experiments have been done. 
+### Issues or fixes 
+* (TO DO:) A qualitative validation of MiMi's results with the manual annotations with the `iaa` algorithm. In the folder `iaa-ann-vs-mimi` first experiments have been done. 
 (TO DO:) The mentions and coreference classes can be visualised and analysed with the following functions.
