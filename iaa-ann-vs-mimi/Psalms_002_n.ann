@@ -1,0 +1,100 @@
+T1	Mention 17 21	RGCW
+T2	Mention 22 26	GWJM
+T3	Mention 29 34	L>MJM
+T4	Mention 34 38	JHGW
+T5	Mention 39 42	RJQ
+T6	Mention 48 54	JTJYBW
+T7	Mention 57 65	MLKJ&>RY
+T84	Mention 67 73	RWZNJM
+T10	Mention 74 79	NWSDW
+T8	Mention 87 91	JHWH
+T9	Mention 96 100	MCJX
+T11	Mention 100 101	W
+T12	Mention 107 112	NNTQH
+T14	Mention 116 123	MWSRWTJ
+T13	Mention 123 125	MW
+#1	AnnotatorNotes T13	To whom does 3Mpl refer? To God and his annointed? 
+T15	Mention 127 133	NCLJKH
+T16	Mention 136 138	NW
+T17	Mention 139 143	<BTJ
+T18	Mention 143 145	MW
+#2	AnnotatorNotes T18	To whom does 3Mpl refer? To God and his annointed? 
+T19	Mention 151 155	JWCB
+T20	Mention 157 161	CMJM
+T21	Mention 162 166	JFXQ
+T22	Mention 167 171	>DNJ
+T23	Mention 172 176	JL<G
+T24	Mention 178 180	MW
+T25	Mention 189 193	JDBR
+T26	Mention 197 199	MW
+T27	Mention 201 203	>P
+T28	Mention 203 204	W
+T29	Mention 207 211	XRWN
+T30	Mention 211 212	W
+T31	Mention 213 217	JBHL
+T32	Mention 217 219	MW
+T33	Mention 226 229	>NJ
+T34	Mention 230 235	NSKTJ
+T35	Mention 236 239	MLK
+T36	Mention 239 240	J
+T37	Mention 244 248	YJWN
+T38	Mention 249 255	HR&QDC
+#3	AnnotatorNotes T38	In apposition with Zion.
+T39	Mention 255 256	J
+T40	Mention 262 267	>SPRH
+T41	Mention 271 278	XQ JHWH
+T42	Mention 279 282	>MR
+T43	Mention 285 286	J
+T45	Mention 287 289	BN
+T44	Mention 289 290	J
+T46	Mention 291 294	>TH
+T47	Mention 295 298	>NJ
+T50	Mention 299 303	HJWM
+T48	Mention 304 309	JLDTJ
+T49	Mention 309 310	K
+T51	Mention 316 319	C>L
+T52	Mention 322 324	NJ
+T53	Mention 326 330	>TNH
+T54	Mention 331 335	GWJM
+T55	Mention 336 340	NXLT
+T56	Mention 340 341	K
+T57	Mention 343 347	>XZT
+T58	Mention 347 348	K
+T59	Mention 349 357	>PSJ&>RY
+T60	Mention 363 366	TR<
+T61	Mention 366 367	M
+T62	Mention 369 377	CBV BRZL
+T63	Mention 379 387	KLJ JWYR
+T64	Mention 388 392	TNPY
+T65	Mention 392 393	M
+T66	Mention 405 410	MLKJM
+T67	Mention 411 417	HFKJLW
+T68	Mention 418 423	HWSRW
+T69	Mention 424 432	CPVJ >RY
+T70	Mention 439 443	<BDW
+T71	Mention 447 451	JHWH
+T72	Mention 453 457	JR>H
+T73	Mention 459 463	GJLW
+T74	Mention 465 469	R<DH
+#4	AnnotatorNotes T74	Fear and trembling, do they corefer?
+T75	Mention 476 480	NCQW
+T76	Mention 481 483	BR
+T77	Mention 487 491	J>NP
+T78	Mention 495 500	T>BDW
+T85	Mention 501 504	DRK
+T79	Mention 508 512	JB<R
+T80	Mention 518 520	>P
+T81	Mention 520 521	W
+T86	Mention 522 529	>CRJ KL
+T82	Mention 530 534	XWSJ
+T83	Mention 536 537	W
+*	Coreference T1 T2 T54 T61 T65
+*	Coreference T3 T4
+*	Coreference T37 T38
+*	Coreference T35 T40 T43 T46 T49 T51 T56 T58 T60 T64
+*	Coreference T6 T7 T84 T10 T24 T26 T32 T66 T67 T68 T69 T70 T73 T75 T78
+*	Coreference T9 T45 T76 T77 T79 T81 T83
+*	Coreference T86 T82
+*	Coreference T8 T11 T19 T21 T22 T23 T25 T28 T30 T31 T33 T34 T36 T39 T41 T42 T44 T47 T48 T52 T53 T71
+*	Coreference T12 T15 T16
+*	Coreference T13 T18
