@@ -1,0 +1,48 @@
+T1	Mention 13 23	CJR H-M<LWT
+T2	Mention 25 28	CWB
+T3	Mention 29 33	JHWH
+T4	Mention 37 46	CJBT YJWN
+T5	Mention 47 52	HJJNW
+T6	Mention 54 59	XLMJM
+T7	Mention 68 72	JML>
+T8	Mention 73 77	FXWQ
+T9	Mention 78 80	PJ
+T10	Mention 80 82	+NW
+T11	Mention 84 88	LCWN
+T12	Mention 88 90	+NW
+T13	Mention 91 94	RNH
+T14	Mention 98 103	J>MRW
+T15	Mention 105 109	-GWJM
+T16	Mention 110 115	HGDJL
+T17	Mention 116 120	JHWH
+T18	Mention 122 126	<FWT
+T19	Mention 130 133	>LH
+T20	Mention 139 144	HGDJL
+T21	Mention 145 149	JHWH
+T22	Mention 151 155	<FWT
+T23	Mention 158 160	+NW
+T24	Mention 161 166	HJJNW
+T25	Mention 178 182	CWBH
+T26	Mention 183 187	JHWH
+T27	Mention 191 195	CBWT
+T28	Mention 195 197	+NW
+T29	Mention 199 205	>PJQJM
+T30	Mention 207 210	-NGB
+T31	Mention 217 222	ZR<JM
+T32	Mention 224 228	DM<H
+T33	Mention 230 233	RNH
+T34	Mention 234 239	JQYRW
+T35	Mention 250 253	JLK
+T36	Mention 257 260	BKH
+T37	Mention 261 264	NF>
+T38	Mention 265 273	MCK H-ZR<
+T39	Mention 277 281	JBW>
+T40	Mention 283 286	RNH
+T41	Mention 287 290	NF>
+T42	Mention 291 296	>LMTJ
+T43	Mention 296 297	+W
+*	Coreference T2 T3
+*	Coreference T7 T9
+*	Coreference T10 T12 T23
+*	Coreference T16 T17
+*	Coreference T20 T21

@@ -1,0 +1,65 @@
+T1	Mention 14 18	-MNYX
+T2	Mention 20 23	DWD
+T3	Mention 25 29	JHWH
+T4	Mention 32 37	XSJTJ
+T5	Mention 42 47	T>MRW
+T6	Mention 49 52	NPC
+T7	Mention 52 53	+J
+T8	Mention 54 58	NWDW
+T9	Mention 59 61	HR
+T10	Mention 61 63	+KM
+T11	Mention 64 68	YPWR
+T12	Mention 81 87	H-RC<JM
+T13	Mention 88 94	JDRKWN
+T14	Mention 95 98	QCT
+T15	Mention 99 104	KWNNW
+T16	Mention 105 107	XY
+T17	Mention 107 108	+M
+T18	Mention 112 115	JTR
+T19	Mention 117 121	JRWT
+T20	Mention 126 129	>PL
+T21	Mention 147 152	H-CTWT
+T22	Mention 153 159	JHRSWN
+T23	Mention 160 164	YDJQ
+T24	Mention 168 171	P<L
+T25	Mention 177 181	JHWH
+T26	Mention 185 193	HJKL QDC
+T27	Mention 193 194	+W
+T28	Mention 195 199	JHWH
+T29	Mention 201 205	-CMJM
+T30	Mention 206 209	KS>
+T31	Mention 209 210	+W
+T32	Mention 211 215	<JNJ
+T33	Mention 215 216	+W
+T34	Mention 217 221	JXZW
+T35	Mention 222 227	<P<PJ
+T36	Mention 227 228	+W
+T37	Mention 229 234	JBXNW
+T38	Mention 235 242	BNJ >DM
+T39	Mention 248 252	JHWH
+T40	Mention 253 257	YDJQ
+T41	Mention 258 262	JBXN
+T42	Mention 264 276	RC< W->HB XMS
+T43	Mention 277 281	FN>H
+T44	Mention 282 285	NPC
+T45	Mention 285 286	+W
+T46	Mention 292 296	JMVR
+T47	Mention 300 305	RC<JM
+T48	Mention 306 320	PXJM >C W-GPRJT
+T49	Mention 322 332	RWX ZL<PWT
+T50	Mention 333 340	MNT KWS
+T51	Mention 340 341	+M
+T52	Mention 355 359	JHWH
+T53	Mention 360 365	YDQWT
+T54	Mention 366 369	>HB
+T55	Mention 370 373	JCR
+T56	Mention 374 378	JXZW
+T57	Mention 379 382	PNJ
+T58	Mention 382 384	+MW
+*	Coreference T12 T13 T15
+*	Coreference T21 T22
+*	Coreference T32 T34
+*	Coreference T35 T37
+*	Coreference T43 T44
+*	Coreference T39 T41 T46
+*	Coreference T56 T57

@@ -26,7 +26,7 @@ def error(*args, **kwargs):
     exit(1)
     
 def Usage():
-    stderr.write('usage: [your python 3 version] createcoref book_name first_chapter [last_chapter]\n')
+    stderr.write('usage: mimi book_name first_chapter [last_chapter]\n')
     exit(1)
     
 A = use('bhsa', 
@@ -96,6 +96,7 @@ class Statistics:
         # Coreference resolution
         self.input_corefs = 0
         self.output_corefs = 0
+        self.coref_classes = 0
         
         # Sieve counters
         self.resolve_predicate = 0
@@ -109,6 +110,7 @@ class Statistics:
         self.error_count += other.error_count
         self.input_corefs += other.input_corefs
         self.output_corefs += other.output_corefs
+        self.coref_classes += other.coref_classes
         self.resolve_predicate += other.resolve_predicate
         self.resolve_pronouns += other.resolve_pronouns
         self.resolve_vocative += other.resolve_vocative
@@ -1522,6 +1524,13 @@ def PlaceCoref(mentions, corefs, ann_file):
             for m in sorted_coref_lists:
                 ann_file.write(f' {m}')
             ann_file.write('\n')
+
+def CountCorefClasses(stats, corefs):
+    i = 0
+    for s in corefs:
+        if len(s) > 1:
+            i+=1
+    stats.coref_classes = i
             
 def CorefResolutionStats(stats, filename, coreference_list):
 
@@ -1534,12 +1543,13 @@ def CorefResolutionStats(stats, filename, coreference_list):
                                  'resolved' : resolved_corefs,
                                  'unresolved' : stats.output_corefs,
                                  '%resolved' : coref_success_percent,
-                                 '%unresolved' : coref_unresolved_percent   
+                                 '%unresolved' : coref_unresolved_percent,
+                                 'classes' : stats.coref_classes
         })
     
     coref_stats_df = pd.DataFrame(coreference_list)
     coref_stats_df = coref_stats_df[['chapter', 'input corefs', 'resolved', 'unresolved', 
-                                     '%resolved', '%unresolved']]
+                                     '%resolved', '%unresolved', 'classes']]
     
     return coref_stats_df
     
@@ -1556,19 +1566,21 @@ def SumCoResStats(total_stats, my_book_name):
         f'{resolved_corefs} corefs RESOLVED \n',\
         f'{total_stats.output_corefs} corefs UNRESOLVED \n',\
         f'{coref_success_percent}% corefs RESOLVED \n',\
-        f'{coref_unresolved_percent}% corefs UNRESOLVED')
+        f'{coref_unresolved_percent}% corefs UNRESOLVED \n',\
+        f'{total_stats.coref_classes} classes')
     
     coreference_list.append({'book' : my_book_name,
                                  'input corefs' : total_stats.input_corefs,
                                  'resolved' : resolved_corefs,
                                  'unresolved' : total_stats.output_corefs,
                                  '%resolved' : coref_success_percent,
-                                 '%unresolved' : coref_unresolved_percent   
+                                 '%unresolved' : coref_unresolved_percent,
+                                 'classes' : total_stats.coref_classes
         })
     
     coref_total_stats_df = pd.DataFrame(coreference_list)
     coref_total_stats_df = coref_total_stats_df[['book', 'input corefs', 'resolved', 'unresolved', 
-                                     '%resolved', '%unresolved']]
+                                     '%resolved', '%unresolved', 'classes']]
     
     return coref_total_stats_df
 
@@ -1583,13 +1595,14 @@ def SieveStats(stats, filename, sieves_list):
                         'vocative sieve' : stats.resolve_vocative,
                         'apposition sieve' : stats.resolve_apposition,
                         'fronted element sieve' : stats.resolve_fronted,
-                        'total sieves' : resolve_total
+                        'total sieves' : resolve_total,
+                        'classes' : stats.coref_classes 
         })
         
     sieve_stats_df = pd.DataFrame(sieves_list)
     sieve_stats_df = sieve_stats_df[['chapter', 'predicate sieve', 'pronoun sieve', 
                                      'vocative sieve', 'apposition sieve', 
-                                     'fronted element sieve', 'total sieves']]
+                                     'fronted element sieve', 'total sieves', 'classes']]
     return sieve_stats_df
 
 
@@ -1606,13 +1619,14 @@ def SumSieveStats(total_stats, book_name):
                         'vocative sieve' : total_stats.resolve_vocative,
                         'apposition sieve' : total_stats.resolve_apposition,
                         'fronted element sieve' : total_stats.resolve_fronted,
-                        'total sieves' : resolve_total
+                        'total sieves' : resolve_total,
+                        'total classes': total_stats.coref_classes
        })
      
     sieve_total_stats_df = pd.DataFrame(sieves_list)
     sieve_total_stats_df = sieve_total_stats_df[['book', 'predicate sieve', 'pronoun sieve', 
                                                  'vocative sieve', 'apposition sieve', 
-                                                 'fronted element sieve', 'total sieves']]                  
+                                                 'fronted element sieve', 'total sieves', 'total classes']]                  
                        
     print('\n',\
           f'Sieve Statistics {book_name}: \n',\
@@ -1621,7 +1635,8 @@ def SumSieveStats(total_stats, book_name):
           f'Vocative Sieve: {total_stats.resolve_vocative} \n',\
           f'Apposition Sieve: {total_stats.resolve_apposition} \n',\
           f'Fronted Element Sieve: {total_stats.resolve_fronted} \n',\
-          f'Total Sieves: {resolve_total}'
+          f'Total Sieves: {resolve_total} \n',\
+          f'Total Classes: {total_stats.coref_classes}'
          )
     
     return sieve_total_stats_df
@@ -1634,9 +1649,11 @@ def PrintMentions(Mentions):
              )
 
 def PrintCorefClasses(Corefs):
+    i = 0 
     for s in Corefs:
         if len(s) > 1:
-            print(sorted(s, key=attrgetter('node_tuple')))
+            i+=1
+            print(f'C{i}', sorted(s, key=attrgetter('node_tuple')))
         if len(s) == 1:
             pass
         
@@ -1648,7 +1665,7 @@ def CreateCoref(my_book_name, first_chapter, last_chapter):
     total_stats = Statistics()
     coreference_list = []
     sieves_list = []
-    
+    i = 0
     for chapter_number in range(first_chapter, last_chapter+1):
         stats = Statistics()
         chn = T.nodeFromSection((my_book_name, chapter_number))
@@ -1669,17 +1686,17 @@ def CreateCoref(my_book_name, first_chapter, last_chapter):
         PlaceCoref(Mentions, Corefs, ann_file)
         CloseFile(ann_file)
         
-        #PrintCorefClasses(Corefs) For GoMiMi()
-        
+        # statistics
+        CountCorefClasses(stats, Corefs)
         sieve_stats_df = SieveStats(stats, filename, sieves_list)
         coref_stats_df = CorefResolutionStats(stats, filename, coreference_list)
         total_stats += stats
-      
+        
     mention_stats_df = MentionParseStats(total_stats, my_book_name)
     CloseFile(mention_errors)
     
-    #PrintMentions(Mentions) For GoMiMi()
-    #CheckList(Corefs) For GoMiMi()
+    #PrintMentions(Mentions) #For GoMiMi()
+    #CheckList(Corefs) #For GoMiMi()
     #print(rule_count)
     
     coref_total_df = SumCoResStats(total_stats, my_book_name)
@@ -1688,23 +1705,23 @@ def CreateCoref(my_book_name, first_chapter, last_chapter):
     return mention_stats_df, coref_stats_df, sieve_stats_df, \
                         coref_total_df, sieve_total_df
 
-#def main(argv):
-#    try:
-#        opts, args = getopt.getopt(argv, 'v', [])
-#    except getopt.GetoptError:
-#        Usage()
-#    print(len(args), len(argv))
-#    if len(args) == 2:
-#        last_chapter = int(args[1])
-#    elif len(args) == 3:
-#        last_chapter = int(args[2])
-#    else:
-#        Usage()   
-#    
-#    first_chapter = int(args[1])
-#    book_name = args[0]
-#    
-#    CreateCoref(book_name, first_chapter, last_chapter)
-#
-#if __name__ == "__main__":
-#    main(argv[1:])
+def main(argv):
+    try:
+        opts, args = getopt.getopt(argv, 'v', [])
+    except getopt.GetoptError:
+        Usage()
+    print(len(args), len(argv))
+    if len(args) == 2:
+        last_chapter = int(args[1])
+    elif len(args) == 3:
+        last_chapter = int(args[2])
+    else:
+        Usage()   
+    
+    first_chapter = int(args[1])
+    book_name = args[0]
+    
+    CreateCoref(book_name, first_chapter, last_chapter)
+
+if __name__ == "__main__":
+    main(argv[1:])

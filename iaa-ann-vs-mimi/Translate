@@ -1,0 +1,22 @@
+# Working directory .../iaa-ann-cs-mimi
+PSALMS = $(shell seq -w 1 150)
+DIFFS = $(foreach p,$(PSALMS),Psalms_$p.diff)
+
+OLD	= $(HOME)/Sites/brat/data/coref/Psalms/annotate
+NEW	= $(HOME)/github/cmerwich/participant-analysis/mimi
+
+# $(OLD)/Psalms_001.txt
+# $(NEW)/Psalms_001.txt
+# $(NEW)/Psalms_001.ann
+# Ter vergelijking: $(OLD)/Psalms_001.ann
+
+%.diff: mentiondiff.sh $(OLD)/%.ann %.ann
+	@sh mentiondiff.sh $(OLD)/$*.ann $*.ann > $@ || \
+	echo There were difference for $*
+
+%.ann: translate.py $(OLD)/%.txt $(NEW)/%.txt $(NEW)/%.ann
+	python3 translate.py -a $(NEW)/$*.ann -o $@ $(OLD)/$*.txt $(NEW)/$*.txt
+
+.PRECIOUS: %.ann
+
+all: $(DIFFS)

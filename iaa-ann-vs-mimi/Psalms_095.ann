@@ -1,0 +1,93 @@
+T1	Mention 13 16	LKW
+T2	Mention 17 22	NRNNH
+T3	Mention 24 28	JHWH
+T4	Mention 29 34	NRJ<H
+T5	Mention 36 43	YWR JC<
+T6	Mention 43 45	+NW
+T7	Mention 51 56	NQDMH
+T8	Mention 57 60	PNJ
+T9	Mention 60 61	+W
+T10	Mention 63 67	TWDH
+T11	Mention 69 74	ZMRWT
+T12	Mention 75 79	NRJ<
+T13	Mention 81 82	+W
+T14	Mention 91 98	>L GDWL
+T15	Mention 99 103	JHWH
+T16	Mention 105 113	MLK GDWL
+T17	Mention 117 125	KL >LHJM
+T18	Mention 136 138	JD
+T19	Mention 138 139	+W
+T20	Mention 140 149	MXQRJ >RY
+T21	Mention 151 162	TW<PWT HRJM
+T22	Mention 164 165	+W
+T23	Mention 176 177	+W
+T24	Mention 178 181	H-JM
+T25	Mention 183 186	HW>
+T26	Mention 187 189	<F
+T27	Mention 189 191	+HW
+T28	Mention 193 197	JBCT
+T29	Mention 198 201	JDJ
+T30	Mention 201 202	+W
+T31	Mention 203 207	JYRW
+T32	Mention 213 216	B>W
+T33	Mention 217 223	NCTXWH
+T34	Mention 225 230	NKR<H
+T35	Mention 231 236	NBRKH
+T36	Mention 238 246	PNJ JHWH
+T37	Mention 247 249	<F
+T38	Mention 249 251	+NW
+T39	Mention 260 263	HW>
+T40	Mention 264 268	>LHJ
+T41	Mention 268 270	+NW
+T42	Mention 272 277	>NXNW
+T43	Mention 278 286	<M MR<JT
+T44	Mention 286 287	+W
+T45	Mention 289 295	Y>N JD
+T46	Mention 295 296	+W
+T47	Mention 297 301	H-JWM
+T48	Mention 306 308	QL
+T49	Mention 308 309	+W
+T50	Mention 310 315	TCM<W
+T51	Mention 324 328	TQCW
+T52	Mention 329 332	LBB
+T53	Mention 332 334	+KM
+T54	Mention 336 341	MRJBH
+T55	Mention 343 350	JWM MSH
+T56	Mention 352 356	-MDBR
+T57	Mention 366 369	NSW
+T58	Mention 369 371	+NJ
+T59	Mention 372 377	>BWTJ
+T60	Mention 377 379	+KM
+T61	Mention 380 384	BXNW
+T62	Mention 384 386	+NJ
+T63	Mention 390 393	R>W
+T64	Mention 394 397	P<L
+T65	Mention 397 398	+J
+T66	Mention 405 415	>RB<JM CNH
+T67	Mention 418 422	>QWV
+T68	Mention 424 427	DWR
+T69	Mention 429 432	>MR
+T70	Mention 433 435	<M
+T71	Mention 436 443	T<J LBB
+T72	Mention 444 446	HM
+T73	Mention 448 450	HM
+T74	Mention 454 458	JD<W
+T75	Mention 459 463	DRKJ
+T76	Mention 463 463	+
+T77	Mention 474 480	NCB<TJ
+T78	Mention 482 484	>P
+T79	Mention 484 485	+J
+T80	Mention 489 494	JB>WN
+T81	Mention 498 503	MNWXT
+T82	Mention 503 504	+J
+*	Coreference T6 T38 T41 T42
+*	Coreference T2 T4 T7 T12
+*	Coreference T25 T26
+*	Coreference T29 T31
+*	Coreference T33 T34 T35
+*	Coreference T1 T32 T50 T51
+*	Coreference T53 T60
+*	Coreference T58 T62 T65
+*	Coreference T57 T59 T61 T63
+*	Coreference T73 T74
+*	Coreference T76 T79

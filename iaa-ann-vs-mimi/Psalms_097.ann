@@ -1,0 +1,96 @@
+T1	Mention 13 17	JHWH
+T2	Mention 18 21	MLK
+T3	Mention 22 25	TGL
+T4	Mention 26 30	H->RY
+T5	Mention 31 36	JFMXW
+T6	Mention 37 46	>JJM RBJM
+T7	Mention 52 61	<NN W-<RPL
+T8	Mention 62 67	SBJBJ
+T9	Mention 67 68	+W
+T10	Mention 69 78	YDQ W-MCPV
+T11	Mention 79 87	MKWN KS>
+T12	Mention 87 88	+W
+T13	Mention 94 96	>C
+T14	Mention 98 101	PNJ
+T15	Mention 101 102	+W
+T16	Mention 103 106	TLK
+T17	Mention 108 112	TLHV
+T18	Mention 118 121	YRJ
+T19	Mention 121 122	+W
+T20	Mention 128 133	H>JRW
+T21	Mention 134 138	BRQJ
+T22	Mention 138 139	+W
+T23	Mention 140 143	TBL
+T24	Mention 144 148	R>TH
+T25	Mention 150 153	TXL
+T26	Mention 154 158	H->RY
+T27	Mention 164 168	HRJM
+T28	Mention 170 174	-DWNG
+T29	Mention 175 179	NMSW
+T30	Mention 182 190	PNJ JHWH
+T31	Mention 193 209	PNJ >DWN KL H->RY
+T32	Mention 215 220	HGJDW
+T33	Mention 221 226	H-CMJM
+T34	Mention 227 230	YDQ
+T35	Mention 230 231	+W
+T36	Mention 233 236	R>W
+T37	Mention 237 245	KL H-<MJM
+T38	Mention 246 250	KBWD
+T39	Mention 250 251	+W
+T40	Mention 257 261	JBCW
+T41	Mention 264 275	KL <BDJ PSL
+T42	Mention 277 284	MTHLLJM
+T43	Mention 286 292	->LJLJM
+T44	Mention 293 299	HCTXWW
+T45	Mention 301 302	+W
+T46	Mention 303 311	KL >LHJM
+T47	Mention 317 321	CM<H
+T48	Mention 323 327	TFMX
+T49	Mention 330 334	YJWN
+T50	Mention 336 341	TGLNH
+T51	Mention 342 352	BNWT JHWDH
+T52	Mention 358 363	MCPVJ
+T53	Mention 363 364	+K
+T54	Mention 365 369	JHWH
+T55	Mention 378 381	>TH
+T56	Mention 382 386	JHWH
+T57	Mention 387 392	<LJWN
+T58	Mention 396 403	KL H->RY
+T59	Mention 408 413	N<LJT
+T60	Mention 417 425	KL >LHJM
+T61	Mention 432 441	>HBJ JHWH
+T62	Mention 442 446	FN>W
+T63	Mention 447 449	R<
+T64	Mention 450 453	CMR
+T65	Mention 454 465	NPCWT XSJDJ
+T66	Mention 465 466	+W
+T67	Mention 468 476	JD RC<JM
+T68	Mention 477 481	JYJL
+T69	Mention 481 482	+M
+T70	Mention 489 492	>WR
+T71	Mention 493 496	ZR<
+T72	Mention 498 502	-YDJQ
+T73	Mention 513 517	FMXH
+T74	Mention 524 528	FMXW
+T75	Mention 529 535	YDJQJM
+T76	Mention 537 541	JHWH
+T77	Mention 543 547	HWDW
+T78	Mention 549 556	ZKR QDC
+T79	Mention 556 557	+W
+*	Coreference T1 T2
+*	Coreference T3 T4
+*	Coreference T5 T6
+*	Coreference T13 T16 T17
+*	Coreference T20 T21
+*	Coreference T25 T26
+*	Coreference T27 T29
+*	Coreference T30 T31
+*	Coreference T32 T33
+*	Coreference T36 T37
+*	Coreference T40 T41
+*	Coreference T48 T49
+*	Coreference T50 T51
+*	Coreference T56 T59
+*	Coreference T61 T62
+*	Coreference T70 T71
+*	Coreference T74 T75 T77

@@ -95,6 +95,7 @@ class Statistics:
         # Coreference resolution
         self.input_corefs = 0
         self.output_corefs = 0
+        self.coref_classes = 0
         
         # Sieve counters
         self.resolve_predicate = 0
@@ -108,6 +109,7 @@ class Statistics:
         self.error_count += other.error_count
         self.input_corefs += other.input_corefs
         self.output_corefs += other.output_corefs
+        self.coref_classes += other.coref_classes
         self.resolve_predicate += other.resolve_predicate
         self.resolve_pronouns += other.resolve_pronouns
         self.resolve_vocative += other.resolve_vocative
@@ -1382,6 +1384,13 @@ def ExecuteSieves(sieve_list, mentions, corefs, stats):
     
     for sieve in sieve_list:
         sieve(mentions, corefs, stats)
+
+def CountCorefClasses(stats, corefs):
+    i = 0
+    for s in corefs:
+        if len(s) > 1:
+            i+=1
+    stats.coref_classes = i
         
 def CorefResolutionStats(stats, book_name, coreference_list):
     
@@ -1396,19 +1405,22 @@ def CorefResolutionStats(stats, book_name, coreference_list):
         f'{resolved_corefs} corefs RESOLVED \n',\
         f'{stats.output_corefs} corefs UNRESOLVED \n',\
         f'{coref_success_percent}% corefs RESOLVED \n',\
-        f'{coref_unresolved_percent}% corefs UNRESOLVED')
+        f'{coref_unresolved_percent}% corefs UNRESOLVED \n',\
+        f'{stats.coref_classes} classes')
     
     coreference_list.append({'book' : book_name,
                                  'input corefs' : stats.input_corefs,
                                  'resolved' : resolved_corefs,
                                  'unresolved' : stats.output_corefs,
                                  '%resolved' : coref_success_percent,
-                                 '%unresolved' : coref_unresolved_percent   
+                                 '%unresolved' : coref_unresolved_percent,
+                                 'classes' : stats.coref_classes
         })
     
     
     coref_stats_df = pd.DataFrame(coreference_list)
-    coref_stats_df = coref_stats_df[['book', 'input corefs', 'resolved', 'unresolved', '%resolved', '%unresolved']]
+    coref_stats_df = coref_stats_df[['book', 'input corefs', 'resolved', 'unresolved', 
+                                     '%resolved', '%unresolved', 'classes']]
     
     return coref_stats_df
     
@@ -1425,7 +1437,8 @@ def SieveStats(stats, book_name, sieves_list):
           f'Vocative Sieve: {stats.resolve_vocative} \n',\
           f'Apposition Sieve: {stats.resolve_apposition} \n',\
           f'Fronted Element Sieve: {stats.resolve_fronted}\n',\
-          f'Total Sieves: {resolve_total}'
+          f'Total Sieves: {resolve_total}\n',\
+          f'Total Classes: {stats.coref_classes}'
          )
     
     sieves_list.append({'book' : book_name,
@@ -1434,13 +1447,15 @@ def SieveStats(stats, book_name, sieves_list):
                         'vocative sieve' : stats.resolve_vocative,
                         'apposition sieve' : stats.resolve_apposition,
                         'fronted element sieve' : stats.resolve_fronted,
-                        'total sieves' : resolve_total
+                        'total sieves' : resolve_total,
+                        'classes' : stats.coref_classes
+                        
         })
         
     sieve_stats_df = pd.DataFrame(sieves_list)
     sieve_stats_df = sieve_stats_df[['book', 'predicate sieve', 'pronoun sieve', 
                                      'vocative sieve', 'apposition sieve', 
-                                     'fronted element sieve', 'total sieves']]
+                                     'fronted element sieve', 'total sieves', 'classes']]
     return sieve_stats_df
     
 def GoMiMi():
@@ -1471,6 +1486,7 @@ def GoMiMi():
             sieve_list = MakeSieveList()
             ExecuteSieves(sieve_list, Mentions, Corefs, ch_stats)
             ch_stats.output_corefs = len(Corefs)
+            CountCorefClasses(ch_stats, Corefs)
             bk_stats += ch_stats
             
         CloseErrorFile(mention_errors)

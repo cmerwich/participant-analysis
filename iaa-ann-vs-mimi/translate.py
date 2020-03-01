@@ -1,3 +1,9 @@
+# call within same repository as `Translate' (makefile) as: 
+# make -f Translate
+# translate('Psalms_002-mimi.ann', 'Psalms_002_n.ann', ['Psalms_002-ann.txt', 'Psalms_002-mimi.txt'])
+
+__author__ = 'erwich/sikkel'
+
 import getopt
 import os, sys
 from sys import argv, exit, stderr
@@ -10,6 +16,7 @@ PATTERN = re.compile('[0-9]{2}|_\|')
 TAB = '\t'
 NL = '\n'
 
+
 class Mention:
     def __init__(self, name, start=0, end=0, lex='', note='', file=0):
         self.name = name    # Identifier of the mention, e.g. T32
@@ -18,16 +25,16 @@ class Mention:
         self.lex = lex      # Lexical information
         self.note = note    # AnnotatorNotes
         self.file = file    # Index of the file to which it is to be written
-        
+
 def error(*args, **kwargs):
     print(*args, file=stderr, **kwargs)
     exit(1)
-    
-    
+
 def Usage():
-    stderr.write('usage: declust -a input.ann input.txt...\n')
+    stderr.write('usage: translate -a input.ann -o output.ann old.txt new.txt\n')
     exit(1)
-    
+
+
 def GetOffsetsAnn(chapter_text):
     
     i = 0
@@ -41,9 +48,9 @@ def GetOffsetsAnn(chapter_text):
                     # filter out psalms title on line 0, 
                     # and (0, 2) for verse numbers with two digits or more
                     if ln != 0 and m.span() != (0, 2):
-                        ann_txt_list.append(i+m.start())
-                                          
+                        ann_txt_list.append((i+m.start(), m.group()))                                    
     return ann_txt_list
+
 
 def GetOffsetsMimi(chapter_text):
     
@@ -54,45 +61,59 @@ def GetOffsetsMimi(chapter_text):
         for (ln, line) in enumerate(fh):
             firstChar = line[0]
             for character in line: 
+                #print(character, i)
                 i += 1
                 if character in {'+', '-'}:
-                    mimi_txt_list.append(i-1)
-               
-    return mimi_txt_list
+                    mimi_txt_list.append((i-1, character))
+                    
+    return mimi_txt_list         
 
-def Merge(ann_txt_list, mimi_txt_list):
-    d = {}
-    for i in ann_txt_list:
-        d[i] = -2
-    for e in mimi_txt_list:
-        d[e] = 1
-    od = OrderedDict(sorted(d.items()))
-    return od
+def elision(new, i):
+    return new[i][1] == '+' or i > 0 and new[i-1][0] + 1 == new[i][0] and new[i-1][1] == '-'
 
-def MakeOffsets(od):
+
+def Merge(old, new):
     offset = 0
-    jumps_list = []
-    for k, v in od.items():
-        point = k + (offset if v == 1 else 0)
-        offset += v
-        jumps_list.append((point, offset))
+    jumps_list = [(0, 0)]
+    
+    i_old = 0
+    i_new = 0
+    in_old = i_old < len(old)
+    in_new = i_new < len(new)
+    while in_old or in_new:
+        if not in_new or (in_old and old[i_old][0] - offset < new[i_new][0]):
+            # add old 
+            x = old[i_old][0] - offset
+            offset += 2
+            i_old += 1 
+            in_old = i_old < len(old)
+        else: 
+            # add new
+            x = new[i_new][0] + elision(new, i_new)
+            offset -= 1
+            i_new += 1
+            in_new = i_new < len(new)
+        jumps_list.append((x, offset))
+            
     return jumps_list
 
 def find_index(jumps_list, coor):
     i = 0
-    while jumps_list[i+1][0] < coor:
+    while i + 1 < len(jumps_list) and jumps_list[i+1][0] <= coor:
         i += 1
     return i
 
-def TranslateIndex(jumps_list, mentions): 
-    for m in mentions: 
-        i = find_index(jumps_list, m.start)
-        print('i: ', i, 't0 ', jumps_list[i][0], 't1 ', jumps_list[i][1])
-        if m.start == jumps_list[i][0]:
-            m.start = m.start + jumps_list[i][1]
-            m.end = m.end + jumps_list[i][1]
-            
-def Parse(ann_file, jumps_list):
+def Offset(coor, jumps_list):
+    i = find_index(jumps_list, coor)
+    return jumps_list[i][1]
+
+def TranslateMentions(mentions, jumps_list):
+    for m in mentions:
+        m.start += Offset(m.start, jumps_list)
+        m.end += Offset(m.end, jumps_list)
+
+
+def Parse(ann_file):
     '''
     Parses a plain text annotation file per Bible Book chapter 
     (e.g. Psalms 001) that has been annotated for coreference information.
@@ -140,10 +161,6 @@ def Parse(ann_file, jumps_list):
                 (mm, aStart, aEnd) = mParts
                 start = int(aStart)
                 end = int(aEnd)
-                # adjust mention start and end indices for iaa analysis 
-                #theStart, theEnd = TranslateIndex(jumps_list, start, end)
-                #theStart = TranslateIndex(jumps_list, start)
-                #theEnd = TranslateIndex(jumps_list, end)
                 t2mDict[tPart] = mentionStr
                 m = Mention(tPart, start, end, aWord)
                 MentionIndexDict[tPart] = len(Mentions)
@@ -203,12 +220,10 @@ def OpenAnn(path):
     in current folder. 
     '''
     
-    filename_w_ext = os.path.basename(path)
-    filename, file_extension = os.path.splitext(filename_w_ext)
-    filename_ann = f'{filename}_n{file_extension}'
-    ann_file = open(filename_ann, 'w')
+    ann_file = open(path, 'w')
     
     return ann_file
+
 
 def WriteMentions(mentions, ann_file):
     '''
@@ -224,6 +239,7 @@ def WriteMentions(mentions, ann_file):
             i += 1
             ann_file.write(f'#{str(i)}{TAB}AnnotatorNotes {m.name}{TAB}{m.note}{NL}')
 
+
 def WriteCorefs(corefs, ann_file):
     '''
     Writes a coref class with mentions to .ann file object.
@@ -236,6 +252,7 @@ def WriteCorefs(corefs, ann_file):
             ann_file.write(f' {m.name}') 
         ann_file.write('\n')
 
+
 def Close(file): 
     '''
     Close ann file object.
@@ -243,22 +260,39 @@ def Close(file):
     
     file.close()
 
-def Translate(ann_txt, mimi_txt, ann_file):
-    # ann_txt: path to ann txt files
-    # mimi_txt = path to mimi txt files 
-    # ann_file = path to (chris) ann_file
+
+def translate(new_ann, out, texts):
+    # new_ann = mimi file.ann
+    # out = mimi translated to chris file.ann
+    # texts = list[old_file.txt, mimi_file.txt]
     
-    ann_offsets = GetOffsetsAnn(ann_txt)
-    mimi_offsets = GetOffsetsMimi(mimi_txt)
-    ordered_dict = Merge(ann_offsets, mimi_offsets)
-    jumps_list = MakeOffsets(ordered_dict)
-    pprint(jumps_list)
-    Mentions, Corefs = Parse(ann_file, jumps_list)
-    TranslateIndex(jumps_list, Mentions)
-    new_ann_file = OpenAnn(ann_file)
-    WriteMentions(Mentions, new_ann_file)
-    WriteCorefs(Corefs, new_ann_file)
-    Close(new_ann_file)
-    
-    
-#Translate('Psalms_002-ann.txt', 'Psalms_002-mimi.txt', 'Psalms_002.ann')
+    old = GetOffsetsAnn(texts[0])
+    new = GetOffsetsMimi(texts[1])
+    jumps_list = Merge(old, new)
+    Mentions, Corefs = Parse(new_ann)
+    TranslateMentions(Mentions, jumps_list)
+    mimi_ann_file = OpenAnn(out)
+    WriteMentions(Mentions, mimi_ann_file)
+    WriteCorefs(Corefs, mimi_ann_file)
+    Close(mimi_ann_file)
+
+
+def main(argv):
+    try:
+        opts, args = getopt.getopt(argv, "a:o:", [])
+    except getopt.GetoptError:
+        Usage()
+    ann = ''
+    out = ''
+    for opt, arg in opts:
+        if opt == '-a':
+            ann = arg
+        elif opt == '-o':
+            out = arg
+    if ann == '' or out == '' or len(args) != 2:
+        Usage()
+    else:
+        translate(ann, out, args)
+
+if __name__ == "__main__":
+    main(argv[1:])

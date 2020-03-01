@@ -1,0 +1,89 @@
+T1	Mention 14 18	-MNYX
+T2	Mention 22 26	TCXT
+T3	Mention 28 31	DWD
+T4	Mention 32 36	MKTM
+T5	Mention 52 55	YDQ
+T6	Mention 56 62	TDBRWN
+T7	Mention 63 69	MJCRJM
+T8	Mention 70 75	TCPVW
+T9	Mention 76 83	BNJ >DM
+T10	Mention 93 95	LB
+T11	Mention 96 100	<WLT
+T12	Mention 101 107	TP<LWN
+T13	Mention 109 112	->RY
+T14	Mention 113 120	XMS JDJ
+T15	Mention 120 122	+KM
+T16	Mention 123 129	TPLSWN
+T17	Mention 135 138	ZRW
+T18	Mention 139 144	RC<JM
+T19	Mention 146 149	RXM
+T20	Mention 150 153	T<W
+T21	Mention 155 158	BVN
+T22	Mention 159 167	DBRJ KZB
+T23	Mention 173 176	XMT
+T24	Mention 178 180	+MW
+T25	Mention 182 194	DMWT XMT NXC
+T26	Mention 199 206	PTN XRC
+T27	Mention 207 211	J>VM
+T28	Mention 212 215	>ZN
+T29	Mention 215 216	+W
+T30	Mention 229 233	JCM<
+T31	Mention 235 245	QWL MLXCJM
+T32	Mention 246 256	XWBR XBRJM
+T33	Mention 257 261	MXKM
+T34	Mention 267 272	>LHJM
+T35	Mention 273 276	HRS
+T36	Mention 277 280	CNJ
+T37	Mention 280 282	+MW
+T38	Mention 284 286	PJ
+T39	Mention 286 288	+MW
+T40	Mention 289 302	MLT<WT KPJRJM
+T41	Mention 303 306	NTY
+T42	Mention 309 313	JHWH
+T43	Mention 319 324	JM>SW
+T44	Mention 329 332	MJM
+T45	Mention 333 339	JTHLKW
+T46	Mention 341 343	+MW
+T47	Mention 344 348	JDRK
+T48	Mention 349 351	XY
+T49	Mention 351 352	+W
+T50	Mention 357 363	JTMLLW
+T51	Mention 373 382	CBLWL TMS
+T52	Mention 383 387	JHLK
+T53	Mention 388 395	NPL >CT
+T54	Mention 399 402	XZW
+T55	Mention 403 406	CMC
+T56	Mention 418 423	JBJNW
+T57	Mention 424 429	SJRTJ
+T58	Mention 429 431	+KM
+T59	Mention 432 435	>VD
+T60	Mention 440 442	XJ
+T61	Mention 447 451	XRWN
+T62	Mention 452 457	JF<RN
+T63	Mention 457 458	+W
+T64	Mention 465 469	JFMX
+T65	Mention 470 474	YDJQ
+T66	Mention 478 481	XZH
+T67	Mention 482 485	NQM
+T68	Mention 486 490	P<MJ
+T69	Mention 490 491	+W
+T70	Mention 492 496	JRXY
+T71	Mention 498 505	DM H-RC<
+T72	Mention 513 517	J>MR
+T73	Mention 518 521	>DM
+T74	Mention 525 528	PRJ
+T75	Mention 530 534	-YDJQ
+T76	Mention 538 540	JC
+T77	Mention 541 546	>LHJM
+T78	Mention 547 552	CPVJM
+T79	Mention 554 557	->RY
+*	Coreference T6 T8 T9 T12 T16
+*	Coreference T17 T18
+*	Coreference T20 T22
+*	Coreference T34 T35 T41
+*	Coreference T43 T45
+*	Coreference T47 T52
+*	Coreference T56 T57
+*	Coreference T64 T65 T66 T70
+*	Coreference T72 T73
+*	Coreference T77 T78
