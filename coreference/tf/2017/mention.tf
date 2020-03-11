@@ -5,7 +5,7 @@
 @title=Participant analysis
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-09-30T08:37:56Z
+@dateWritten=2020-03-11T17:26:43Z
 
 2	T,1,,,R>CJT
 T,2,,,BR>
@@ -18692,7 +18692,7 @@ T,171,,,<LH
 T,173,,,TMJD
 323023	T,1,,,MNYX
 323025	T,2,,,TCXT
-T,3,,,ZMWR
+T,3,,,MZMWR
 323028	T,4,,,>SP
 T,5,,,CJR
 T,6,,,HWDJNW
@@ -18707,9 +18707,8 @@ T,16,,,MW<D
 T,17,,,>NJ
 323044	T,18,,,>CPV
 T,19,,,NMGJM
-T,20,,,>RY
-323048	T,67,2,,KL&JCBJ
-T,21,,s,H
+T,67,4,,>RY WKL&JCBJ
+323049	T,21,,s,H
 T,22,,,>NKJ
 T,23,,,TKNTJ
 T,68,,,<MWDJ|T,24,,s,H
@@ -18721,7 +18720,7 @@ T,68,,,<MWDJ|T,24,,s,H
 T,30,,,QRN
 323068	T,31,,,TRJMW
 323071	T,32,,,MRWM
-T,33,,s,M|T,34,,,QRNK
+T,33,,s,KM|T,34,,,QRN
 T,35,,,TDBRW
 323075	T,36,2,,YW>R <TQ
 323080	T,37,,,MWY>
@@ -18741,7 +18740,7 @@ T,50,2,,ML> MSK
 323108	T,51,,,JGR
 323110	T,52,,,ZH
 323112	T,53,,,CMRJ|T,54,,s,H
-T,55,,,JMYW
+T,20,,,JMYW
 T,56,,,JCTW
 T,57,3,,KL RC<J&>RY
 323119	T,58,,,>NJ

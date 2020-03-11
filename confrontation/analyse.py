@@ -9,7 +9,7 @@ import pandas as pd
 
 from tf.app import use
 from tf.fabric import Fabric
-from utils import *
+from utils import converse_pgn, suffix_dict
 
 
 A = use(
@@ -266,7 +266,13 @@ def IdentifyEntities(corefs):
         if key != 0:
             IdentifyOneEntity(c)
 
-#IdentifyEntities(coref_dict)
+def ParseAnnotations(my_book_name, from_chapter, to_chapter):
+    mentions, corefs, suffix_errors = TexFabricParse(my_book_name, from_chapter, to_chapter)
+    reconsider_rpt = EnrichMentions(mentions)
+    IdentifyEntities(corefs)
+    return mentions, corefs, suffix_errors, reconsider_rpt
+
+
 
 def GetOverallData(corefs, mentions):
     overall_dict = Counter()

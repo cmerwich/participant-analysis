@@ -5,7 +5,7 @@
 @title=Participant analysis
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2019-09-30T08:37:56Z
+@dateWritten=2020-03-11T17:26:43Z
 
 36	T18-Is this the same light as the ensuing light that God creates?
 53	T27-Is this the same light as the light that God creates before it is separated from the darkness?

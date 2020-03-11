@@ -1493,5 +1493,5 @@ def GoMiMi():
         mention_stats_df = MentionParseStats(bk_stats, book_name, mention_detection_list)
         coref_stats_df = CorefResolutionStats(bk_stats, book_name, coreference_list)
         sieve_stats_df = SieveStats(bk_stats, book_name, sieves_list)
-    
+        print(bk_stats.rule_count)
     return mention_stats_df, coref_stats_df, sieve_stats_df
