@@ -62,8 +62,8 @@ Rule 58    subject_suffix -> INTJ PRS
 
 Unused terminals:
 
-    ADJV_E
     SUBS_E
+    ADJV_E
 
 Terminals, with rules where they appear:
 
