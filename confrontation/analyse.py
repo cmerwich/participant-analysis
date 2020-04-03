@@ -247,29 +247,29 @@ def EnrichMentions(mentions):
     return reconsider_rpt
 
 
-def Coref_FindMentionByRPT(c, typ):
+def FindMentionByRPT(c, typ):
     for m in c.terms:
         if m.typ == typ:
             return m
     
-def IdentifyOneEntity(c):
+def Identify(c):
     rpt_order = ['PrNP', 'NP', 'PtcP', 'VP', 'PPrP', 'DPrP']
     for typ in rpt_order:
-        m = Coref_FindMentionByRPT(c, typ)
+        m = FindMentionByRPT(c, typ)
         if m:
             c.id = m.surface
             return 
     c.id = c.first()
 
-def IdentifyEntities(corefs):
+def AssignIdentity(corefs):
     for key, c in corefs.items():
         if key != 0:
-            IdentifyOneEntity(c)
+            Identify(c)
 
 def ParseAnnotations(my_book_name, from_chapter, to_chapter):
     mentions, corefs, suffix_errors = TexFabricParse(my_book_name, from_chapter, to_chapter)
     reconsider_rpt = EnrichMentions(mentions)
-    IdentifyEntities(corefs)
+    AssignIdentity(corefs)
     return mentions, corefs, suffix_errors, reconsider_rpt
 
 

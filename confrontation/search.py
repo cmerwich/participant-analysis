@@ -214,22 +214,24 @@ def Search(lst, c, k, suffix_errors, what):
                 print(f'{chapter}:{verse}', 'Sing', m.typ, det, m.surface, '', gloss, m.note, sep='\t', end='\n')
     return lst
 
-def SearchClassMention(i, lst, c, k, suffix_errors, what):
+def SearchClassMention(i, results_set, c, k, suffix_errors, what):
     bad_words = [e[2] for e in suffix_errors]
     if c.id != 'Singletons':
         for m in c.terms:
             if what == m.surface:
                 i+=1 
-                lst.append(f'C{k}')
+                results_set.add(f'C{k}')
                 pattern_list = []
+                
                 print(f'C{k} Who: {c.id}, first: {c.first().surface}, type: {c.first().typ}, corpus class: {i}', 
                   end='\n\n')
                 print('verse', 'type', 'pgn', 'ann', '', 'gloss', 'note', sep='\t', end='\n')
+
                 for m in c.terms:
-                   
+
                     book, chapter, verse = T.sectionFromNode(m.start)
                     gloss = F.gloss.v(L.u(m.start, 'lex')[0])
-         
+
                     if m.typ in {'VP', 'PPrP'} and not m.isSuffix:
                         pgn = converse_pgn(F, m.start)
                         pattern_list.append(f'{m.typ} {pgn}')
@@ -248,8 +250,9 @@ def SearchClassMention(i, lst, c, k, suffix_errors, what):
                         print(verse, m.typ, '', f'{m.surface}     ', f'{gloss}', m.note, sep='\t', end='\n')
                         pattern_list.append(m.typ)
                 print('Pattern: ', pattern_list)
-                print('\n')    
-    return lst
+                print('\n')   
+                
+    return results_set
 
 def FindClassMention(cd, suffix_errors, what):
     '''
@@ -260,13 +263,14 @@ def FindClassMention(cd, suffix_errors, what):
     `suffix_errors`: a list with potential suffix errors.
     '''
     i = 0
-    results_lst = []
+    results_set = set()
     for k in cd:
         if k != 0:
             i+= 1
-            SearchClassMention(i, results_lst, cd[k], k, suffix_errors, what)    
-    print('Results: ', len(results_lst))
-    return results_lst
+            SearchClassMention(i, results_set, cd[k], k, suffix_errors, what)    
+    print('Results: ', len(results_set))
+    l = sorted(results_set)
+    return l
 
 def FindMention(cd, suffix_errors, what):
     '''
