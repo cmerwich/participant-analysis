@@ -9,8 +9,6 @@ def MakeTable(iaa_file):
                            names=column_names,
                            dtype=data_types
                           )
-    #cols = ['L', 'ann_A', 'M', 'ann_B', 'R', 'D', 'd']
-    #iaa_table = iaa_table[cols]
     return iaa_table
 
 

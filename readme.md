@@ -5,7 +5,7 @@ To cite this repository please use: [![DOI](https://zenodo.org/badge/DOI/10.5281
 
 # Participant Analyis 
 
-This repository contains (Python) code and data that I have created for my NWO funded PhD research project 'Who is Who is in the Psalms?'
+This repository contains (Python) code and data that I have created for my NWO funded PhD research project 'Who is Who is in the Psalms?' My dissertation is forthcoming. 
 
 The 'who is who?' question that always comes up when one reads a text can be solved by analysing all entities, or participants, in that text. The identification of entities enables a better informed interpretation process of the text.  
 
@@ -19,8 +19,9 @@ This folder contains a notebook [intro](https://github.com/cmerwich/participant-
 ### 2. Annotation 
 In `annotation` a method is set up to annotate Biblical Hebrew for coreference. The folder contains: 
 1. A notebook that [produces annotation files](https://github.com/cmerwich/participant-analysis/blob/master/annotation/1.file_preparation_for_annotation.ipynb) that can be imported in annotation tool *brat*.
-2. An [annotation aid](https://github.com/cmerwich/participant-analysis/blob/master/annotation/2.annotation_aid.ipynb) that can be used to annotate coreference data. The annotation aid visualises potential mentions and features and syntactic relations that are useful and informative for coreference annotation. 
-3. A notebook '[counts](https://github.com/cmerwich/participant-analysis/blob/master/annotation/3.counts.ipynb)' that does some data exploration. 
+2. An [annotation model](https://github.com/cmerwich/participant-analysis/blob/master/annotation/annotation_model.ipynb) for Biblical Hebrew that defines which reference information and coreference relation is considered for annotation.
+3. An [annotation aid](https://github.com/cmerwich/participant-analysis/blob/master/annotation/2.annotation_aid.ipynb) that can be used to annotate coreference data. The annotation aid visualises potential mentions and features and syntactic relations that are useful and informative for coreference annotation. 
+4. A notebook '[counts](https://github.com/cmerwich/participant-analysis/blob/master/annotation/3.counts.ipynb)' that does some data exploration. 
 
 ### 3. Text-Fabric Conversion
 With the code in `tf_conversion` the coreference annotations can be converted to data that can be processed with Text-Fabric. This means that the annotations are enriched with other features that are not included in the annotations. 

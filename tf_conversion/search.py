@@ -6,11 +6,57 @@ from tf.fabric import Fabric
 A = use(
     'bhsa', version='2017',
     mod=(
-        'cmerwich/participant-analysis/coreference/tf:clone,'
-        'etcbc/bh-reference-system/tf:clone'
+        'cmerwich/participant-analysis/coreference/tf,'
+        'cmerwich/bh-reference-system/tf'
+        #'cmerwich/participant-analysis/coreference/tf:clone,'
+        #'etcbc/bh-reference-system/tf:clone'
     ), 
     hoist=globals(),
     silent=True)
+
+
+def Get(c, k, suffix_errors):
+    divide = '-'*70
+    bad_words = [e[2] for e in suffix_errors]
+    print(f'C{k} Who/what: {c.id} /', end=' ')
+    
+    if c.id != 'Singletons':
+        print(f'first: {c.first().surface}, type: {c.first().typ}', end='\n')
+    print(divide)
+    print('verse', 'id', 'type', 'pgn', 'ann', '', 'gloss', 'note', sep='\t', end='\n\n')
+
+    for m in c.terms:
+        gloss = F.gloss.v(L.u(m.start, 'lex')[0])
+        book, chapter, verse = T.sectionFromNode(m.start)
+
+        if m.typ in {'VP', 'PPrP'} and not m.isSuffix:
+            pgn = converse_pgn(F, m.start)
+            print(verse, m.name, m.typ, pgn, f'{m.surface}     ', f'{gloss}', m.note, sep='\t', end='\n')
+
+        elif m.isSuffix and m.surface in bad_words:
+            print(verse, m.name, m.typ, ' ', f'{m.surface}    ', '', f'{gloss}', '!CORRUPT ANN', m.note, sep='\t', end='\n')
+
+        elif m.isSuffix:
+            pgn_suffix = suffix_dict[m.surface][0]
+            print(verse, m.name, m.typ, pgn_suffix, f'{m.surface}    ','',  '    ', m.note, sep='\t', end='\n')
+
+        else:
+            print(verse, m.name, m.typ, '', f'{m.surface}     ', f'{gloss}', m.note, sep='\t', end='\n')
+    print('\n')
+            
+def GetAnnotations(cd, suffix_errors):
+    '''
+    Prints all classes/entities of a text. 
+    `cd`: a coreference dictionary as parsed by ParseAnnotations()
+    in `analyse.py`. 
+    `suffix_errors`: a list with potential suffix errors.
+    '''
+    i = 0
+    for k in cd:
+        if k != 0:
+            Get(cd[k], k, suffix_errors)
+    Get(cd[0], '0', suffix_errors)
+
 
 # All searches in the following functions are done with capitalised transliterated Hebrew
 # See: https://annotation.github.io/text-fabric/Writing/Hebrew/
@@ -129,9 +175,9 @@ def Pattern(i, lst, c, k, suffix_errors, mention_type, pgn_form):
             print('Pattern: ', pattern_list)
             print('\n')
 
-def RetrievePattern(cd, suffix_errors, mention_type, pgn):
+def FindFirst(cd, suffix_errors, mention_type, pgn):
     '''
-    Retrieves classes for a chosen mention_type and or pgn. 
+    Retrieves classes for a chosen mention_type and/or pgn. 
     `mention_type`: is a string, e.g. 'VP' and finds and 
     prints all classes that start with that mention_type. 
     `pgn`: is a list that can take multiple strings of transliterated 
@@ -151,7 +197,7 @@ def RetrievePattern(cd, suffix_errors, mention_type, pgn):
     return results_lst
 
 
-def Search(i, lst, c, k, suffix_errors, what):
+def Search(lst, c, k, suffix_errors, what):
     
     for m in c.terms:
         book, chapter, verse = T.sectionFromNode(m.start)
@@ -168,27 +214,82 @@ def Search(i, lst, c, k, suffix_errors, what):
                 det = converse_pgn(F, m.start) if m.typ in {'VP', 'PPrP'} else ''
                 lst.append(f'{chapter}:{verse}-Sing')
                 print(f'{chapter}:{verse}', 'Sing', m.typ, det, m.surface, '', gloss, m.note, sep='\t', end='\n')
+    return lst
 
+def SearchClassMention(i, results_set, c, k, suffix_errors, what):
+    bad_words = [e[2] for e in suffix_errors]
+    if c.id != 'Singletons':
+        for m in c.terms:
+            if what == m.surface:
+                i+=1 
+                results_set.add(f'C{k}')
+                pattern_list = []
+                
+                print(f'C{k} Who: {c.id}, first: {c.first().surface}, type: {c.first().typ}, corpus class: {i}', 
+                  end='\n\n')
+                print('verse', 'type', 'pgn', 'ann', '', 'gloss', 'note', sep='\t', end='\n')
+
+                for m in c.terms:
+
+                    book, chapter, verse = T.sectionFromNode(m.start)
+                    gloss = F.gloss.v(L.u(m.start, 'lex')[0])
+
+                    if m.typ in {'VP', 'PPrP'} and not m.isSuffix:
+                        pgn = converse_pgn(F, m.start)
+                        pattern_list.append(f'{m.typ} {pgn}')
+                        print(verse, m.typ, pgn, f'{m.surface}     ', f'{gloss}', m.note, sep='\t', end='\n')
+
+                    elif m.isSuffix and m.surface in bad_words:
+                        print(verse, m.typ, ' ', f'{m.surface}    ', '', f'{gloss}', '!CORRUPT ANN', m.note, sep='\t', end='\n')
+                        pattern_list.append(f'Sfx')
+
+                    elif m.isSuffix:
+                        pgn_suffix = suffix_dict[m.surface][0]
+                        print(verse, m.typ, pgn_suffix, f'{m.surface}    ','',  '    ', m.note, sep='\t', end='\n')
+                        pattern_list.append(f'Sfx {pgn_suffix}')
+
+                    else:
+                        print(verse, m.typ, '', f'{m.surface}     ', f'{gloss}', m.note, sep='\t', end='\n')
+                        pattern_list.append(m.typ)
+                print('Pattern: ', pattern_list)
+                print('\n')   
+                
+    return results_set
+
+def FindClassMention(cd, suffix_errors, what):
+    '''
+    Finds a specified mention in a class and prints the entire class. 
+    `what`: is a mention string, e.g. '>SP' (Asaph)
+    The actual searching and printing is done with `SearchClassMention()`.
+    `cd`: a coreference dictionary as parsed by ParseAnnotations()
+    `suffix_errors`: a list with potential suffix errors.
+    '''
+    i = 0
+    results_set = set()
+    for k in cd:
+        if k != 0:
+            i+= 1
+            SearchClassMention(i, results_set, cd[k], k, suffix_errors, what)    
+    print('Results: ', len(results_set))
+    l = sorted(results_set)
+    return l
 
 def FindMention(cd, suffix_errors, what):
     '''
     Finds and prints all occurrences, singletons and in classes, 
     of a specified mention in `what`. 
-    `what`: is a mention string, e.g. '>SP'
+    `what`: is a mention string, e.g. '>SP' (Asaph)
     The actual searching and printing is done with `Search()`.
     `cd`: a coreference dictionary as parsed by ParseAnnotations()
     `suffix_errors`: a list with potential suffix errors.
     '''
     
-    i = 0
     results_lst = []
     print('ch:v class/sing', 'type', 'pgn', 'ann', '', 'gloss', 'note', sep='\t', end='\n\n')
     for k in cd:
         if k != 0:
-            i+= 1
-            Search(i, results_lst, cd[k], k, suffix_errors, what)
-        i+=1
-        Search(i, results_lst, cd[k], k, suffix_errors, what)
+            Search(results_lst, cd[k], k, suffix_errors, what)
+    Search(results_lst, cd[0], '0', suffix_errors, what)
     print('\n')
         
     print('Results: ', len(results_lst))
