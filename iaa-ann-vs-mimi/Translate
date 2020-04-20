@@ -1,4 +1,4 @@
-# Working directory .../iaa-ann-cs-mimi
+# Working directory .../iaa-ann-vs-mimi
 PSALMS = $(shell seq -w 1 150)
 DIFFS = $(foreach p,$(PSALMS),Psalms_$p.diff)
 
