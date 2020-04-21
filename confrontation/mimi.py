@@ -59,11 +59,11 @@ class Mention:
         self.who = ''                  # Identification of a class as entity
         
     def __str__(self):
-        return self.text
+        return self.name
     
     def __repr__(self):
         #return self.name + ' ' + self.text
-        return self.name
+        return self.text
         
 class Token:
     '''

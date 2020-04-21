@@ -15,8 +15,8 @@ from utils import converse_pgn, suffix_dict
 A = use(
     'bhsa', version='2017',
     mod=(
-        'cmerwich/participant-analysis/coreference/tf:clone,'
-        'etcbc/bh-reference-system/tf:clone'
+        'cmerwich/participant-analysis/coreference/tf,'
+        'cmerwich/bh-reference-system/tf'
     ), 
     hoist=globals(),
     silent=True)
