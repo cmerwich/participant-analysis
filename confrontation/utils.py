@@ -80,3 +80,14 @@ suffix_dict = {'NJ': ['p1usg','i'],
                'HWN': ['p3mpl', 'they'],
                'N>': ['p1upl', 'we']
               }
+
+prs_set = {'P1Cpl',
+          'P1Csg',
+          'P2Fpl',
+          'P2Fsg',
+          'P2Mpl',
+          'P2Msg',
+          'P3Fpl',
+          'P3Fsg',
+          'P3Mpl',
+          'P3Msg'}

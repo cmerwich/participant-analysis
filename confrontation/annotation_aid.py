@@ -5,6 +5,8 @@ from tf.applib.repo import checkoutRepo
 from tf.app import use
 from tf.fabric import Fabric
 
+from utils import prs_set
+
 def do(task):
     result = task
     md = f'''commit | release | local | base | subdir

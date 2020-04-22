@@ -13,6 +13,12 @@ A = use('bhsa',
 TF.load('g_prs', add=True)
 
 def PrintCoref(Corefs):
+    '''
+    Visualises the coreference classes that MiMi has detected. 
+    `Corefs` is a list of coreference sets and singleton sets. 
+    The coreference sets contain mentions, that are stored in 
+    the class `Mention`.
+    '''
     
     i = 0 
     classes = []
@@ -35,7 +41,14 @@ def PrintCoref(Corefs):
             print('\n')
 
 def PrintMentions(Mentions, s):
-    
+    '''
+    Visualises the singletons or mentions that MiMi has detected. 
+    `Mentions` is a list of mention objects. 
+    `s` is optional: if given an empty string '' the function
+    will print mentions in tabular form, if given `singletons`
+    it will print singletons. 
+    '''
+
     sing_list = []
     sing_overview_df = pd.DataFrame()
     i = 0
