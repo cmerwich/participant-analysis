@@ -31,7 +31,8 @@ def Usage():
     
 A = use('bhsa', 
         version = VERSION,
-        hoist=globals()
+        hoist=globals(),
+        silent=True
        )
 TF.load('g_prs', add=True)
 
