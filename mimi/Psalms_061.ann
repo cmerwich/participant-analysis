@@ -60,8 +60,12 @@ T59	Mention 378 381	CLM
 T60	Mention 384 388	NDRJ
 T61	Mention 388 389	+
 T62	Mention 390 397	JWM JWM
-*	Coreference T4 T5 T8 T20 T22 T44
 *	Coreference T7 T10 T16 T19 T21 T24 T38 T61
 *	Coreference T14 T15
 *	Coreference T27 T31
 *	Coreference T12 T29 T33 T34 T35 T36 T39 T41 T57
+*	Coreference T4 T5 T8 T20 T22 T44
+*	Coreference T30 T49
+*	Coreference T18 T46 T48 T53 T54
+*	Coreference T37 T60
+*	Coreference T42 T43 T62

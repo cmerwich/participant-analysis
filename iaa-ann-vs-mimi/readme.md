@@ -18,7 +18,7 @@ The makefile `Translate` 'translates' (or aligns) the mention boundaries in the 
 
 Now the desired files have been translated, the IAA algorithm can be run. 
 
-1. Place the `iaa.py`, `acc.py` and `Makefile` in that same folder as `Translate` makefile, etc. 
+1. Place the `iaa.py`, `acc.py` and `Makefile` in that same folder as the `Translate` makefile, etc. 
 2. Change the file locations for the `.ann` files under `PS_A` and `PS_B` in the `Makefile`. Make sure the **A** location is for the manual annotations and that **B** locations is for MiMi; 
 3. Give the command `make`;
 4. `iaa.py` will do its work and the IAA measures are printed per Hebrew Bible chapter in separate txt files with extension `.iaa` and it prints one total IAA measure for all compared texts. All files are stored in the working directory.

@@ -114,15 +114,20 @@ T113	Mention 771 775	<WLM
 T114	Mention 776 780	HLLW
 T115	Mention 781 783	JH
 *	Coreference T1 T3 T17
-*	Coreference T2 T5 T9 T11
-*	Coreference T12 T13
+*	Coreference T14 T16
 *	Coreference T20 T21
-*	Coreference T48 T49
+*	Coreference T12 T13 T15 T23 T27 T28 T30 T31 T33 T34 T36 T37 T39 T40 T42 T43 T44 T46 T47
 *	Coreference T54 T55
-*	Coreference T62 T63
-*	Coreference T70 T71
-*	Coreference T80 T110 T111
-*	Coreference T78 T79 T81 T82 T84 T86
-*	Coreference T90 T91
+*	Coreference T59 T65 T67 T73 T75
+*	Coreference T48 T49 T50 T53 T58 T60 T66 T68 T74 T76
+*	Coreference T61 T69 T77
+*	Coreference T62 T63 T83 T85
+*	Coreference T2 T5 T9 T11 T56 T64 T72 T78 T79 T81 T82 T84 T86
+*	Coreference T70 T71 T87 T88 T89
 *	Coreference T92 T93 T95 T96 T97
+*	Coreference T18 T100 T101
+*	Coreference T90 T91 T98 T99 T104
+*	Coreference T94 T105
 *	Coreference T106 T107
+*	Coreference T80 T110 T111
+*	Coreference T108 T112 T115

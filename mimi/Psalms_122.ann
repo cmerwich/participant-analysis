@@ -55,12 +55,13 @@ T54	Mention 373 378	>BQCH
 T55	Mention 379 382	VWB
 T56	Mention 384 386	+K
 *	Coreference T5 T11 T45 T47 T53
-*	Coreference T8 T9 T10
 *	Coreference T13 T36 T40 T43 T56
 *	Coreference T14 T15 T32
+*	Coreference T8 T9 T10 T18 T19
 *	Coreference T20 T21
-*	Coreference T27 T28
+*	Coreference T27 T28 T30
+*	Coreference T29 T31
 *	Coreference T34 T35
-*	Coreference T37 T38
-*	Coreference T51 T52
+*	Coreference T33 T37 T38 T49
+*	Coreference T6 T51 T52
 *	Coreference T48 T54

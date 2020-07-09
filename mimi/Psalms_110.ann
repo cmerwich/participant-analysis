@@ -58,6 +58,7 @@ T57	Mention 357 361	JRJM
 T58	Mention 362 365	R>C
 *	Coreference T11 T14
 *	Coreference T16 T22 T24 T27 T30 T32 T42
-*	Coreference T17 T18
-*	Coreference T33 T34 T35
-*	Coreference T40 T43 T47 T49 T51 T56 T57
+*	Coreference T17 T18 T33 T34 T35
+*	Coreference T26 T44
+*	Coreference T40 T43 T45 T47 T49 T51 T56 T57
+*	Coreference T53 T58

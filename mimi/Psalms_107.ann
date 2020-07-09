@@ -245,32 +245,42 @@ T244	Mention 1805 1809	JCMR
 T245	Mention 1810 1813	>LH
 T246	Mention 1816 1823	JTBWNNW
 T247	Mention 1824 1833	XSDJ JHWH
-*	Coreference T7 T8
-*	Coreference T9 T13
-*	Coreference T16 T20
-*	Coreference T21 T24
-*	Coreference T45 T48
-*	Coreference T53 T56
-*	Coreference T69 T71 T76
+*	Coreference T3 T6
+*	Coreference T7 T8 T10 T14
+*	Coreference T16 T20 T22 T23 T25 T28 T30 T32 T34 T38
+*	Coreference T9 T13 T31 T33 T41 T43
+*	Coreference T45 T48 T57
+*	Coreference T51 T73
+*	Coreference T69 T71 T76 T80 T82
 *	Coreference T84 T87
-*	Coreference T88 T93
-*	Coreference T95 T96
-*	Coreference T98 T100
-*	Coreference T106 T108 T111 T113
+*	Coreference T53 T56 T60 T61 T63 T66 T68 T70 T72 T75 T77 T90 T92
+*	Coreference T88 T93 T97
+*	Coreference T98 T100 T103 T105 T107 T112 T115
 *	Coreference T116 T123 T125
 *	Coreference T135 T136
-*	Coreference T140 T141
-*	Coreference T150 T153
-*	Coreference T146 T148 T154 T155
+*	Coreference T106 T108 T110 T111 T113 T119 T121 T127 T138
+*	Coreference T126 T137 T139
+*	Coreference T21 T24 T46 T47 T95 T96 T143 T150 T153
+*	Coreference T140 T141 T145
+*	Coreference T146 T148 T151 T154 T155 T158
 *	Coreference T157 T159
-*	Coreference T166 T168
-*	Coreference T171 T172
-*	Coreference T160 T174
+*	Coreference T27 T65 T102 T162
+*	Coreference T29 T67 T104 T164
+*	Coreference T144 T171 T173 T172
+*	Coreference T160 T163 T165 T167 T174 T175 T177 T179
+*	Coreference T2 T26 T39 T64 T78 T101 T117 T161 T181
 *	Coreference T180 T187 T191
+*	Coreference T166 T168 T176 T183 T185 T188 T192
 *	Coreference T193 T200
-*	Coreference T207 T209 T211 T213
-*	Coreference T205 T215
-*	Coreference T217 T221 T222
-*	Coreference T227 T231 T234
-*	Coreference T237 T238 T239
-*	Coreference T240 T241
+*	Coreference T17 T195 T201
+*	Coreference T15 T198 T203
+*	Coreference T196 T204
+*	Coreference T19 T37 T208
+*	Coreference T207 T209 T211 T213 T216
+*	Coreference T205 T215 T220
+*	Coreference T217 T219 T221 T222 T228
+*	Coreference T35 T89 T91 T230
+*	Coreference T240 T241 T243
+*	Coreference T227 T231 T234 T244
+*	Coreference T237 T238 T239 T246
+*	Coreference T5 T40 T42 T44 T79 T81 T83 T118 T120 T122 T182 T184 T186 T247

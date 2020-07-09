@@ -57,15 +57,13 @@ T56	Mention 384 387	JGL
 T57	Mention 388 392	J<QB
 T58	Mention 393 397	JFMX
 T59	Mention 398 403	JFR>L
-*	Coreference T5 T6
-*	Coreference T10 T11
-*	Coreference T14 T16
+*	Coreference T5 T6 T8
 *	Coreference T23 T25
+*	Coreference T10 T11 T26
+*	Coreference T13 T27
 *	Coreference T29 T30
-*	Coreference T31 T33 T36
-*	Coreference T39 T40
-*	Coreference T41 T42
-*	Coreference T46 T47
-*	Coreference T52 T53
+*	Coreference T38 T39 T40
+*	Coreference T31 T33 T36 T37 T48
+*	Coreference T9 T14 T16 T22 T24 T35 T41 T42 T46 T47 T49 T52 T53 T55
 *	Coreference T56 T57
 *	Coreference T58 T59

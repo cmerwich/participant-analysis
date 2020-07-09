@@ -34,7 +34,11 @@ T33	Mention 212 219	H-C>NNJM
 T34	Mention 220 224	H-BWZ
 T35	Mention 226 233	G>- JWNJM
 *	Coreference T5 T15 T18 T20
+*	Coreference T9 T12
+*	Coreference T4 T8 T11 T14
 *	Coreference T16 T17
+*	Coreference T10 T13 T19
 *	Coreference T22 T25 T31
 *	Coreference T21 T23 T24
-*	Coreference T28 T30
+*	Coreference T28 T29 T30
+*	Coreference T27 T34 T35

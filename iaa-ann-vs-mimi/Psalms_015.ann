@@ -47,6 +47,7 @@ T46	Mention 267 270	>LH
 T47	Mention 274 278	JMWV
 T48	Mention 280 284	<WLM
 *	Coreference T3 T6 T9
-*	Coreference T18 T21 T26
+*	Coreference T4 T7 T17
 *	Coreference T29 T32
-*	Coreference T35 T37 T40 T44
+*	Coreference T18 T20 T21 T23 T26 T28 T31 T34
+*	Coreference T35 T37 T39 T40 T44 T47

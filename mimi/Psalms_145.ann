@@ -140,15 +140,20 @@ T139	Mention 958 964	CM QDC
 T140	Mention 964 966	+W
 T141	Mention 969 978	<WLM W-<D
 *	Coreference T3 T8 T13 T15
-*	Coreference T23 T25
-*	Coreference T39 T42
+*	Coreference T20 T39 T42
 *	Coreference T45 T48
-*	Coreference T4 T5 T6 T7 T10 T14 T17 T27 T29 T32 T34 T37 T40 T44 T47 T57 T58 T60 T62 T64 T66 T69 T78 T81 T91 T93 T94 T102
+*	Coreference T19 T49 T50
 *	Coreference T61 T63
-*	Coreference T56 T59 T67 T70
-*	Coreference T83 T84
-*	Coreference T90 T92
-*	Coreference T121 T124 T125
-*	Coreference T127 T128
+*	Coreference T26 T54 T56 T59 T67 T70 T109
+*	Coreference T28 T68 T73 T75
+*	Coreference T77 T79
+*	Coreference T105 T119
+*	Coreference T23 T24 T25 T30 T38 T53 T55 T74 T76 T82 T99 T108 T110 T114 T117 T120
+*	Coreference T90 T92 T95 T97 T116 T123 T126
+*	Coreference T4 T5 T6 T7 T10 T14 T17 T27 T29 T32 T34 T37 T40 T44 T47 T57 T58 T60 T62 T64 T66 T69 T78 T81 T83 T84 T91 T93 T94 T102 T106 T111 T127 T128
+*	Coreference T121 T124 T125 T130 T132
+*	Coreference T1 T133
 *	Coreference T134 T135
-*	Coreference T137 T138
+*	Coreference T9 T16 T139
+*	Coreference T137 T138 T140
+*	Coreference T11 T18 T141

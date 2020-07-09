@@ -38,13 +38,11 @@ T37	Mention 233 237	N>WH
 T38	Mention 238 241	QDC
 T39	Mention 242 246	JHWH
 T40	Mention 249 257	>RK JMJM
-*	Coreference T1 T2 T4
-*	Coreference T5 T6 T8
+*	Coreference T1 T2 T4 T5 T6 T8
 *	Coreference T9 T10 T11
 *	Coreference T12 T13
-*	Coreference T17 T18
-*	Coreference T14 T16 T19 T33 T36
-*	Coreference T20 T21
-*	Coreference T24 T25
+*	Coreference T17 T18 T20 T21 T23 T24 T25 T27
+*	Coreference T22 T28
 *	Coreference T32 T34
 *	Coreference T37 T38
+*	Coreference T14 T16 T19 T31 T33 T36 T39

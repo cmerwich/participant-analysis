@@ -111,13 +111,14 @@ T110	Mention 637 641	RYWN
 T111	Mention 642 647	T<VRN
 T112	Mention 647 648	+W
 *	Coreference T7 T8 T9 T12
-*	Coreference T21 T22
+*	Coreference T13 T23
 *	Coreference T25 T27
 *	Coreference T32 T34
-*	Coreference T35 T36
 *	Coreference T39 T41
-*	Coreference T44 T45
 *	Coreference T57 T58 T64 T81 T83 T89
-*	Coreference T93 T94 T98
+*	Coreference T47 T87
+*	Coreference T35 T36 T73 T77 T79 T80 T82 T84 T86 T88 T90 T91
+*	Coreference T93 T94 T98 T100
 *	Coreference T101 T103
 *	Coreference T6 T11 T14 T15 T16 T17 T18 T19 T24 T26 T31 T33 T38 T46 T48 T49 T51 T52 T54 T56 T59 T61 T63 T66 T68 T92 T96 T102 T104 T105 T106 T108 T111
+*	Coreference T21 T22 T44 T45 T70 T112

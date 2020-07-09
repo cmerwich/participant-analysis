@@ -12,9 +12,7 @@ from tf.app import use
 A = use(
     'bhsa', version='c',
     mod=(
-        'etcbc/lingo/heads/tf,'
-        #'cmerwich/bh-reference-system/tf'
-        'etcbc/bh-reference-system/tf:clone'
+        'cmerwich/bh-reference-system/tf'
     ),
     hoist=globals(),
     silent=True

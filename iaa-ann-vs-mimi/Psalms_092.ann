@@ -95,19 +95,18 @@ T94	Mention 656 657	+J
 T95	Mention 662 666	<LTH
 T96	Mention 668 669	+W
 *	Coreference T21 T63
-*	Coreference T28 T29
+*	Coreference T25 T28 T29
 *	Coreference T32 T33
 *	Coreference T35 T36
 *	Coreference T37 T38
 *	Coreference T40 T41
-*	Coreference T43 T44
-*	Coreference T9 T10 T14 T16 T22 T24 T26 T30 T31 T34 T48 T51 T53 T54 T56
-*	Coreference T55 T57
-*	Coreference T58 T59
+*	Coreference T43 T44 T46 T58 T59
+*	Coreference T52 T55 T57
 *	Coreference T66 T67
 *	Coreference T68 T70 T72 T76
 *	Coreference T74 T75
-*	Coreference T77 T79 T82
 *	Coreference T86 T94
 *	Coreference T87 T88 T90
-*	Coreference T92 T93
+*	Coreference T11 T91
+*	Coreference T9 T10 T14 T16 T22 T24 T26 T30 T31 T34 T48 T51 T53 T54 T56 T92 T93
+*	Coreference T77 T79 T82 T96

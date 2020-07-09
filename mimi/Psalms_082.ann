@@ -41,7 +41,8 @@ T40	Mention 327 332	H->RY
 T41	Mention 336 339	>TH
 T42	Mention 340 344	TNXL
 T43	Mention 347 356	KL H-GWJM
-*	Coreference T3 T4
+*	Coreference T3 T4 T28
+*	Coreference T13 T17
 *	Coreference T8 T11 T12 T15 T16 T19
 *	Coreference T20 T21 T23
 *	Coreference T24 T25

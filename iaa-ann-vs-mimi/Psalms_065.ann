@@ -102,15 +102,15 @@ T101	Mention 641 646	J<VPW
 T102	Mention 647 649	BR
 T103	Mention 650 657	JTRW<<W
 T104	Mention 661 666	JCJRW
-*	Coreference T11 T12
-*	Coreference T5 T8 T10 T13 T14 T22 T23 T30 T33 T35 T87 T89
 *	Coreference T15 T16
-*	Coreference T17 T18
+*	Coreference T5 T8 T10 T13 T14 T22 T23 T30 T33 T35 T87 T89
 *	Coreference T26 T27
 *	Coreference T32 T34
-*	Coreference T19 T21 T38 T39 T40 T41 T42 T58 T59 T63 T68 T71 T75 T76 T80 T84 T85
-*	Coreference T53 T54
+*	Coreference T17 T18 T24 T51
 *	Coreference T65 T66
+*	Coreference T53 T54 T70
+*	Coreference T11 T12 T28 T46 T62 T64 T72 T74 T78 T81 T83
+*	Coreference T19 T21 T38 T39 T40 T41 T42 T58 T59 T63 T68 T71 T75 T76 T80 T84 T85
 *	Coreference T88 T90
 *	Coreference T92 T93
 *	Coreference T95 T96

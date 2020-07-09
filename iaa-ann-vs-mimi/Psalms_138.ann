@@ -70,10 +70,11 @@ T69	Mention 396 404	M<FJ JDJ
 T70	Mention 404 405	+K
 T71	Mention 409 412	TRP
 *	Coreference T5 T27 T29 T31 T52 T54 T59 T64
+*	Coreference T13 T20
 *	Coreference T33 T36 T37 T40
 *	Coreference T45 T48
 *	Coreference T2 T7 T9 T12 T49
 *	Coreference T51 T55
 *	Coreference T58 T60
-*	Coreference T62 T63
-*	Coreference T3 T8 T11 T14 T16 T18 T21 T23 T34 T35 T39 T57 T61 T65 T67 T70
+*	Coreference T3 T8 T11 T14 T16 T18 T21 T23 T34 T35 T39 T43 T57 T61 T62 T63 T65 T67 T70
+*	Coreference T15 T66

@@ -81,17 +81,17 @@ T80	Mention 552 556	MFGB
 T81	Mention 558 561	+NW
 T82	Mention 562 571	>LHJ J<QB
 *	Coreference T6 T50 T52 T79 T81
-*	Coreference T12 T13
-*	Coreference T14 T15
-*	Coreference T18 T19
-*	Coreference T21 T22
+*	Coreference T14 T15 T21 T22
 *	Coreference T26 T28
 *	Coreference T29 T30
+*	Coreference T18 T19 T20 T24 T27 T33 T34 T36
 *	Coreference T38 T39
-*	Coreference T40 T41
+*	Coreference T40 T41 T75
 *	Coreference T42 T43
-*	Coreference T35 T37 T44
-*	Coreference T47 T48
+*	Coreference T12 T13 T47 T48 T59 T77
+*	Coreference T5 T31 T35 T37 T44 T46 T53 T57 T73 T82
 *	Coreference T64 T65 T68
 *	Coreference T54 T55 T70 T71
 *	Coreference T74 T76
+*	Coreference T49 T78
+*	Coreference T51 T80

@@ -61,12 +61,14 @@ T60	Mention 434 441	JTHLKWN
 T61	Mention 444 446	RM
 T62	Mention 447 451	ZLWT
 T63	Mention 454 461	BNJ >DM
-*	Coreference T7 T8
-*	Coreference T9 T10 T13 T19
-*	Coreference T20 T21
+*	Coreference T7 T8 T16
+*	Coreference T23 T27
 *	Coreference T28 T31 T32 T34
-*	Coreference T38 T39
+*	Coreference T17 T22 T30
 *	Coreference T37 T40
-*	Coreference T6 T51 T52 T53 T55
+*	Coreference T44 T45
+*	Coreference T9 T10 T13 T19 T26 T54
+*	Coreference T6 T20 T21 T38 T39 T42 T43 T51 T52 T53 T55 T56
 *	Coreference T59 T60
 *	Coreference T61 T62
+*	Coreference T11 T63

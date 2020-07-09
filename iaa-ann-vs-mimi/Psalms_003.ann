@@ -65,10 +65,10 @@ T64	Mention 390 391	+K
 T65	Mention 392 396	BRKT
 T66	Mention 396 397	+K
 *	Coreference T7 T21 T64 T66
-*	Coreference T8 T9
-*	Coreference T10 T13 T17 T22 T24 T26 T29 T49 T50 T51 T52 T53 T54 T55 T57 T60
-*	Coreference T11 T12
-*	Coreference T14 T15
+*	Coreference T11 T12 T14 T15
+*	Coreference T6 T19 T34 T37
 *	Coreference T31 T35 T38 T39 T41 T44 T48
-*	Coreference T42 T43
 *	Coreference T33 T45
+*	Coreference T8 T9 T47
+*	Coreference T10 T13 T17 T22 T24 T26 T29 T32 T42 T43 T49 T50 T51 T52 T53 T54 T55 T57 T60 T61
+*	Coreference T18 T62

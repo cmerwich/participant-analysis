@@ -66,10 +66,13 @@ T65	Mention 468 478	MLK H-KBWD
 T66	Mention 479 489	JHWH YB>WT
 T67	Mention 490 493	HW>
 T68	Mention 494 504	MLK H-KBWD
-*	Coreference T9 T11 T14
-*	Coreference T22 T26
-*	Coreference T42 T46 T47 T55 T59
-*	Coreference T48 T49
+*	Coreference T5 T8 T12 T15
+*	Coreference T9 T11 T14 T16 T18 T20 T63 T67
+*	Coreference T22 T26 T28 T33 T37
+*	Coreference T30 T52
 *	Coreference T40 T43 T45 T56 T58
-*	Coreference T61 T62
-*	Coreference T64 T65
+*	Coreference T44 T57
+*	Coreference T42 T46 T47 T55 T59 T60
+*	Coreference T48 T49 T50 T61 T62 T68
+*	Coreference T34 T64 T65
+*	Coreference T51 T53 T54 T66

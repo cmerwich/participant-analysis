@@ -92,18 +92,16 @@ T91	Mention 504 508	NCB<
 T92	Mention 510 511	+W
 T93	Mention 515 519	JSKR
 T94	Mention 520 532	PJ DWBRJ CQR
-*	Coreference T5 T8 T10 T12 T16 T23 T26 T28 T30 T35 T37 T41 T54 T59 T64 T69 T73
 *	Coreference T7 T14 T18 T33 T39 T44 T48 T52 T56 T62 T68 T70 T78
-*	Coreference T11 T13
 *	Coreference T15 T17
-*	Coreference T32 T34
+*	Coreference T32 T34 T49
+*	Coreference T31 T38
 *	Coreference T36 T42
-*	Coreference T46 T47
-*	Coreference T50 T51
 *	Coreference T53 T58
-*	Coreference T66 T67
+*	Coreference T11 T13 T46 T47 T66 T67 T77
 *	Coreference T71 T72
-*	Coreference T74 T76 T79 T81
+*	Coreference T50 T51 T82 T93 T94
+*	Coreference T74 T76 T79 T81 T85
 *	Coreference T86 T87
-*	Coreference T89 T90
-*	Coreference T93 T94
+*	Coreference T5 T8 T10 T12 T16 T23 T26 T28 T30 T35 T37 T41 T54 T59 T64 T69 T73 T88
+*	Coreference T89 T90 T92

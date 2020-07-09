@@ -129,14 +129,19 @@ T128	Mention 667 668	+J
 T129	Mention 672 675	>NJ
 T130	Mention 676 679	<BD
 T131	Mention 679 680	+K
-*	Coreference T3 T4 T7 T12 T16
 *	Coreference T6 T9 T13 T27 T31 T33 T41 T44 T56 T59 T64 T68 T72 T76 T83 T89 T91 T93 T98 T104 T108 T114 T120 T125 T128 T129
+*	Coreference T3 T4 T7 T12 T16
 *	Coreference T20 T23
-*	Coreference T24 T25 T28 T32
-*	Coreference T36 T38
+*	Coreference T24 T25 T28 T32 T92 T124
 *	Coreference T37 T39
 *	Coreference T42 T43
 *	Coreference T45 T48 T53 T54
-*	Coreference T66 T67
+*	Coreference T36 T38 T66 T67 T105
+*	Coreference T21 T70
 *	Coreference T11 T15 T19 T22 T50 T52 T57 T61 T71 T79 T80 T86 T94 T95 T101 T102 T106 T111 T116 T122 T131
+*	Coreference T29 T60 T109
+*	Coreference T14 T115
+*	Coreference T26 T58 T88 T119
+*	Coreference T78 T121
 *	Coreference T62 T63 T65 T69 T75 T82 T90 T97 T107 T112 T113 T117 T123 T126
+*	Coreference T18 T130

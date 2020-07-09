@@ -134,15 +134,18 @@ T133	Mention 854 857	+NW
 T134	Mention 858 862	KWNN
 T135	Mention 862 865	+HW
 *	Coreference T2 T3
-*	Coreference T4 T6 T7 T16 T18 T26 T31 T46 T48 T54 T58 T63 T81 T83 T85 T96 T101 T116 T118 T120
 *	Coreference T8 T52 T56 T60 T66 T69 T88 T98 T105 T107 T110 T126 T127 T129 T131 T133
-*	Coreference T10 T11
-*	Coreference T39 T40 T42 T43
+*	Coreference T4 T6 T7 T16 T18 T26 T31 T46 T48 T54 T58 T63 T81 T83 T85 T96 T101 T116 T118 T120
+*	Coreference T10 T11 T28 T32 T34 T37
 *	Coreference T44 T49
-*	Coreference T59 T61
-*	Coreference T68 T70
-*	Coreference T89 T92 T93 T94 T97 T106 T109
+*	Coreference T39 T40 T42 T43 T77
+*	Coreference T62 T84
+*	Coreference T35 T38 T99
 *	Coreference T102 T103
+*	Coreference T89 T92 T93 T94 T97 T106 T109
 *	Coreference T114 T117
+*	Coreference T95 T115
+*	Coreference T23 T121
+*	Coreference T27 T59 T61 T68 T70 T75 T87 T104 T108 T111 T122
 *	Coreference T123 T124 T125
-*	Coreference T132 T135
+*	Coreference T128 T132 T135

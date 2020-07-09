@@ -72,12 +72,13 @@ T71	Mention 450 454	JHWH
 T72	Mention 456 459	XSH
 T73	Mention 461 462	+W
 T74	Mention 464 470	JTHLLW
-*	Coreference T4 T5 T11 T14
 *	Coreference T7 T9 T13 T15
-*	Coreference T18 T22
-*	Coreference T29 T31 T32 T35 T38 T41
-*	Coreference T46 T48
-*	Coreference T50 T51
-*	Coreference T58 T59
-*	Coreference T62 T63 T64 T68
-*	Coreference T69 T70 T72
+*	Coreference T18 T21 T22 T24 T30 T39
+*	Coreference T29 T31 T32 T33 T35 T38 T40 T41 T47
+*	Coreference T25 T49
+*	Coreference T20 T56
+*	Coreference T50 T51 T52 T53 T55 T57
+*	Coreference T58 T59 T61
+*	Coreference T4 T5 T11 T14 T46 T48 T54 T67
+*	Coreference T69 T70 T72 T73
+*	Coreference T62 T63 T64 T68 T74

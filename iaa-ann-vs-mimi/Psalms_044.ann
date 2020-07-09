@@ -198,24 +198,30 @@ T197	Mention 1190 1193	XSD
 T198	Mention 1193 1194	+K
 *	Coreference T4 T13
 *	Coreference T6 T9 T11 T47 T53 T59 T61 T64 T66 T68 T70 T72 T83 T86 T88 T91 T95 T99 T107 T110 T113 T115 T122 T123 T132 T140 T147 T150 T154 T157 T181 T183 T187 T191 T194 T196
-*	Coreference T8 T10
 *	Coreference T17 T19 T21 T24 T37 T39 T41 T44 T51 T56 T78 T102 T134 T137 T165 T177 T198
 *	Coreference T32 T34
-*	Coreference T48 T49
-*	Coreference T63 T65
+*	Coreference T8 T10 T15 T23 T27 T29 T30 T33 T35 T43
+*	Coreference T28 T63 T65
 *	Coreference T67 T73
 *	Coreference T54 T57 T75 T80
-*	Coreference T90 T92
+*	Coreference T52 T69 T89
+*	Coreference T71 T90 T92 T93 T105
 *	Coreference T87 T94 T98 T100 T103 T106 T114
+*	Coreference T20 T97 T117
 *	Coreference T125 T127
 *	Coreference T124 T126
-*	Coreference T130 T131
+*	Coreference T130 T131 T161
 *	Coreference T133 T135
 *	Coreference T138 T139
 *	Coreference T141 T142
-*	Coreference T159 T160
-*	Coreference T162 T163
+*	Coreference T55 T77 T153
+*	Coreference T48 T49 T74 T159 T160
+*	Coreference T45 T162 T163
+*	Coreference T16 T76 T120 T167
 *	Coreference T166 T168
-*	Coreference T170 T171 T172 T173 T174 T178 T179 T192 T195
+*	Coreference T96 T169
+*	Coreference T129 T176
 *	Coreference T184 T186
 *	Coreference T188 T190
+*	Coreference T31 T189
+*	Coreference T170 T171 T172 T173 T174 T178 T179 T192 T195

@@ -147,20 +147,24 @@ T146	Mention 930 933	XSD
 T147	Mention 933 935	+W
 T148	Mention 940 942	+J
 *	Coreference T2 T3
+*	Coreference T8 T11
 *	Coreference T17 T19 T21 T23 T26 T28 T31
 *	Coreference T20 T22
-*	Coreference T24 T25 T27 T29
+*	Coreference T4 T6 T7 T10 T14 T24 T25 T27 T29 T32 T33 T40 T55 T56 T59 T117 T118
 *	Coreference T48 T51
-*	Coreference T52 T53
-*	Coreference T4 T6 T7 T10 T14 T32 T33 T55 T56 T59 T117 T118
+*	Coreference T52 T53 T54
+*	Coreference T5 T15 T57
 *	Coreference T58 T64 T69 T71 T74 T78 T83 T87 T92 T101 T104 T107 T109
-*	Coreference T70 T72 T73 T77 T80 T84
+*	Coreference T9 T13 T36 T43 T46 T49 T61 T66
+*	Coreference T41 T68
 *	Coreference T96 T99 T112
 *	Coreference T102 T103
-*	Coreference T105 T106
+*	Coreference T97 T110
 *	Coreference T94 T98 T111 T114
+*	Coreference T63 T121
 *	Coreference T122 T125 T129 T133 T140 T145 T148
+*	Coreference T105 T106 T120 T123 T124
 *	Coreference T126 T131
 *	Coreference T134 T135
-*	Coreference T136 T137 T138
-*	Coreference T141 T142
+*	Coreference T60 T139
+*	Coreference T70 T72 T73 T77 T80 T84 T136 T137 T138 T141 T142 T143 T147

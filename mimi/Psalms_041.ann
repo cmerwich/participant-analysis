@@ -114,19 +114,18 @@ T113	Mention 647 651	JHWH
 T114	Mention 652 662	>LHJ JFR>L
 T115	Mention 665 671	H-<WLM
 T116	Mention 677 683	H-<WLM
-*	Coreference T8 T10
-*	Coreference T11 T12 T14 T16
-*	Coreference T22 T23
+*	Coreference T9 T13 T15
 *	Coreference T31 T32
-*	Coreference T33 T34 T36
 *	Coreference T35 T38 T42 T45 T62 T65 T66 T69 T77 T82 T84 T89 T91 T97 T100 T101 T102 T104 T106 T108
-*	Coreference T41 T43
-*	Coreference T47 T48
-*	Coreference T53 T54 T56 T59 T61
-*	Coreference T63 T64 T67
+*	Coreference T33 T34 T36
+*	Coreference T20 T37
+*	Coreference T8 T10 T11 T12 T14 T16 T19 T21 T22 T23 T24 T27 T30 T46
+*	Coreference T47 T49 T48 T50
 *	Coreference T70 T71
-*	Coreference T73 T74
+*	Coreference T53 T55 T54 T56 T58 T59 T61 T72
+*	Coreference T73 T74 T79
 *	Coreference T76 T83
-*	Coreference T40 T86 T87 T88 T90 T110
-*	Coreference T98 T99
-*	Coreference T112 T113 T114
+*	Coreference T63 T64 T67 T93
+*	Coreference T41 T43 T98 T99
+*	Coreference T40 T86 T87 T88 T90 T110 T112 T113 T114
+*	Coreference T111 T115 T116

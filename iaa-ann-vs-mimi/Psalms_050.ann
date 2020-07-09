@@ -168,21 +168,21 @@ T167	Mention 1007 1010	DRK
 T168	Mention 1011 1015	>R>N
 T169	Mention 1015 1016	+W
 T170	Mention 1018 1027	JC< >LHJM
-*	Coreference T3 T4 T5
-*	Coreference T13 T14
-*	Coreference T19 T22 T23
-*	Coreference T15 T16 T18 T24
+*	Coreference T3 T4 T5 T6 T10
 *	Coreference T32 T34 T37
-*	Coreference T39 T40
-*	Coreference T43 T45
+*	Coreference T27 T39 T40
 *	Coreference T47 T48 T50 T52 T55 T56 T58 T60 T62 T64 T67 T70 T72 T79 T82 T83 T96 T98 T101 T103
 *	Coreference T49 T51
-*	Coreference T53 T54
+*	Coreference T38 T57
+*	Coreference T19 T22 T23 T85
 *	Coreference T59 T65 T80 T81 T86 T89
 *	Coreference T46 T90 T93 T97
-*	Coreference T105 T106
 *	Coreference T107 T115 T129 T131 T135 T140 T143 T151 T153 T156
 *	Coreference T110 T113 T165
+*	Coreference T36 T112
 *	Coreference T116 T117 T119 T122
+*	Coreference T114 T130
 *	Coreference T123 T132 T136 T138 T141 T144 T147 T149
 *	Coreference T152 T154
+*	Coreference T92 T163
+*	Coreference T13 T14 T15 T16 T18 T21 T24 T30 T42 T43 T45 T53 T54 T91 T105 T106 T126 T164 T169

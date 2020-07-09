@@ -132,19 +132,21 @@ T131	Mention 891 893	+NW
 T132	Mention 899 904	JXLNW
 T133	Mention 906 907	+K
 *	Coreference T1 T2 T6 T10 T12 T15
-*	Coreference T25 T26
-*	Coreference T28 T29
-*	Coreference T40 T42
-*	Coreference T44 T45
-*	Coreference T46 T47
-*	Coreference T49 T50
-*	Coreference T52 T53 T55
-*	Coreference T57 T59
-*	Coreference T72 T73 T74 T78
+*	Coreference T18 T27
+*	Coreference T28 T29 T33 T71
+*	Coreference T25 T26 T40 T42
+*	Coreference T11 T13 T20 T31 T43
+*	Coreference T54 T57 T59
+*	Coreference T56 T60
+*	Coreference T3 T7 T41 T52 T53 T55 T61 T64 T66 T68 T70 T72 T73 T74 T77 T78 T114
+*	Coreference T19 T84
 *	Coreference T86 T87
-*	Coreference T89 T90
+*	Coreference T88 T91 T95
+*	Coreference T89 T90 T96 T97 T100 T103
+*	Coreference T44 T45 T79 T82 T85 T107 T109
 *	Coreference T112 T116 T118 T123
-*	Coreference T111 T113
-*	Coreference T121 T122
-*	Coreference T127 T128
+*	Coreference T106 T111 T113
+*	Coreference T46 T47 T48 T49 T50 T51 T119 T120
+*	Coreference T81 T121 T122 T125
+*	Coreference T24 T102 T127 T128
 *	Coreference T129 T130 T133

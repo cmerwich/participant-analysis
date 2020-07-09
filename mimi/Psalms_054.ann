@@ -71,9 +71,9 @@ T68	Mention 401 403	+J
 *	Coreference T12 T14 T18 T50 T55 T58
 *	Coreference T16 T20 T24 T27 T30 T41 T44 T48 T63 T65 T68
 *	Coreference T15 T19
-*	Coreference T21 T22 T25 T51
 *	Coreference T31 T32
-*	Coreference T28 T29 T35
-*	Coreference T39 T40
+*	Coreference T21 T22 T25 T36 T39 T40 T51
 *	Coreference T54 T56
+*	Coreference T13 T57
+*	Coreference T28 T29 T35 T38 T45 T52 T60 T62
 *	Coreference T66 T67

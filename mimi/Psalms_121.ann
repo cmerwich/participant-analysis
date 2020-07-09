@@ -47,10 +47,8 @@ T46	Mention 293 296	Y>T
 T47	Mention 301 304	BW>
 T48	Mention 318 322	<WLM
 *	Coreference T5 T9 T11
-*	Coreference T7 T8 T14
+*	Coreference T7 T8 T10 T14
 *	Coreference T17 T20 T26 T29 T31 T34 T39 T43
-*	Coreference T18 T19 T21
-*	Coreference T22 T23
+*	Coreference T18 T19 T21 T22 T23 T25
 *	Coreference T32 T33
-*	Coreference T37 T38 T41
-*	Coreference T44 T45
+*	Coreference T12 T24 T27 T37 T38 T41 T44 T45

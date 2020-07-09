@@ -96,16 +96,14 @@ T95	Mention 561 565	JHLK
 T96	Mention 568 571	JFM
 T97	Mention 574 582	DRK P<MJ
 T98	Mention 582 584	+W
-*	Coreference T4 T8 T10 T13 T16 T19 T22 T23 T24 T25 T26 T29 T31 T32 T33 T40 T45 T46 T52 T53
-*	Coreference T41 T43
-*	Coreference T5 T7 T12 T18 T21 T28 T35 T37 T38 T39 T42 T44 T47 T49 T51
-*	Coreference T55 T56 T57
+*	Coreference T4 T8 T10 T13 T16 T19 T23 T22 T24 T25 T26 T29 T31 T32 T33 T40 T45 T46 T52 T53
+*	Coreference T41 T43 T60 T62 T64
+*	Coreference T50 T68
+*	Coreference T55 T56 T57 T58 T61 T63 T67 T69
 *	Coreference T70 T71
 *	Coreference T73 T88
-*	Coreference T74 T75
-*	Coreference T76 T77
+*	Coreference T48 T74 T75
 *	Coreference T78 T80
-*	Coreference T81 T83
-*	Coreference T84 T85
-*	Coreference T87 T89
-*	Coreference T92 T95 T96
+*	Coreference T6 T72 T79 T87 T89 T91
+*	Coreference T5 T7 T12 T18 T21 T28 T35 T37 T38 T39 T42 T44 T47 T49 T51 T84 T85 T94
+*	Coreference T76 T77 T81 T83 T92 T95 T96 T98

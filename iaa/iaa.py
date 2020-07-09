@@ -92,55 +92,35 @@ def parse_ann(annFile):
 
     return results_array
 
-def selection_size(L, s):
+def ds(s1, s2):
+    ''' 
+    Return the L, M, R triple on which the Jaccard distance between
+    the sets s1 and s2 is based.
     '''
-    L is a list of sets, s is a set of indices in L. This function
-    returns the total of the cardinalities of the sets selected by s.
-    '''
-    
-    r = 0
-    for e in s:
-        r += len(L[e])
-    return r
-
-#def ds(A, B, i, j):
-#    return len(A[i]^B[j])
-
-def distance(s1, s2):
     return (len(s1 - s2), len(s1 & s2), len(s2 - s1))
-    
-def match(A, B, d):
-    '''
-    Matches the nodes in a bipartite graph with n and k nodes using the
-    distance function d(i,j) and stores the matching in array r.
-    The unpaired corefs are calculated by selection_size().
-    '''
 
-    n = len(A)
-    k = len(B)
-    cost = np.zeros((n, k))
-    
+def match_nk(l1, l2):
+    '''
+    Return the distance between two lists of sets,
+    provided that n >= k 
+    '''
+    n = len(l1)
+    k = len(l2)
+    lost = np.zeros((n, n), dtype=int)
+    held = np.zeros((n, n), dtype=tuple)
+    #held = matrix of tuples(l, m, r)
     for i in range(n):
         for j in range(k):
-            (L, M, R) = distance(A[i], B[j])
-            cost[i, j] = (L + R) / (L + M + R)
-            #cost[i, j] = d(A, B, i, j)
-    row_ind, col_ind = linear_sum_assignment(cost)
-    unpaired_A = selection_size(A, set(range(n)) - set(row_ind))
-    unpaired_B = selection_size(B, set(range(k)) - set(col_ind))
-    total_cost = cost[row_ind, col_ind].sum() + unpaired_A + unpaired_B
-    uA = set(range(n)) - set(row_ind)
-    uB = set(range(k)) - set(col_ind)
-    
-    return total_cost.sum(), row_ind, col_ind, uA, uB
-
-def make_r(B):
-    '''
-    Makes an array of zero's with the length of array B.
-    '''
-    
-    r = np.zeros(len(B), dtype=int)
-    return r
+            L, M, R = ds(l1[i], l2[j])
+            lost[i, j] = L + R
+            held[i, j] = (L, M, R)
+        for j in range(k, n):
+            L, M, R = (len(l1[i]), 0, 0) # unpaired
+            lost[i, j] = L + R
+            held[i, j] = (L, M, R)
+    rx, cx = linear_sum_assignment(lost)
+    scores = held[rx, cx]
+    return scores, rx, cx
 
 def tag(S, i):
     '''
@@ -153,32 +133,59 @@ def tag(S, i):
         return 'S'
     else:
         return f'C{i+1}'
+    
+def make_tags(list1, list2, rx, cx):
+    '''
+    Makes class and singleton tags per matching. 
+    Returns list of tuples with two elements:
+    tag1 for list1, tag2 for list2. 
+    [(tag1, tag2)]
+    '''
+    tags = [] 
+    n = len(list1) # array A
+    k = len(list2) # array B
+    
+    for i in range(n):
+        if cx[i] < k:
+            tags.append((tag(list1, rx[i]), tag(list2, cx[i])))
+        else:
+            tags.append((tag(list1, rx[i]), '-'))
+    return tags
+    
+def match(l1, l2):
+    '''
+    Returns the comparison between two sets of sets, 
+    represented as lists of sets, in the form of a 
+    list of matched tags, and a list of scores per coref. 
+    '''
+    n = len(l1) # array A
+    k = len(l2) # array B
+    if n < k:
+        scores, rx, cx = match_nk(l2, l1)  #(b, a)
+        tags = make_tags(l2, l1, rx, cx)
+        scores = [t[::-1] for t in scores]
+        tags = [t[::-1] for t in tags]
+    else:
+        scores, rx, cx = match_nk(l1, l2)  #(a, b)
+        tags = make_tags(l1, l2, rx, cx)
+        
+    return tags, scores
 
-def print_set_distance(sA, tagA, sB, tagB):
-    '''
-    Prints the paired and unpaired coref sets of annotator A and B.
-    Returns the difference (Left, Right),
-    intersection (M), symmetric difference (D) and distance() (d) of two sets. 
-    '''
-    
-    L = len(sA-sB)
-    M = len(sA&sB)
-    R = len(sB-sA)
-    D = L + R
-    d = round(D/(L+M+R),4)
-    print(tagA, tagB, L, M, R, D, d, sep='\t')
-    
-def compare_corefs(A, B, uA, rx, cx, uB):
-    for i in range(len(rx)):
-        print_set_distance(A[rx[i]], tag(A, rx[i]), B[cx[i]], tag(B, cx[i]))
-    for i in uA:
-        print_set_distance(A[i], tag(A, i), set(), '-')
-    for i in uB:
-        print_set_distance(set(), '-', B[i], tag(B, i))
+def write_results(tags, scores):
+    # tags = [(), ()]
+    # scores = [(l, m, r), ()]
+    for i in range(len(tags)):
+        t = tags[i]
+        l, m, r = scores[i]
+        D = l + r
+        d = round(D / (l + m + r), 4)
+        print(t[0], t[1], l, m, r, D, d, sep='\t')
 
 def compare_ann(pathA, pathB):
     '''
-    Executes the comparison between the brat annotation files of annotator A and B.
+    Executes the comparison between the brat annotation files 
+    of annotator A and B per chapter. 
+    Writes to standard output. 
     '''
     
     annFileA = os.path.expanduser(pathA)
@@ -187,10 +194,8 @@ def compare_ann(pathA, pathB):
     results_array_A = parse_ann(annFileA)
     results_array_B = parse_ann(annFileB)
     
-    make_r(results_array_B)
-    cost, rx, cx, uA, uB = match(results_array_A, results_array_B, distance)
-    
-    compare_corefs(results_array_A, results_array_B, uA, rx, cx, uB)
+    tags, scores = match(results_array_A, results_array_B)
+    write_results(tags, scores)
     
 if __name__ == "__main__":
     compare_ann(argv[1], argv[2])

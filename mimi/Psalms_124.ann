@@ -49,13 +49,12 @@ T48	Mention 325 328	+NW
 T49	Mention 331 338	CM JHWH
 T50	Mention 339 353	<FH CMJM W->RY
 *	Coreference T5 T10 T12 T15 T19 T22 T26 T29 T34 T39 T48
-*	Coreference T6 T7
 *	Coreference T11 T13
 *	Coreference T16 T17
-*	Coreference T20 T21
+*	Coreference T6 T7 T9 T14 T18
 *	Coreference T23 T24
-*	Coreference T27 T30
-*	Coreference T31 T32
-*	Coreference T38 T41
-*	Coreference T43 T44
+*	Coreference T3 T8 T31 T32
+*	Coreference T20 T21 T27 T30 T33 T37
+*	Coreference T25 T28 T38 T41
+*	Coreference T42 T43 T44
 *	Coreference T45 T46

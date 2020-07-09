@@ -99,12 +99,14 @@ T96	Mention 588 590	+NW
 *	Coreference T7 T12
 *	Coreference T8 T9
 *	Coreference T16 T20
-*	Coreference T13 T17 T19 T21 T25 T28 T31 T34 T37 T40
+*	Coreference T23 T30
+*	Coreference T10 T33
 *	Coreference T35 T36
 *	Coreference T29 T38 T41
-*	Coreference T43 T44
 *	Coreference T47 T48 T51
 *	Coreference T52 T54 T58 T61 T64 T68
 *	Coreference T66 T70
-*	Coreference T77 T78 T80 T81 T84
+*	Coreference T13 T17 T19 T21 T25 T28 T31 T34 T37 T40 T43 T44 T46 T71 T74
+*	Coreference T65 T76
+*	Coreference T77 T78 T80 T81 T84 T90
 *	Coreference T93 T94

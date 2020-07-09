@@ -144,22 +144,25 @@ T143	Mention 845 850	MJD<J
 T144	Mention 850 850	+
 T145	Mention 851 855	MXCK
 *	Coreference T8 T9
-*	Coreference T16 T19
-*	Coreference T26 T28
-*	Coreference T30 T33
+*	Coreference T26 T28 T114
 *	Coreference T34 T36
 *	Coreference T40 T41
-*	Coreference T44 T47
+*	Coreference T30 T33 T43
 *	Coreference T54 T55
+*	Coreference T44 T47 T67
 *	Coreference T70 T72
 *	Coreference T74 T78
+*	Coreference T39 T82
 *	Coreference T21 T48 T60 T64 T83
 *	Coreference T85 T86 T87
 *	Coreference T89 T91
-*	Coreference T96 T98
+*	Coreference T84 T96 T98
 *	Coreference T10 T11 T12 T15 T18 T20 T23 T25 T29 T31 T46 T49 T53 T56 T58 T62 T63 T65 T71 T75 T76 T79 T81 T88 T92 T94 T99 T101 T103 T104 T105 T106 T109 T111 T115 T118 T119 T120 T124 T126 T129 T131 T133 T135 T139 T141 T144
-*	Coreference T108 T110
+*	Coreference T16 T19 T108 T110
 *	Coreference T112 T113 T116
+*	Coreference T17 T117
 *	Coreference T122 T125
 *	Coreference T127 T128
+*	Coreference T77 T137
 *	Coreference T130 T132 T134 T138
+*	Coreference T61 T143

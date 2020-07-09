@@ -89,15 +89,18 @@ T88	Mention 616 619	YDQ
 T89	Mention 621 625	<MJM
 T90	Mention 627 632	>MWNT
 T91	Mention 632 633	+W
+*	Coreference T11 T14 T18 T21
 *	Coreference T23 T24
-*	Coreference T28 T30
-*	Coreference T1 T4 T6 T7 T9 T12 T15 T37 T39 T40 T43 T47 T49 T52 T55 T58 T59
-*	Coreference T63 T64 T65
-*	Coreference T61 T62 T66
-*	Coreference T69 T70
-*	Coreference T71 T72
-*	Coreference T73 T74
-*	Coreference T76 T77
+*	Coreference T25 T26
+*	Coreference T17 T42 T45
+*	Coreference T2 T5 T8 T22 T28 T30 T33 T36 T38 T41 T44 T46 T51 T53 T57 T61 T62 T66
+*	Coreference T16 T60
+*	Coreference T63 T64 T65 T87
+*	Coreference T29 T69 T70
+*	Coreference T73 T74 T75
+*	Coreference T76 T77 T78
 *	Coreference T79 T80
-*	Coreference T82 T83
-*	Coreference T84 T85
+*	Coreference T32 T56 T81
+*	Coreference T1 T4 T6 T7 T9 T12 T15 T37 T39 T40 T43 T47 T49 T52 T55 T58 T59 T71 T72 T84 T85
+*	Coreference T19 T67 T89
+*	Coreference T82 T83 T86 T91

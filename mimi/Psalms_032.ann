@@ -91,16 +91,18 @@ T90	Mention 595 599	JHWH
 T91	Mention 602 606	GJLW
 T92	Mention 607 613	YDJQJM
 T93	Mention 616 622	HRNJNW
-*	Coreference T6 T7
-*	Coreference T14 T15
+*	Coreference T3 T5
+*	Coreference T6 T7 T8 T11 T39 T85 T90
 *	Coreference T16 T18 T21 T26 T29 T33 T43 T55 T58 T62
 *	Coreference T20 T22
-*	Coreference T23 T31 T40 T41 T47 T53
 *	Coreference T24 T25
 *	Coreference T30 T34 T35
-*	Coreference T45 T46
+*	Coreference T23 T31 T40 T41 T47 T53
+*	Coreference T9 T32 T42
+*	Coreference T14 T15 T52
 *	Coreference T57 T61
 *	Coreference T64 T66 T70 T82
 *	Coreference T63 T65 T69
 *	Coreference T86 T87
+*	Coreference T45 T46 T51 T79 T88
 *	Coreference T89 T91 T92 T93

@@ -60,6 +60,9 @@ T59	Mention 429 431	+NW
 T60	Mention 440 442	CM
 T61	Mention 442 443	+K
 T62	Mention 445 452	KL H->RY
-*	Coreference T23 T25
+*	Coreference T14 T23 T25
 *	Coreference T33 T41 T46
+*	Coreference T31 T34 T36 T40 T42 T48 T51
 *	Coreference T5 T6 T7 T9 T13 T19 T24 T26 T44 T57 T58 T59 T61
+*	Coreference T8 T60
+*	Coreference T10 T62

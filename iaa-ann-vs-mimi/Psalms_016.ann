@@ -94,14 +94,17 @@ T93	Mention 519 524	N<MWT
 T94	Mention 526 530	JMJN
 T95	Mention 530 531	+K
 *	Coreference T11 T14
-*	Coreference T22 T23 T26
+*	Coreference T17 T21
 *	Coreference T27 T31
-*	Coreference T4 T5 T7 T36 T37 T38 T39 T40 T41 T42 T44 T47 T51 T55 T58 T60 T64 T66 T70 T73 T75 T80 T84 T88 T92 T95
+*	Coreference T22 T23 T24 T26 T29 T33
+*	Coreference T4 T5 T7 T36 T37 T38 T39 T40 T41 T42 T44 T47 T51 T53 T55 T58 T60 T62 T64 T66 T70 T73 T75 T80 T84 T88 T92 T95
 *	Coreference T45 T46
-*	Coreference T49 T50
+*	Coreference T49 T50 T54
 *	Coreference T57 T59
 *	Coreference T52 T61
 *	Coreference T68 T69
 *	Coreference T71 T72
 *	Coreference T74 T76
 *	Coreference T78 T82 T87
+*	Coreference T48 T93
+*	Coreference T65 T94

@@ -11,11 +11,10 @@ from tf.app import use
 from tf.fabric import Fabric
 from utils import converse_pgn, suffix_dict
 
-
 A = use(
     'bhsa', version='2017',
     mod=(
-        'cmerwich/participant-analysis/coreference/tf,'
+        'cmerwich/participant-analysis/coreference/tf:clone,'
         'cmerwich/bh-reference-system/tf'
     ), 
     hoist=globals(),
@@ -218,7 +217,7 @@ def EnrichMentions(mentions):
         vt = F.vt.v(m.start)#'ptca'
         
         if m.isSuffix:
-            m.typ = 'PPrP'
+            m.typ = 'Sffx'
         # if mention nodes are the same as phrase atom nodes 
         elif len(pa_words) == 1 and not m.isSuffix:
             m.typ = pa_typ
@@ -253,7 +252,7 @@ def FindMentionByRPT(c, typ):
             return m
     
 def Identify(c):
-    rpt_order = ['PrNP', 'NP', 'PtcP', 'VP', 'PPrP', 'DPrP']
+    rpt_order = ['PrNP', 'NP', 'PtcP', 'VP', 'PPrP', 'Sffx', 'DPrP']
     for typ in rpt_order:
         m = FindMentionByRPT(c, typ)
         if m:
@@ -299,9 +298,11 @@ def GetGraphData(corefs):
     
     for k, c in corefs.items():
         if k != 0:
-            pos_dict['first in chain'][c.first().typ] += 1
+            pos_dict['first in chain'][c.first().typ] += 1     
         for m in c.terms:
-            pa_typ = 'suffix' if m.isSuffix else m.typ
+            # Not necessary anymore, but left here to make explicit that suffix 
+            # is made into a separate mention type
+            pa_typ = 'Sffx' if m.isSuffix else m.typ 
             if k != 0:
                 pos_dict['in class'][pa_typ] += 1
                 if pa_typ in {'VP', 'PPrP'}:
@@ -328,7 +329,7 @@ def GetGraphData(corefs):
                         pronoun_pos_sing_dict[pa_typ][suffix_dict[m.surface][0]] += 1
             
             pos_dict['total'][pa_typ] += 1
-    
+            
     return pos_dict, pronoun_dict, pronoun_pos_class_dict, pronoun_pos_sing_dict
 
 def MakePandasTables(corefs, mentions):

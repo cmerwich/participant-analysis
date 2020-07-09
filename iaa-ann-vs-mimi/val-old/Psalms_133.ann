@@ -1,0 +1,22 @@
+T1	Mention 13 23	CJR H-M<LWT
+T2	Mention 25 28	DWD
+T3	Mention 49 52	CBT
+T4	Mention 53 57	>XJM
+T5	Mention 71 79	-CMN H-VWB
+T6	Mention 85 89	H-R>C
+T7	Mention 90 93	JRD
+T8	Mention 97 101	H-ZQN
+T9	Mention 102 110	ZQN >HRN
+T10	Mention 112 115	JRD
+T11	Mention 119 127	PJ MDWTJ
+T12	Mention 127 128	+W
+T13	Mention 135 143	VL XRMWN
+T14	Mention 145 148	JRD
+T15	Mention 152 161	HRRJ YJWN
+T16	Mention 170 173	YWH
+T17	Mention 174 178	JHWH
+T18	Mention 182 187	H-BRKH
+T19	Mention 188 192	XJJM
+T20	Mention 196 201	H-<WLM
+*	Coreference T3 T4
+*	Coreference T16 T17

@@ -90,18 +90,19 @@ T89	Mention 649 653	JNHG
 T90	Mention 653 656	+NW
 T91	Mention 660 663	MWT
 *	Coreference T7 T39
-*	Coreference T14 T17
+*	Coreference T9 T16
 *	Coreference T19 T20 T21
-*	Coreference T22 T23 T24 T25 T26
-*	Coreference T27 T28
+*	Coreference T22 T23 T24 T25 T26 T29
 *	Coreference T35 T36
-*	Coreference T37 T38
-*	Coreference T40 T41
-*	Coreference T45 T47 T49 T51 T52 T54 T59 T65
-*	Coreference T57 T58
-*	Coreference T60 T61
+*	Coreference T6 T37 T38
+*	Coreference T14 T17 T40 T41
+*	Coreference T27 T28 T42
+*	Coreference T11 T60 T61
 *	Coreference T62 T63
+*	Coreference T15 T79
+*	Coreference T57 T58 T69 T72 T77 T80
 *	Coreference T66 T68 T70 T73 T78 T81
-*	Coreference T84 T85
+*	Coreference T45 T47 T49 T51 T52 T54 T59 T65 T84 T85
 *	Coreference T86 T90
+*	Coreference T43 T87
 *	Coreference T88 T89

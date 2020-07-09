@@ -86,13 +86,10 @@ T84	Mention 494 498	JBCW
 *	Coreference T9 T13
 *	Coreference T6 T8 T12 T21 T28 T38 T41 T44
 *	Coreference T22 T23
-*	Coreference T25 T27
-*	Coreference T15 T17 T19 T29 T30 T31 T32 T35
+*	Coreference T25 T27 T33 T43
 *	Coreference T45 T48 T56
 *	Coreference T57 T59 T61
 *	Coreference T65 T70 T74 T77 T82
-*	Coreference T67 T68
-*	Coreference T71 T72
-*	Coreference T75 T78
+*	Coreference T15 T17 T19 T29 T30 T31 T32 T35 T67 T68 T71 T72 T75 T78
 *	Coreference T80 T81
 *	Coreference T79 T83 T84

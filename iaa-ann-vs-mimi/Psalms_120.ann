@@ -37,6 +37,7 @@ T36	Mention 273 278	-MLXMH
 *	Coreference T4 T7 T11 T22 T30 T32
 *	Coreference T8 T9
 *	Coreference T15 T17
-*	Coreference T14 T16
+*	Coreference T13 T18
 *	Coreference T23 T25
-*	Coreference T27 T29
+*	Coreference T10 T27 T28 T29
+*	Coreference T14 T16 T35

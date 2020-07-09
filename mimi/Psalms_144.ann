@@ -139,14 +139,19 @@ T138	Mention 825 829	>LHJ
 T139	Mention 829 831	+W
 *	Coreference T2 T3 T4
 *	Coreference T5 T8 T11 T14 T16 T18 T20 T21 T23 T28 T29
-*	Coreference T37 T39
-*	Coreference T30 T43 T44 T47 T48 T51 T53 T55 T58 T60 T64 T66
+*	Coreference T24 T33 T36
 *	Coreference T65 T67 T93 T95 T105 T111 T116 T121 T125 T127 T133
-*	Coreference T70 T72
-*	Coreference T46 T57 T62 T77 T80 T83
+*	Coreference T30 T43 T44 T47 T48 T51 T53 T55 T58 T60 T64 T66 T137
 *	Coreference T79 T82
-*	Coreference T88 T89
+*	Coreference T1 T88 T89
 *	Coreference T92 T94
-*	Coreference T97 T99
+*	Coreference T7 T61 T69 T96
+*	Coreference T73 T100
+*	Coreference T74 T76 T101 T103
+*	Coreference T34 T104
+*	Coreference T31 T37 T39 T41 T50 T54 T59 T71 T75 T98 T102 T109
 *	Coreference T120 T122
 *	Coreference T126 T128
+*	Coreference T134 T136
+*	Coreference T46 T57 T62 T77 T80 T83 T138
+*	Coreference T70 T72 T90 T97 T99 T135 T139

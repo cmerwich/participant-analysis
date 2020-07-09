@@ -71,16 +71,13 @@ T70	Mention 499 503	JBRK
 T71	Mention 507 509	<M
 T72	Mention 509 511	+W
 T73	Mention 514 519	-CLWM
-*	Coreference T3 T5 T6 T9 T13
+*	Coreference T3 T5 T6 T9 T13 T36
 *	Coreference T18 T19
-*	Coreference T26 T27
-*	Coreference T29 T30 T32
-*	Coreference T37 T38
-*	Coreference T40 T41
-*	Coreference T43 T44
-*	Coreference T46 T47
+*	Coreference T17 T21
+*	Coreference T28 T31
+*	Coreference T42 T45
+*	Coreference T16 T22 T24 T26 T27 T37 T38 T40 T41 T46 T47 T49 T52 T54
 *	Coreference T53 T55
-*	Coreference T57 T59
-*	Coreference T60 T61
-*	Coreference T64 T68
-*	Coreference T69 T70
+*	Coreference T8 T11 T56
+*	Coreference T66 T71
+*	Coreference T4 T7 T10 T14 T20 T29 T30 T32 T33 T43 T44 T57 T59 T60 T61 T64 T67 T68 T69 T70 T72

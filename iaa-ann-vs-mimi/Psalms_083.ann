@@ -110,12 +110,12 @@ T109	Mention 756 763	KL H->RY
 *	Coreference T7 T8
 *	Coreference T10 T12
 *	Coreference T13 T15
-*	Coreference T29 T30
-*	Coreference T19 T21 T24 T31 T35
-*	Coreference T39 T40
-*	Coreference T48 T50
+*	Coreference T29 T30 T93
+*	Coreference T19 T21 T24 T27 T31 T35 T41 T42 T46
 *	Coreference T45 T53
-*	Coreference T67 T68 T69 T88
+*	Coreference T39 T40 T75 T78
 *	Coreference T80 T86
+*	Coreference T67 T68 T69 T88
+*	Coreference T48 T50 T54 T56 T62 T63 T70 T81 T87 T90 T92
 *	Coreference T96 T97 T99 T100 T101
-*	Coreference T4 T6 T9 T11 T18 T23 T33 T83 T85 T94 T95 T102 T103 T104 T107
+*	Coreference T4 T6 T9 T11 T18 T23 T33 T83 T85 T94 T95 T102 T103 T104 T105 T107

@@ -77,20 +77,21 @@ T76	Mention 551 555	JHWH
 T77	Mention 558 562	HWDW
 T78	Mention 565 572	ZKR QDC
 T79	Mention 572 574	+W
-*	Coreference T1 T2
-*	Coreference T3 T4
 *	Coreference T5 T6
-*	Coreference T13 T16 T17
 *	Coreference T20 T21
-*	Coreference T25 T26
+*	Coreference T13 T16 T17 T24
 *	Coreference T27 T29
-*	Coreference T30 T31
+*	Coreference T14 T30 T31
 *	Coreference T32 T33
+*	Coreference T10 T34
 *	Coreference T36 T37
-*	Coreference T40 T41
+*	Coreference T3 T4 T25 T26 T47
 *	Coreference T48 T49
 *	Coreference T50 T51
-*	Coreference T56 T59
+*	Coreference T46 T60
 *	Coreference T61 T62
+*	Coreference T40 T41 T69
 *	Coreference T70 T71
 *	Coreference T74 T75 T77
+*	Coreference T56 T59 T76
+*	Coreference T1 T2 T9 T12 T15 T19 T22 T35 T39 T45 T54 T66 T68 T79

@@ -56,10 +56,11 @@ T55	Mention 370 373	JCR
 T56	Mention 374 378	JXZW
 T57	Mention 379 382	PNJ
 T58	Mention 382 384	+MW
-*	Coreference T12 T13 T15
-*	Coreference T21 T22
+*	Coreference T12 T13 T15 T17 T42 T47
 *	Coreference T32 T34
-*	Coreference T35 T37
-*	Coreference T43 T44
-*	Coreference T39 T41 T46
-*	Coreference T56 T57
+*	Coreference T21 T22 T24 T27 T31 T33 T36
+*	Coreference T23 T40
+*	Coreference T6 T43 T44
+*	Coreference T35 T37 T51
+*	Coreference T3 T25 T28 T39 T41 T45 T46 T52 T54
+*	Coreference T56 T57 T58

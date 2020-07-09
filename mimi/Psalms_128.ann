@@ -38,6 +38,9 @@ T37	Mention 267 269	+K
 T38	Mention 270 274	CLWM
 T39	Mention 278 283	JFR>L
 *	Coreference T7 T10 T12 T14 T17 T19 T22 T27 T33 T37
+*	Coreference T2 T9
+*	Coreference T5 T11
 *	Coreference T23 T24
 *	Coreference T26 T28
 *	Coreference T30 T34
+*	Coreference T18 T35 T36

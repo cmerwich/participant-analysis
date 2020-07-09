@@ -22,7 +22,7 @@ MiMi produces three kinds of files per chapter:
 * `.ann` file with the coreference data;
 * `.tsv` file for data administration purposes. 
 
-After MiMi has been run, the data can be visualised and analysed with the functions in `mimi_visualise.py` for example in the the notebook [mimi-analyse](https://github.com/cmerwich/participant-analysis/blob/master/mimi/mimi-analyse.ipynb). The `.ann` files can be imported into annotation tool *brat*. 
+After MiMi has been run, the data can be visualised and analysed with the functions in `mimi_visualise.py` for example in the the notebook [mimi-analyse](https://github.com/cmerwich/participant-analysis/blob/master/mimi/mimi-analyse.ipynb). The `.ann` files can be imported into annotation tool *brat*.
 
 ## MiMi for the Hebrew Bible - A Demonstration
 

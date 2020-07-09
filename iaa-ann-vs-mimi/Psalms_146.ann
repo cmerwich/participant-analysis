@@ -79,15 +79,14 @@ T78	Mention 471 475	YJWN
 T79	Mention 477 483	DR W-DR
 T80	Mention 484 488	HLLW
 T81	Mention 489 491	JH
-*	Coreference T1 T4 T5 T10 T13 T15 T16 T80
 *	Coreference T7 T11
 *	Coreference T21 T22
-*	Coreference T28 T29
-*	Coreference T37 T38
-*	Coreference T54 T55
-*	Coreference T57 T58
-*	Coreference T60 T61
-*	Coreference T63 T64
-*	Coreference T66 T67
+*	Coreference T19 T23 T24 T26 T30 T34 T36 T39
+*	Coreference T28 T29 T44
+*	Coreference T40 T48
 *	Coreference T70 T72
-*	Coreference T73 T74
+*	Coreference T8 T37 T38 T45 T54 T55 T57 T58 T60 T61 T63 T64 T66 T67 T73 T74
+*	Coreference T47 T75
+*	Coreference T12 T76
+*	Coreference T1 T4 T5 T10 T13 T15 T16 T80
+*	Coreference T2 T81

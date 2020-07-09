@@ -174,23 +174,27 @@ T173	Mention 1126 1136	KL ML>KWTJ
 T174	Mention 1136 1137	+K
 *	Coreference T5 T9 T13 T72 T76 T81 T94 T121 T123 T125 T130 T134 T138 T141 T142 T149 T151 T153 T155 T165 T167 T171
 *	Coreference T7 T8
-*	Coreference T11 T12
 *	Coreference T27 T29
 *	Coreference T30 T31
-*	Coreference T33 T35
+*	Coreference T33 T35 T93
+*	Coreference T11 T12 T20 T22 T24 T26 T28 T32 T36
 *	Coreference T37 T38
-*	Coreference T39 T40 T44 T45
+*	Coreference T39 T40 T44 T45 T48 T50
 *	Coreference T49 T51
-*	Coreference T53 T54
-*	Coreference T56 T57 T59
-*	Coreference T60 T61
-*	Coreference T67 T68
+*	Coreference T53 T54 T55
+*	Coreference T56 T57 T58 T59
 *	Coreference T86 T129 T131 T136 T144 T159 T164 T174
 *	Coreference T77 T83 T87 T88
+*	Coreference T23 T91
+*	Coreference T60 T61 T92
 *	Coreference T95 T97
-*	Coreference T106 T109 T110
-*	Coreference T101 T103 T114 T118
-*	Coreference T119 T120
+*	Coreference T67 T68 T99 T102 T104
+*	Coreference T106 T109 T110 T117
+*	Coreference T71 T119 T120
 *	Coreference T132 T137 T140
+*	Coreference T46 T143
+*	Coreference T52 T146
 *	Coreference T147 T148
+*	Coreference T4 T156
 *	Coreference T158 T160
+*	Coreference T101 T103 T114 T118 T169

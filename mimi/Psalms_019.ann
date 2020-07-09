@@ -109,14 +109,17 @@ T108	Mention 754 757	G>L
 T109	Mention 757 759	+J
 *	Coreference T4 T5
 *	Coreference T9 T10
-*	Coreference T11 T13
-*	Coreference T15 T17
+*	Coreference T11 T12 T13
+*	Coreference T14 T19
 *	Coreference T21 T22
-*	Coreference T25 T26
+*	Coreference T28 T44
 *	Coreference T77 T91 T104
-*	Coreference T76 T78
+*	Coreference T76 T78 T90
+*	Coreference T25 T26 T32 T35 T39 T40 T46 T48 T53 T84
+*	Coreference T51 T85
 *	Coreference T87 T93 T100 T102 T107 T109
 *	Coreference T86 T89
+*	Coreference T15 T16 T17 T23 T27 T30 T34 T50 T71 T79 T81 T92
 *	Coreference T94 T95
 *	Coreference T97 T99
 *	Coreference T105 T106

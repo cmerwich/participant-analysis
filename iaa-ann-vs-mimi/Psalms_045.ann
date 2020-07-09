@@ -145,21 +145,23 @@ T144	Mention 897 901	<MJM
 T145	Mention 902 906	JHWD
 T146	Mention 906 907	+K
 T147	Mention 909 916	<LM W-<D
-*	Coreference T6 T7
+*	Coreference T6 T7 T52
 *	Coreference T8 T10 T11 T13 T16 T76
 *	Coreference T20 T21
 *	Coreference T24 T26
 *	Coreference T18 T28 T39 T40
-*	Coreference T42 T45
-*	Coreference T49 T51
-*	Coreference T23 T25 T30 T32 T34 T36 T38 T43 T46 T48 T50 T54 T55 T59 T65 T68 T71 T74 T78 T81 T85 T126 T132 T135 T142 T146
-*	Coreference T64 T66 T67
-*	Coreference T82 T83
+*	Coreference T9 T41
+*	Coreference T42 T45 T84
+*	Coreference T57 T58
+*	Coreference T23 T25 T30 T32 T34 T36 T38 T43 T46 T48 T50 T54 T55 T59 T64 T65 T66 T67 T68 T71 T74 T78 T81 T85 T126 T132 T135 T142 T146
+*	Coreference T49 T51 T77 T94 T96 T144 T145
 *	Coreference T87 T88 T89 T90 T93
-*	Coreference T98 T99
-*	Coreference T92 T95 T97 T101 T104 T107 T110
+*	Coreference T14 T98 T99 T102 T106 T120
 *	Coreference T111 T112
+*	Coreference T92 T95 T97 T101 T104 T107 T110 T114
+*	Coreference T82 T83 T117 T119 T122 T124
 *	Coreference T123 T125
 *	Coreference T127 T129
-*	Coreference T133 T134
-*	Coreference T144 T145
+*	Coreference T75 T130
+*	Coreference T3 T19 T133 T134 T137
+*	Coreference T27 T56 T147

@@ -41,12 +41,16 @@ T40	Mention 287 291	H-YWR
 T41	Mention 292 299	>GM MJM
 T42	Mention 300 305	XLMJC
 T43	Mention 307 316	M<JNW MJM
-*	Coreference T1 T2
-*	Coreference T6 T7
-*	Coreference T13 T14
+*	Coreference T1 T2 T10
+*	Coreference T6 T7 T9 T12
+*	Coreference T13 T14 T15
 *	Coreference T16 T17
 *	Coreference T19 T20
 *	Coreference T25 T26
 *	Coreference T27 T28
+*	Coreference T18 T29
 *	Coreference T30 T31
+*	Coreference T21 T32
 *	Coreference T33 T36
+*	Coreference T23 T34
+*	Coreference T35 T38

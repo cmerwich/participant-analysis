@@ -5,7 +5,7 @@
 @title=Participant analysis
 @valueType=str
 @writtenBy=Text-Fabric
-@dateWritten=2020-03-16T14:24:17Z
+@dateWritten=2020-06-21T14:19:53Z
 
 2	T,1,,,R>CJT
 C,57,,,BR>
@@ -18711,7 +18711,7 @@ C,2,4,,>RY WKL&JCBJ
 323049	C,2,,s,H
 C,4,,,>NKJ
 C,4,,,TKNTJ
-C,2,,,<MWDJ|C,2,,s,H
+T,68,,,<MWDJ|C,2,,s,H
 323054	C,4,,,>MRTJ
 323057	C,3,,,HWLLJM
 323059	C,3,,,THLW
@@ -18748,7 +18748,7 @@ C,7,,,>GJD
 323122	T,60,,,<LM
 C,7,,,>ZMRH
 323125	C,4,2,,>LHJ J<QB
-323128	C,6,3,,KL&QRNJ RC<JM
+323128	C,10,3,,KL&QRNJ RC<JM
 323131	C,4,,,>GD<
 C,8,,,TRWMMNH
 C,8,2,,QRNWT YDJQ

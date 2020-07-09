@@ -66,8 +66,16 @@ T65	Mention 427 431	THLT
 T66	Mention 431 432	+W
 T67	Mention 433 437	<MDT
 T68	Mention 439 441	<D
-*	Coreference T14 T16
-*	Coreference T27 T33
+*	Coreference T4 T22
+*	Coreference T7 T39
 *	Coreference T42 T43
-*	Coreference T51 T54
-*	Coreference T65 T67
+*	Coreference T27 T30 T32 T33 T35 T40 T44
+*	Coreference T41 T49
+*	Coreference T34 T52
+*	Coreference T28 T55
+*	Coreference T29 T56
+*	Coreference T48 T63
+*	Coreference T10 T13 T15 T19 T21 T24 T26 T37 T64
+*	Coreference T51 T53 T54 T57 T59 T66
+*	Coreference T14 T16 T65 T67
+*	Coreference T17 T46 T47 T68

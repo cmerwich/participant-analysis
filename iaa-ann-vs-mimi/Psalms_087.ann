@@ -40,10 +40,8 @@ T39	Mention 288 293	XLLJM
 T40	Mention 294 302	KL M<JNJ
 T41	Mention 302 302	+
 T42	Mention 304 305	+K
-*	Coreference T7 T8
 *	Coreference T11 T12
-*	Coreference T19 T21 T22
-*	Coreference T25 T26
+*	Coreference T19 T21 T22 T24 T36 T37
 *	Coreference T28 T29
-*	Coreference T32 T33
-*	Coreference T36 T37
+*	Coreference T25 T26 T27 T30
+*	Coreference T7 T8 T32 T33

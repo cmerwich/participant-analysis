@@ -101,17 +101,18 @@ T100	Mention 645 650	JCRJM
 T101	Mention 654 657	PNJ
 T102	Mention 657 658	+K
 *	Coreference T5 T10 T25 T30 T34 T38 T45
-*	Coreference T11 T15
-*	Coreference T4 T6 T9 T24 T26 T29
-*	Coreference T35 T36 T40 T44
+*	Coreference T11 T15 T17 T19 T23 T31
+*	Coreference T27 T42
+*	Coreference T4 T6 T9 T24 T26 T29 T47
 *	Coreference T49 T52 T54 T55 T56 T57 T58 T60
-*	Coreference T62 T63 T67
-*	Coreference T69 T74
-*	Coreference T71 T73
-*	Coreference T75 T77
-*	Coreference T83 T84
+*	Coreference T14 T61
+*	Coreference T59 T69 T74
+*	Coreference T35 T36 T40 T44 T66 T68 T72
+*	Coreference T71 T73 T79
+*	Coreference T75 T76 T77 T80 T82
+*	Coreference T8 T28 T83 T84 T86 T87 T88
 *	Coreference T46 T90
-*	Coreference T91 T92
+*	Coreference T62 T63 T67 T91 T92
 *	Coreference T95 T96
 *	Coreference T98 T102
 *	Coreference T99 T100

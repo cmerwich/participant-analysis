@@ -35,7 +35,9 @@ T34	Mention 262 266	JHWH
 T35	Mention 270 279	P<LJ H->WN
 T36	Mention 280 284	CLWM
 T37	Mention 288 293	JFR>L
-*	Coreference T5 T7
+*	Coreference T4 T9
+*	Coreference T5 T7 T10 T13
+*	Coreference T6 T14
 *	Coreference T15 T16
-*	Coreference T18 T19
-*	Coreference T32 T34
+*	Coreference T3 T11 T24 T32 T34
+*	Coreference T18 T19 T22 T28 T31 T33

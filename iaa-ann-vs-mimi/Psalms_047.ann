@@ -51,11 +51,12 @@ T50	Mention 397 410	<M >LHJ >BRHM
 T51	Mention 415 420	>LHJM
 T52	Mention 421 429	MGNJ >RY
 T53	Mention 434 438	N<LH
-*	Coreference T4 T5 T7 T30 T32 T33 T36 T39
 *	Coreference T15 T18 T20 T22 T35
 *	Coreference T21 T23
 *	Coreference T13 T19 T24
-*	Coreference T25 T26
-*	Coreference T41 T42
-*	Coreference T44 T45
+*	Coreference T10 T28
+*	Coreference T9 T29
+*	Coreference T11 T34 T37
+*	Coreference T4 T5 T7 T14 T30 T32 T33 T36 T39 T50
 *	Coreference T48 T49
+*	Coreference T8 T25 T26 T31 T38 T41 T42 T44 T45 T47 T51 T53

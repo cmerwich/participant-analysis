@@ -86,10 +86,15 @@ T85	Mention 572 575	DXW
 T86	Mention 581 585	JKLW
 T87	Mention 586 589	QWM
 *	Coreference T2 T3
-*	Coreference T26 T29 T32
+*	Coreference T10 T11 T12 T14 T17 T20 T22
+*	Coreference T26 T28 T29 T32
 *	Coreference T33 T36 T38 T41 T44 T48 T50 T51 T54 T58 T60 T63 T66 T71 T73 T75
-*	Coreference T52 T55 T56
+*	Coreference T52 T55 T56 T62
+*	Coreference T65 T68
+*	Coreference T35 T49 T70
+*	Coreference T40 T74
 *	Coreference T76 T78
 *	Coreference T77 T81
 *	Coreference T79 T80
+*	Coreference T21 T25 T84
 *	Coreference T82 T85 T86

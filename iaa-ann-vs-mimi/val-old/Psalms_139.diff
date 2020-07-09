@@ -1,0 +1,42 @@
+10,11c10,11
+< Mention 61 65
+< Mention 67 71
+---
+> Mention 61 64
+> Mention 67 70
+16,17c16,17
+< Mention 93 97
+< Mention 99 103
+---
+> Mention 93 96
+> Mention 99 102
+19,20c19,20
+< Mention 110 116
+< Mention 116 117
+---
+> Mention 110 117
+> Mention 117 117
+32c32
+< Mention 193 194
+---
+> Mention 194 194
+36c36
+< Mention 217 219
+---
+> Mention 218 219
+81,82c81,82
+< Mention 496 500
+< Mention 500 501
+---
+> Mention 496 501
+> Mention 501 501
+115a116
+> Mention 686 687
+130a132
+> Mention 771 772
+167,168c169,170
+< Mention 978 982
+< Mention 982 983
+---
+> Mention 978 983
+> Mention 983 983

@@ -91,7 +91,5 @@ def PrintMentions(Mentions, s):
                             })
     
             sing_overview_df = pd.DataFrame(sing_list)
-            sing_overview_df = sing_overview_df[['v', 'S#', 'id', 'mention', 
-                                                 'txt', '§', 'p', 'g', 'n', 
-                                                'func', 'type', 'gloss']]
+            sing_overview_df = sing_overview_df[['v', 'S#', 'id', 'mention', 'txt', '§', 'p', 'g', 'n', 'func', 'type', 'gloss']]
     return sing_overview_df

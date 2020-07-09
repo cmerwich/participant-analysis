@@ -107,9 +107,17 @@ T106	Mention 641 644	M<F
 T107	Mention 644 646	+HW
 *	Coreference T8 T11 T14 T16 T18
 *	Coreference T22 T23
-*	Coreference T30 T32 T36 T39
+*	Coreference T7 T42
 *	Coreference T43 T46 T49 T51 T53 T57 T59 T61 T63
-*	Coreference T60 T62
+*	Coreference T15 T50
+*	Coreference T17 T52
+*	Coreference T13 T48 T60 T62
+*	Coreference T33 T79
+*	Coreference T78 T80
+*	Coreference T30 T32 T36 T38 T39 T83
+*	Coreference T77 T84
+*	Coreference T12 T29 T35 T44 T47 T66 T71 T90
 *	Coreference T65 T68 T69 T85 T88 T91
-*	Coreference T94 T95
 *	Coreference T73 T100 T101 T103 T104
+*	Coreference T21 T105
+*	Coreference T5 T40 T55 T64 T74 T94 T95 T99 T107

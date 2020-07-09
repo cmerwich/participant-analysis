@@ -227,29 +227,40 @@ T226	Mention 1333 1338	HWCJ<
 T227	Mention 1340 1348	CPVJ NPC
 T228	Mention 1348 1349	+W
 *	Coreference T9 T10
-*	Coreference T13 T14
-*	Coreference T34 T35
-*	Coreference T42 T44
+*	Coreference T18 T27 T29
+*	Coreference T13 T14 T16 T20 T24 T32
+*	Coreference T33 T41
+*	Coreference T23 T42 T44
 *	Coreference T46 T47
-*	Coreference T52 T53
-*	Coreference T54 T55
-*	Coreference T61 T62 T64 T65
-*	Coreference T68 T69
-*	Coreference T72 T73
-*	Coreference T84 T85
-*	Coreference T89 T90
-*	Coreference T96 T98
-*	Coreference T92 T93 T105
-*	Coreference T110 T114 T118
+*	Coreference T34 T35 T37 T39 T40 T43 T48 T51
+*	Coreference T52 T53 T56 T59 T63
+*	Coreference T54 T55 T61 T62 T64 T65 T67
+*	Coreference T57 T82
+*	Coreference T68 T69 T71 T75 T76 T77 T80 T83
+*	Coreference T84 T85 T86
+*	Coreference T89 T90 T148
+*	Coreference T72 T73 T91 T99 T104
+*	Coreference T92 T93 T94 T97 T101 T105 T108
+*	Coreference T111 T119
+*	Coreference T110 T113 T114 T117 T118 T121 T125 T128 T130 T132 T134
+*	Coreference T95 T139
 *	Coreference T156 T159
-*	Coreference T155 T157
+*	Coreference T124 T158
+*	Coreference T155 T157 T162
 *	Coreference T163 T164
-*	Coreference T166 T168
 *	Coreference T170 T172
+*	Coreference T126 T173
 *	Coreference T174 T175 T179
-*	Coreference T178 T180
-*	Coreference T4 T5 T6 T8 T11 T17 T19 T21 T22 T25 T30 T31 T138 T143 T144 T145 T146 T147 T149 T151 T152 T153 T154 T167 T183 T184 T185 T186 T187 T188 T189 T191 T194 T196 T197 T198 T202 T203 T207 T211
-*	Coreference T200 T201 T204
-*	Coreference T206 T208
-*	Coreference T209 T210 T213
+*	Coreference T166 T168 T177
+*	Coreference T79 T107 T150 T190
+*	Coreference T178 T180 T182 T192
+*	Coreference T136 T195
+*	Coreference T96 T98 T112 T116 T122 T129 T135 T199
+*	Coreference T4 T5 T6 T8 T11 T17 T19 T21 T22 T25 T30 T31 T138 T143 T144 T145 T146 T147 T149 T151 T152 T153 T154 T167 T183 T184 T185 T186 T187 T188 T189 T191 T194 T196 T197 T198 T202 T203 T207 T211 T218
+*	Coreference T200 T201 T204 T205
+*	Coreference T209 T210 T213 T216
+*	Coreference T7 T219
 *	Coreference T217 T222
+*	Coreference T36 T225
+*	Coreference T38 T227
+*	Coreference T206 T208 T223 T224 T228

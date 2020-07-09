@@ -47,10 +47,15 @@ T46	Mention 303 307	JPDH
 T47	Mention 311 316	JFR>L
 T48	Mention 318 326	KL <WNTJ
 T49	Mention 326 327	+W
-*	Coreference T5 T6 T7
 *	Coreference T9 T14 T27 T32
-*	Coreference T10 T11
-*	Coreference T4 T12 T17 T18 T20
+*	Coreference T8 T13
 *	Coreference T3 T23
-*	Coreference T25 T26
-*	Coreference T45 T46
+*	Coreference T25 T26 T31
+*	Coreference T4 T12 T17 T18 T20 T33
+*	Coreference T34 T36
+*	Coreference T35 T37
+*	Coreference T5 T6 T7 T24 T40 T41
+*	Coreference T10 T11 T19 T29 T43
+*	Coreference T39 T47
+*	Coreference T15 T48
+*	Coreference T45 T46 T49

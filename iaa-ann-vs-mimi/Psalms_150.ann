@@ -39,5 +39,8 @@ T38	Mention 229 233	THLL
 T39	Mention 234 236	JH
 T40	Mention 237 241	HLLW
 T41	Mention 242 244	JH
+*	Coreference T6 T8 T10 T12 T14 T16 T18 T20 T23 T26 T29 T32 T35
+*	Coreference T33 T36
 *	Coreference T37 T38
 *	Coreference T1 T3 T7 T11 T15 T19 T22 T25 T28 T31 T34 T40
+*	Coreference T2 T39 T41

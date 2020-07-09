@@ -85,17 +85,18 @@ T84	Mention 534 536	+W
 T85	Mention 537 544	>CRJ KL
 T86	Mention 545 549	XWSJ
 T87	Mention 551 553	+W
-*	Coreference T1 T2
+*	Coreference T1 T2 T55
 *	Coreference T3 T4
-*	Coreference T6 T7
-*	Coreference T8 T9
+*	Coreference T6 T7 T36
 *	Coreference T13 T16
 *	Coreference T23 T24
-*	Coreference T22 T26 T32
 *	Coreference T34 T35 T37 T40
 *	Coreference T38 T39
-*	Coreference T46 T48 T50 T53
 *	Coreference T47 T51 T57 T59
+*	Coreference T46 T48 T50 T53
 *	Coreference T61 T65
+*	Coreference T8 T9 T12 T15 T19 T25 T27 T33 T62 T66
+*	Coreference T10 T72
 *	Coreference T67 T68 T69 T70 T71 T74 T76
-*	Coreference T81 T83
+*	Coreference T22 T26 T29 T31 T32 T43 T78
+*	Coreference T28 T81 T83 T84 T87

@@ -133,13 +133,19 @@ T132	Mention 858 860	+M
 T133	Mention 861 865	HLLW
 T134	Mention 866 868	JH
 *	Coreference T5 T23 T38
-*	Coreference T27 T29
-*	Coreference T56 T58
-*	Coreference T59 T60
+*	Coreference T16 T26
+*	Coreference T8 T27 T29 T34 T59 T60 T68
+*	Coreference T56 T58 T62 T65
 *	Coreference T66 T67 T69
+*	Coreference T4 T37 T70
 *	Coreference T71 T72 T75 T78 T80 T83 T87
-*	Coreference T73 T76
-*	Coreference T93 T94
-*	Coreference T109 T112 T114
-*	Coreference T117 T118
+*	Coreference T53 T77 T79
+*	Coreference T73 T76 T86 T90
+*	Coreference T32 T44 T91
+*	Coreference T49 T96
+*	Coreference T93 T95 T94 T101 T104 T107 T108 T110 T120
+*	Coreference T10 T14 T19 T21 T25 T52 T54 T113
+*	Coreference T109 T111 T112 T114 T116 T121 T124 T126 T128
+*	Coreference T117 T118 T132 T131
 *	Coreference T1 T33 T36 T133
+*	Coreference T2 T134

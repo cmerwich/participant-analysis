@@ -113,18 +113,21 @@ T112	Mention 645 647	+HW
 T113	Mention 649 654	JCW<T
 T114	Mention 654 655	+J
 *	Coreference T8 T10 T12
-*	Coreference T7 T11
+*	Coreference T7 T11 T56
 *	Coreference T5 T13
+*	Coreference T4 T14
 *	Coreference T17 T23 T42 T46 T47 T50 T61 T63 T68 T72 T74 T76 T79 T83
-*	Coreference T15 T16 T22
+*	Coreference T19 T34
+*	Coreference T15 T16 T21 T22 T25 T29 T33 T36 T38
 *	Coreference T40 T43 T48
 *	Coreference T51 T53
+*	Coreference T6 T55
 *	Coreference T30 T59
 *	Coreference T62 T64
-*	Coreference T65 T66
+*	Coreference T65 T66 T70 T71 T78
 *	Coreference T80 T82
 *	Coreference T85 T86
 *	Coreference T88 T96 T98 T102 T114
 *	Coreference T90 T92
-*	Coreference T89 T97
 *	Coreference T99 T104 T106 T109 T111
+*	Coreference T89 T91 T93 T94 T97 T100 T101 T105 T107 T110 T112

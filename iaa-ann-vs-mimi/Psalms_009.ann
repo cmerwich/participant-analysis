@@ -161,29 +161,33 @@ T160	Mention 946 949	HMH
 *	Coreference T9 T22 T30 T32 T98 T102 T104 T106
 *	Coreference T6 T10 T13 T14 T16
 *	Coreference T12 T15 T18 T19 T27 T110 T114
-*	Coreference T20 T21
-*	Coreference T24 T25
+*	Coreference T20 T21 T44
 *	Coreference T28 T33 T36 T38
-*	Coreference T45 T46
+*	Coreference T17 T40
+*	Coreference T24 T25 T41
 *	Coreference T42 T49
 *	Coreference T50 T51
-*	Coreference T54 T56 T57
+*	Coreference T45 T46 T52 T53
+*	Coreference T43 T55
+*	Coreference T34 T59
 *	Coreference T61 T62 T65
-*	Coreference T68 T69
-*	Coreference T75 T77
+*	Coreference T71 T72
 *	Coreference T76 T78 T81
 *	Coreference T83 T87
+*	Coreference T7 T54 T56 T57 T60 T68 T69 T82 T84 T90
+*	Coreference T80 T91
+*	Coreference T75 T77 T93
 *	Coreference T94 T95
-*	Coreference T97 T99 T100 T145 T153
+*	Coreference T107 T111
 *	Coreference T108 T112
-*	Coreference T115 T116 T118
 *	Coreference T121 T122
-*	Coreference T124 T125 T127
-*	Coreference T130 T131
-*	Coreference T133 T134
+*	Coreference T31 T58 T126
+*	Coreference T97 T99 T100 T124 T125 T127 T129 T145 T153
+*	Coreference T39 T130 T131 T133 T134
+*	Coreference T47 T139
 *	Coreference T140 T141
 *	Coreference T142 T143
-*	Coreference T146 T152
-*	Coreference T147 T148
-*	Coreference T149 T150
-*	Coreference T157 T158
+*	Coreference T147 T148 T159
+*	Coreference T26 T151
+*	Coreference T146 T152 T154
+*	Coreference T37 T115 T116 T118 T120 T123 T136 T149 T150 T156 T157 T158 T160

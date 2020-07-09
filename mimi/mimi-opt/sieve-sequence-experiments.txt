@@ -1,0 +1,422 @@
+# Experiments with default positioning of sieve sequence 
+
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveApposition
+ResolveFrontedElement
+ResolveEntity
+MatchExactString
+-ResolveThirdPersonPronouns
+    
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10125 corefs RESOLVED 
+ 8359 corefs UNRESOLVED 
+ 54.8% corefs RESOLVED 
+ 45.2% corefs UNRESOLVED 
+ 2973 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 535 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1404 
+ 3p Pronoun Sieve: 1969 
+ Total Sieves: 10125 
+ Total Classes: 2973
+
+ResolvePredicate
+-ResolveThirdPersonPronouns
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveApposition
+ResolveFrontedElement
+ResolveEntity
+MatchExactString
+
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10151 corefs RESOLVED 
+ 8333 corefs UNRESOLVED 
+ 54.9% corefs RESOLVED 
+ 45.1% corefs UNRESOLVED 
+ 2949 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 531 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 2010 
+ Total Sieves: 10151 
+ Total Classes: 2949
+ 
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+-ResolveThirdPersonPronouns
+ResolveVocative
+ResolveApposition
+ResolveFrontedElement
+ResolveEntity
+MatchExactString
+ 
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10151 corefs RESOLVED 
+ 8333 corefs UNRESOLVED 
+ 54.9% corefs RESOLVED 
+ 45.1% corefs UNRESOLVED 
+ 2949 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 531 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 2010 
+ Total Sieves: 10151 
+ Total Classes: 2949
+
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+-ResolveThirdPersonPronouns
+ResolveApposition
+ResolveFrontedElement
+ResolveEntity
+MatchExactString
+ 
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10146 corefs RESOLVED 
+ 8338 corefs UNRESOLVED 
+ 54.9% corefs RESOLVED 
+ 45.1% corefs UNRESOLVED 
+ 2954 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 535 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 2001 
+ Total Sieves: 10146 
+ Total Classes: 2954
+ 
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveApposition
+-ResolveThirdPersonPronouns
+ResolveFrontedElement
+ResolveEntity
+MatchExactString
+ 
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10146 corefs RESOLVED 
+ 8338 corefs UNRESOLVED 
+ 54.9% corefs RESOLVED 
+ 45.1% corefs UNRESOLVED 
+ 2954 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 535 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 2001
+ Total Sieves: 10146 
+ Total Classes: 2954
+ 
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveApposition
+ResolveFrontedElement
+-ResolveThirdPersonPronouns
+ResolveEntity
+MatchExactString
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10130 corefs RESOLVED 
+ 8354 corefs UNRESOLVED 
+ 54.8% corefs RESOLVED 
+ 45.2% corefs UNRESOLVED 
+ 2969 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 535 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 1985 
+ Total Sieves: 10130 
+ Total Classes: 2969
+
+ResolvePredicate
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveApposition
+ResolveFrontedElement
+ResolveEntity
+-ResolveThirdPersonPronouns
+MatchExactString
+
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10130 corefs RESOLVED 
+ 8354 corefs UNRESOLVED 
+ 54.8% corefs RESOLVED 
+ 45.2% corefs UNRESOLVED 
+ 2969 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3138 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 535 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 213 
+ String Sieve: 1393 
+ 3p Pronoun Sieve: 1985 
+ Total Sieves: 10130 
+ Total Classes: 2969
+
+# Experiments with Stanford's positioning of sieves
+
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+MatchExactString
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+ResolvePredicate
+ResolveThirdPersonPronouns
+
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10554 corefs RESOLVED 
+ 7930 corefs UNRESOLVED 
+ 57.1% corefs RESOLVED 
+ 42.9% corefs UNRESOLVED 
+ 2645 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3130 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 50 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 336 
+ String Sieve: 1757 
+ 3p Pronoun Sieve: 1966 
+ Total Sieves: 10554 
+ Total Classes: 2645
+
+ResolveFirstSecondPersonPronouns(mentions, corefs)
+-ResolveThirdPersonPronouns
+ResolveVocative
+MatchExactString
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+ResolvePredicate
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 11617 corefs RESOLVED 
+ 6867 corefs UNRESOLVED 
+ 62.8% corefs RESOLVED 
+ 37.2% corefs UNRESOLVED 
+ 1613 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 2271 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 537 
+ Apposition Sieve: 50 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 336 
+ String Sieve: 1740 
+ 3p Pronoun Sieve: 3907 
+ Total Sieves: 11617 
+ Total Classes: 1613
+
+ResolveFirstSecondPersonPronouns(mentions, corefs)
+ResolveVocative
+-ResolvePredicate
+MatchExactString
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+ResolveThirdPersonPronouns
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10166 corefs RESOLVED 
+ 8318 corefs UNRESOLVED 
+ 55.0% corefs RESOLVED 
+ 45.0% corefs UNRESOLVED 
+ 2944 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3134 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 57 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 223 
+ String Sieve: 1468 
+ 3p Pronoun Sieve: 1969 
+ Total Sieves: 10166 
+ Total Classes: 2944
+ 
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+MatchExactString
+ResolveApposition
+ResolveFrontedElement
+-ResolveEntity
+ResolvePredicate
+ResolveThirdPersonPronouns
+
+ Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10553 corefs RESOLVED 
+ 7931 corefs UNRESOLVED 
+ 57.1% corefs RESOLVED 
+ 42.9% corefs UNRESOLVED 
+ 2646 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3130 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 71 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 314 
+ String Sieve: 1757 
+ 3p Pronoun Sieve: 1966 
+ Total Sieves: 10553 
+ Total Classes: 2646
+ 
+# Experiments with positioning of Stanford's high recall sieves
+
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolvePredicate
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+MatchExactString
+ResolveThirdPersonPronouns
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10142 corefs RESOLVED 
+ 8342 corefs UNRESOLVED 
+ 54.9% corefs RESOLVED 
+ 45.1% corefs UNRESOLVED 
+ 2959 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3134 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 230 
+ String Sieve: 1404 
+ 3p Pronoun Sieve: 1969 
+ Total Sieves: 10142 
+ Total Classes: 2959
+
+
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+MatchExactString
+ResolvePredicate
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+ResolveThirdPersonPronouns
+
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10447 corefs RESOLVED 
+ 8037 corefs UNRESOLVED 
+ 56.5% corefs RESOLVED 
+ 43.5% corefs UNRESOLVED 
+ 2742 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3131 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 55 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 223 
+ String Sieve: 1757 
+ 3p Pronoun Sieve: 1966 
+ Total Sieves: 10447 
+ Total Classes: 2742
+ 
+ 
+ResolveFirstSecondPersonPronouns
+ResolveVocative
+ResolveEntity
+ResolveApposition
+ResolveFrontedElement
+MatchExactString
+ResolvePredicate
+ResolveThirdPersonPronouns
+
+
+Coreference Resolution Statistics Psalms: 
+ 18484 total input corefs 
+ 10539 corefs RESOLVED 
+ 7945 corefs UNRESOLVED 
+ 57.0% corefs RESOLVED 
+ 43.0% corefs UNRESOLVED 
+ 2653 classes
+
+ Sieve Statistics Psalms: 
+ Predicate Sieve: 3130 
+ 1p 2p Pronoun Sieve: 2756 
+ Vocative Sieve: 539 
+ Apposition Sieve: 90 
+ Fronted Element Sieve: 20 
+ Entity Sieve: 347 
+ String Sieve: 1691 
+ 3p Pronoun Sieve: 1966 
+ Total Sieves: 10539 
+ Total Classes: 2653
+ 
+ Voorzichtige zeven eerst
+ (-) Onafhankelijke zeven, kunnen van positie wisselen
+ 
+Testen: Per zeef testen, kijken welke mention id's gezeefd worden per zeef, in welke zeven, zijn welke zeven actief
+ 
+Aanwezigheid van 1p 2p Pronouns wordt door syn04types gebruikt om op terug te vallen als er geen andere signalen (verba dicendi, vocativus, imperativus) zijn om directe rede op te sporen. 

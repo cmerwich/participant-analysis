@@ -112,23 +112,25 @@ T111	Mention 767 770	+KJ
 T112	Mention 771 777	JRWCLM
 T113	Mention 778 782	HLLW
 T114	Mention 783 785	JH
-*	Coreference T2 T3
-*	Coreference T5 T7 T11 T13 T16 T31 T37 T64 T65 T71 T77 T104
 *	Coreference T4 T6
 *	Coreference T15 T17
 *	Coreference T18 T19
 *	Coreference T22 T24
-*	Coreference T25 T26
 *	Coreference T30 T32
-*	Coreference T33 T35
-*	Coreference T41 T40 T43 T46
-*	Coreference T44 T45
+*	Coreference T2 T3 T8 T10 T38
+*	Coreference T41 T40 T43 T46 T48
 *	Coreference T49 T52 T55
 *	Coreference T62 T63
+*	Coreference T5 T7 T11 T13 T16 T31 T37 T64 T65 T71 T77 T104
 *	Coreference T67 T68
-*	Coreference T86 T89 T92 T94 T98
+*	Coreference T50 T83 T84
 *	Coreference T87 T90 T97
-*	Coreference T91 T93
+*	Coreference T88 T91 T93
+*	Coreference T23 T74 T101
 *	Coreference T99 T102
+*	Coreference T76 T103
+*	Coreference T86 T89 T92 T94 T98 T105
 *	Coreference T57 T60 T61 T69 T73 T75 T79 T106
+*	Coreference T80 T107
+*	Coreference T25 T26 T29 T33 T35 T44 T45 T70 T78 T81 T85 T108
 *	Coreference T112 T113

@@ -79,11 +79,11 @@ T78	Mention 551 556	CPVJM
 T79	Mention 559 563	->RY
 *	Coreference T6 T8 T9 T12 T16
 *	Coreference T17 T18
-*	Coreference T20 T22
-*	Coreference T34 T35 T41
-*	Coreference T43 T45
-*	Coreference T47 T52
+*	Coreference T20 T22 T24 T27 T29 T30 T37 T39
+*	Coreference T43 T45 T46 T50 T54
 *	Coreference T56 T57
-*	Coreference T64 T65 T66 T70
+*	Coreference T47 T49 T52 T62 T63
+*	Coreference T64 T65 T66 T69 T70 T75
 *	Coreference T72 T73
-*	Coreference T77 T78
+*	Coreference T34 T35 T41 T77 T78
+*	Coreference T13 T79

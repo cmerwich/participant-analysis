@@ -1,0 +1,84 @@
+3c3
+< Mention 25 30
+---
+> Mention 24 30
+32,33c32
+< Mention 178 188
+< Mention 190 194
+---
+> Mention 178 194
+47c46
+< Mention 273 279
+---
+> Mention 273 278
+63c62
+< Mention 379 386
+---
+> Mention 378 386
+70c69
+< Mention 424 441
+---
+> Mention 438 441
+86a86
+> Mention 558 561
+110d109
+< Mention 700 704
+124a124
+> Mention 821 824
+125a126
+> Mention 829 833
+131a133
+> Mention 867 870
+139a142
+> Mention 916 919
+149a153
+> Mention 987 989
+175a180
+> Mention 1170 1173
+200,201c205,206
+< Mention 1330 1338
+< Mention 1338 1339
+---
+> Mention 1330 1337
+> Mention 1337 1339
+231,232c236,238
+< Mention 1548 1552
+< Mention 1552 1553
+---
+> Mention 1544 1547
+> Mention 1548 1551
+> Mention 1551 1553
+234a241
+> Mention 1562 1566
+268a276
+> Mention 1766 1770
+345,347c353
+< Mention 2212 2216
+< Mention 2218 2221
+< Mention 2223 2226
+---
+> Mention 2212 2226
+364c370
+< Mention 2325 2335
+---
+> Mention 2324 2335
+381c387
+< Mention 2426 2428
+---
+> Mention 2425 2428
+446c452
+< Mention 2823 2827
+---
+> Mention 2822 2827
+474c480
+< Mention 2998 3008
+---
+> Mention 2999 3008
+479d484
+< Mention 3052 3055
+496c501
+< Mention 3153 3157
+---
+> Mention 3149 3157
+498a504
+> Mention 3165 3169

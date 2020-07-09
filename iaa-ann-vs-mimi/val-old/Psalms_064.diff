@@ -1,0 +1,32 @@
+12,13c12,13
+< Mention 70 72
+< Mention 72 73
+---
+> Mention 70 73
+> Mention 73 73
+25a26
+> Mention 160 164
+28,29c29,30
+< Mention 181 184
+< Mention 184 185
+---
+> Mention 181 183
+> Mention 183 185
+34a36
+> Mention 227 231
+43,45c45,47
+< Mention 287 294
+< Mention 296 298
+< Mention 309 312
+---
+> Mention 287 298
+> Mention 309 311
+> Mention 311 312
+64,65c66,67
+< Mention 420 424
+< Mention 424 425
+---
+> Mention 420 423
+> Mention 423 425
+73d74
+< Mention 471 481

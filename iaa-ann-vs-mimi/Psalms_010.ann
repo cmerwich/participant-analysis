@@ -149,19 +149,28 @@ T148	Mention 873 876	<RY
 T149	Mention 877 881	>NWC
 T150	Mention 885 889	H->RY
 *	Coreference T10 T12
-*	Coreference T13 T14 T18 T19
-*	Coreference T28 T29
+*	Coreference T11 T26
+*	Coreference T6 T31
 *	Coreference T34 T144
-*	Coreference T48 T50
+*	Coreference T28 T29 T40
+*	Coreference T48 T50 T53
 *	Coreference T60 T63
-*	Coreference T80 T83
-*	Coreference T21 T24 T41 T55 T58 T64 T69 T72 T78 T79 T84
-*	Coreference T87 T88 T89 T92
-*	Coreference T1 T2 T4 T94 T95 T96 T97 T100 T109 T123
+*	Coreference T57 T65
+*	Coreference T9 T71 T73
+*	Coreference T80 T82 T83
+*	Coreference T87 T88 T89 T91 T92
+*	Coreference T25 T104
+*	Coreference T13 T14 T16 T18 T19 T21 T23 T24 T27 T30 T36 T38 T39 T41 T43 T49 T55 T58 T61 T64 T68 T69 T72 T75 T77 T78 T79 T84 T86 T102 T103 T105 T107
+*	Coreference T54 T111
+*	Coreference T98 T114
 *	Coreference T99 T110 T112 T115 T116 T120 T121
-*	Coreference T102 T103 T105
-*	Coreference T117 T118
+*	Coreference T1 T2 T4 T20 T94 T95 T96 T97 T100 T109 T123 T130
+*	Coreference T46 T125
 *	Coreference T126 T129
-*	Coreference T132 T133
+*	Coreference T62 T117 T118 T128 T135
+*	Coreference T15 T136
+*	Coreference T42 T85 T106 T140
+*	Coreference T132 T133 T141
 *	Coreference T137 T138 T139 T142
+*	Coreference T119 T146
 *	Coreference T147 T149

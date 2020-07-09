@@ -8,6 +8,8 @@ A = use(
     mod=(
         'cmerwich/participant-analysis/coreference/tf,'
         'cmerwich/bh-reference-system/tf'
+        #'cmerwich/participant-analysis/coreference/tf:clone,'
+        #'etcbc/bh-reference-system/tf:clone'
     ), 
     hoist=globals(),
     silent=True)

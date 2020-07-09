@@ -177,22 +177,25 @@ T176	Mention 1071 1079	DRK <WLM
 *	Coreference T4 T5
 *	Coreference T6 T14 T20 T24 T30 T32 T36 T59 T61 T82 T84 T86 T94 T98 T105 T119 T132 T159 T161 T165 T167 T170 T173 T175
 *	Coreference T25 T26
+*	Coreference T28 T37 T39
 *	Coreference T56 T58
 *	Coreference T60 T62
-*	Coreference T65 T66
 *	Coreference T67 T70
-*	Coreference T71 T72
-*	Coreference T74 T76
+*	Coreference T65 T66 T71 T72
+*	Coreference T68 T74 T76
+*	Coreference T8 T9 T12 T18 T21 T29 T34 T42 T44 T48 T51 T57 T63 T73 T79 T80 T83 T88 T92 T99 T108 T110 T122 T123 T133 T135 T141 T146 T148 T149 T152
 *	Coreference T90 T91
 *	Coreference T93 T95
-*	Coreference T96 T97
 *	Coreference T100 T102
-*	Coreference T106 T107
-*	Coreference T111 T113
-*	Coreference T120 T121
-*	Coreference T124 T125
+*	Coreference T106 T107 T112
+*	Coreference T75 T114
+*	Coreference T96 T97 T116
+*	Coreference T27 T111 T113 T115 T118
+*	Coreference T13 T120 T121
 *	Coreference T40 T45 T46 T49 T52 T54 T87 T89 T131
 *	Coreference T137 T138
-*	Coreference T8 T9 T12 T18 T21 T29 T34 T42 T44 T48 T51 T57 T63 T73 T79 T80 T83 T88 T92 T99 T108 T110 T122 T123 T133 T135 T141 T146 T148 T149 T152
+*	Coreference T11 T151
 *	Coreference T150 T153 T155
+*	Coreference T124 T126 T125 T128 T130 T140 T156 T158
 *	Coreference T160 T162 T163 T166 T168 T171 T174
+*	Coreference T19 T172 T176

@@ -1,0 +1,27 @@
+1c1,2
+< Mention 13 23
+---
+> Mention 13 16
+> Mention 18 23
+3,5c4,6
+< Mention 28 31
+< Mention 31 32
+< Mention 37 41
+---
+> Mention 28 32
+> Mention 32 32
+> Mention 36 41
+31,33c32,34
+< Mention 208 211
+< Mention 215 218
+< Mention 218 219
+---
+> Mention 207 211
+> Mention 215 217
+> Mention 217 219
+45,46c46,47
+< Mention 282 286
+< Mention 288 292
+---
+> Mention 282 285
+> Mention 288 291

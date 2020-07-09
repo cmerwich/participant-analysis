@@ -77,10 +77,15 @@ T76	Mention 513 516	VWB
 T77	Mention 521 526	XSJDJ
 T78	Mention 526 528	+K
 *	Coreference T4 T5 T6
-*	Coreference T7 T9
+*	Coreference T7 T9 T10
 *	Coreference T11 T12
-*	Coreference T14 T16 T20 T26 T32
 *	Coreference T22 T37 T40 T42 T45 T70 T75 T78
-*	Coreference T35 T36 T39 T41 T44
+*	Coreference T14 T16 T20 T26 T32
+*	Coreference T21 T34
 *	Coreference T47 T48 T49 T51
+*	Coreference T19 T61
+*	Coreference T13 T65
+*	Coreference T17 T67
+*	Coreference T68 T71
 *	Coreference T66 T69 T73
+*	Coreference T35 T36 T39 T41 T44 T50 T53 T56 T57 T59 T60 T62 T76

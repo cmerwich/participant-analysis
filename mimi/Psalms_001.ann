@@ -41,11 +41,12 @@ T40	Mention 339 343	JHWH
 T41	Mention 344 354	DRK YDJQJM
 T42	Mention 357 366	DRK RC<JM
 T43	Mention 367 371	T>BD
-*	Coreference T2 T5 T7
-*	Coreference T14 T20
+*	Coreference T8 T11
+*	Coreference T2 T5 T7 T10 T12 T13
+*	Coreference T14 T19 T20 T22 T24
 *	Coreference T23 T25
-*	Coreference T26 T27 T28
 *	Coreference T31 T33
-*	Coreference T34 T35
+*	Coreference T26 T27 T28 T32
+*	Coreference T29 T34 T35
 *	Coreference T39 T40
-*	Coreference T42 T43
+*	Coreference T4 T41 T42 T43

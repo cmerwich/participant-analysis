@@ -148,27 +148,30 @@ T147	Mention 930 932	<M
 T148	Mention 932 934	+K
 T149	Mention 937 950	JD MCH W->HRN
 *	Coreference T6 T10 T13 T15 T19 T25 T32 T35 T44 T47
-*	Coreference T18 T20 T21
+*	Coreference T18 T20 T21 T149
 *	Coreference T22 T24
-*	Coreference T30 T31
+*	Coreference T7 T11 T27
 *	Coreference T36 T37 T38
+*	Coreference T14 T39 T40 T41
 *	Coreference T17 T26 T28 T29 T42 T48
-*	Coreference T49 T50
-*	Coreference T53 T54 T55
-*	Coreference T57 T59
+*	Coreference T16 T53 T54 T55
+*	Coreference T57 T59 T60
 *	Coreference T61 T62
-*	Coreference T64 T66 T67
+*	Coreference T64 T66 T67 T70 T93 T96
 *	Coreference T75 T76
 *	Coreference T77 T79 T83 T88
+*	Coreference T82 T85 T87 T89 T92 T94 T95 T102 T106 T109 T111 T113 T125 T128 T138 T140 T143 T148
+*	Coreference T81 T98
 *	Coreference T99 T103
-*	Coreference T105 T107
-*	Coreference T108 T110
-*	Coreference T82 T85 T87 T89 T92 T95 T102 T106 T109 T111 T113 T125 T128 T138 T140 T143 T148
-*	Coreference T112 T114 T115
+*	Coreference T108 T110 T112 T114 T115 T119 T141
 *	Coreference T116 T117
 *	Coreference T118 T120
 *	Coreference T122 T123
 *	Coreference T124 T126
+*	Coreference T5 T9 T121 T127
 *	Coreference T130 T131
+*	Coreference T30 T31 T49 T50 T74 T133
 *	Coreference T134 T135
+*	Coreference T91 T137
 *	Coreference T142 T144
+*	Coreference T100 T105 T107 T147

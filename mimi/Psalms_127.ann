@@ -40,8 +40,8 @@ T39	Mention 287 291	JBCW
 T40	Mention 295 300	JDBRW
 T41	Mention 304 310	>WJBJM
 T42	Mention 313 317	-C<R
-*	Coreference T3 T4
-*	Coreference T6 T7
-*	Coreference T10 T11
-*	Coreference T13 T14
+*	Coreference T3 T4 T8 T9 T10 T11
+*	Coreference T28 T33
+*	Coreference T13 T14 T23 T25 T35 T37
+*	Coreference T6 T7 T38
 *	Coreference T39 T40

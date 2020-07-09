@@ -108,15 +108,18 @@ T107	Mention 596 600	<WLM
 T108	Mention 601 604	>WD
 T109	Mention 604 606	+K
 *	Coreference T6 T7 T9
-*	Coreference T20 T21 T25
-*	Coreference T29 T31 T32 T33
+*	Coreference T20 T21 T25 T30
+*	Coreference T29 T31 T32 T33 T35 T38 T41
 *	Coreference T43 T44
 *	Coreference T47 T48 T50
+*	Coreference T40 T54
 *	Coreference T56 T60
 *	Coreference T67 T69
+*	Coreference T27 T73
 *	Coreference T75 T77 T78
 *	Coreference T81 T82 T83
 *	Coreference T85 T86
 *	Coreference T89 T94
 *	Coreference T100 T102 T103
 *	Coreference T5 T8 T11 T12 T13 T14 T15 T17 T19 T24 T26 T53 T55 T58 T62 T65 T66 T72 T76 T80 T84 T88 T91 T93 T96 T98 T101 T104 T106 T105 T109
+*	Coreference T52 T107

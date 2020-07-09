@@ -150,19 +150,25 @@ T149	Mention 962 966	NDMW
 *	Coreference T4 T6 T7
 *	Coreference T8 T9 T10 T11 T115
 *	Coreference T13 T17 T22 T26 T30 T32 T111 T114
-*	Coreference T12 T14
+*	Coreference T12 T14 T89
 *	Coreference T19 T23
-*	Coreference T29 T31
+*	Coreference T40 T41 T42 T45 T51 T53 T55 T116 T117
+*	Coreference T29 T31 T35 T37 T38 T48
 *	Coreference T46 T47 T49
-*	Coreference T40 T41 T42 T51 T53 T55
 *	Coreference T56 T57
-*	Coreference T58 T59 T60
-*	Coreference T76 T78 T79
-*	Coreference T87 T91
-*	Coreference T95 T96
-*	Coreference T98 T100
-*	Coreference T108 T109 T113
-*	Coreference T116 T117
-*	Coreference T118 T119
-*	Coreference T125 T127
+*	Coreference T34 T62
+*	Coreference T50 T68
+*	Coreference T76 T78 T79 T144
+*	Coreference T58 T59 T60 T63 T65 T67 T70 T72 T74 T81 T84 T86 T88 T90
+*	Coreference T87 T91 T94 T97
+*	Coreference T93 T105
+*	Coreference T95 T96 T107 T121
+*	Coreference T43 T108 T109 T113
+*	Coreference T110 T129
 *	Coreference T135 T137
+*	Coreference T71 T139
+*	Coreference T52 T141
+*	Coreference T77 T145
+*	Coreference T118 T119 T120 T122 T123 T125 T126 T128 T127 T130 T132 T133 T140 T146 T147
+*	Coreference T80 T148
+*	Coreference T98 T99 T100 T103 T134 T142 T149

@@ -61,11 +61,15 @@ T60	Mention 435 438	TBL
 T61	Mention 441 444	YDQ
 T62	Mention 447 451	<MJM
 T63	Mention 454 460	MJCRJM
-*	Coreference T7 T9
-*	Coreference T13 T14 T18 T21
+*	Coreference T6 T8 T10 T12
+*	Coreference T3 T13 T14 T16 T18 T20 T21 T23 T25 T32 T38
 *	Coreference T27 T28
-*	Coreference T2 T31 T33 T34 T35 T36 T37 T42
-*	Coreference T43 T44
+*	Coreference T15 T29
+*	Coreference T39 T40
+*	Coreference T2 T31 T33 T34 T35 T36 T37 T42 T58
+*	Coreference T43 T44 T55
+*	Coreference T45 T46 T47 T56 T59
+*	Coreference T7 T9 T49
 *	Coreference T50 T51
 *	Coreference T53 T54
-*	Coreference T45 T46 T56 T59
+*	Coreference T48 T60

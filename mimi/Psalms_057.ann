@@ -106,16 +106,17 @@ T105	Mention 615 623	KL H->RY
 T106	Mention 624 628	KBWD
 T107	Mention 628 630	+K
 *	Coreference T9 T12 T16 T27 T31 T34 T42 T62 T65 T68 T75 T79
-*	Coreference T8 T10 T11 T53 T102
-*	Coreference T14 T15
 *	Coreference T20 T21
-*	Coreference T23 T24
 *	Coreference T28 T30 T32
-*	Coreference T35 T36
-*	Coreference T63 T64
+*	Coreference T8 T10 T11 T23 T24 T35 T36 T38 T40 T48 T51 T53 T102
+*	Coreference T6 T67
 *	Coreference T60 T66 T70
-*	Coreference T73 T74
-*	Coreference T77 T78
-*	Coreference T82 T83 T84 T85
+*	Coreference T43 T71
+*	Coreference T14 T15 T41 T63 T64 T72
+*	Coreference T73 T74 T77 T78
 *	Coreference T80 T81 T87 T89 T93
+*	Coreference T37 T97
+*	Coreference T29 T54 T96 T103
 *	Coreference T13 T18 T55 T58 T76 T90 T92 T94 T98 T101 T104 T107
+*	Coreference T56 T105
+*	Coreference T82 T84 T83 T85 T106

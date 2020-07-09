@@ -1,0 +1,23 @@
+12c12
+< Mention 87 93
+---
+> Mention 86 93
+14,16c14
+< Mention 107 116
+< Mention 120 125
+< Mention 127 131
+---
+> Mention 107 131
+35c33
+< Mention 249 253
+---
+> Mention 248 253
+37c35
+< Mention 256 263
+---
+> Mention 255 263
+105,106c103
+< Mention 641 643
+< Mention 644 647
+---
+> Mention 640 647

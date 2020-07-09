@@ -70,13 +70,12 @@ T69	Mention 510 520	RWX NGJDJM
 T70	Mention 521 525	NWR>
 T71	Mention 527 535	MLKJ >RY
 *	Coreference T6 T8
-*	Coreference T12 T14 T19
-*	Coreference T23 T24 T25
-*	Coreference T28 T29
-*	Coreference T21 T33 T34 T37 T38 T41 T42 T55
+*	Coreference T23 T24 T25 T27
+*	Coreference T28 T29 T31
 *	Coreference T46 T47 T48
-*	Coreference T49 T51
+*	Coreference T21 T33 T34 T37 T38 T41 T42 T49 T51 T55
 *	Coreference T53 T54
 *	Coreference T58 T59
 *	Coreference T60 T61
 *	Coreference T63 T65
+*	Coreference T12 T14 T15 T17 T19 T39 T64 T68

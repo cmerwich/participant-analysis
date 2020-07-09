@@ -128,21 +128,23 @@ T127	Mention 950 953	CKN
 T128	Mention 954 960	JRWCLM
 T129	Mention 961 965	HLLW
 T130	Mention 966 968	JH
-*	Coreference T1 T3 T5 T6 T11 T14 T129
 *	Coreference T8 T9
+*	Coreference T2 T12 T18 T19 T20 T23 T130
 *	Coreference T10 T24 T25 T28
-*	Coreference T18 T20
-*	Coreference T31 T32
-*	Coreference T45 T49
+*	Coreference T13 T26 T31 T32 T33 T40 T44
+*	Coreference T45 T49 T56
 *	Coreference T61 T62
 *	Coreference T63 T64
-*	Coreference T57 T59 T66
-*	Coreference T71 T72
-*	Coreference T74 T76 T78 T80
-*	Coreference T82 T83 T88
-*	Coreference T106 T107
+*	Coreference T69 T70
+*	Coreference T21 T71 T72
+*	Coreference T4 T15 T75
+*	Coreference T74 T76 T78 T80 T82 T83 T85 T87 T88 T114 T117 T120 T123 T124 T125
+*	Coreference T42 T102
+*	Coreference T92 T103
+*	Coreference T57 T59 T66 T68 T73 T93 T94 T96 T97 T99 T100 T104 T105
+*	Coreference T106 T107 T108 T111
 *	Coreference T53 T112 T113
 *	Coreference T115 T116
 *	Coreference T118 T119
 *	Coreference T121 T122
-*	Coreference T124 T125
+*	Coreference T1 T3 T5 T6 T11 T14 T86 T129

@@ -171,7 +171,7 @@ def print_set_distance(sA, tagA, sB, tagB):
     M = len(sA&sB)
     R = len(sB-sA)
     D = L + R
-    d = round(D/(L+M+R),4)
+    d = round(D/(L+M+R), 4)
     print(tagA, tagB, L, M, R, D, d, sep='\t')
     
 def compare_corefs(A, B, uA, rx, cx, uB):

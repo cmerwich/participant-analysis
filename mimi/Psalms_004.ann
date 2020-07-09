@@ -73,13 +73,13 @@ T72	Mention 443 446	BDD
 T73	Mention 449 452	BVX
 T74	Mention 453 458	TWCJB
 T75	Mention 458 461	+NJ
-*	Coreference T7 T6 T8 T9 T11 T12 T14 T13 T15 T17 T57 T60 T75
 *	Coreference T18 T22 T24
-*	Coreference T27 T28
-*	Coreference T31 T32
+*	Coreference T5 T33
 *	Coreference T39 T41
 *	Coreference T26 T35 T36 T37 T42 T43 T45
 *	Coreference T47 T48
+*	Coreference T7 T6 T8 T9 T11 T12 T14 T13 T15 T17 T57 T60 T75
+*	Coreference T27 T28 T30 T31 T32 T34 T46 T49 T56 T63 T65
 *	Coreference T62 T66
 *	Coreference T68 T69
 *	Coreference T70 T71 T74

@@ -103,15 +103,16 @@ T102	Mention 612 617	NCJRH
 T103	Mention 620 625	NZMRH
 T104	Mention 626 631	GBWRT
 T105	Mention 631 633	+K
-*	Coreference T7 T8
 *	Coreference T14 T18 T19 T22
+*	Coreference T9 T35
+*	Coreference T21 T42
 *	Coreference T40 T44
-*	Coreference T49 T50
 *	Coreference T54 T55
 *	Coreference T59 T61
-*	Coreference T69 T72
+*	Coreference T4 T6 T10 T28 T36 T48 T51 T56 T58 T60 T63 T68 T69 T72 T85 T94 T99 T101 T105
 *	Coreference T74 T76
-*	Coreference T84 T87 T89
+*	Coreference T7 T8 T11 T13 T15 T17 T20 T24 T27 T30 T34 T39 T41 T45 T49 T50 T53 T65 T71 T73 T75 T78 T82
 *	Coreference T64 T80 T90 T95
-*	Coreference T4 T6 T10 T28 T36 T48 T56 T58 T60 T63 T68 T85 T94 T99 T101 T105
+*	Coreference T47 T96
+*	Coreference T84 T87 T89 T91 T97
 *	Coreference T102 T103

@@ -127,21 +127,23 @@ T126	Mention 777 779	+W
 T127	Mention 780 784	JYJY
 T128	Mention 785 788	NZR
 T129	Mention 788 790	+W
-*	Coreference T7 T9
 *	Coreference T13 T16 T20 T22
 *	Coreference T11 T14 T17 T24
+*	Coreference T10 T28
+*	Coreference T27 T36
 *	Coreference T29 T32 T35 T38
-*	Coreference T3 T41 T42 T44 T45 T46 T48 T52 T56 T57 T59
-*	Coreference T47 T49
-*	Coreference T51 T53
+*	Coreference T47 T49 T108
 *	Coreference T54 T55
-*	Coreference T60 T61 T64
 *	Coreference T67 T70 T73 T86
-*	Coreference T71 T72
 *	Coreference T75 T77
-*	Coreference T81 T84
-*	Coreference T87 T88 T90
+*	Coreference T71 T72 T80 T81 T82 T84
+*	Coreference T69 T85
+*	Coreference T43 T95
 *	Coreference T96 T121
-*	Coreference T112 T114
+*	Coreference T83 T97
+*	Coreference T7 T9 T30 T33 T37 T40 T65 T91 T100 T102 T105 T109 T113
+*	Coreference T51 T53 T112 T114
+*	Coreference T4 T62 T117
 *	Coreference T98 T99 T103 T106 T110 T115 T118 T124
-*	Coreference T127 T128
+*	Coreference T3 T8 T26 T41 T42 T44 T45 T46 T48 T52 T56 T57 T59 T60 T61 T64 T87 T88 T90 T93 T123 T126
+*	Coreference T127 T129 T128

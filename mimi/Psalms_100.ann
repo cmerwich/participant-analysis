@@ -42,7 +42,6 @@ T41	Mention 236 238	+W
 T42	Mention 244 251	DR W-DR
 T43	Mention 252 257	>MWNT
 T44	Mention 257 259	+W
-*	Coreference T3 T5 T6 T9 T13 T26 T33 T35
-*	Coreference T14 T15
-*	Coreference T17 T18
 *	Coreference T19 T21
+*	Coreference T3 T5 T6 T9 T13 T26 T33 T35
+*	Coreference T4 T7 T14 T15 T17 T18 T20 T23 T25 T28 T31 T34 T37 T38 T41 T44

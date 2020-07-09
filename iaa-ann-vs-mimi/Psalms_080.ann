@@ -143,15 +143,19 @@ T139	Mention 849 854	NWC<H
 *	Coreference T20 T23 T40 T43 T45 T50 T128 T135
 *	Coreference T21 T22 T24
 *	Coreference T28 T29 T30 T33
-*	Coreference T44 T46
+*	Coreference T34 T37
 *	Coreference T48 T49 T51
-*	Coreference T65 T68
+*	Coreference T44 T46 T47 T61 T64
 *	Coreference T70 T71
 *	Coreference T57 T58 T62 T84
-*	Coreference T87 T89
 *	Coreference T90 T92
 *	Coreference T94 T95
+*	Coreference T65 T67 T68 T73 T75 T77 T79 T83 T86 T88 T91 T96
 *	Coreference T97 T98 T99 T101 T102
+*	Coreference T55 T103
 *	Coreference T105 T106
+*	Coreference T87 T89 T116
 *	Coreference T117 T118
+*	Coreference T108 T122
 *	Coreference T132 T133 T134 T136
+*	Coreference T14 T25 T52 T63 T137

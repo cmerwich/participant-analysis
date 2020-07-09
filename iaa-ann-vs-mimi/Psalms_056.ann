@@ -113,15 +113,17 @@ T112	Mention 640 645	HTHLK
 T113	Mention 647 656	PNJ >LHJM
 T114	Mention 658 667	>WR H-XJJM
 *	Coreference T5 T7
-*	Coreference T10 T13 T18 T21 T25 T28 T29 T31 T33 T37 T38 T41 T44 T46 T54 T58 T71 T78 T85 T97 T98 T107 T110
 *	Coreference T12 T14
-*	Coreference T16 T17
 *	Coreference T19 T20
-*	Coreference T23 T24
+*	Coreference T16 T17 T23 T24 T35
+*	Coreference T10 T13 T18 T21 T25 T28 T29 T31 T33 T37 T38 T41 T44 T46 T54 T58 T71 T78 T85 T97 T98 T107 T110
 *	Coreference T39 T40
-*	Coreference T45 T50 T51
-*	Coreference T52 T55 T56
+*	Coreference T45 T48 T50 T51
+*	Coreference T52 T55 T56 T61
 *	Coreference T76 T77
+*	Coreference T15 T22 T27 T42 T80
+*	Coreference T34 T43 T88 T91
+*	Coreference T11 T30 T32 T36 T65 T67 T68 T73 T75 T84 T86 T92 T99 T101 T104
 *	Coreference T64 T69 T83 T87 T90 T93 T94
 *	Coreference T95 T96
-*	Coreference T11 T30 T65 T67 T68 T73 T75 T99 T101 T104
+*	Coreference T57 T106

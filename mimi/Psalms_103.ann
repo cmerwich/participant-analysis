@@ -155,20 +155,24 @@ T154	Mention 1011 1015	BRKJ
 T155	Mention 1016 1019	NPC
 T156	Mention 1019 1021	+J
 T157	Mention 1025 1029	JHWH
-*	Coreference T2 T3 T4 T6 T7 T10 T11 T12 T14 T56 T58 T60 T62 T75 T77 T88 T90 T154 T156
 *	Coreference T19 T22 T26 T28 T33 T37
 *	Coreference T34 T36
-*	Coreference T38 T40
+*	Coreference T9 T16 T43 T45 T49
+*	Coreference T18 T59
 *	Coreference T52 T54 T57 T61
-*	Coreference T63 T64
+*	Coreference T63 T64 T120
+*	Coreference T29 T66 T67 T68 T70 T74 T105
 *	Coreference T71 T72
-*	Coreference T66 T67 T74
 *	Coreference T78 T79
-*	Coreference T81 T82
 *	Coreference T85 T86
-*	Coreference T91 T94
 *	Coreference T97 T98
-*	Coreference T101 T103
-*	Coreference T119 T121
+*	Coreference T91 T94 T96 T99 T100 T102
+*	Coreference T53 T106 T107
+*	Coreference T69 T83 T108
+*	Coreference T39 T110
+*	Coreference T47 T80 T112
+*	Coreference T101 T104 T103 T109 T111 T114 T116 T118
+*	Coreference T5 T13 T38 T40 T50 T81 T82 T84 T117 T119 T121 T123 T125 T129 T133 T140 T145 T149 T157
 *	Coreference T124 T127
-*	Coreference T128 T130 T131 T132 T139 T141 T142 T143 T144 T148
+*	Coreference T128 T130 T131 T132 T135 T138 T139 T141 T142 T143 T144 T147 T148 T151 T153
+*	Coreference T2 T3 T4 T6 T7 T10 T11 T12 T14 T56 T58 T60 T62 T75 T77 T88 T90 T154 T156 T155

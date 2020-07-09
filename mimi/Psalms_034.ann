@@ -151,26 +151,26 @@ T150	Mention 991 996	J>CMW
 T151	Mention 997 999	KL
 T152	Mention 1002 1006	XSJM
 T153	Mention 1008 1010	+W
-*	Coreference T6 T8
+*	Coreference T4 T7
 *	Coreference T15 T19 T25 T32 T34 T36 T81
-*	Coreference T17 T18
+*	Coreference T17 T18 T148
 *	Coreference T20 T21 T22
-*	Coreference T31 T35
-*	Coreference T37 T39
-*	Coreference T40 T42
+*	Coreference T6 T8 T13 T28
+*	Coreference T31 T35 T38
+*	Coreference T37 T39 T41
 *	Coreference T43 T45
-*	Coreference T46 T47 T50
 *	Coreference T52 T53
-*	Coreference T60 T61
+*	Coreference T5 T40 T42 T57 T114
 *	Coreference T72 T73 T74
-*	Coreference T75 T76
-*	Coreference T23 T58 T59 T65 T67 T68 T78 T79 T80
 *	Coreference T84 T94 T97
+*	Coreference T95 T101
+*	Coreference T77 T91 T103
 *	Coreference T92 T100 T102 T104 T106
-*	Coreference T121 T122 T125
-*	Coreference T132 T134
+*	Coreference T23 T58 T59 T65 T67 T68 T71 T78 T79 T80 T107 T111
+*	Coreference T48 T123
+*	Coreference T75 T76 T113 T119 T120 T124 T126 T131 T139
 *	Coreference T138 T140
-*	Coreference T141 T143
+*	Coreference T129 T141 T143
 *	Coreference T144 T145
-*	Coreference T146 T147
 *	Coreference T150 T151
+*	Coreference T10 T16 T24 T30 T46 T47 T49 T50 T51 T55 T56 T60 T61 T63 T64 T66 T121 T122 T125 T127 T128 T133 T132 T134 T137 T146 T147 T149 T153

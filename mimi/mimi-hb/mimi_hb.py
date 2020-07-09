@@ -5,14 +5,18 @@ import os, sys
 from sys import argv, exit, stderr
 
 from collections import defaultdict, Counter
+from operator import attrgetter
 import re
 from shutil import rmtree
 from glob import glob
 from pprint import pprint
+from heapq import heappush, heappop
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy.optimize import minimize, linear_sum_assignment
+import math
 
 from tf.app import use
 from tf.fabric import Fabric
@@ -57,7 +61,13 @@ class Mention:
         self.corefclass = set()        # Coreference class to which the mention belongs 
     
     def __repr__(self):
-        return self.name    
+        return self.name
+    
+    def __gt__(self, other): 
+        return self.node_tuple[0] > other.node_tuple[0]
+    
+    def __lt__(self, other):
+        return self.node_tuple[0] < other.node_tuple[0]
     
 class Token:
     '''
@@ -99,10 +109,13 @@ class Statistics:
         
         # Sieve counters
         self.resolve_predicate = 0
-        self.resolve_pronouns = 0
+        self.resolve_1p_2p_pronouns = 0
         self.resolve_vocative = 0
         self.resolve_apposition = 0
         self.resolve_fronted = 0
+        self.match_string = 0
+        self.resolve_entity = 0
+        self.resolve_3p_pronouns = 0
         
     def __iadd__(self, other):
         self.pa_count += other.pa_count
@@ -111,10 +124,13 @@ class Statistics:
         self.output_corefs += other.output_corefs
         self.coref_classes += other.coref_classes
         self.resolve_predicate += other.resolve_predicate
-        self.resolve_pronouns += other.resolve_pronouns
+        self.resolve_1p_2p_pronouns += other.resolve_1p_2p_pronouns
         self.resolve_vocative += other.resolve_vocative
         self.resolve_apposition += other.resolve_apposition
         self.resolve_fronted += other.resolve_fronted
+        self.match_string += other.match_string
+        self.resolve_entity += other.resolve_entity
+        self.resolve_3p_pronouns += other.resolve_3p_pronouns
         self.rule_count += other.rule_count
         self.fc_parsed += other.fc_parsed
         self.fc_failed += other.fc_failed
@@ -541,7 +557,7 @@ def replace(g_prs):
     Strips the feature `g_prs' (inspect with: `F.g_prs.freqList()') of the pointed 
     representation of the pronominal suffix of a word in BHSA transliteration.
     It returns the consonantal text of the suffix in string form. 
-    Instead of '+@HEM', 'HM' is returned. 
+    E.g.: instead of '+@HEM', 'HM' is returned. 
     '''
     
     char_set = set('+:@.,;AEIOU')
@@ -1037,7 +1053,7 @@ def mention_from_domain(mp, mentions):
             return m
     return None
 
-def ResolvePronouns(mentions, coref_list, stats):
+def ResolveFirstSecondPersonPronouns(mentions, coref_list, stats):
     '''
     - Link 1P pronouns, `mp1', within same domain, except finite verbs
     - Link 2P pronouns, `mp2', within same domain, except finite verbs
@@ -1071,7 +1087,7 @@ def ResolvePronouns(mentions, coref_list, stats):
                       coref_list.index(mp2_same_domain.corefclass))
                 
     after = len(coref_list)
-    stats.resolve_pronouns = before - after 
+    stats.resolve_1p_2p_pronouns = before - after 
       
 def mention_from_vocative_domain(mvoct, mentions):
     for m in mentions:
@@ -1355,6 +1371,228 @@ def ResolveFrontedElement(mentions, coref_list, stats):
     after = len(coref_list)
     stats.resolve_fronted = before - after
 
+
+def pronoun(w):
+    '''
+    Boolean function that checks for the existence of a pronoun.
+    '''
+    return F.pdp.v(w) in {'prps', 'prde', 'prin'}
+        
+def is_kol(w):
+    '''
+    Boolean function that checks if 'KL/' is head of a phrase.
+    '''
+    return F.lex.v(w) == 'KL/' and F.st.v(w) == 'c'
+    
+def phrase_head(m):
+    '''
+    Finds the head of the phrase in which the mention (`m`)
+    is contained. The head is found by searching 
+    for the first word in the phrase 
+    with a nominal ending (`nme`). Of that word 
+    the lexeme is returned. 
+    '''
+    
+    phrase = L.u(m.node_tuple[0], 'phrase')[0]
+    for word in L.d(phrase, 'word'):
+        if m.issuffix:
+            return F.prs.v(word)
+        elif F.nme.v(word) not in {'n/a', 'absent'} and not is_kol(word) or pronoun(word):
+            return F.lex.v(word)
+    return None
+
+def match_head(m1, m2):
+    '''
+    The function phrase_head returns a lexeme or None. 
+    If `lex1` (lexeme of `m1`) and `lex2` (lexeme of `m2`) 
+    have a value a boolean is returned if 
+    lex1 and lex2 match on lexeme. 
+    The lexemes cannot be contained in the same phrase. 
+    This is checked with `phr1` and `phr1`. 
+    '''
+
+    lex1 = phrase_head(m1)
+    lex2 = phrase_head(m2)
+    phr1 = L.u(m1.node_tuple[0], 'phrase')[0]
+    phr2 = L.u(m2.node_tuple[0], 'phrase')[0]
+    
+    # filter out mentions that are contained within the same phrase
+    return phr1 != phr2 and lex1 and lex2 and lex1 == lex2
+    
+def distance_component(d):
+    '''
+    Calculates the distance component of words in a text
+    of the feature vector match_vector with log. 
+    `d`, integer, is the distance in word nodes between words. 
+    The 0.4 is a scaling factor has been radomnly chosen, 
+    it decreases the log(d) value for readability. 
+    '''
+    v = 0.4 * math.log(d)
+    return v
+    
+def vector_length(match_vector):
+    '''
+    Calculates and returns the euclidic length of the list `match_vector`.
+    `match_vector` contains a number of components. 
+    Each component is a numeric value that represents 
+    the amount of agreement between two mentions for a specific feature. 
+    `vector_length` is called in `score_match`. 
+    '''
+    i_sum = 0
+    euclidic = 0
+    for i in match_vector:
+        i_sqrt = i**2
+        i_sum += i_sqrt
+        euclidic = math.sqrt(i_sum)  
+    return euclidic
+
+def score_match(m1, m2, w):
+    '''
+    Function scores the match between two mentions 
+    `m1` and `m2` that are compared for agreement. 
+    `w` is a (list) vector with weights
+    per feature that is compared. `w` can be adjusted in
+    the sieves MatchExactString() and ResolveEntity(). 
+    Funtions returns a score which is the result
+    of the product of each element in match_vector and `w`. 
+    '''
+    match_vector = []
+    txt_distance = m1.node_tuple[0] - m2.node_tuple[0]
+    # distance in words with math.log(d)
+    d = distance_component(txt_distance)
+    match_vector.append(d) 
+    match_vector.append(disagreement(m1.gender, m2.gender))
+    match_vector.append(disagreement(m1.number, m2.number))
+    w = list(w)
+    w.insert(0, 1.0) # insert value 1.0 to weigh the distance = [1] + w
+    w = tuple(w)
+    
+    return vector_length(np.multiply(w, match_vector))
+    
+def MatchString(mentions, coref_list, stats):
+    '''
+    Matches lexeme strings (not suffixes) exactly by finding for each 
+    singleton mention the best possible candidate 
+    mention in a class. The best candidate is found by:
+    - walking backwards in the text to the beginning;
+    - assigning a match score between the two compared mentions (m1, m2);
+    - the score is calculated with a feature weights vector and the length
+    of the match vector;
+    - all canditate mentions for m1 are stored in a heap;
+    - the best mention m2 with the best score is popped from the heap
+    and united with m1;
+    - after the push, a new heap is made for a new mention singleton.
+    '''
+    before = len(coref_list) 
+    feature_weights = [1.0, 1.0] #wv
+    unite = []
+    for m in mentions:
+        if len(m.corefclass) == 1 and m.rpt != 'PrNP' and not m.issuffix:
+            heap = []
+            for clss in coref_list:
+                sorted_clss = sorted(clss, key=attrgetter('node_tuple'))
+                i = 0
+                while i < len(sorted_clss) and m > sorted_clss[i]:
+                    m2 = sorted_clss[i]
+                    if not m2.issuffix and match_head(m, m2):
+                        score = score_match(m, m2, feature_weights)
+                        heappush(heap, (score, m2)) #list of tuples
+                    i += 1
+            
+            if len(heap) > 0:
+                best_match = heappop(heap)
+                Unite(coref_list, coref_list.index(m.corefclass), 
+                      coref_list.index(best_match[1].corefclass))
+                #print('united strings', (m.text, m.node_tuple), (best_match[1].text, best_match[1].node_tuple), '\n')
+                unite.append((m.text, best_match[1].text))
+    #print('unite_string_list', len(unite), unite, '\n')                   
+    
+    after = len(coref_list)
+    stats.match_string = before - after
+    
+def ResolveEntity(mentions, coref_list, stats):
+    '''
+    Resolves named entities as coded in the BSHA data by finding for each 
+    singleton mention the best possible candidate 
+    mention in a class. The best candidate is found by:
+    - walking backwards in the text to the beginning;
+    - assigning a match score between the two compared mentions (m1, m2);
+    - the score is calculated with a feature weights vector and the length
+    of the match vector;
+    - all canditate mentions for m1 are stored in a heap;
+    - the best mention m2 with the best score is pushed from the heap;
+    and united with m1;
+    - after the push, a new heap is made for a new mention singleton.
+    '''
+    before = len(coref_list)
+    
+    feature_weights = [0.0, 0.0] #wv
+    unite = []
+    for m in mentions:
+        if len(m.corefclass) == 1 and m.rpt == 'PrNP':
+            heap = []
+            for clss in coref_list:
+                sorted_clss = sorted(clss, key=attrgetter('node_tuple'))
+                i = 0
+                while i < len(sorted_clss) and m > sorted_clss[i]:
+                    m2 = sorted_clss[i]
+                    if m2.rpt == 'PrNP' and match_head(m, m2):
+                        score = score_match(m, m2, feature_weights)
+                        heappush(heap, (score, m2)) #list of tuples
+                    i += 1
+                    
+            if len(heap) > 0:
+                best_match = heappop(heap)
+                Unite(coref_list, coref_list.index(m.corefclass), 
+                      coref_list.index(best_match[1].corefclass))
+                #print('united entities', (m.text, m.node_tuple), (best_match[1].text, best_match[1].node_tuple), '\n')
+                unite.append((m.text, best_match[1].text))
+    #print('unite_entity_list', len(unite), unite, '\n')    
+          
+    after = len(coref_list)
+    stats.resolve_entity = before - after
+
+def ResolveThirdPersonPronouns(mentions, coref_list, stats):
+    '''
+    Resolves third person pronouns by finding for each 
+    singleton 3p pronoun mention the best possible candidate 
+    mention in a class. The best candidate is found by:
+    - walking backwards in the text to the beginning;
+    - assigning a match score between the two compared mentions (m1, m2);
+    - the score is calculated with a feature weights vector and the length
+    of the match vector;
+    - all canditate mentions for m1 are stored in a heap;
+    - the best mention m2 with the best score is pushed from the heap;
+    and united with m1;
+    - after the push, a new heap is made for a new mention singleton.
+    '''
+    before = len(coref_list)
+    feature_weights = [2.0, 3.6] #wv
+    unite = []
+    for m in mentions:
+        if len(m.corefclass) == 1 and m.person == 'p3': #issuffix
+            heap = []
+            for clss in coref_list:
+                sorted_clss = sorted(clss, key=attrgetter('node_tuple'))
+                i = 0
+                while i < len(sorted_clss) and m > sorted_clss[i]:
+                    m2 = sorted_clss[i]
+                    if m2.person == 'p3':
+                        score = score_match(m, m2, feature_weights)
+                        heappush(heap, (score, m2)) #list of tuples
+                    i += 1
+            
+            if len(heap) > 0:
+                best_match = heappop(heap)
+                Unite(coref_list, coref_list.index(m.corefclass), 
+                      coref_list.index(best_match[1].corefclass))
+                #print('united 3p pronouns', (m.text, m.node_tuple), (best_match[1].text, best_match[1].node_tuple), '\n')
+                unite.append((m.text, best_match[1].text))
+    #print('unite_3p_list', len(unite), unite, '\n')
+    
+    after = len(coref_list)
+    stats.resolve_3p_pronouns = before - after    
+    
 def MakeSieveList():
     
     '''
@@ -1364,11 +1602,14 @@ def MakeSieveList():
     '''
     
     sieve_list = []
-    sieve_list.append(ResolvePredicate)
-    sieve_list.append(ResolvePronouns)
+    sieve_list.append(ResolveFirstSecondPersonPronouns)
     sieve_list.append(ResolveVocative)
+    sieve_list.append(MatchString)
+    sieve_list.append(ResolveEntity)
     sieve_list.append(ResolveApposition)
     sieve_list.append(ResolveFrontedElement)
+    sieve_list.append(ResolvePredicate)
+    sieve_list.append(ResolveThirdPersonPronouns)
     
     return sieve_list
 
@@ -1380,6 +1621,9 @@ def ExecuteSieves(sieve_list, mentions, corefs, stats):
     ResolvePronouns(mentions, corefs)
     ResolveApposition(mentions, corefs)
     ResolveFrontedElement(mentions, corefs)
+    ResolveEntity(mentions, corefs)
+    MatchExactString(mentions, corefs)
+    ResolveThirdPersonPronouns(mentions, corefs)
     '''
     
     for sieve in sieve_list:
@@ -1395,7 +1639,6 @@ def CountCorefClasses(stats, corefs):
 def CorefResolutionStats(stats, book_name, coreference_list):
     
     resolved_corefs = stats.input_corefs - stats.output_corefs
-    
     coref_success_percent = round(stats.coref_success() * 100, 1)
     coref_unresolved_percent = round(stats.coref_unresolved() * 100, 1)
     
@@ -1427,35 +1670,43 @@ def CorefResolutionStats(stats, book_name, coreference_list):
 
 def SieveStats(stats, book_name, sieves_list):
     
-    resolve_total = stats.resolve_predicate + stats.resolve_pronouns + stats.resolve_vocative + \
-    stats.resolve_apposition + stats.resolve_fronted
+    resolve_total = stats.resolve_predicate + stats.resolve_1p_2p_pronouns + \
+    stats.resolve_vocative + stats.resolve_apposition + stats.resolve_fronted + \
+    stats.resolve_entity + stats.match_string + stats.resolve_3p_pronouns
     
     print('\n',\
           f'Sieve Statistics {book_name}: \n',\
-          f'Predicate Sieve: {stats.resolve_predicate} \n',\
-          f'Pronoun Sieve: {stats.resolve_pronouns} \n',\
+          f'1p 2p Pronoun Sieve: {stats.resolve_1p_2p_pronouns} \n',\
           f'Vocative Sieve: {stats.resolve_vocative} \n',\
+          f'String Sieve: {stats.match_string} \n',\
+          f'Entity Sieve: {stats.resolve_entity} \n',\
           f'Apposition Sieve: {stats.resolve_apposition} \n',\
-          f'Fronted Element Sieve: {stats.resolve_fronted}\n',\
-          f'Total Sieves: {resolve_total}\n',\
+          f'Fronted Element Sieve: {stats.resolve_fronted} \n',\
+          f'Predicate Sieve: {stats.resolve_predicate} \n',\
+          f'3p Pronoun Sieve: {stats.resolve_3p_pronouns} \n',\
+          f'Total Sieves: {resolve_total} \n',\
           f'Total Classes: {stats.coref_classes}'
          )
     
     sieves_list.append({'book' : book_name,
-                        'predicate sieve' : stats.resolve_predicate,
-                        'pronoun sieve' : stats.resolve_pronouns,
-                        'vocative sieve' : stats.resolve_vocative,
-                        'apposition sieve' : stats.resolve_apposition,
-                        'fronted element sieve' : stats.resolve_fronted,
+                        '1p 2p pronoun' : stats.resolve_1p_2p_pronouns,
+                        'vocative' : stats.resolve_vocative,
+                        'string' : stats.match_string,
+                        'entity' : stats.resolve_entity,
+                        'apposition' : stats.resolve_apposition,
+                        'fronted element' : stats.resolve_fronted,
+                        'predicate' : stats.resolve_predicate,
+                        '3p pronoun' : stats.resolve_3p_pronouns,
                         'total sieves' : resolve_total,
-                        'classes' : stats.coref_classes
-                        
+                        'classes' : stats.coref_classes  
         })
         
     sieve_stats_df = pd.DataFrame(sieves_list)
-    sieve_stats_df = sieve_stats_df[['book', 'predicate sieve', 'pronoun sieve', 
-                                     'vocative sieve', 'apposition sieve', 
-                                     'fronted element sieve', 'total sieves', 'classes']]
+    sieve_stats_df = sieve_stats_df[['book', '1p 2p pronoun',
+                                     'vocative', 'string', 'entity',
+                                     'apposition', 'fronted element',
+                                     'predicate', '3p pronoun',
+                                     'total sieves', 'classes']]
     return sieve_stats_df
     
 def GoMiMi():
@@ -1463,6 +1714,7 @@ def GoMiMi():
     mention_detection_list = []
     coreference_list = []
     sieves_list = []
+    mention_rules = {} 
     
     global mention_errors
     
@@ -1493,5 +1745,8 @@ def GoMiMi():
         mention_stats_df = MentionParseStats(bk_stats, book_name, mention_detection_list)
         coref_stats_df = CorefResolutionStats(bk_stats, book_name, coreference_list)
         sieve_stats_df = SieveStats(bk_stats, book_name, sieves_list)
-        print(bk_stats.rule_count)
+        #print(bk_stats.rule_count)
+        mention_rules[book_name] = bk_stats.rule_count
+    print(mention_rules)
+    
     return mention_stats_df, coref_stats_df, sieve_stats_df

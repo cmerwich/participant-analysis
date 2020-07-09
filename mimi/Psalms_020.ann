@@ -71,13 +71,13 @@ T70	Mention 443 446	J<N
 T71	Mention 446 449	+NW
 T72	Mention 452 455	JWM
 T73	Mention 456 459	QR>
-*	Coreference T4 T6
 *	Coreference T5 T9 T13 T17 T20 T22 T25 T27 T29 T33 T40
-*	Coreference T8 T10 T11 T16 T18 T23 T24 T30
-*	Coreference T35 T56 T59 T60 T64 T65 T71
+*	Coreference T8 T10 T11 T16 T18 T23 T24 T30 T34 T57 T58
 *	Coreference T31 T36
-*	Coreference T37 T38
-*	Coreference T42 T43 T46
+*	Coreference T4 T6 T37 T38 T42 T43 T45 T47 T46 T49 T51
+*	Coreference T52 T54
 *	Coreference T61 T62 T63
+*	Coreference T35 T56 T59 T60 T64 T65 T71
 *	Coreference T67 T68
 *	Coreference T69 T70
+*	Coreference T7 T72

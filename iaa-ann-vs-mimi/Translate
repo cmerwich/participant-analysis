@@ -1,4 +1,5 @@
 # Working directory .../iaa-ann-vs-mimi
+# call with: make -f Translate
 PSALMS = $(shell seq -w 1 150)
 DIFFS = $(foreach p,$(PSALMS),Psalms_$p.diff)
 
@@ -12,7 +13,7 @@ NEW	= $(HOME)/github/cmerwich/participant-analysis/mimi
 
 %.diff: mentiondiff.sh $(OLD)/%.ann %.ann
 	@sh mentiondiff.sh $(OLD)/$*.ann $*.ann > $@ || \
-	echo There were difference for $*
+	echo There were differences for $*
 
 %.ann: translate.py $(OLD)/%.txt $(NEW)/%.txt $(NEW)/%.ann
 	python3 translate.py -a $(NEW)/$*.ann -o $@ $(OLD)/$*.txt $(NEW)/$*.txt

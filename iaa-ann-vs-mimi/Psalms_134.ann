@@ -17,6 +17,6 @@ T16	Mention 123 127	JHWH
 T17	Mention 129 133	YJWN
 T18	Mention 134 137	<FH
 T19	Mention 138 147	CMJM W->RY
-*	Coreference T2 T4 T8 T12
 *	Coreference T10 T15
-*	Coreference T14 T16
+*	Coreference T2 T4 T8 T12
+*	Coreference T3 T13 T14 T16

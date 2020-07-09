@@ -401,59 +401,68 @@ T400	Mention 2332 2335	ZR<
 T401	Mention 2335 2336	+W
 T402	Mention 2340 2344	<WLM
 *	Coreference T2 T3
-*	Coreference T8 T9
-*	Coreference T17 T18
 *	Coreference T19 T22 T24 T26 T28 T30 T34 T36 T38 T43 T46 T50 T53 T55 T58 T62 T68 T70
 *	Coreference T15 T40 T44
-*	Coreference T45 T47
 *	Coreference T48 T49
-*	Coreference T51 T52
+*	Coreference T45 T47 T51 T52
 *	Coreference T54 T56
 *	Coreference T59 T63
-*	Coreference T69 T73
+*	Coreference T69 T73 T76
 *	Coreference T77 T78
-*	Coreference T79 T80
-*	Coreference T84 T85
+*	Coreference T79 T80 T81
 *	Coreference T88 T91
 *	Coreference T92 T93
-*	Coreference T95 T97 T101 T103 T104
-*	Coreference T115 T117
-*	Coreference T122 T123
-*	Coreference T119 T121 T127 T130 T133
+*	Coreference T84 T85 T87 T90 T94
+*	Coreference T95 T97 T100 T101 T103 T104 T106 T109 T111 T114 T116
+*	Coreference T96 T120
+*	Coreference T67 T124
+*	Coreference T122 T123 T125
+*	Coreference T118 T126
+*	Coreference T115 T117 T131 T134
 *	Coreference T135 T136
-*	Coreference T137 T138
 *	Coreference T140 T143
 *	Coreference T147 T149 T152 T154 T155 T157 T159 T161 T170 T172
+*	Coreference T137 T138 T156 T158
+*	Coreference T7 T160
 *	Coreference T165 T167
-*	Coreference T162 T163 T166
 *	Coreference T144 T146 T148 T151 T169 T171
 *	Coreference T174 T177 T179 T181 T186 T190 T194 T199
-*	Coreference T173 T175 T180
 *	Coreference T182 T184
+*	Coreference T8 T9 T10 T12 T14 T17 T18 T20 T32 T41 T60 T64 T66 T72 T75 T82 T83 T119 T121 T127 T129 T130 T133 T141 T162 T163 T166 T173 T175 T180 T188 T192 T196
 *	Coreference T195 T197
-*	Coreference T200 T201
 *	Coreference T202 T204 T206
+*	Coreference T176 T203
+*	Coreference T178 T205
+*	Coreference T189 T207
 *	Coreference T210 T212 T214 T216
 *	Coreference T217 T219 T221 T222 T223 T232 T279 T281 T285
 *	Coreference T225 T228 T231 T236 T277 T283 T287 T290 T291 T294 T297 T309 T311 T316 T317 T319 T321 T324 T340 T343 T348 T351 T354
-*	Coreference T226 T227 T229
+*	Coreference T107 T230
 *	Coreference T233 T237
 *	Coreference T252 T255 T259 T262 T265 T267 T270 T275
+*	Coreference T183 T240 T258
 *	Coreference T272 T274
+*	Coreference T37 T243 T278
 *	Coreference T280 T282
 *	Coreference T284 T286
-*	Coreference T292 T293
 *	Coreference T295 T298 T300 T303
+*	Coreference T99 T308
 *	Coreference T276 T310
+*	Coreference T256 T312
+*	Coreference T271 T313
+*	Coreference T200 T201 T208 T226 T227 T229 T241 T244 T247 T249 T257 T266 T329 T330 T360 T388
 *	Coreference T332 T337
+*	Coreference T292 T293 T299 T302 T304 T305 T307 T326 T327 T331 T333 T338
 *	Coreference T314 T339 T342
-*	Coreference T345 T347 T350
-*	Coreference T352 T353
-*	Coreference T355 T356 T357
-*	Coreference T361 T362
+*	Coreference T218 T345 T347 T350 T372
+*	Coreference T352 T353 T355 T356 T357 T359
+*	Coreference T29 T250 T361 T362
 *	Coreference T363 T366 T370 T373 T375 T377 T379 T381 T384
-*	Coreference T364 T365
+*	Coreference T27 T239 T253 T367
+*	Coreference T42 T153 T296 T318 T376
+*	Coreference T306 T315 T378
 *	Coreference T380 T383
 *	Coreference T386 T390
 *	Coreference T385 T391
 *	Coreference T397 T399
+*	Coreference T61 T185 T235 T364 T365 T371 T394 T398 T401

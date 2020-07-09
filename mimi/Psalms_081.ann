@@ -122,20 +122,18 @@ T121	Mention 756 759	YWR
 T122	Mention 760 763	DBC
 T123	Mention 764 769	>FBJ<
 T124	Mention 769 771	+K
-*	Coreference T5 T6
+*	Coreference T5 T6 T9
 *	Coreference T7 T21
 *	Coreference T4 T8 T10 T12 T16
 *	Coreference T34 T35
-*	Coreference T40 T43
+*	Coreference T24 T30 T29 T39 T41
 *	Coreference T48 T51
-*	Coreference T47 T49 T52 T56 T55 T58 T61 T63 T67 T70 T72 T76 T81 T83 T86 T95 T97 T100 T110 T124
-*	Coreference T45 T54 T59 T60
-*	Coreference T62 T64
 *	Coreference T68 T69
-*	Coreference T79 T80
-*	Coreference T84 T85
-*	Coreference T94 T96
-*	Coreference T98 T101
+*	Coreference T32 T73
+*	Coreference T62 T64 T66 T78
+*	Coreference T40 T43 T90 T91 T93
+*	Coreference T47 T49 T52 T56 T55 T58 T61 T63 T67 T70 T72 T76 T79 T80 T81 T83 T86 T94 T95 T96 T97 T100 T110 T124
 *	Coreference T105 T108
-*	Coreference T111 T112
-*	Coreference T114 T115
+*	Coreference T45 T54 T59 T60 T84 T85 T88 T98 T101 T104 T107 T113
+*	Coreference T111 T112 T116
+*	Coreference T114 T115 T118 T119

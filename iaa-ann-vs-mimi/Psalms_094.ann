@@ -140,29 +140,28 @@ T139	Mention 949 953	JHWH
 T140	Mention 954 958	>LHJ
 T141	Mention 958 960	+NW
 *	Coreference T1 T2 T3 T4 T5 T6 T7
-*	Coreference T12 T13 T14 T15
-*	Coreference T17 T18
-*	Coreference T22 T25 T27 T29
+*	Coreference T10 T12 T13 T14 T15 T66
+*	Coreference T17 T18 T84
 *	Coreference T31 T32
-*	Coreference T33 T34
+*	Coreference T33 T34 T125
 *	Coreference T35 T36 T37 T38 T39
 *	Coreference T40 T41
-*	Coreference T42 T43
-*	Coreference T44 T45
-*	Coreference T49 T50
+*	Coreference T22 T25 T27 T29 T30 T52
 *	Coreference T55 T60
+*	Coreference T44 T45 T56 T61 T63
 *	Coreference T65 T67
-*	Coreference T68 T69 T74
-*	Coreference T76 T77
+*	Coreference T19 T70
+*	Coreference T23 T72
+*	Coreference T11 T20 T21 T24 T49 T50 T57 T59 T68 T69 T71 T73 T74 T85 T98 T99 T107 T112
 *	Coreference T80 T83 T87 T92
-*	Coreference T89 T91
+*	Coreference T76 T77 T78 T79 T82
+*	Coreference T89 T91 T109 T118
 *	Coreference T94 T95
-*	Coreference T11 T20 T21 T24 T57 T59 T98 T99 T107 T112
 *	Coreference T97 T100
 *	Coreference T101 T103 T105 T110
 *	Coreference T106 T108
 *	Coreference T111 T113
-*	Coreference T117 T120
+*	Coreference T42 T43 T114
 *	Coreference T123 T126 T128 T141
-*	Coreference T121 T122 T129
-*	Coreference T137 T139 T140
+*	Coreference T121 T122 T129 T135 T137 T139 T140
+*	Coreference T117 T120 T130 T132 T134 T136 T138

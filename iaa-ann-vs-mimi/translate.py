@@ -1,6 +1,6 @@
 # call within same repository as: `Translate' (makefile) as: 
 # make -f Translate
-# translate('Psalms_002-mimi.ann', 'Psalms_002_n.ann', ['Psalms_002-ann.txt', 'Psalms_002-mimi.txt'])
+# translate('Psalms_002-mimi.ann', 'Psalms_002_t.ann', ['Psalms_002-chris.txt', 'Psalms_002-mimi.txt'])
 
 __author__ = 'erwich/sikkel'
 

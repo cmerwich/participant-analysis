@@ -1,7 +1,6 @@
 import re, collections
 from IPython.display import display, HTML, Markdown
 
-from tf.applib.repo import checkoutRepo
 from tf.app import use
 from tf.fabric import Fabric
 
@@ -15,13 +14,9 @@ def do(task):
     '''
     display(Markdown(md))
 
-do(
-  checkoutRepo(org='cmerwich', repo='bh-reference-system', folder='tf', version='2017', checkout='')
-)
-
 
 A = use(
-    'bhsa', version='2017',
+    'bhsa:latest', version='2017',
     mod=(
         'cmerwich/bh-reference-system/tf'
     ),
@@ -98,5 +93,5 @@ def compute_text(my_book_name, from_chapter, to_chapter):
     return (results, highlights)
 
 def show_text(results, highlights):
-    A.displaySetup(withNodes=True, extraFeatures='pgn_prps pgn_prde pgn_verb pgn_prs pdp typ rela ls function det st lex nametype gn nu') #ps gn nu
+    A.displaySetup(withNodes=True, extraFeatures='pgn_prps pgn_prde pgn_verb pgn_prs pdp typ rela ls function det st lex:gloss nametype vs gn nu') #ps gn nu
     A.show(results, condensed=False, highlights=highlights)

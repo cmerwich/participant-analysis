@@ -44,12 +44,13 @@ T43	Mention 300 305	BRKNW
 T44	Mention 308 310	+KM
 T45	Mention 312 319	CM JHWH
 *	Coreference T3 T5 T9 T11 T13 T15
-*	Coreference T6 T7
+*	Coreference T4 T10
 *	Coreference T2 T8 T12
-*	Coreference T16 T17 T18
+*	Coreference T16 T17 T18 T20
+*	Coreference T6 T7 T22
 *	Coreference T25 T26
 *	Coreference T24 T27
 *	Coreference T30 T31
-*	Coreference T32 T35
+*	Coreference T32 T34 T35 T37
 *	Coreference T39 T40
 *	Coreference T42 T44

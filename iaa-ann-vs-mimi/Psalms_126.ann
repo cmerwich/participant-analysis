@@ -41,8 +41,9 @@ T40	Mention 283 286	RNH
 T41	Mention 287 290	NF>
 T42	Mention 291 296	>LMTJ
 T43	Mention 296 297	+W
-*	Coreference T2 T3
-*	Coreference T7 T9
 *	Coreference T10 T12 T23
-*	Coreference T16 T17
-*	Coreference T20 T21
+*	Coreference T18 T22
+*	Coreference T7 T9 T14 T34
+*	Coreference T13 T33 T40
+*	Coreference T37 T41
+*	Coreference T2 T3 T16 T17 T20 T21 T26 T35 T39 T43

@@ -92,11 +92,13 @@ T91	Mention 512 517	RC<JM
 T92	Mention 522 526	>NKJ
 T93	Mention 530 535	><BWR
 *	Coreference T7 T10 T15 T20 T26 T29 T32 T44 T48 T52 T55 T64 T71 T76 T81 T83 T86 T92 T93
-*	Coreference T13 T14
 *	Coreference T6 T8 T22 T23 T27 T30
 *	Coreference T43 T45 T47
-*	Coreference T50 T51
-*	Coreference T58 T60 T62 T65
-*	Coreference T69 T70
+*	Coreference T13 T14 T42 T54 T57
+*	Coreference T58 T60 T61 T62 T65
+*	Coreference T25 T72
 *	Coreference T3 T5 T12 T18 T73 T74 T77
+*	Coreference T59 T84
+*	Coreference T69 T70 T85
 *	Coreference T88 T91
+*	Coreference T50 T51 T90

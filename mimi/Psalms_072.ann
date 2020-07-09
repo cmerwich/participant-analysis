@@ -139,23 +139,27 @@ T138	Mention 955 958	KLW
 T139	Mention 959 968	TPLWT DWD
 T140	Mention 969 975	BN JCJ
 *	Coreference T2 T4 T8 T12 T15 T30
-*	Coreference T17 T18
-*	Coreference T39 T42
+*	Coreference T3 T16
+*	Coreference T11 T20
+*	Coreference T7 T22
+*	Coreference T9 T26
+*	Coreference T17 T18 T29
+*	Coreference T39 T41 T42
 *	Coreference T52 T53
 *	Coreference T54 T57
-*	Coreference T58 T60
-*	Coreference T61 T63
-*	Coreference T64 T66
-*	Coreference T67 T68
-*	Coreference T70 T76 T79 T82
-*	Coreference T85 T86
-*	Coreference T10 T23 T25 T27 T34 T45 T90 T91 T94 T97
+*	Coreference T5 T58 T60 T61 T63 T64 T66
+*	Coreference T14 T24 T73
+*	Coreference T70 T75 T76 T79 T82
+*	Coreference T78 T83
+*	Coreference T85 T86 T89
+*	Coreference T40 T96
+*	Coreference T10 T23 T25 T27 T34 T45 T51 T55 T65 T69 T90 T91 T92 T94 T95 T98 T97
 *	Coreference T99 T100
-*	Coreference T103 T105
-*	Coreference T110 T111
-*	Coreference T115 T116
-*	Coreference T120 T121
-*	Coreference T123 T124 T125
-*	Coreference T130 T131
-*	Coreference T134 T135
+*	Coreference T103 T105 T106
+*	Coreference T50 T114
+*	Coreference T67 T68 T84 T87 T107 T118 T120 T121
+*	Coreference T110 T112 T111 T115 T117 T116 T119 T122 T123 T124 T125 T129 T130 T131 T132
+*	Coreference T113 T133
+*	Coreference T134 T135 T136
+*	Coreference T101 T137
 *	Coreference T138 T139 T140

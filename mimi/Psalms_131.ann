@@ -26,7 +26,10 @@ T25	Mention 165 168	JXL
 T26	Mention 169 174	JFR>L
 T27	Mention 178 182	JHWH
 T28	Mention 194 198	<WLM
-*	Coreference T4 T5
 *	Coreference T6 T9 T13 T17 T22 T24
 *	Coreference T7 T8
 *	Coreference T14 T15
+*	Coreference T4 T5 T20
+*	Coreference T19 T21
+*	Coreference T16 T23
+*	Coreference T3 T27

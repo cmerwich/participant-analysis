@@ -63,14 +63,9 @@ T62	Mention 336 338	+W
 T63	Mention 339 350	KL >PSJ >RY
 *	Coreference T3 T4
 *	Coreference T7 T9 T13 T54 T57 T59
-*	Coreference T5 T6 T8 T10
-*	Coreference T21 T23
-*	Coreference T25 T27 T30
-*	Coreference T31 T32
-*	Coreference T40 T42
-*	Coreference T17 T20 T22 T24 T26 T41 T43 T45
-*	Coreference T44 T46
-*	Coreference T49 T50
-*	Coreference T53 T55 T56
-*	Coreference T58 T60
+*	Coreference T5 T6 T8 T10 T12
+*	Coreference T31 T32 T36 T39
+*	Coreference T21 T23 T25 T27 T28 T29 T30 T34 T40 T42 T44 T46 T47 T48
+*	Coreference T15 T37 T49 T50 T52
 *	Coreference T61 T63
+*	Coreference T17 T20 T22 T24 T26 T41 T43 T45 T53 T55 T56 T58 T60 T62

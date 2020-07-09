@@ -61,8 +61,11 @@ T60	Mention 393 401	KL XSJDJ
 T61	Mention 401 403	+W
 T62	Mention 404 408	HLLW
 T63	Mention 409 411	JH
-*	Coreference T9 T10
-*	Coreference T13 T14 T17 T22
-*	Coreference T24 T25
-*	Coreference T31 T32 T34
+*	Coreference T13 T14 T16 T17 T22
+*	Coreference T4 T24 T25
+*	Coreference T15 T49
+*	Coreference T11 T43 T55
+*	Coreference T31 T32 T34 T36 T39 T42 T50 T53 T56 T60
+*	Coreference T9 T10 T12 T19 T23 T27 T28 T59 T61
 *	Coreference T1 T3 T62
+*	Coreference T2 T63
