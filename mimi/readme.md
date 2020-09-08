@@ -30,6 +30,8 @@ In the [mimi-hb](https://github.com/cmerwich/participant-analysis/tree/master/mi
 
 ## Experiments
 
+At first MiMi resolved coreference with a sequence of five sieves. MiMi was further enhanced with three additional sieves. MiMi's current version has eight sieves. In the directory [mimi-opt](https://github.com/cmerwich/participant-analysis/tree/master/mimi/mimi-opt) `.py` files and `.txt` files are therefore stored that pertain to MiMi's optimisation process: adding sieves and testing their effectiveness by changing the order of the sequence of sieves. 
+
 In the directory [preparation-experiments](https://github.com/cmerwich/participant-analysis/tree/master/mimi/preparation-experiments) two experimental notebooks are found. They were used as preparation for the development of a deterministic approach for coreference resolution for the Hebrew Bible and the Psalms in particular.
 * [mentionMake.ipynb](mentionMake.ipynb): makes mentions, i.e. referring expressions, as new Text-Fabric object. 
 * [mentionUse.ipynb](mentionUse.ipynb): tests if the mention maker has done its job. 

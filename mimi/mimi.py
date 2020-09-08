@@ -1134,7 +1134,7 @@ def CheckCoref(corefs, statement):
     if n > 0:
         print(statement, n)
                 
-def ResolvePredicate(mentions, coref_list, stats, wv):
+def ResolvePredicate(mentions, coref_list, stats):
     '''
     MiMi's coreference resolution uses the predicate - subject relation as basis 
     for the rest of the sieves. 
@@ -1188,7 +1188,7 @@ def mention_from_domain(mp, mentions):
             return m
     return None
 
-def ResolveFirstSecondPersonPronouns(mentions, coref_list, stats, wv):
+def ResolveFirstSecondPersonPronouns(mentions, coref_list, stats):
     '''
     - Link 1P pronouns, `mp1', within same domain, except finite verbs
     - Link 2P pronouns, `mp2', within same domain, except finite verbs
@@ -1235,7 +1235,7 @@ def mention_from_vocative_domain(mvoct, mentions):
             return m
     return None
 
-def ResolveVocative(mentions, coref_list, stats, wv):
+def ResolveVocative(mentions, coref_list, stats):
     ''' 
     If a mention has phrase function `Voct':
         - Add all 2P mentions with same F.txt.v(clause) and F.pargr.v(clause_atom) 
@@ -1291,7 +1291,7 @@ def mentions_from_preceding_phrase_atom(mappo, mentions):
                 return m
     return None
     
-def ResolveApposition(mentions, coref_list, stats, wv):
+def ResolveApposition(mentions, coref_list, stats):
     '''
     Finds the mentions that have an apposition relation. 
     First find the mention with phrase_atom `rela' `appo', 
@@ -1374,7 +1374,7 @@ def find_mention_in(phrase, mentions):
             return m
     return None
         
-def ResolveFrontedElement(mentions, coref_list, stats, wv):
+def ResolveFrontedElement(mentions, coref_list, stats):
     '''
     * disclaimer: Resu has not been coded for large parts of the BHSA.
     Heuristics were used. 
@@ -1603,7 +1603,7 @@ def score_match(m1, m2, w):
     
     return vector_length(np.multiply(w, match_vector))
 
-def MatchString(mentions, coref_list, stats, wv):
+def MatchString(mentions, coref_list, stats):
     '''
     Matches lexeme strings (not suffixes) exactly by finding for each 
     singleton mention the best possible candidate 
@@ -1644,7 +1644,7 @@ def MatchString(mentions, coref_list, stats, wv):
     after = len(coref_list)
     stats.match_string = before - after
 
-def ResolveEntity(mentions, coref_list, stats, wv):
+def ResolveEntity(mentions, coref_list, stats):
     '''
     Resolves named entities as coded in the BSHA data by finding for each 
     singleton mention the best possible candidate 
@@ -1686,7 +1686,7 @@ def ResolveEntity(mentions, coref_list, stats, wv):
     after = len(coref_list)
     stats.resolve_entity = before - after
 
-def ResolveThirdPersonPronouns(mentions, coref_list, stats, wv):
+def ResolveThirdPersonPronouns(mentions, coref_list, stats):
     '''
     Resolves third person pronouns by finding for each 
     singleton 3p pronoun mention the best possible candidate 
@@ -1747,7 +1747,7 @@ def MakeSieveList():
     
     return sieve_list
 
-def ExecuteSieves(sieve_list, mentions, corefs, stats, wv):
+def ExecuteSieves(sieve_list, mentions, corefs, stats):
     '''
     Executes sieves in sieve_list:
     ResolvePredicate(mentions, corefs)
@@ -1761,7 +1761,7 @@ def ExecuteSieves(sieve_list, mentions, corefs, stats, wv):
     '''
     
     for sieve in sieve_list:
-        sieve(mentions, corefs, stats, wv)
+        sieve(mentions, corefs, stats)
 
 def PlaceCoref(mentions, corefs, ann_file):
     '''
@@ -1946,7 +1946,7 @@ def PrintCorefClasses(Corefs):
         if len(s) == 1:
             pass
 
-def mimi(my_book_name, first_chapter, last_chapter, wv):
+def mimi(my_book_name, first_chapter, last_chapter):
     print('Start.')
     clustername = f'{my_book_name}_{first_chapter:>03}_{last_chapter:>03}'
     global mention_errors 
@@ -1971,7 +1971,7 @@ def mimi(my_book_name, first_chapter, last_chapter, wv):
         Corefs = MakeCorefSets(Mentions)
         stats.input_corefs = len(Corefs)
         sieve_list = MakeSieveList()
-        ExecuteSieves(sieve_list, Mentions, Corefs, stats, wv)
+        ExecuteSieves(sieve_list, Mentions, Corefs, stats)
         stats.output_corefs = len(Corefs)
         PlaceCoref(Mentions, Corefs, ann_file)
         CloseFile(ann_file)
