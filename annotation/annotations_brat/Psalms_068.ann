@@ -1,0 +1,334 @@
+T1	Mention 14 18	MNYX
+T2	Mention 20 23	DWD
+T3	Mention 24 29	MZMWR
+T4	Mention 30 33	CJR
+T5	Mention 39 43	JQWM
+T6	Mention 44 49	>LHJM
+T7	Mention 50 55	JPWYW
+T8	Mention 61 62	W
+T9	Mention 56 61	>WJBJ
+T10	Mention 64 69	JNWSW
+T11	Mention 75 76	W
+T12	Mention 70 75	MFN>J
+T13	Mention 81 82	W
+T14	Mention 78 81	PNJ
+T16	Mention 94 97	<CN
+T17	Mention 98 102	TNDP
+T19	Mention 108 112	DWNG
+T20	Mention 114 120	PNJ&>C
+T21	Mention 121 126	J>BDW
+T22	Mention 127 132	RC<JM
+T23	Mention 134 143	PNJ >LHJM
+T24	Mention 150 156	YDJQJM
+T25	Mention 157 162	JFMXW
+T26	Mention 163 168	J<LYW
+T27	Mention 170 179	PNJ >LHJM
+T28	Mention 181 186	JFJFW
+T29	Mention 188 192	FMXH
+T30	Mention 198 202	CJRW
+T31	Mention 206 211	>LHJM
+T32	Mention 212 216	ZMRW
+T33	Mention 219 220	W
+T34	Mention 217 219	CM
+T35	Mention 221 224	SLW
+T36	Mention 226 229	RKB
+T37	Mention 231 236	<RBWT
+T38	Mention 238 240	JH
+T39	Mention 241 243	CM
+T40	Mention 243 244	W
+T41	Mention 246 250	<LZW
+T42	Mention 252 255	PNJ
+T43	Mention 255 256	W
+T44	Mention 262 272	>BJ JTWMJM
+T45	Mention 274 284	DJN >LMNWT
+T46	Mention 285 290	>LHJM
+T47	Mention 292 300	M<WN QDC
+T48	Mention 300 301	W
+T49	Mention 307 312	>LHJM
+T50	Mention 382 387	>LHJM
+T53	Mention 512 517	>LHJM
+T54	Mention 577 582	>LHJM
+T56	Mention 845 850	>LHJM
+T59	Mention 1107 1112	>LHJM
+T60	Mention 1259 1264	>LHJM
+T61	Mention 1349 1354	>LHJM
+T62	Mention 1459 1464	>LHJM
+T63	Mention 1641 1646	>LHJM
+T64	Mention 1671 1676	>LHJM
+T65	Mention 1749 1754	>LHJM
+T66	Mention 1793 1798	>LHJM
+T67	Mention 1846 1851	>LHJM
+T68	Mention 315 320	MWCJB
+T69	Mention 321 327	JXJDJM
+T70	Mention 330 334	BJTH
+T71	Mention 335 340	MWYJ>
+T72	Mention 341 347	>SJRJM
+T73	Mention 349 355	KWCRWT
+T74	Mention 359 365	SWRRJM
+T75	Mention 366 370	CKNW
+T76	Mention 371 376	YXJXH
+T77	Mention 389 393	Y>TK
+T78	Mention 401 402	K
+T79	Mention 395 401	PNJ <M
+T80	Mention 404 408	Y<DK
+T82	Mention 410 416	JCJMWN
+T83	Mention 426 429	>RY
+T84	Mention 430 434	R<CH
+T85	Mention 440 444	CMJM
+T86	Mention 445 449	NVPW
+T51	Mention 451 460	PNJ >LHJM
+T87	Mention 464 468	SJNJ
+T52	Mention 470 479	PNJ >LHJM
+T88	Mention 480 490	>LHJ JFR>L
+#1	AnnotatorNotes T88	Nested mention: (God of (Israel)). In apposition with "face of God". 
+T89	Mention 497 506	GCM NDBWT
+T90	Mention 507 511	TNJP
+T91	Mention 522 523	K
+T92	Mention 518 522	NXLT
+T93	Mention 530 533	>TH
+T94	Mention 539 540	H
+T95	Mention 534 539	KWNNT
+T96	Mention 550 551	K
+T97	Mention 547 550	XJT
+T98	Mention 552 556	JCBW
+T99	Mention 558 559	H
+T100	Mention 560 564	TKJN
+T101	Mention 570 571	K
+T102	Mention 566 570	VWBT
+T103	Mention 573 576	<NJ
+T104	Mention 589 593	>DNJ
+T105	Mention 594 597	JTN
+T106	Mention 598 601	>MR
+T107	Mention 603 609	MBFRWT
+T108	Mention 610 616	YB> RB
+T109	Mention 623 633	MLKJ YB>WT
+T110	Mention 634 639	JDDWN
+T111	Mention 640 645	JDDWN
+T112	Mention 647 654	NWT BJT
+T113	Mention 655 659	TXLQ
+T114	Mention 660 663	CLL
+T115	Mention 673 679	TCKBWN
+T116	Mention 684 689	CPTJM
+T117	Mention 690 699	KNPJ JWNH
+T118	Mention 700 704	NXPH
+T119	Mention 706 709	KSP
+T120	Mention 717 718	H
+T121	Mention 711 717	>BRWTJ
+T122	Mention 720 730	JRQRQ XRWY
+T123	Mention 738 741	PRF
+T124	Mention 742 745	CDJ
+T125	Mention 746 751	MLKJM
+T126	Mention 753 754	H
+T127	Mention 755 759	TCLG
+T128	Mention 761 766	YLMWN
+T55	Mention 773 781	HR&>LHJM
+T129	Mention 782 788	HR&BCN
+T130	Mention 789 798	HR GBNNJM
+T131	Mention 799 805	HR&BCN
+T132	Mention 818 824	TRYDWN
+T133	Mention 825 836	HRJM GBNNJM
+T134	Mention 838 840	HR
+T135	Mention 841 844	XMD
+T137	Mention 852 856	CBTW
+T138	Mention 860 864	JHWH
+T139	Mention 865 869	JCKN
+T140	Mention 871 874	NYX
+T57	Mention 881 890	RKB >LHJM
+T141	Mention 891 896	RBTJM
+T142	Mention 907 911	>DNJ
+T143	Mention 913 914	M
+T144	Mention 915 919	SJNJ
+T145	Mention 921 924	QDC
+T146	Mention 897 906	>LPJ CN>N
+T147	Mention 931 935	<LJT
+T148	Mention 937 941	MRWM
+T149	Mention 1113 1117	JMXY
+T151	Mention 944 948	CBJT
+T152	Mention 949 952	CBJ
+T153	Mention 953 957	LQXT
+T154	Mention 958 963	MTNWT
+T155	Mention 965 968	>DM
+T156	Mention 973 979	SWRRJM
+T157	Mention 981 984	CKN
+T58	Mention 987 995	JH >LHJM
+T158	Mention 1002 1006	BRWK
+T159	Mention 1007 1011	>DNJ
+T160	Mention 1012 1021	JWM05 JWM
+T161	Mention 1022 1026	J<MS
+T162	Mention 1028 1030	NW
+T163	Mention 1032 1034	>L
+T164	Mention 1040 1042	NW
+T165	Mention 1035 1040	JCW<T
+T166	Mention 1054 1056	>L
+T167	Mention 1060 1062	NW
+T168	Mention 1063 1065	>L
+T169	Mention 1067 1073	MWC<WT
+T170	Mention 1076 1080	JHWH
+T171	Mention 1087 1090	MWT
+T172	Mention 1091 1097	TWY>WT
+T150	Mention 1118 1126	R>C >JBJ
+T173	Mention 1126 1127	W
+T174	Mention 1128 1136	QDQD F<R
+T176	Mention 1137 1142	MTHLK
+T177	Mention 1148 1149	W
+T178	Mention 1144 1148	>CMJ
+T179	Mention 1156 1159	>MR
+T180	Mention 1160 1164	>DNJ
+T181	Mention 1166 1169	BCN
+T182	Mention 1170 1174	>CJB
+T183	Mention 1175 1179	>CJB
+T184	Mention 1181 1189	MYLWT JM
+T185	Mention 1203 1207	TMXY
+T186	Mention 1211 1212	K
+T187	Mention 1208 1211	RGL
+T188	Mention 1214 1216	DM
+T189	Mention 1217 1226	LCWN KLBJ
+T190	Mention 1226 1227	K
+T191	Mention 1229 1234	>JBJM
+T192	Mention 1237 1239	HW
+T193	Mention 1235 1237	MN
+T194	Mention 1246 1249	R>W
+T195	Mention 1257 1258	K
+T196	Mention 1250 1257	HLJKWTJ
+T197	Mention 1274 1275	J
+T198	Mention 1265 1274	HLJKWT >L
+T199	Mention 1279 1280	J
+T200	Mention 1276 1279	MLK
+T201	Mention 1282 1285	QDC
+T202	Mention 1292 1296	QDMW
+T203	Mention 1297 1301	CRJM
+T204	Mention 1306 1311	NGNJM
+T205	Mention 1313 1316	TWK
+T206	Mention 1317 1329	<LMWT TWPPWT
+T207	Mention 1337 1343	MQHLWT
+T208	Mention 1344 1348	BRKW
+T209	Mention 1355 1359	JHWH
+T210	Mention 1361 1371	MQWR JFR>L
+T211	Mention 1381 1386	BNJMN
+T212	Mention 1389 1393	Y<JR
+T213	Mention 1394 1396	RD
+T214	Mention 1398 1407	FRJ JHWDH
+T215	Mention 1412 1413	M
+T216	Mention 1408 1412	RGMT
+T217	Mention 1414 1423	FRJ ZBLWN
+T218	Mention 1424 1433	FRJ NPTLJ
+T219	Mention 1440 1443	YWH
+T220	Mention 1448 1449	K
+T221	Mention 1444 1448	>LHJ
+T222	Mention 1452 1453	K
+T223	Mention 1450 1452	<Z
+T224	Mention 1454 1458	<WZH
+T225	Mention 1468 1472	P<LT
+T226	Mention 1474 1476	NW
+T227	Mention 1488 1489	K
+T228	Mention 1484 1488	HJKL
+T229	Mention 1493 1499	JRWCLM
+T230	Mention 1501 1502	K
+T231	Mention 1503 1509	JWBJLW
+T232	Mention 1510 1515	MLKJM
+T233	Mention 1516 1518	CJ
+T234	Mention 1525 1528	G<R
+T235	Mention 1529 1536	XJT QNH
+T236	Mention 1537 1547	<DT >BJRJM
+T237	Mention 1551 1560	<GLJ <MJM
+T238	Mention 1561 1566	MTRPS
+T240	Mention 1576 1579	BZR
+T239	Mention 1568 1575	RYJ&KSP
+T241	Mention 1580 1584	<MJM
+T242	Mention 1585 1590	QRBWT
+T243	Mention 1591 1596	JXPYW
+T244	Mention 1603 1608	J>TJW
+T245	Mention 1609 1615	XCMNJM
+T246	Mention 1620 1625	MYRJM
+T247	Mention 1626 1629	KWC
+T248	Mention 1630 1634	TRJY
+T249	Mention 1638 1639	W
+T250	Mention 1635 1638	JDJ
+T251	Mention 1653 1664	MMLKWT H>RY
+T252	Mention 1665 1669	CJRW
+T253	Mention 1677 1681	ZMRW
+T254	Mention 1682 1686	>DNJ
+T255	Mention 1698 1701	RKB
+T256	Mention 1703 1714	CMJ CMJ&QDM
+T257	Mention 1718 1721	JTN
+T258	Mention 1726 1727	W
+T259	Mention 1723 1726	QWL
+T260	Mention 1728 1734	QWL <Z
+T261	Mention 1741 1744	TNW
+T262	Mention 1745 1747	<Z
+T263	Mention 1758 1763	JFR>L
+T264	Mention 1764 1768	G>WT
+T265	Mention 1768 1769	W
+T266	Mention 1773 1774	W
+T267	Mention 1771 1773	<Z
+T268	Mention 1776 1781	CXQJM
+T269	Mention 1788 1792	NWR>
+T270	Mention 1805 1806	K
+T271	Mention 1800 1805	MQDCJ
+T272	Mention 1807 1815	>L JFR>L
+T273	Mention 1816 1819	HW>
+T274	Mention 1820 1823	NTN
+T275	Mention 1826 1828	<Z
+T276	Mention 1830 1836	T<YMWT
+T277	Mention 1838 1840	<M
+T278	Mention 1841 1845	BRWK
+*	Coreference T9 T7
+*	Coreference T12 T10
+*	Coreference T22 T21
+#2	AnnotatorNotes T23	Nested mention: (face of (God)). 
+*	Coreference T25 T24 T26 T28 T30 T32 T35 T41 T208
+#3	AnnotatorNotes T27	Nested mention: (face of (God)). 
+#4	AnnotatorNotes T30	2Mpl refers to "the righteous"?
+#5	AnnotatorNotes T39	In apposition with "Lord".
+*	Coreference T42 T14 T27 T23 T51 T52 T88
+*	Coreference T75 T74 T156
+*	Coreference T84 T83
+*	Coreference T86 T85
+#6	AnnotatorNotes T51	Nested mention: (face of (God)). 
+#7	AnnotatorNotes T52	Nested mention: (face of (God)). 
+*	Coreference T94 T92 T99
+*	Coreference T97 T98
+*	Coreference T110 T109 T111
+*	Coreference T113 T112
+#8	AnnotatorNotes T115	Who is 2Mpl?
+*	Coreference T118 T117 T120
+#9	AnnotatorNotes T126	Unclear: to what refers 3Fsg? To the "inheritance" of v.10?
+*	Coreference T127 T126
+#10	AnnotatorNotes T55	Nested mention: (mountain of (God)). 
+#11	AnnotatorNotes T129	Nested mention: (mountain of (Bashan)). 
+#12	AnnotatorNotes T131	Nested mention: (mountain of (Bashan)). 
+*	Coreference T130 T133 T132 T129 T131
+#13	AnnotatorNotes T57	Nested mention: (chariot of (God)). 
+*	Coreference T143 T57
+#14	AnnotatorNotes T58	Nested mention: (God (Lord)). 
+#15	AnnotatorNotes T162	Who is 1Cpl?
+*	Coreference T164 T162 T167 T226
+T81	Mention 1081 1085	>DNJ
+*	Coreference T81 T170 T159 T158 T56 T135 T137 T53 T90 T39 T38 T40 T6 T5 T8 T11 T13 T17 T31 T33 T36 T43 T46 T48 T49 T68 T71 T50 T77 T78 T80 T91 T93 T95 T96 T54 T100 T101 T104 T105 T138 T139 T142 T147 T151 T153 T58 T161 T163 T166 T168 T59 T149 T173
+*	Coreference T177 T176 T150
+*	Coreference T186 T185 T190
+*	Coreference T192 T189
+#16	AnnotatorNotes T194	Who is 3Cpl? The enemy? From the context it is not clear to whom 3Cpl refers, therefore it is left unresolved. 
+*	Coreference T199 T197
+#17	AnnotatorNotes T197	Who is 1Csg?
+*	Coreference T145 T201
+*	Coreference T203 T202
+T136	Mention 1396 1397	M
+*	Coreference T213 T211
+*	Coreference T210 T220 T136
+#18	AnnotatorNotes T214	Nested mention: (chiefs of (Judah)). 
+#19	AnnotatorNotes T217	Nested mention: (chiefs of (Zebulun)). 
+#20	AnnotatorNotes T218	Nested mention: (chiefs of (Naphtali)). 
+*	Coreference T215 T214
+*	Coreference T232 T231
+*	Coreference T238 T235 T240
+*	Coreference T243 T241
+#21	AnnotatorNotes T238	Unclear to whom Umsg refers.
+*	Coreference T245 T244
+*	Coreference T248 T247 T249
+*	Coreference T252 T251 T253 T261
+*	Coreference T66 T269 T221 T219 T209 T61 T180 T179 T182 T183 T195 T60 T222 T62 T224 T225 T227 T230 T234 T63 T64 T254 T255 T257 T258 T65 T265 T266 T270
+#22	AnnotatorNotes T272	Nested mention: (God of (Israel)). 
+*	Coreference T67 T278 T272 T263 T273 T274
+#23	AnnotatorNotes T80	Infc with PreS.
+#24	AnnotatorNotes T137	Infc with PreS.

@@ -1,0 +1,118 @@
+T1	Mention 14 18	MNYX
+T2	Mention 22 28	JDWTWN
+T3	Mention 29 34	MZMWR
+T4	Mention 36 39	DWD
+T5	Mention 51 56	>LHJM
+T6	Mention 66 67	J
+T7	Mention 63 66	NPC
+T8	Mention 57 62	DWMJH
+T9	Mention 71 72	W
+T10	Mention 78 79	J
+T11	Mention 73 78	JCW<T
+T12	Mention 88 91	HW>
+T13	Mention 95 96	J
+T14	Mention 92 95	YWR
+T15	Mention 98 103	JCW<T
+T16	Mention 103 104	J
+T17	Mention 105 109	MFGB
+T18	Mention 109 110	J
+T19	Mention 114 118	>MWV
+T20	Mention 137 143	THWTTW
+T21	Mention 147 150	>JC
+T22	Mention 151 156	TRYXW
+T23	Mention 159 161	KM
+T24	Mention 157 159	KL
+T25	Mention 163 171	QJR NVWJ
+T26	Mention 172 175	GDR
+T27	Mention 177 182	DXWJH
+T29	Mention 192 195	F>T
+T30	Mention 199 203	J<YW
+T32	Mention 210 214	JRYW
+T33	Mention 215 218	KZB
+T34	Mention 222 223	W
+T35	Mention 220 222	PJ
+T36	Mention 224 229	JBRKW
+T37	Mention 235 236	M
+T38	Mention 232 235	QRB
+T39	Mention 237 242	JQLLW
+T40	Mention 256 261	>LHJM
+T41	Mention 262 266	DWMJ
+T42	Mention 267 270	NPC
+T43	Mention 270 271	J
+T44	Mention 278 279	W
+T45	Mention 280 284	TQWT
+T46	Mention 284 285	J
+T47	Mention 294 297	HW>
+T48	Mention 301 302	J
+T49	Mention 298 301	YWR
+T50	Mention 304 309	JCW<T
+T51	Mention 309 310	J
+T52	Mention 315 316	J
+T53	Mention 311 315	MFGB
+T54	Mention 320 324	>MWV
+T55	Mention 333 338	>LHJM
+T56	Mention 342 343	J
+T57	Mention 339 342	JC<
+T58	Mention 345 349	KBWD
+T59	Mention 349 350	J
+T60	Mention 351 357	YWR&<Z
+T61	Mention 357 358	J
+T62	Mention 362 363	J
+T63	Mention 359 362	MXS
+T64	Mention 365 370	>LHJM
+T65	Mention 376 380	BVXW
+T66	Mention 382 383	W
+T67	Mention 385 390	KL&<T
+T68	Mention 393 395	<M
+T69	Mention 396 400	CPKW
+T70	Mention 402 405	PNJ
+T71	Mention 405 406	W
+T72	Mention 410 412	KM
+T73	Mention 407 410	LBB
+T74	Mention 413 418	>LHJM
+T75	Mention 419 423	MXSH
+T76	Mention 425 427	NW
+T77	Mention 443 446	HBL
+T78	Mention 447 454	BNJ&>DM
+T79	Mention 455 458	KZB
+T80	Mention 459 466	BNJ >JC
+T81	Mention 468 474	M>ZNJM
+T83	Mention 481 484	HMH
+T84	Mention 486 489	HBL
+T85	Mention 503 508	TBVXW
+T86	Mention 510 513	<CQ
+T87	Mention 516 519	GZL
+T88	Mention 523 528	THBLW
+T89	Mention 529 532	XJL
+T90	Mention 538 542	JNWB
+T91	Mention 552 554	LB
+T92	Mention 546 551	TCJTW
+T93	Mention 561 564	>XT
+T94	Mention 567 570	DBR
+T95	Mention 571 576	>LHJM
+T96	Mention 577 581	CTJM
+T97	Mention 585 590	CM<TJ
+T98	Mention 594 596	<Z
+T99	Mention 598 603	>LHJM
+T100	Mention 612 613	K
+T101	Mention 614 618	>DNJ
+T102	Mention 619 622	XSD
+T103	Mention 626 629	>TH
+T104	Mention 630 634	TCLM
+T105	Mention 636 639	>JC
+T106	Mention 641 645	M<FH
+T107	Mention 645 646	W
+*	Coreference T9 T5 T12 T14 T11 T15 T17 T40 T44 T47 T49 T50 T53 T55 T57 T58
+*	Coreference T10 T6 T13 T16 T18 T19 T43 T46 T48 T51 T52 T54 T56 T59 T61 T62 T97
+*	Coreference T22 T24 T20 T23
+T28	Mention 195 196	W
+*	Coreference T30 T28 T32 T34 T36 T37 T39
+#1	AnnotatorNotes T30	Is 3Cpl the same group as 2Mpl from v.4?
+*	Coreference T26 T27
+#2	AnnotatorNotes T27	Refers to the "wall"?
+*	Coreference T42 T41
+*	Coreference T65 T68 T69 T72 T76 T85 T88 T92
+*	Coreference T78 T83 T80
+*	Coreference T90 T89
+*	Coreference T95 T94 T63 T60 T64 T66 T71 T74 T75 T99 T100 T101 T103 T104
+*	Coreference T107 T105

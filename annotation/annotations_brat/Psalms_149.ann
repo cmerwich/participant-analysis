@@ -1,0 +1,74 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 23 27	CJRW
+T4	Mention 29 33	JHWH
+T5	Mention 34 41	CJR XDC
+T6	Mention 42 46	THLT
+T7	Mention 46 47	W
+T8	Mention 49 59	QHL XSJDJM
+T9	Mention 65 69	JFMX
+T10	Mention 70 75	JFR>L
+T11	Mention 77 80	<FJ
+T12	Mention 80 81	W
+T13	Mention 82 90	BNJ&YJWN
+T14	Mention 91 96	JGJLW
+T15	Mention 98 101	MLK
+T16	Mention 101 102	M
+T17	Mention 108 113	JHLLW
+T18	Mention 114 116	CM
+T19	Mention 116 117	W
+T20	Mention 119 123	MXWL
+T21	Mention 125 127	TP
+T22	Mention 129 133	KNWR
+T23	Mention 134 139	JZMRW
+T24	Mention 141 142	W
+T25	Mention 151 155	RWYH
+T26	Mention 156 160	JHWH
+T27	Mention 162 164	<M
+T28	Mention 164 165	W
+T29	Mention 166 170	JP>R
+T30	Mention 171 176	<NWJM
+T31	Mention 178 183	JCW<H
+T32	Mention 189 194	J<LZW
+T33	Mention 195 201	XSJDJM
+T34	Mention 203 207	KBWD
+T35	Mention 208 213	JRNNW
+T36	Mention 217 223	MCKBWT
+T37	Mention 223 224	M
+T38	Mention 230 239	RWMMWT >L
+T39	Mention 241 245	GRWN
+T40	Mention 245 246	M
+T41	Mention 248 258	XRB PJPJWT
+T42	Mention 260 262	JD
+T43	Mention 262 263	M
+T45	Mention 275 279	NQMH
+T46	Mention 281 285	GWJM
+T47	Mention 286 291	TWKXT
+T48	Mention 295 299	>MJM
+T50	Mention 310 314	MLKJ
+T51	Mention 314 316	HM
+T52	Mention 318 322	ZQJM
+T53	Mention 324 329	NKBDJ
+T54	Mention 329 331	HM
+T55	Mention 333 342	KBLJ BRZL
+T56	Mention 349 353	<FWT
+T57	Mention 355 357	HM
+T58	Mention 360 369	MCPV KTWB
+T59	Mention 370 373	HDR
+T60	Mention 374 377	HW>
+T61	Mention 379 387	KL&XSJDJ
+T62	Mention 387 388	W
+T63	Mention 389 393	HLLW
+T64	Mention 394 396	JH
+*	Coreference T1 T3 T63
+*	Coreference T10 T9 T12
+#1	AnnotatorNotes T13	Nested mention: (sons of (Zion)). 
+*	Coreference T13 T14 T16 T17 T23 T27
+*	Coreference T26 T25 T2 T4 T7 T11 T15 T19 T24 T28 T29 T62 T64
+*	Coreference T8 T33 T32 T35 T37 T40 T43 T51 T54 T61
+#2	AnnotatorNotes T38	Nested mention: (praise of (God)). 
+*	Coreference T59 T60
+*	Coreference T48 T46 T50 T57 T53
+T44	Mention 270 274	<FWT
+*	Coreference T44 T56
+#3	AnnotatorNotes T44	Lexical match with "to make" in v.9. 

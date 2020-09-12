@@ -1,0 +1,88 @@
+T1	Mention 13 18	MFKJL
+T2	Mention 20 23	DWD
+T3	Mention 25 30	HJWTW
+T5	Mention 32 36	M<RH
+T6	Mention 37 41	TPLH
+T7	Mention 47 50	QWL
+T8	Mention 50 51	J
+T9	Mention 55 59	JHWH
+T10	Mention 60 64	>Z<Q
+T11	Mention 65 68	QWL
+T12	Mention 68 69	J
+T13	Mention 73 77	JHWH
+T14	Mention 78 83	>TXNN
+T15	Mention 89 93	>CPK
+T16	Mention 95 98	PNJ
+T17	Mention 98 99	W
+T18	Mention 100 103	FJX
+T19	Mention 103 104	J
+T20	Mention 105 108	YRT
+T21	Mention 108 109	J
+T22	Mention 111 114	PNJ
+T23	Mention 114 115	W
+T24	Mention 116 120	>GJD
+T26	Mention 135 136	J
+T27	Mention 139 142	RWX
+T28	Mention 142 143	J
+T29	Mention 145 148	>TH
+T30	Mention 149 153	JD<T
+T31	Mention 154 159	NTJBT
+T32	Mention 159 160	J
+T33	Mention 162 165	>RX
+T34	Mention 169 173	>HLK
+T35	Mention 174 178	VMNW
+T36	Mention 179 181	PX
+T37	Mention 183 184	J
+T38	Mention 190 194	HBJV
+T39	Mention 195 199	JMJN
+T40	Mention 203 206	R>H
+T41	Mention 213 214	J
+T42	Mention 215 219	MKJR
+T43	Mention 220 223	>BD
+T44	Mention 224 228	MNWS
+T45	Mention 231 233	NJ
+T46	Mention 238 242	DWRC
+T47	Mention 244 247	NPC
+T48	Mention 247 248	J
+T49	Mention 254 259	Z<QTJ
+T50	Mention 263 264	K
+T51	Mention 265 269	JHWH
+T52	Mention 270 275	>MRTJ
+T53	Mention 276 279	>TH
+T54	Mention 280 283	MXS
+T55	Mention 283 284	J
+T56	Mention 285 288	XLQ
+T57	Mention 288 289	J
+T58	Mention 291 300	>RY HXJJM
+T59	Mention 306 312	HQCJBH
+T60	Mention 318 321	RNT
+T61	Mention 321 322	J
+T62	Mention 326 331	DLWTJ
+T63	Mention 336 340	HYJL
+T64	Mention 340 342	NJ
+T65	Mention 344 347	RDP
+T66	Mention 347 348	J
+T67	Mention 352 356	>MYW
+T68	Mention 359 361	NJ
+T69	Mention 367 373	HWYJ>H
+T70	Mention 375 379	MSGR
+T71	Mention 382 385	NPC
+T72	Mention 385 386	J
+T74	Mention 397 399	CM
+T75	Mention 399 400	K
+T76	Mention 402 403	J
+T77	Mention 404 409	JKTRW
+T78	Mention 410 416	YDJQJM
+T79	Mention 420 424	TGML
+T80	Mention 427 428	J
+*	Coreference T3 T2
+*	Coreference T12 T8 T10 T14 T15 T19 T21 T24 T26 T28 T32 T34 T37 T41 T45 T48 T49 T52 T55 T57 T61 T62 T64 T66 T68 T72 T76 T80
+*	Coreference T7 T11
+*	Coreference T16 T22
+#1	AnnotatorNotes T35	Who is 3Cpl?
+*	Coreference T44 T43
+*	Coreference T51 T50 T30 T29 T13 T9 T17 T23 T38 T40 T53 T59 T63 T69 T75 T79
+*	Coreference T65 T67
+*	Coreference T47 T71
+*	Coreference T77 T78
+#2	AnnotatorNotes T3	Infc with PreS. 

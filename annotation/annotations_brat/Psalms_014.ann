@@ -1,0 +1,67 @@
+T1	Mention 20 23	DWD
+T2	Mention 24 27	>MR
+T3	Mention 41 46	>LHJM
+T4	Mention 84 88	JHWH
+T5	Mention 231 235	JHWH
+T6	Mention 266 271	>LHJM
+T7	Mention 304 308	JHWH
+T8	Mention 350 354	JHWH
+T9	Mention 28 31	NBL
+T10	Mention 35 36	W
+T11	Mention 33 35	LB
+T12	Mention 47 53	HCXJTW
+T13	Mention 54 60	HT<JBW
+T14	Mention 71 78	<FH&VWB
+T15	Mention 95 100	HCQJP
+T16	Mention 104 111	BNJ&>DM
+T18	Mention 122 127	MFKJL
+T19	Mention 128 131	DRC
+T20	Mention 135 140	>LHJM
+T21	Mention 147 149	KL
+T22	Mention 150 152	SR
+T23	Mention 158 163	N>LXW
+T24	Mention 168 175	<FH&VWB
+T25	Mention 183 186	>XD
+T26	Mention 196 200	JD<W
+T27	Mention 201 212	KL&P<LJ >WN
+T28	Mention 213 220	>KLJ <M
+T30	Mention 220 221	J
+T31	Mention 222 226	>KLW
+T32	Mention 239 243	QR>W
+T33	Mention 254 258	PXDW
+T34	Mention 273 281	DWR YDJQ
+T35	Mention 287 294	<YT&<NJ
+T36	Mention 295 300	TBJCW
+T37	Mention 309 313	MXSH
+T38	Mention 313 314	W
+T39	Mention 323 326	JTN
+T40	Mention 328 332	YJWN
+T41	Mention 333 344	JCW<T JFR>L
+T43	Mention 356 362	BWT <M
+T44	Mention 362 363	W
+T45	Mention 364 367	JGL
+T46	Mention 368 372	J<QB
+T47	Mention 373 377	JFMX
+T48	Mention 378 383	JFR>L
+T49	Mention 14 18	MNYX
+*	Coreference T9 T2 T10 T12 T13
+T50	Mention 61 66	<LJLH
+#2	AnnotatorNotes T12	Does this refer to "the fool"? Fool is sg, verb is pl. 
+#3	AnnotatorNotes T13	Does this refer to "the fool"? Fool is sg, verb is pl. 
+T51	Mention 90 94	CMJM
+T52	Mention 119 121	JC
+*	Coreference T18 T19
+*	Coreference T22 T21 T23
+*	Coreference T24 T14
+*	Coreference T27 T26 T31 T32 T33 T36
+#4	AnnotatorNotes T26	Does 3Cpl corefer with "all" from v.3?
+T29	Mention 227 230	LXM
+T53	Mention 259 262	PXD
+*	Coreference T38 T35
+*	Coreference T41 T39
+*	Coreference T8 T15 T4 T20 T30 T5 T6 T7 T44
+#5	AnnotatorNotes T46	Is "Jacob" and "Israel" the same entity?
+#6	AnnotatorNotes T48	Is "Jacob" and "Israel" the same entity?
+*	Coreference T43 T28
+*	Coreference T47 T48 T45 T46
+#1	AnnotatorNotes T20	YHWH looks down … to see (infc.), do look down and to see corefer?

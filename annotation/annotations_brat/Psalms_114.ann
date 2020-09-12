@@ -1,0 +1,53 @@
+T2	Mention 18 23	JFR>L
+T3	Mention 25 30	MYRJM
+T4	Mention 31 39	BJT J<QB
+T5	Mention 41 47	<M L<Z
+T6	Mention 53 57	HJTH
+T7	Mention 58 63	JHWDH
+T8	Mention 65 68	QDC
+T9	Mention 68 69	W
+T10	Mention 70 75	JFR>L
+T11	Mention 76 83	MMCLWTJ
+T12	Mention 83 84	W
+T13	Mention 91 93	JM
+T14	Mention 94 97	R>H
+T15	Mention 99 102	JNS
+T16	Mention 104 108	JRDN
+T17	Mention 109 112	JSB
+T18	Mention 114 118	>XWR
+T19	Mention 125 129	HRJM
+T20	Mention 130 134	RQDW
+T21	Mention 136 141	>JLJM
+T22	Mention 142 147	GB<WT
+T23	Mention 149 156	BNJ&Y>N
+T24	Mention 166 167	K
+T25	Mention 169 171	JM
+T26	Mention 175 179	TNWS
+T27	Mention 181 185	JRDN
+T28	Mention 187 189	SB
+T29	Mention 191 195	>XWR
+T30	Mention 202 206	HRJM
+T31	Mention 207 212	TRQDW
+T32	Mention 214 219	>JLJM
+T33	Mention 220 225	GB<WT
+T34	Mention 227 234	BNJ&Y>N
+T35	Mention 242 250	PNJ >DWN
+T36	Mention 251 255	XWLJ
+T37	Mention 256 259	>RY
+T38	Mention 262 275	PNJ >LWH J<QB
+T39	Mention 282 286	HPKJ
+T40	Mention 288 291	YWR
+T41	Mention 292 299	>GM&MJM
+T42	Mention 300 305	XLMJC
+T43	Mention 307 316	M<JNW&MJM
+*	Coreference T2 T4
+#1	AnnotatorNotes T4	Nested mention: (house of (Jacob)). 
+*	Coreference T6 T7
+*	Coreference T13 T14 T15 T24 T25 T26
+*	Coreference T17 T16 T27 T28
+*	Coreference T20 T19 T30 T31
+*	Coreference T22 T33
+*	Coreference T37 T36
+#2	AnnotatorNotes T35	Nested mention: (faces of (the Lord)). 
+#3	AnnotatorNotes T38	Nested mention: (faces of (God of (Jacob))).
+*	Coreference T38 T35 T12 T9 T39

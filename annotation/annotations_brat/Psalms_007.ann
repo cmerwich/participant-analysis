@@ -1,0 +1,164 @@
+T1	Mention 20 23	DWD
+T2	Mention 28 30	CR
+T3	Mention 32 36	JHWH
+T5	Mention 49 57	BN&JMJNJ
+#1	AnnotatorNotes T5	In apposition with Cush. 
+T6	Mention 63 67	JHWH
+T7	Mention 68 71	>LH
+T8	Mention 71 72	J
+T9	Mention 74 75	K
+T10	Mention 76 81	XSJTJ
+T11	Mention 87 89	NJ
+T12	Mention 82 87	HWCJ<
+T13	Mention 91 97	KL&RDP
+T14	Mention 97 98	J
+T15	Mention 100 104	HYJL
+T16	Mention 104 106	NJ
+T17	Mention 115 119	JVRP
+T18	Mention 126 129	NPC
+T19	Mention 129 130	J
+T20	Mention 131 134	PRQ
+#2	AnnotatorNotes T7	In apposition with JHWH. 
+T22	Mention 150 154	JHWH
+T24	Mention 163 168	<FJTJ
+T25	Mention 169 172	Z>T
+T26	Mention 176 178	JC
+T27	Mention 184 186	KP
+T28	Mention 186 187	J
+T29	Mention 196 201	GMLTJ
+T30	Mention 206 207	J
+T31	Mention 202 206	CWLM
+T32	Mention 212 217	>XLYH
+T33	Mention 208 210	R<
+T34	Mention 218 222	YWRR
+T35	Mention 222 223	J
+T36	Mention 234 238	JRDP
+T37	Mention 239 243	>WJB
+T38	Mention 249 250	J
+T39	Mention 246 249	NPC
+T40	Mention 252 255	JFG
+T41	Mention 257 261	JRMS
+T42	Mention 263 266	>RY
+T43	Mention 269 270	J
+T44	Mention 267 269	XJ
+T45	Mention 272 276	KBWD
+T46	Mention 276 277	J
+T47	Mention 285 289	JCKN
+T48	Mention 299 303	QWMH
+T49	Mention 304 308	JHWH
+T50	Mention 312 314	>P
+T51	Mention 314 315	K
+T52	Mention 316 320	HNF>
+T53	Mention 322 332	<BRWT YWRR
+T54	Mention 332 333	J
+T55	Mention 335 339	<WRH
+T56	Mention 342 343	J
+T57	Mention 349 353	YWJT
+T58	Mention 360 369	<DT L>MJM
+T59	Mention 370 375	TSWBB
+T60	Mention 375 376	K
+T61	Mention 381 382	H
+T62	Mention 389 393	CWBH
+T63	Mention 399 403	JHWH
+T64	Mention 404 408	JDJN
+T66	Mention 414 417	CPV
+T67	Mention 417 419	NJ
+T68	Mention 420 424	JHWH
+T69	Mention 426 429	YDQ
+T70	Mention 429 430	J
+T71	Mention 433 435	TM
+T72	Mention 435 436	J
+T73	Mention 439 440	J
+T74	Mention 447 451	JGMR
+T75	Mention 455 465	R<05 RC<JM
+T76	Mention 467 472	TKWNN
+T77	Mention 473 477	YDJQ
+T78	Mention 479 482	BXN
+T79	Mention 495 505	>LHJM YDJQ
+T81	Mention 512 515	MGN
+T82	Mention 515 516	J
+T83	Mention 520 525	>LHJM
+T84	Mention 526 531	MWCJ<
+T85	Mention 532 539	JCRJ&LB
+T86	Mention 546 551	>LHJM
+T88	Mention 563 565	>L
+T89	Mention 566 569	Z<M
+T90	Mention 590 594	JCWB
+T91	Mention 595 598	XRB
+T92	Mention 598 599	W
+T93	Mention 600 605	JLVWC
+T94	Mention 609 610	W
+T95	Mention 606 609	QCT
+T96	Mention 611 614	DRK
+T97	Mention 621 622	H
+T98	Mention 616 621	JKWNN
+T99	Mention 631 632	W
+T100	Mention 633 637	HKJN
+T101	Mention 638 645	KLJ&MWT
+T102	Mention 646 649	XYJ
+T103	Mention 649 650	W
+T104	Mention 658 662	JP<L
+T105	Mention 673 677	JXBL
+T106	Mention 678 681	>WN
+T107	Mention 683 686	HRH
+T108	Mention 692 695	JLD
+T109	Mention 710 713	KRH
+T110	Mention 715 719	JXPR
+T111	Mention 719 721	HW
+T112	Mention 723 726	JPL
+T113	Mention 728 731	CXT
+T114	Mention 732 736	JP<L
+T115	Mention 743 747	JCWB
+T116	Mention 751 752	W
+T117	Mention 748 751	<ML
+T118	Mention 757 758	W
+T119	Mention 754 757	R>C
+T120	Mention 763 767	QDQD
+T121	Mention 767 768	W
+T122	Mention 769 772	XMS
+T123	Mention 772 773	W
+T124	Mention 774 777	JRD
+T125	Mention 784 788	>WDH
+T126	Mention 789 793	JHWH
+T127	Mention 795 798	YDQ
+T128	Mention 798 799	W
+T130	Mention 807 814	CM&JHWH
+T129	Mention 801 805	>ZMR
+T131	Mention 13 18	CGJWN
+*	Coreference T2 T1
+T4	Mention 40 48	DBRJ&KWC
+*	Coreference T5 T4
+*	Coreference T10 T8 T11 T14 T16 T19 T133 T24 T28 T29 T30 T32 T35 T38 T43 T46 T54 T56 T67 T70 T72 T73 T82 T125 T129
+#14	AnnotatorNotes T17	Verb is 3Msg, refers to "All my pursuers"?
+T132	Mention 121 125	>RJH
+*	Coreference T20 T17 T13
+T21	Mention 140 144	MYJL
+*	Coreference T6 T3 T7 T9 T12 T15 T22 T23 T48 T49 T51 T52 T55 T57 T60 T62 T63 T64 T66 T68 T136 T74 T76 T78 T79 T83 T84 T86 T87 T88 T89 T90 T92 T93 T94 T96 T98 T99 T100 T103 T104 T126 T128 T130 T144
+T23	Mention 155 158	>LH
+T133	Mention 158 159	J
+#3	AnnotatorNotes T23	In apposition with JHWH.
+T134	Mention 179 182	<WL
+*	Coreference T134 T25
+#4	AnnotatorNotes T25	Coreference with "injustice"?
+#5	AnnotatorNotes T34	With whom does this corefer?
+*	Coreference T37 T36 T40 T41 T47
+*	Coreference T39 T18
+T135	Mention 281 284	<PR
+*	Coreference T53 T34
+T136	Mention 344 348	MCPV
+*	Coreference T59 T58 T61 T65
+T137	Mention 384 388	MRWM
+T65	Mention 409 413	<MJM
+T80	Mention 483 487	LBWT
+T138	Mention 489 494	KLJWT
+T87	Mention 552 561	CWPV YDJQ
+T139	Mention 571 577	KL&JWM
+*	Coreference T97 T95
+T140	Mention 652 657	DLQJM
+#6	AnnotatorNotes T105	On the basis of strict person, gender and number congruence verb corefers with v.14 verb "make".
+T141	Mention 696 699	CQR
+T142	Mention 706 709	BWR
+*	Coreference T107 T105 T108 T109 T110 T111 T112 T114 T115 T116 T118 T121 T123 T124
+T143	Mention 687 690	<ML
+*	Coreference T117 T143
+T144	Mention 815 820	<LJWN

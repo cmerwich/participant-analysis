@@ -1,0 +1,155 @@
+T1	Mention 13 23	CJR HM<LWT
+T2	Mention 24 28	ZKWR
+T3	Mention 29 33	JHWH
+T4	Mention 35 38	DWD
+T5	Mention 42 49	KL&<NWT
+T6	Mention 49 50	W
+T7	Mention 60 64	NCB<
+T8	Mention 66 70	JHWH
+T9	Mention 71 74	NDR
+T10	Mention 76 85	>BJR J<QB
+T11	Mention 94 97	>B>
+T12	Mention 99 106	>HL BJT
+T13	Mention 106 107	J
+T14	Mention 111 115	><LH
+T15	Mention 119 127	<RF JYW<
+T16	Mention 127 128	J
+T17	Mention 137 140	>TN
+T18	Mention 141 144	CNT
+T19	Mention 146 149	<JN
+T20	Mention 149 150	J
+T21	Mention 152 156	<P<P
+T22	Mention 156 157	J
+T23	Mention 158 163	TNWMH
+T24	Mention 172 176	>MY>
+T25	Mention 177 181	MQWM
+T26	Mention 183 187	JHWH
+T27	Mention 188 194	MCKNWT
+T28	Mention 196 205	>BJR J<QB
+T29	Mention 215 220	CM<NW
+T30	Mention 220 221	H
+T31	Mention 223 228	>PRTH
+T32	Mention 229 234	MY>NW
+T33	Mention 234 235	H
+T34	Mention 237 244	FDJ&J<R
+T35	Mention 250 255	NBW>H
+T36	Mention 257 264	MCKNWTJ
+T37	Mention 264 265	W
+T38	Mention 266 272	NCTXWH
+T39	Mention 274 282	HDM RGLJ
+T40	Mention 282 283	W
+T41	Mention 289 293	QWMH
+T42	Mention 294 298	JHWH
+T43	Mention 300 305	MNWXT
+T44	Mention 305 306	K
+T45	Mention 307 310	>TH
+T46	Mention 312 319	>RWN <Z
+T47	Mention 319 320	K
+T48	Mention 326 330	KHNJ
+T49	Mention 330 331	K
+T50	Mention 332 337	JLBCW
+T51	Mention 338 341	YDQ
+T52	Mention 343 348	XSJDJ
+T53	Mention 348 349	K
+T54	Mention 350 355	JRNNW
+T55	Mention 363 371	<BWR DWD
+T56	Mention 372 375	<BD
+T57	Mention 375 376	K
+#1	AnnotatorNotes T56	In apposition with "David".
+T58	Mention 380 383	TCB
+T59	Mention 384 392	PNJ MCJX
+T60	Mention 392 393	K
+T61	Mention 400 404	NCB<
+T62	Mention 405 409	JHWH
+T63	Mention 413 416	DWD
+T64	Mention 417 420	>MT
+T65	Mention 424 428	JCWB
+T66	Mention 432 433	H
+T67	Mention 435 442	PRJ BVN
+T68	Mention 442 443	K
+T69	Mention 444 448	>CJT
+T70	Mention 450 453	KS>
+T71	Mention 455 456	K
+T72	Mention 466 471	JCMRW
+T73	Mention 472 475	BNJ
+T74	Mention 475 476	K
+T75	Mention 479 483	BRJT
+T76	Mention 483 484	J
+T77	Mention 486 489	<DT
+T78	Mention 489 490	J
+T79	Mention 491 493	ZW
+T80	Mention 494 498	>LMD
+T81	Mention 498 499	M
+T82	Mention 503 506	BNJ
+T83	Mention 506 508	HM
+T84	Mention 513 515	<D
+T85	Mention 516 520	JCBW
+T86	Mention 522 525	KS>
+T87	Mention 527 528	K
+T88	Mention 538 541	BXR
+T89	Mention 542 546	JHWH
+T90	Mention 548 552	YJWN
+T91	Mention 553 555	>W
+T92	Mention 555 556	H
+T93	Mention 558 562	MWCB
+T94	Mention 564 565	W
+T95	Mention 572 575	Z>T
+T96	Mention 576 581	MNWXT
+T97	Mention 581 582	J
+T98	Mention 587 589	<D
+T99	Mention 593 596	>CB
+T100	Mention 600 604	>WTJ
+T101	Mention 604 605	H
+T102	Mention 612 615	YJD
+T103	Mention 615 616	H
+T104	Mention 621 625	>BRK
+T105	Mention 617 620	BRK
+T106	Mention 626 632	>BJWNJ
+T107	Mention 632 633	H
+T108	Mention 634 639	>FBJ<
+T109	Mention 640 643	LXM
+T110	Mention 651 655	KHNJ
+T111	Mention 655 656	H
+T112	Mention 657 662	>LBJC
+T113	Mention 663 666	JC<
+T114	Mention 668 673	XSJDJ
+T115	Mention 673 674	H
+T116	Mention 679 684	JRNNW
+T117	Mention 694 699	>YMJX
+T118	Mention 700 703	QRN
+T119	Mention 705 708	DWD
+T120	Mention 709 714	<RKTJ
+T121	Mention 715 717	NR
+T122	Mention 719 723	MCJX
+T123	Mention 723 724	J
+T124	Mention 731 736	>WJBJ
+T125	Mention 736 737	W
+T126	Mention 738 743	>LBJC
+T127	Mention 744 747	BCT
+T128	Mention 752 753	W
+T129	Mention 754 758	JYJY
+T130	Mention 759 762	NZR
+T131	Mention 762 763	W
+#2	AnnotatorNotes T10	Nested mention: (strong one of (Jacob)).
+*	Coreference T13 T11 T14 T16 T17 T20 T22 T24
+#3	AnnotatorNotes T28	Nested mention: (strong one of (Jacob)).
+#4	AnnotatorNotes T29	Who is 1Cpl?
+*	Coreference T33 T30
+*	Coreference T32 T29 T35 T38
+#5	AnnotatorNotes T34	Nested mention: (fields of (Jaar)).
+*	Coreference T27 T36
+*	Coreference T50 T48
+*	Coreference T52 T54
+*	Coreference T56 T55 T6 T4 T7 T9 T59 T63 T68 T71 T74 T87 T119 T122 T125 T128 T131
+*	Coreference T66 T64
+*	Coreference T73 T72 T81 T83
+*	Coreference T79 T77 T75
+*	Coreference T85 T82
+*	Coreference T86 T70
+*	Coreference T89 T88 T42 T41 T2 T3 T8 T10 T26 T28 T37 T40 T44 T45 T47 T49 T53 T57 T58 T60 T61 T62 T65 T69 T76 T78 T80 T91 T94 T97 T99 T100 T104 T108 T112 T117 T120 T123 T126 T105
+*	Coreference T92 T90 T95 T101 T103 T107 T111 T115
+*	Coreference T96 T43
+*	Coreference T116 T114
+*	Coreference T130 T129
+#6	AnnotatorNotes T5	Infc functions as pdp=sub. 
+#7	AnnotatorNotes T105	Lexical match with "to bless". 

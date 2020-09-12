@@ -1,0 +1,87 @@
+T1	Mention 16 27	NHRWT05 BBL
+T2	Mention 31 36	JCBNW
+T3	Mention 40 45	BKJNW
+T4	Mention 47 52	ZKRNW
+T5	Mention 56 60	YJWN
+T6	Mention 69 74	<RBJM
+T7	Mention 76 79	TWK
+T8	Mention 79 80	H
+T9	Mention 81 86	TLJNW
+T10	Mention 87 93	KNRWTJ
+T11	Mention 93 95	NW
+T12	Mention 107 111	C>LW
+T13	Mention 111 113	NW
+T14	Mention 114 118	CWBJ
+T15	Mention 118 120	NW
+T16	Mention 121 129	DBRJ&CJR
+T17	Mention 131 136	TWLLJ
+T18	Mention 136 138	NW
+T19	Mention 139 143	FMXH
+T20	Mention 144 148	CJRW
+T21	Mention 150 152	NW
+T22	Mention 154 162	CJR YJWN
+T23	Mention 172 176	NCJR
+T24	Mention 180 188	CJR&JHWH
+T25	Mention 192 200	>DMT NKR
+T26	Mention 208 213	&>CKX
+T27	Mention 213 214	K
+T28	Mention 215 221	JRWCLM
+T29	Mention 222 226	TCKX
+T30	Mention 227 231	JMJN
+T31	Mention 231 232	J
+T32	Mention 238 242	TDBQ
+T33	Mention 243 247	LCWN
+T34	Mention 247 248	J
+T35	Mention 252 254	XK
+T36	Mention 254 255	J
+T37	Mention 262 266	>ZKR
+T38	Mention 266 268	KJ
+T39	Mention 275 279	><LH
+T40	Mention 283 289	JRWCLM
+T41	Mention 293 301	R>C FMXT
+T42	Mention 301 302	J
+T43	Mention 308 311	ZKR
+T44	Mention 312 316	JHWH
+T45	Mention 320 328	BNJ >DWM
+T46	Mention 332 342	JWM JRWCLM
+T47	Mention 344 349	>MRJM
+T48	Mention 350 353	<RW
+T49	Mention 356 359	<RW
+T50	Mention 364 368	JSWD
+T51	Mention 370 371	H
+T52	Mention 377 383	BT&BBL
+T53	Mention 385 390	CDWDH
+T54	Mention 391 395	>CRJ
+T55	Mention 397 401	JCLM
+T56	Mention 403 404	K
+T57	Mention 408 412	GMWL
+T58	Mention 412 413	K
+T59	Mention 414 419	CGMLT
+T60	Mention 421 423	NW
+T61	Mention 429 433	>CRJ
+T62	Mention 437 441	J>XZ
+T63	Mention 443 446	NPY
+T64	Mention 450 454	<LLJ
+T65	Mention 454 455	K
+T66	Mention 460 463	SL<
+#1	AnnotatorNotes T1	Nested mention: (rivers of (Babel)).
+*	Coreference T3 T2 T4 T9 T11 T15 T13 T18 T20 T23 T60
+*	Coreference T8 T6
+*	Coreference T12 T14 T21 T17
+#2	AnnotatorNotes T22	Nested mention: (song of (Zion)).
+#3	AnnotatorNotes T24	Nested mention: (song of (YHWH)).
+*	Coreference T27 T28 T38 T40 T51
+#4	AnnotatorNotes T26	Who is 1Csg?
+*	Coreference T30 T29
+*	Coreference T31 T26 T34 T36 T37 T39 T42
+*	Coreference T33 T32
+*	Coreference T44 T43
+#5	AnnotatorNotes T45	Nested mention: (sons of (Edom)).
+#6	AnnotatorNotes T46	Nested mention: (day of (Jerusalem)).
+*	Coreference T45 T47
+*	Coreference T48 T49
+#7	AnnotatorNotes T52	Nested mention: (daughter (Babel)).
+*	Coreference T52 T53 T56 T58 T59 T65
+*	Coreference T54 T55
+*	Coreference T62 T61 T63
+#8	AnnotatorNotes T4	Infc with PreS. 

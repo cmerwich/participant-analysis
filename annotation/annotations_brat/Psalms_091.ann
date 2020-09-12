@@ -1,0 +1,135 @@
+T1	Mention 13 16	JCB
+T2	Mention 18 27	STR <LJWN
+T3	Mention 29 35	YL CDJ
+T4	Mention 36 42	JTLWNN
+T5	Mention 48 51	>MR
+T6	Mention 53 57	JHWH
+T7	Mention 58 61	MXS
+T8	Mention 61 62	J
+T9	Mention 64 69	MYWDT
+T10	Mention 69 70	J
+T11	Mention 71 74	>LH
+T12	Mention 74 75	J
+T13	Mention 76 80	>BVX
+T14	Mention 82 83	W
+T15	Mention 92 95	HW>
+T16	Mention 96 100	JYJL
+T17	Mention 100 101	K
+T18	Mention 103 110	PX JQWC
+T19	Mention 112 120	DBR HWWT
+T20	Mention 127 131	>BRT
+T21	Mention 131 132	W
+T22	Mention 135 138	JSK
+T23	Mention 140 141	K
+T24	Mention 147 151	KNPJ
+T25	Mention 151 152	W
+T26	Mention 153 157	TXSH
+T27	Mention 158 161	YNH
+T28	Mention 163 167	SXRH
+T29	Mention 168 171	>MT
+T30	Mention 171 172	W
+T31	Mention 181 185	TJR>
+T32	Mention 187 195	PXD LJLH
+T33	Mention 197 199	XY
+T34	Mention 200 204	J<WP
+T35	Mention 205 209	JWMM
+T36	Mention 216 219	DBR
+T37	Mention 221 224	>PL
+T38	Mention 225 229	JHLK
+T39	Mention 231 234	QVB
+T40	Mention 235 239	JCWD
+T41	Mention 240 245	YHRJM
+T42	Mention 251 254	JPL
+T43	Mention 256 258	YD
+T44	Mention 258 259	K
+T45	Mention 262 265	>LP
+T46	Mention 267 271	RBBH
+T47	Mention 273 277	JMJN
+T50	Mention 287 290	JGC
+T51	Mention 300 304	<JNJ
+T53	Mention 306 310	TBJV
+T54	Mention 312 322	CLMT RC<JM
+T55	Mention 323 327	TR>H
+T56	Mention 336 339	>TH
+T57	Mention 340 344	JHWH
+T58	Mention 345 348	MXS
+T59	Mention 348 349	J
+T60	Mention 350 355	<LJWN
+T61	Mention 356 359	FMT
+T62	Mention 360 364	M<WN
+T63	Mention 364 365	K
+T64	Mention 375 379	T>NH
+T65	Mention 383 384	K
+T66	Mention 385 388	R<H
+T67	Mention 390 393	NG<
+T68	Mention 397 401	JQRB
+T69	Mention 403 406	>HL
+T70	Mention 406 407	K
+T71	Mention 417 422	ML>KJ
+T72	Mention 422 423	W
+T73	Mention 424 428	JYWH
+T74	Mention 430 431	K
+T75	Mention 433 436	CMR
+T76	Mention 436 437	K
+T77	Mention 439 446	KL&DRKJ
+T78	Mention 446 447	K
+T79	Mention 457 461	KPJM
+T80	Mention 462 467	JF>WN
+T81	Mention 467 468	K
+T82	Mention 472 475	TGP
+T83	Mention 477 480	>BN
+T84	Mention 481 484	RGL
+T85	Mention 484 485	K
+T86	Mention 495 498	CXL
+T87	Mention 500 503	PTN
+T88	Mention 504 508	TDRK
+T89	Mention 509 513	TRMS
+T90	Mention 514 518	KPJR
+T91	Mention 520 524	TNJN
+T92	Mention 535 536	J
+T93	Mention 537 540	XCQ
+T94	Mention 542 546	>PLV
+T95	Mention 546 548	HW
+T96	Mention 549 553	>FGB
+T97	Mention 553 555	HW
+T98	Mention 559 562	JD<
+T99	Mention 563 565	CM
+T100	Mention 565 566	J
+T101	Mention 573 577	JQR>
+T102	Mention 577 579	NJ
+T103	Mention 583 586	><N
+T104	Mention 586 588	HW
+T105	Mention 591 592	W
+T106	Mention 593 597	>NKJ
+T107	Mention 599 602	YRH
+T108	Mention 603 607	>XLY
+T109	Mention 607 609	HW
+T110	Mention 611 615	>KBD
+T111	Mention 615 617	HW
+T112	Mention 624 632	>RK JMJM
+T113	Mention 633 638	>FBJ<
+T114	Mention 638 640	HW
+T115	Mention 642 645	>R>
+T116	Mention 645 647	HW
+T117	Mention 649 654	JCW<T
+T118	Mention 654 655	J
+#1	AnnotatorNotes T2	Nested mention: (hiding place of the (Most High)).
+*	Coreference T4 T1
+#2	AnnotatorNotes T3	Nested mention: (shadow of the (Almighty)).
+*	Coreference T8 T5 T10 T12 T13 T59
+#3	AnnotatorNotes T11	In apposition with "my fortification and my refuge".
+#4	AnnotatorNotes T17	Who is 2msg?
+*	Coreference T34 T33
+*	Coreference T40 T39 T50 T36 T38
+*	Coreference T45 T42
+*	Coreference T57 T11 T9 T7 T14 T15 T21 T60 T16 T22 T25 T30 T56 T58 T72 T73 T92 T94 T96 T100 T102 T103 T106 T108 T110 T113 T115 T118
+T48	Mention 277 278	K
+T49	Mention 282 283	K
+T52	Mention 304 305	K
+*	Coreference T63 T61 T23 T17 T26 T31 T48 T44 T49 T52 T53 T55 T65 T70 T74 T76 T78 T81 T85 T88 T89 T93 T95 T97 T98 T101 T104 T105 T109 T111 T114 T116
+*	Coreference T66 T64
+*	Coreference T67 T68
+*	Coreference T80 T71
+*	Coreference T84 T82
+#5	AnnotatorNotes T93	2Msg of previous verses (v.13 e.g.) is 3Msg here. 
+#6	AnnotatorNotes T75	Infc with PreO. 

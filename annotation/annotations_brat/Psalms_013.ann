@@ -1,0 +1,61 @@
+T1	Mention 26 29	DWD
+T2	Mention 42 46	JHWH
+T3	Mention 169 173	JHWH
+T4	Mention 293 297	JHWH
+T5	Mention 51 53	NJ
+T6	Mention 47 51	TCKX
+T7	Mention 67 72	TSTJR
+T8	Mention 76 79	PNJ
+T9	Mention 79 80	K
+T10	Mention 83 85	NJ
+T11	Mention 98 102	>CJT
+T12	Mention 112 113	J
+T13	Mention 109 112	NPC
+T14	Mention 120 123	LBB
+T15	Mention 123 124	J
+T16	Mention 139 143	JRWM
+T17	Mention 144 147	>JB
+T18	Mention 147 148	J
+T19	Mention 151 152	J
+T20	Mention 158 163	HBJVH
+T22	Mention 174 177	>LH
+T21	Mention 164 166	<N
+T23	Mention 166 168	NJ
+T24	Mention 179 184	H>JRH
+T25	Mention 185 188	<JN
+T26	Mention 188 189	J
+T27	Mention 193 197	>JCN
+T28	Mention 211 215	J>MR
+T29	Mention 216 219	>JB
+T30	Mention 219 220	J
+T31	Mention 221 226	JKLTJ
+T32	Mention 226 227	W
+T33	Mention 230 231	J
+T34	Mention 228 230	YR
+#1	AnnotatorNotes T22	In apposition with "YHWH".
+T35	Mention 232 237	JGJLW
+T36	Mention 241 245	>MWV
+T37	Mention 252 255	>NJ
+T38	Mention 262 263	K
+T39	Mention 259 262	XSD
+T40	Mention 264 269	BVXTJ
+T41	Mention 270 273	JGL
+T42	Mention 274 276	LB
+T43	Mention 276 277	J
+T44	Mention 279 284	JCW<T
+T45	Mention 284 285	K
+T46	Mention 286 291	>CJRH
+T47	Mention 301 304	GML
+T48	Mention 307 308	J
+T49	Mention 14 18	MNYX
+T50	Mention 19 24	MZMWR
+*	Coreference T6 T2 T7 T9 T20 T21 T3 T22 T24 T38 T45 T4 T47
+*	Coreference T10 T5 T11 T12 T15 T18 T19 T23 T54 T26 T27 T30 T32 T33 T36 T37 T40 T43 T46 T48
+T51	Mention 103 107	<YWT
+T52	Mention 114 118	JGWN
+T53	Mention 125 129	JWMM
+*	Coreference T17 T16 T29 T28 T31
+T54	Mention 177 178	J
+T55	Mention 199 202	MWT
+*	Coreference T35 T34
+*	Coreference T42 T41

@@ -1,0 +1,83 @@
+T1	Mention 35 38	DWD
+T2	Mention 44 48	JHWH
+T3	Mention 49 53	>DNJ
+T4	Mention 53 55	NW
+T5	Mention 64 66	CM
+T6	Mention 66 67	K
+T7	Mention 69 76	KL&H>RY
+T8	Mention 81 84	TNH
+T9	Mention 88 89	K
+T10	Mention 85 88	HWD
+T12	Mention 105 114	PJ <WLLJM
+T13	Mention 124 128	JSDT
+T14	Mention 142 143	K
+T15	Mention 137 142	YWRRJ
+T17	Mention 151 155	>WJB
+T18	Mention 171 175	>R>H
+T19	Mention 176 179	CMJ
+T20	Mention 179 180	K
+T21	Mention 181 192	M<FJ >YB<TJ
+T22	Mention 192 193	K
+#5	AnnotatorNotes T21	In apposition with "your heavens".
+T23	Mention 210 215	KWNNT
+T24	Mention 194 197	JRX
+#6	AnnotatorNotes T24	Is it the same as moon and stars and heavens?
+T25	Mention 225 229	>NWC
+T28	Mention 241 247	BN&>DM
+T26	Mention 233 238	TZKRN
+T27	Mention 238 239	W
+T29	Mention 256 257	W
+T30	Mention 251 256	TPQDN
+T31	Mention 268 270	HW
+T32	Mention 264 268	TXSR
+T33	Mention 276 281	>LHJM
+T34	Mention 297 299	HW
+T35	Mention 293 297	T<VR
+T36	Mention 283 287	KBWD
+T37	Mention 310 312	HW
+T38	Mention 305 310	TMCJL
+T39	Mention 322 323	K
+T40	Mention 314 322	M<FJ JDJ
+T41	Mention 327 330	CTH
+T42	Mention 324 326	KL
+T43	Mention 339 340	W
+T44	Mention 335 339	RGLJ
+T45	Mention 359 360	M
+T46	Mention 357 359	KL
+T48	Mention 365 374	BHMWT FDJ
+#9	AnnotatorNotes T48	Does it coferer with "everything" and "cattle"?
+T49	Mention 380 389	YPWR CMJM
+#10	AnnotatorNotes T49	Is this a mention? 
+T50	Mention 391 398	DGJ HJM
+T51	Mention 399 402	<BR
+T52	Mention 403 413	>RXWT JMJM
+T53	Mention 420 424	JHWH
+T54	Mention 425 429	>DNJ
+T55	Mention 429 431	NW
+#12	AnnotatorNotes T54	In apposition with JHWH. 
+T56	Mention 440 442	CM
+T57	Mention 442 443	K
+T58	Mention 445 452	KL&H>RY
+T59	Mention 14 18	MNYX
+T60	Mention 23 27	GTJT
+T61	Mention 28 33	MZMWR
+*	Coreference T2 T3 T6 T8 T9 T13 T14 T20 T22 T23 T26 T30 T32 T35 T38 T39 T41 T53 T54 T57
+#1	AnnotatorNotes T3	In apposition with JHWH.
+T11	Mention 94 98	CMJM
+T62	Mention 118 123	JNQJM
+T63	Mention 129 131	<Z
+T64	Mention 157 162	MTNQM
+T65	Mention 199 205	KWKBJM
+*	Coreference T27 T25 T28 T29 T31 T34 T37 T43 T45
+#2	AnnotatorNotes T28	Corefers with "mankind". 
+T66	Mention 289 292	HDR
+*	Coreference T21 T19
+T47	Mention 346 349	YNH
+T67	Mention 351 356	>LPJM
+#3	AnnotatorNotes T67	Does it corefer with "everything"/ KL/, i.e. part-of?
+#7	AnnotatorNotes T47	Does it corefer with "everything"/ KL/, i.e. part-of?
+*	Coreference T46 T42
+*	Coreference T50 T51
+*	Coreference T55 T4
+*	Coreference T56 T5
+*	Coreference T58 T7

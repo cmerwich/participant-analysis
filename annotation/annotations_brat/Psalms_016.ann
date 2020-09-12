@@ -1,0 +1,107 @@
+T1	Mention 19 22	DWD
+T2	Mention 55 59	JHWH
+T3	Mention 60 64	>DNJ
+T4	Mention 202 206	JHWH
+T5	Mention 286 290	>BRK
+T6	Mention 343 347	JHWH
+T7	Mention 462 466	XSJD
+T8	Mention 466 467	K
+T9	Mention 23 26	CMR
+T10	Mention 26 28	NJ
+T11	Mention 29 31	>L
+T12	Mention 35 40	XSJTJ
+T13	Mention 42 43	K
+T14	Mention 49 53	>MRT
+T15	Mention 65 68	>TH
+T16	Mention 69 73	VWBT
+T17	Mention 73 74	J
+T18	Mention 81 82	K
+T19	Mention 89 95	QDWCJM
+T20	Mention 105 108	HMH
+T21	Mention 116 122	KL&XPY
+T22	Mention 122 123	J
+T23	Mention 125 126	M
+T24	Mention 132 136	JRBW
+T25	Mention 142 143	M
+T26	Mention 137 142	<YBWT
+T27	Mention 148 152	MHRW
+T28	Mention 144 147	>XR
+T29	Mention 156 160	>SJK
+T30	Mention 165 167	HM
+T31	Mention 161 165	NSKJ
+T32	Mention 176 179	>F>
+T33	Mention 183 187	CMWT
+T34	Mention 187 188	M
+T35	Mention 192 195	FPT
+T36	Mention 195 196	J
+T37	Mention 207 214	MNT&XLQ
+T38	Mention 214 215	J
+T39	Mention 217 220	KWS
+T40	Mention 220 221	J
+#1	AnnotatorNotes T37	In apposition with "YHWH".
+T41	Mention 222 225	>TH
+T42	Mention 226 231	TWMJK
+T43	Mention 232 236	GWRL
+T44	Mention 236 237	J
+T45	Mention 243 248	XBLJM
+T46	Mention 249 253	NPLW
+T47	Mention 255 256	J
+T48	Mention 272 276	CPRH
+T49	Mention 279 280	J
+T50	Mention 294 298	JHWH
+T51	Mention 303 306	J<Y
+T52	Mention 306 308	NJ
+T53	Mention 322 324	NJ
+T54	Mention 318 322	JSRW
+T55	Mention 325 330	KLJWT
+T56	Mention 330 331	J
+T57	Mention 337 342	CWJTJ
+T58	Mention 349 352	NGD
+T59	Mention 352 353	J
+T60	Mention 363 367	JMJN
+T61	Mention 367 368	J
+T62	Mention 372 376	>MWV
+T63	Mention 388 391	FMX
+T64	Mention 392 394	LB
+T65	Mention 394 395	J
+T66	Mention 397 400	JGL
+T67	Mention 401 405	KBWD
+T68	Mention 405 406	J
+T69	Mention 410 413	BFR
+T70	Mention 413 414	J
+T71	Mention 415 419	JCKN
+T72	Mention 439 443	T<ZB
+T73	Mention 444 447	NPC
+T74	Mention 447 448	J
+T75	Mention 458 461	TTN
+T77	Mention 484 489	TWDJ<
+T78	Mention 489 491	NJ
+T79	Mention 492 500	>RX XJJM
+T80	Mention 501 510	FB< FMXWT
+T81	Mention 514 517	PNJ
+T82	Mention 517 518	K
+T83	Mention 526 530	JMJN
+T84	Mention 530 531	K
+T85	Mention 519 524	N<MWT
+T86	Mention 13 17	MKTM
+*	Coreference T20 T19 T88 T23
+T87	Mention 101 104	>RY
+T88	Mention 110 115	>DJRJ
+*	Coreference T26 T24 T25 T27
+T89	Mention 169 171	DM
+*	Coreference T28 T30 T34
+#2	AnnotatorNotes T39	In apposition with "YHWH". 
+*	Coreference T40 T38 T12 T10 T14 T17 T29 T32 T36 T44 T47 T49 T5 T52
+*	Coreference T39 T37 T11 T9 T13 T2 T3 T15 T18 T22 T4 T41 T42 T50 T51 T6 T72 T75 T8 T77 T82 T84
+*	Coreference T46 T45
+T90	Mention 258 263	N<MJM
+T91	Mention 267 271	NXLT
+*	Coreference T48 T91
+T92	Mention 312 317	LJLWT
+*	Coreference T55 T54
+*	Coreference T56 T53 T57 T59 T61 T62 T65 T68 T70 T74 T7 T78
+*	Coreference T64 T63
+*	Coreference T67 T66
+*	Coreference T71 T69
+T93	Mention 450 454	C>WL
+T94	Mention 474 477	CXT

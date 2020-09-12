@@ -1,0 +1,87 @@
+T1	Mention 26 29	DWD
+T2	Mention 40 44	JHWH
+T3	Mention 219 223	JHWH
+T5	Mention 206 208	NW
+T6	Mention 262 266	JHWH
+T7	Mention 350 354	>LHJ
+T8	Mention 354 356	NW
+T9	Mention 409 413	JHWH
+T10	Mention 38 39	K
+T11	Mention 35 38	J<N
+T12	Mention 46 53	JWM YRH
+T13	Mention 58 59	K
+T14	Mention 54 58	JFGB
+T15	Mention 60 74	CM05 >LHJ J<QB
+T16	Mention 80 84	JCLX
+T17	Mention 91 94	QDC
+T18	Mention 88 89	K
+T19	Mention 85 88	<ZR
+T20	Mention 97 101	YJWN
+T21	Mention 106 107	K
+T22	Mention 102 106	JS<D
+T23	Mention 113 117	JZKR
+T24	Mention 125 126	K
+T25	Mention 118 125	KL&MNXT
+T26	Mention 132 133	K
+T27	Mention 128 132	<WLT
+T28	Mention 134 139	JDCNH
+T29	Mention 149 152	JTN
+T30	Mention 154 155	K
+T31	Mention 160 161	K
+T32	Mention 157 160	LBB
+T33	Mention 163 169	KL&<YT
+T34	Mention 169 170	K
+T35	Mention 171 175	JML>
+T36	Mention 181 186	NRNNH
+T37	Mention 190 195	JCW<T
+T38	Mention 195 196	K
+T4	Mention 199 206	CM&>LHJ
+T39	Mention 209 213	NDGL
+T40	Mention 214 218	JML>
+T41	Mention 224 234	KL&MC>LWTJ
+T42	Mention 234 235	K
+T43	Mention 245 250	JD<TJ
+T44	Mention 254 258	HWCJ
+T45	Mention 271 272	W
+T46	Mention 267 271	MCJX
+T48	Mention 273 276	J<N
+T49	Mention 280 287	CMJ QDC
+T50	Mention 287 288	W
+T51	Mention 290 304	GBRWT JC< JMJN
+T52	Mention 304 305	W
+T53	Mention 311 314	>LH
+T54	Mention 316 319	RKB
+T55	Mention 321 324	>LH
+T56	Mention 326 331	SWSJM
+T57	Mention 333 338	>NXNW
+T58	Mention 342 349	CM&JHWH
+#1	AnnotatorNotes T7	In apposition with "the name of YHWH".
+T59	Mention 357 362	NZKJR
+T60	Mention 368 371	HMH
+T61	Mention 372 376	KR<W
+T62	Mention 378 382	NPLW
+T63	Mention 384 389	>NXNW
+T64	Mention 390 394	QMNW
+T65	Mention 396 402	NT<WDD
+T66	Mention 414 420	HWCJ<H
+T67	Mention 422 425	MLK
+T68	Mention 426 429	J<N
+T69	Mention 429 431	NW
+T70	Mention 433 436	JWM
+T71	Mention 437 442	QR>NW
+T72	Mention 14 18	MNYX
+T73	Mention 19 24	MZMWR
+*	Coreference T13 T10 T18 T21 T24 T26 T30 T31 T34 T42
+*	Coreference T5 T36 T39 T57 T8 T59 T63 T64 T65 T69 T71
+#2	AnnotatorNotes T38	Change of person.
+*	Coreference T3 T40 T2 T11 T14 T15 T16 T22 T23 T28 T29 T35 T4 T38
+#3	AnnotatorNotes T42	Is the 2Msg the same as the 1Cpl in this verse? 
+T47	Mention 276 278	HW
+*	Coreference T47 T46
+*	Coreference T55 T53
+*	Coreference T7 T58 T6 T44 T45 T48 T50 T52 T9 T66 T68
+#4	AnnotatorNotes T60	Who are 3Mpl?
+*	Coreference T61 T60 T62
+#5	AnnotatorNotes T67	Singleton.
+#6	AnnotatorNotes T71	Infc with PreS.
+#7	AnnotatorNotes T43	Who is 1Csg?

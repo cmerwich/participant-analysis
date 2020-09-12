@@ -1,0 +1,83 @@
+T1	Mention 34 37	DWD
+T4	Mention 49 52	<NN
+T5	Mention 52 53	J
+T8	Mention 64 65	J
+T9	Mention 70 75	HRXBT
+T10	Mention 77 78	J
+T11	Mention 81 83	NJ
+T12	Mention 79 81	XN
+T13	Mention 85 88	CM<
+T15	Mention 93 94	J
+T16	Mention 114 118	KBWD
+T17	Mention 118 119	J
+T18	Mention 121 125	KLMH
+#1	AnnotatorNotes T18	Is this a coreferring mention with emptiness, lie? 
+T21	Mention 133 136	RJQ
+T22	Mention 137 142	TBQCW
+T23	Mention 143 146	KZB
+T24	Mention 157 160	D<W
+T25	Mention 164 168	HPLH
+T26	Mention 169 173	JHWH
+T27	Mention 182 186	JHWH
+T28	Mention 174 178	XSJD
+T29	Mention 180 181	W
+T30	Mention 187 191	JCM<
+T32	Mention 201 202	W
+T33	Mention 208 212	RGZW
+T34	Mention 217 222	TXV>W
+T35	Mention 223 227	>MRW
+T36	Mention 232 234	KM
+T37	Mention 229 232	LBB
+T38	Mention 242 244	KM
+T39	Mention 238 242	MCKB
+T40	Mention 246 249	DMW
+T41	Mention 259 263	ZBXW
+T42	Mention 264 272	ZBXJ&YDQ
+T43	Mention 274 278	BVXW
+T44	Mention 282 286	JHWH
+T45	Mention 292 296	RBJM
+T46	Mention 297 302	>MRJM
+T47	Mention 306 309	JR>
+T48	Mention 309 311	NW
+T49	Mention 316 319	NSH
+T50	Mention 323 325	NW
+T51	Mention 333 334	K
+T52	Mention 335 339	JHWH
+T53	Mention 345 349	NTTH
+T54	Mention 356 358	LB
+T55	Mention 358 359	J
+T56	Mention 367 368	M
+T57	Mention 364 367	DGN
+T58	Mention 375 376	M
+T59	Mention 370 375	TJRWC
+T60	Mention 377 380	RBW
+T61	Mention 397 402	>CKBH
+T62	Mention 404 408	>JCN
+T63	Mention 412 415	>TH
+T64	Mention 416 420	JHWH
+T65	Mention 436 438	NJ
+T66	Mention 431 436	TWCJB
+T67	Mention 14 18	MNYX
+T68	Mention 20 26	NGJNWT
+T69	Mention 27 32	MZMWR
+T3	Mention 56 64	>LHJ YDQ
+T6	Mention 100 107	BNJ >JC
+T7	Mention 126 132	T>HBWN
+T19	Mention 326 333	>WR PNJ
+T20	Mention 350 354	FMXH
+T2	Mention 44 48	QR>J
+*	Coreference T5 T8 T10 T11 T15 T55 T61 T62 T65 T2 T31
+*	Coreference T3 T4 T9 T12 T13 T17
+T70	Mention 67 69	YR
+T71	Mention 89 93	TPLT
+*	Coreference T7 T6 T22 T24 T33 T34 T35 T36 T38 T40 T41 T43
+*	Coreference T26 T25 T29 T27 T30 T32 T44 T49 T51 T52 T53 T63 T64 T66
+T31	Mention 193 197	QR>J
+*	Coreference T46 T45
+T73	Mention 312 315	VWB
+*	Coreference T50 T48
+T74	Mention 361 363	<T
+T75	Mention 387 391	CLWM
+*	Coreference T58 T56 T60
+#2	AnnotatorNotes T2	Infc with PreS. 
+#3	AnnotatorNotes T31	Infc with PreS. 

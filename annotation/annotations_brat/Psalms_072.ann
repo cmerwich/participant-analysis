@@ -1,0 +1,167 @@
+T1	Mention 14 18	CLMH
+T2	Mention 21 26	>LHJM
+T3	Mention 27 32	MCPVJ
+T4	Mention 32 33	K
+T5	Mention 35 38	MLK
+T6	Mention 39 41	TN
+T7	Mention 47 48	K
+T8	Mention 43 47	YDQT
+T9	Mention 50 56	BN&MLK
+T10	Mention 62 66	JDJN
+T11	Mention 69 70	K
+T12	Mention 67 69	<M
+T14	Mention 81 82	K
+T15	Mention 77 81	<NJJ
+T13	Mention 94 98	JF>W
+T16	Mention 99 103	HRJM
+T17	Mention 104 108	CLWM
+T18	Mention 110 112	<M
+T19	Mention 114 119	GB<WT
+T20	Mention 131 135	JCPV
+T21	Mention 138 145	<NJJ&<M
+T22	Mention 146 151	JWCJ<
+T23	Mention 153 162	BNJ >BJWN
+T24	Mention 164 168	JDK>
+T25	Mention 169 173	<WCQ
+T26	Mention 184 185	K
+T27	Mention 179 184	JJR>W
+T28	Mention 189 192	CMC
+T29	Mention 195 202	PNJ JRX
+T30	Mention 203 212	DWR DWRJM
+T31	Mention 218 221	JRD
+T32	Mention 223 226	MVR
+T33	Mention 230 232	GZ
+T34	Mention 234 240	RBJBJM
+T35	Mention 241 250	ZRZJP >RY
+T36	Mention 256 260	JPRX
+T37	Mention 265 266	W
+T38	Mention 262 265	JMJ
+T39	Mention 267 271	YDJQ
+T40	Mention 273 280	RB CLWM
+T41	Mention 284 291	BLJ JRX
+T42	Mention 298 301	JRD
+T43	Mention 302 305	MJM
+T44	Mention 309 311	JM
+T45	Mention 314 317	NHR
+T46	Mention 322 329	PSJ&>RY
+T47	Mention 339 340	W
+T48	Mention 336 339	PNJ
+T49	Mention 341 346	JKR<W
+T50	Mention 347 351	YJJM
+T51	Mention 357 358	W
+T52	Mention 353 357	>JBJ
+T53	Mention 359 362	<PR
+T54	Mention 363 368	JLXKW
+T55	Mention 375 385	MLKJ TRCJC
+T56	Mention 387 391	>JJM
+T57	Mention 392 396	MNXH
+T58	Mention 397 402	JCJBW
+T59	Mention 403 411	MLKJ CB>
+T60	Mention 413 416	SB>
+T61	Mention 417 421	>CKR
+T62	Mention 422 428	JQRJBW
+T63	Mention 436 442	JCTXWW
+T64	Mention 444 445	W
+T65	Mention 446 454	KL&MLKJM
+T66	Mention 455 462	KL&GWJM
+T67	Mention 468 470	HW
+T68	Mention 463 468	J<BDW
+T69	Mention 480 484	JYJL
+T70	Mention 485 490	>BJWN
+T71	Mention 491 495	MCW<
+T72	Mention 497 500	<NJ
+T73	Mention 506 509	<ZR
+T74	Mention 511 512	W
+T75	Mention 519 522	JXS
+T76	Mention 526 528	DL
+T77	Mention 530 535	>BJWN
+T78	Mention 537 550	NPCWT >BJWNJM
+T79	Mention 551 556	JWCJ<
+T80	Mention 564 567	TWK
+T81	Mention 570 573	XMS
+T82	Mention 574 578	JG>L
+T83	Mention 582 583	M
+T84	Mention 579 582	NPC
+T85	Mention 585 589	JJQR
+T86	Mention 590 592	DM
+T87	Mention 599 600	W
+T88	Mention 595 599	<JNJ
+T89	Mention 608 611	JXJ
+T90	Mention 613 616	JTN
+T91	Mention 618 619	W
+T92	Mention 621 628	ZHB CB>
+T93	Mention 630 635	JTPLL
+T94	Mention 639 640	W
+T95	Mention 646 653	KL&HJWM
+T96	Mention 659 661	HW
+T97	Mention 654 659	JBRKN
+T98	Mention 668 671	JHJ
+T99	Mention 741 744	JHJ
+T101	Mention 672 678	PST&BR
+T102	Mention 682 685	>RY
+T103	Mention 687 695	R>C HRJM
+T104	Mention 696 700	JR<C
+T105	Mention 702 707	LBNWN
+T106	Mention 711 712	W
+T107	Mention 708 711	PRJ
+T108	Mention 714 719	JYJYW
+T109	Mention 721 724	<JR
+T110	Mention 726 734	<FB H>RY
+T111	Mention 747 748	W
+T112	Mention 745 747	CM
+T113	Mention 750 754	<WLM
+T114	Mention 756 763	PNJ&CMC
+T115	Mention 764 768	JNJN
+T116	Mention 771 772	W
+T117	Mention 769 771	CM
+T118	Mention 774 780	JTBRKW
+T119	Mention 782 783	W
+T120	Mention 784 791	KL&GWJM
+T121	Mention 792 797	J>CRW
+T122	Mention 797 799	HW
+T123	Mention 806 810	BRWK
+T100	Mention 813 823	JHWH >LHJM
+T124	Mention 824 834	>LHJ JFR>L
+#1	AnnotatorNotes T124	In apposition with "YHWH God".
+T125	Mention 835 838	<FH
+T126	Mention 839 845	NPL>WT
+T127	Mention 849 850	W
+T128	Mention 847 849	BD
+T129	Mention 858 862	BRWK
+T130	Mention 865 872	CM KBWD
+T131	Mention 872 873	W
+T132	Mention 875 879	<WLM
+T133	Mention 881 885	JML>
+T134	Mention 890 891	W
+T135	Mention 886 890	KBWD
+T136	Mention 895 902	KL H>RY
+T137	Mention 920 923	KLW
+T138	Mention 924 933	TPLWT DWD
+T139	Mention 934 940	BN&JCJ
+*	Coreference T16 T13
+*	Coreference T21 T27 T23
+*	Coreference T39 T36 T37
+*	Coreference T50 T49
+*	Coreference T5 T10
+*	Coreference T54 T52
+#2	AnnotatorNotes T55	Nested mention: (kings of (Tarshish)). 
+*	Coreference T58 T56 T55
+#3	AnnotatorNotes T59	Nested mention: (kings of (Sheba)). 
+*	Coreference T62 T60 T59
+*	Coreference T65 T63
+*	Coreference T68 T66
+*	Coreference T71 T70 T77 T76 T78 T83 T140
+*	Coreference T73 T72
+T140	Mention 592 593	M
+#4	AnnotatorNotes T92	Nested mention: (gold of (Sheba)). 
+*	Coreference T93 T90 T97
+#5	AnnotatorNotes T90	Who is 3Msg?
+*	Coreference T107 T104 T106 T101 T98 T108
+*	Coreference T120 T118 T121
+*	Coreference T100 T123 T117 T115 T116 T111 T99 T112 T14 T11 T7 T4 T2 T6 T20 T22 T24 T26 T31 T42 T47 T51 T64 T67 T69 T74 T75 T79 T82 T85 T87 T89 T91 T94 T96 T119 T122 T124 T125 T127 T131 T134
+#6	AnnotatorNotes T100	Nested mention: (YHWH (God)). 
+*	Coreference T130 T129
+*	Coreference T135 T133
+*	Coreference T139 T138 T137
+#7	AnnotatorNotes T139	In apposition with "prayer of David".
+#8	AnnotatorNotes T5	Interpretation of coreference relations depends on if the king is hailed in this Psalm, or YHWH himself.

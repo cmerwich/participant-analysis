@@ -1,0 +1,76 @@
+T1	Mention 20 23	DWD
+T5	Mention 44 46	BN
+T6	Mention 46 47	W
+#1	AnnotatorNotes T5	In apposition with Absalom.
+T7	Mention 53 57	JHWH
+T8	Mention 61 64	RBW
+T9	Mention 65 67	YR
+T10	Mention 67 68	J
+T11	Mention 69 73	RBJM
+T12	Mention 74 78	QMJM
+T13	Mention 81 82	J
+T14	Mention 88 92	RBJM
+T15	Mention 93 98	>MRJM
+T16	Mention 100 103	NPC
+T18	Mention 117 118	W
+T19	Mention 120 125	>LHJM
+T20	Mention 109 115	JCW<TH
+T21	Mention 136 139	>TH
+T22	Mention 140 144	JHWH
+T24	Mention 152 153	J
+T25	Mention 154 158	KBWD
+T26	Mention 158 159	J
+T28	Mention 166 169	R>C
+T29	Mention 169 170	J
+T30	Mention 176 179	QWL
+T31	Mention 179 180	J
+T32	Mention 184 188	JHWH
+T33	Mention 189 193	>QR>
+T34	Mention 195 199	J<NN
+T35	Mention 199 200	J
+T36	Mention 202 208	HR QDC
+T37	Mention 208 209	W
+T38	Mention 219 222	>NJ
+T39	Mention 223 228	CKBTJ
+T40	Mention 230 235	>JCNH
+T41	Mention 236 243	HQJYWTJ
+T42	Mention 247 251	JHWH
+T43	Mention 252 256	JSMK
+T44	Mention 256 258	NJ
+T45	Mention 267 271	>JR>
+T46	Mention 273 281	RBBWT <M
+T47	Mention 291 294	CTW
+T48	Mention 297 298	J
+T49	Mention 304 308	QWMH
+T50	Mention 309 313	JHWH
+T51	Mention 316 321	HWCJ<
+T52	Mention 321 323	NJ
+T54	Mention 332 336	HKJT
+T55	Mention 340 346	KL&>JB
+T56	Mention 346 347	J
+T57	Mention 352 361	CNJ RC<JM
+T58	Mention 362 366	CBRT
+T59	Mention 373 377	JHWH
+T61	Mention 388 390	<M
+T62	Mention 390 391	K
+T63	Mention 392 396	BRKT
+T64	Mention 396 397	K
+T65	Mention 13 18	MZMWR
+T2	Mention 25 29	BRXW
+T17	Mention 103 104	J
+T66	Mention 145 148	MGN
+T23	Mention 348 351	LXJ
+T60	Mention 379 384	JCW<H
+*	Coreference T1 T6 T2
+T4	Mention 31 43	PNJ05 >BCLWM
+*	Coreference T5 T4
+*	Coreference T9 T8 T55
+*	Coreference T11 T12 T14 T15
+*	Coreference T13 T10 T17 T18 T24 T26 T29 T31 T33 T35 T38 T39 T40 T41 T44 T45 T48 T52 T67 T56
+*	Coreference T19 T7 T21 T22 T27 T32 T34 T37 T42 T43 T49 T50 T51 T53 T54 T58 T59 T64
+T27	Mention 161 165	MRJM
+*	Coreference T47 T46
+T53	Mention 324 327	>LH
+T67	Mention 327 328	J
+*	Coreference T60 T20
+#2	AnnotatorNotes T2	Infc with PreS.

@@ -1,0 +1,89 @@
+T1	Mention 13 17	JHWH
+T2	Mention 18 21	MLK
+T3	Mention 22 27	JRGZW
+T4	Mention 28 32	<MJM
+T5	Mention 33 36	JCB
+T6	Mention 37 43	KRWBJM
+T7	Mention 44 48	TNWV
+T8	Mention 50 53	>RY
+T9	Mention 59 63	JHWH
+T10	Mention 65 69	YJWN
+T11	Mention 79 82	HW>
+T12	Mention 86 94	KL&H<MJM
+T13	Mention 100 104	JWDW
+T14	Mention 105 107	CM
+T15	Mention 107 108	K
+T16	Mention 125 128	HW>
+T17	Mention 135 141	<Z MLK
+T18	Mention 142 146	MCPV
+T19	Mention 147 150	>HB
+T20	Mention 151 154	>TH
+T21	Mention 155 160	KWNNT
+T22	Mention 161 167	MJCRJM
+T23	Mention 168 172	MCPV
+T24	Mention 174 178	YDQH
+T25	Mention 180 184	J<QB
+T26	Mention 187 190	>TH
+T27	Mention 191 195	<FJT
+T28	Mention 201 206	RWMMW
+T29	Mention 207 211	JHWH
+T30	Mention 212 216	>LHJ
+T31	Mention 216 218	NW
+#1	AnnotatorNotes T30	In apposition with "YHWH".
+T32	Mention 220 226	HCTXWW
+T33	Mention 228 236	HDM RGLJ
+T34	Mention 236 237	W
+T35	Mention 243 246	HW>
+T36	Mention 252 255	MCH
+T37	Mention 257 261	>HRN
+T38	Mention 265 269	KHNJ
+T39	Mention 269 270	W
+T40	Mention 272 277	CMW>L
+T41	Mention 279 286	QR>J CM
+T42	Mention 286 287	W
+T43	Mention 288 293	QR>JM
+T44	Mention 297 301	JHWH
+T45	Mention 303 306	HW>
+T46	Mention 307 310	J<N
+T47	Mention 310 311	M
+T48	Mention 318 326	<MWD <NN
+T49	Mention 327 331	JDBR
+T50	Mention 335 337	HM
+T51	Mention 338 342	CMRW
+T52	Mention 343 347	<DTJ
+T53	Mention 347 348	W
+T54	Mention 350 352	XQ
+T55	Mention 353 356	NTN
+T56	Mention 358 360	MW
+T57	Mention 366 370	JHWH
+T58	Mention 371 375	>LHJ
+T59	Mention 375 377	NW
+#2	AnnotatorNotes T58	In apposition with "YHWH".
+T60	Mention 378 381	>TH
+T61	Mention 382 386	<NJT
+T62	Mention 386 387	M
+T63	Mention 388 394	>L NF>
+T64	Mention 395 399	HJJT
+T65	Mention 401 403	HM
+T66	Mention 405 408	NQM
+T67	Mention 412 418	<LJLWT
+T68	Mention 418 419	M
+T69	Mention 425 430	RWMMW
+T70	Mention 431 435	JHWH
+T71	Mention 436 440	>LHJ
+T72	Mention 440 442	NW
+#3	AnnotatorNotes T71	In apposition with "YHWH". 
+T73	Mention 444 450	HCTXWW
+T74	Mention 452 458	HR QDC
+T75	Mention 458 459	W
+T76	Mention 468 472	JHWH
+T77	Mention 473 477	>LHJ
+T78	Mention 477 479	NW
+#4	AnnotatorNotes T77	In apposition with "YHWH". 
+*	Coreference T4 T3
+*	Coreference T8 T7
+*	Coreference T11 T9 T2 T1 T5 T15 T16 T17 T19 T20 T21 T26 T27 T29 T30 T34 T35 T39 T44 T45 T46 T49 T53 T55 T57 T58 T60 T61 T63 T64 T66 T70 T71 T75 T76 T77
+*	Coreference T13 T12
+*	Coreference T32 T28 T69 T73
+*	Coreference T43 T40 T37 T36 T47 T50 T51 T56 T62 T65 T68
+*	Coreference T59 T31 T72 T78

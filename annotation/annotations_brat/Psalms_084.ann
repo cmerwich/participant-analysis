@@ -1,0 +1,121 @@
+T1	Mention 14 18	MNYX
+T2	Mention 23 27	GTJT
+T3	Mention 29 36	BNJ&QRX
+T4	Mention 37 42	MZMWR
+T5	Mention 58 65	MCKNWTJ
+T6	Mention 65 66	K
+T7	Mention 67 77	JHWH YB>WT
+T8	Mention 83 88	NKSPH
+T9	Mention 93 97	KLTH
+T10	Mention 100 103	NPC
+T11	Mention 103 104	J
+T12	Mention 106 116	XYRWT JHWH
+T13	Mention 117 119	LB
+T14	Mention 119 120	J
+T15	Mention 122 125	BFR
+T16	Mention 125 126	J
+T17	Mention 127 132	JRNNW
+T18	Mention 136 141	>L&XJ
+T19	Mention 150 154	YPWR
+T20	Mention 157 161	MY>H
+T21	Mention 162 165	BJT
+T22	Mention 167 171	DRWR
+T23	Mention 174 176	QN
+T24	Mention 178 179	H
+T25	Mention 184 187	CTH
+T26	Mention 188 193	>PRXJ
+T27	Mention 193 194	H
+T28	Mention 198 205	MZBXWTJ
+T29	Mention 205 206	K
+T30	Mention 207 217	JHWH YB>WT
+T31	Mention 218 221	MLK
+T32	Mention 221 222	J
+T33	Mention 224 227	>LH
+T34	Mention 227 228	J
+#1	AnnotatorNotes T31	In apposition with "YHWH of hosts."
+T35	Mention 239 248	JWCBJ BJT
+T36	Mention 248 249	K
+T37	Mention 254 259	JHLLW
+T38	Mention 259 260	K
+T39	Mention 270 274	>CRJ
+T40	Mention 275 278	>DM
+T41	Mention 279 282	<WZ
+T42	Mention 284 285	W
+T43	Mention 287 288	K
+T44	Mention 289 294	MSLWT
+T45	Mention 296 299	LBB
+T46	Mention 299 300	M
+T47	Mention 306 310	<BRJ
+T48	Mention 314 322	<MQ HBK>
+T49	Mention 323 327	M<JN
+T50	Mention 328 333	JCJTW
+T51	Mention 333 335	HW
+T52	Mention 339 344	BRKWT
+T53	Mention 345 349	J<VH
+T54	Mention 350 354	MWRH
+T55	Mention 360 364	JLKW
+T56	Mention 366 369	XJL
+T57	Mention 373 376	XJL
+T58	Mention 377 381	JR>H
+T59	Mention 385 390	>LHJM
+T60	Mention 392 396	YJWN
+T61	Mention 402 406	JHWH
+T62	Mention 407 418	>LHJM YB>WT
+#2	AnnotatorNotes T62	In apposition with "YHWH". Nested mention: (God of (hosts)).
+T63	Mention 419 423	CM<H
+T64	Mention 424 428	TPLT
+T65	Mention 428 429	J
+T66	Mention 430 436	H>ZJNH
+T67	Mention 437 446	>LHJ J<QB
+T68	Mention 457 460	MGN
+T69	Mention 460 462	NW
+T70	Mention 463 466	R>H
+T71	Mention 467 472	>LHJM
+T72	Mention 474 477	HBV
+T73	Mention 478 486	PNJ MCJX
+T74	Mention 486 487	K
+T75	Mention 501 504	JWM
+T76	Mention 506 510	XYRJ
+T77	Mention 510 511	K
+T78	Mention 513 516	>LP
+T79	Mention 517 522	BXRTJ
+T81	Mention 531 538	BJT >LH
+T82	Mention 538 539	J
+T84	Mention 546 554	>HLJ&RC<
+T85	Mention 564 567	CMC
+T86	Mention 571 574	MGN
+T87	Mention 575 585	JHWH >LHJM
+T88	Mention 586 588	XN
+T89	Mention 590 594	KBWD
+T90	Mention 595 598	JTN
+T91	Mention 599 603	JHWH
+T92	Mention 607 611	JMN<
+T93	Mention 612 615	VWB
+T94	Mention 617 622	HLKJM
+T95	Mention 635 645	JHWH YB>WT
+T96	Mention 646 654	>CRJ >DM
+T97	Mention 655 658	BVX
+T98	Mention 660 661	K
+#3	AnnotatorNotes T7	Nested mention: (YHWH of (hosts)).
+*	Coreference T7 T6 T18 T29 T30
+*	Coreference T10 T9 T8
+*	Coreference T14 T11 T16 T32 T34 T65 T79 T82
+*	Coreference T13 T15 T17
+#4	AnnotatorNotes T12	Nested mention: (courts of (YHWH))
+*	Coreference T20 T19
+*	Coreference T24 T22 T25 T27
+#5	AnnotatorNotes T30	Nested mention: (YHWH of (hosts)).
+#6	AnnotatorNotes T33	In apposition with "YHWH of hosts".
+T99	Mention 234 238	>CRJ
+*	Coreference T36 T33 T38 T43 T59 T61 T62 T63 T66 T67 T70 T71 T72 T74 T77 T87 T90 T91 T92 T95 T98
+*	Coreference T37 T35
+*	Coreference T42 T40 T46 T47 T50 T55
+*	Coreference T51 T48
+*	Coreference T54 T53
+#7	AnnotatorNotes T67	Nested mention: (God of (Jacob))
+#8	AnnotatorNotes T69	Who is 1Cpl?
+#9	AnnotatorNotes T81	Nested mention: (house of (my (God))).
+#10	AnnotatorNotes T87	Nested mention: (YHWH (God)).
+#11	AnnotatorNotes T95	Nested mention: (God of (hosts)).
+*	Coreference T97 T96
+#12	AnnotatorNotes T3	Nested mention: (sons of (Korah)).

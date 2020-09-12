@@ -1,0 +1,141 @@
+T1	Mention 13 16	CJR
+T2	Mention 17 22	MZMWR
+T3	Mention 24 27	>SP
+T4	Mention 33 38	>LHJM
+T5	Mention 42 45	DMJ
+T6	Mention 47 48	K
+T7	Mention 52 56	TXRC
+T8	Mention 61 65	TCQV
+T9	Mention 66 68	>L
+T10	Mention 81 86	>WJBJ
+T11	Mention 86 87	K
+T12	Mention 88 94	JHMJWN
+T13	Mention 96 101	MFN>J
+T14	Mention 101 102	K
+T15	Mention 103 107	NF>W
+T16	Mention 108 111	R>C
+T17	Mention 120 122	<M
+T18	Mention 124 130	J<RJMW
+T19	Mention 131 134	SWD
+T20	Mention 136 142	JTJ<YW
+T21	Mention 146 151	YPWNJ
+T22	Mention 151 152	K
+T23	Mention 158 162	>MRW
+T24	Mention 163 166	LKW
+T25	Mention 168 173	NKXJD
+T26	Mention 173 174	M
+T27	Mention 176 179	GWJ
+T28	Mention 184 188	JZKR
+T29	Mention 189 197	CM&JFR>L
+T30	Mention 210 215	NW<YW
+T31	Mention 216 218	LB
+T32	Mention 219 223	JXDW
+T33	Mention 227 228	K
+T34	Mention 229 233	BRJT
+T35	Mention 234 239	JKRTW
+T36	Mention 245 254	>HLJ >DWM
+T37	Mention 256 264	JCM<>LJM
+T38	Mention 265 269	MW>B
+T39	Mention 271 276	HGRJM
+T40	Mention 282 285	GBL
+T41	Mention 287 291	<MWN
+T42	Mention 293 297	<MLQ
+T43	Mention 298 302	PLCT
+T44	Mention 306 314	JCBJ YWR
+T45	Mention 323 327	>CWR
+T46	Mention 328 332	NLWH
+T47	Mention 335 336	M
+T48	Mention 337 340	HJW
+T49	Mention 341 345	ZRW<
+T50	Mention 347 354	BNJ&LWV
+T51	Mention 365 368	<FH
+T52	Mention 370 372	HM
+T53	Mention 374 378	MDJN
+T54	Mention 380 385	SJSR>
+T55	Mention 387 391	JBJN
+T56	Mention 394 402	XL QJCWN
+T57	Mention 409 414	NCMDW
+T58	Mention 416 423	<JN_D>R
+T59	Mention 424 427	HJW
+T60	Mention 428 431	DMN
+T61	Mention 433 437	>DMH
+T62	Mention 444 447	CJT
+T63	Mention 454 456	MW
+T64	Mention 450 454	NDJB
+T65	Mention 458 461	<RB
+T66	Mention 464 467	Z>B
+T67	Mention 470 473	ZBX
+T68	Mention 476 481	YLMN<
+T69	Mention 482 489	KL&NSJK
+T70	Mention 489 491	MW
+T71	Mention 502 506	>MRW
+T72	Mention 507 512	NJRCH
+T73	Mention 514 516	NW
+T74	Mention 520 530	N>WT >LHJM
+T75	Mention 537 540	>LH
+T76	Mention 540 541	J
+T77	Mention 542 545	CJT
+T78	Mention 545 547	MW
+T79	Mention 549 553	GLGL
+T80	Mention 555 557	QC
+T81	Mention 559 566	PNJ&RWX
+T82	Mention 574 576	>C
+T83	Mention 577 581	TB<R
+T84	Mention 582 585	J<R
+T85	Mention 588 592	LHBH
+T86	Mention 593 597	TLHV
+T87	Mention 598 602	HRJM
+T88	Mention 612 616	TRDP
+T89	Mention 616 617	M
+T90	Mention 619 622	S<R
+T91	Mention 622 623	K
+T92	Mention 626 630	SWPT
+T93	Mention 630 631	K
+T94	Mention 632 636	TBHL
+T95	Mention 636 637	M
+T96	Mention 644 647	ML>
+T97	Mention 648 651	PNJ
+T98	Mention 651 653	HM
+T99	Mention 654 658	QLWN
+T100	Mention 660 665	JBQCW
+T101	Mention 666 668	CM
+T102	Mention 668 669	K
+T103	Mention 670 674	JHWH
+T104	Mention 681 685	JBCW
+T105	Mention 687 692	JBHLW
+T106	Mention 697 699	<D
+T107	Mention 701 706	JXPRW
+T108	Mention 708 713	J>BDW
+T109	Mention 721 725	JD<W
+T110	Mention 729 732	>TH
+T111	Mention 733 735	CM
+T112	Mention 735 736	K
+#1	AnnotatorNotes T111	In apposition with "you".
+T113	Mention 737 741	JHWH
+T114	Mention 743 745	BD
+T115	Mention 745 746	K
+T116	Mention 747 752	<LJWN
+T117	Mention 756 763	KL&H>RY
+*	Coreference T15 T13 T18 T12 T10 T20 T23 T25 T30 T35
+T118	Mention 122 123	K
+*	Coreference T26 T17
+*	Coreference T29 T28
+#2	AnnotatorNotes T29	Nested mention: (name of (Israel)). 
+#3	AnnotatorNotes T24	Who is 2Mpl addressed here? 
+#4	AnnotatorNotes T33	Who is 2Msg: God or his people?
+#5	AnnotatorNotes T36	Nested mention: (tents of (Edom)). 
+#6	AnnotatorNotes T44	Nested mention: (inhabitants of (Tyrus)). 
+#7	AnnotatorNotes T50	Nested mention: (sons of (Lot)). 
+*	Coreference T47 T44 T43 T42 T41 T40 T39 T38 T37 T36 T46 T45 T48 T52 T119 T63 T70 T78 T89 T95 T98 T100 T104 T105 T107 T108 T109
+#8	AnnotatorNotes T56	Nested mention: (wadi of (Kishon)). 
+*	Coreference T57 T53 T54 T55 T59
+T119	Mention 447 449	MW
+*	Coreference T62 T51 T6 T4 T7 T8 T9 T11 T14 T118 T22 T75 T88 T91 T93 T94 T96 T102 T103 T110
+*	Coreference T71 T67 T68 T72 T73
+#9	AnnotatorNotes T71	To whom does 3Cpl refer?
+#10	AnnotatorNotes T74	Nested mention: (pastures of (God)). 
+#11	AnnotatorNotes T76	Who is 1Csg?
+*	Coreference T82 T83
+*	Coreference T85 T86
+*	Coreference T111 T101
+*	Coreference T113 T112 T115 T116

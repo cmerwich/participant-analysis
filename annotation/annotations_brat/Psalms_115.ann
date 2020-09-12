@@ -1,0 +1,135 @@
+T1	Mention 17 19	NW
+T2	Mention 20 24	JHWH
+T3	Mention 29 31	NW
+T4	Mention 36 38	CM
+T5	Mention 38 39	K
+T6	Mention 40 42	TN
+T7	Mention 43 47	KBWD
+T8	Mention 51 54	XSD
+T9	Mention 54 55	K
+T10	Mention 59 62	>MT
+T11	Mention 62 63	K
+T12	Mention 73 78	J>MRW
+T13	Mention 80 84	GWJM
+T14	Mention 92 96	>LHJ
+T15	Mention 96 98	HM
+T16	Mention 105 109	>LHJ
+T17	Mention 109 111	NW
+T18	Mention 113 117	CMJM
+T19	Mention 118 120	KL
+T20	Mention 125 128	XPY
+T21	Mention 129 132	<FH
+T22	Mention 138 142	<YBJ
+T23	Mention 142 144	HM
+T24	Mention 145 148	KSP
+T25	Mention 150 153	ZHB
+T26	Mention 154 166	M<FH JDJ >DM
+T27	Mention 172 174	PH
+T28	Mention 176 178	HM
+T29	Mention 183 188	JDBRW
+T30	Mention 189 194	<JNJM
+T31	Mention 196 198	HM
+T32	Mention 203 207	JR>W
+T33	Mention 213 218	>ZNJM
+T34	Mention 220 222	HM
+T35	Mention 227 232	JCM<W
+T36	Mention 233 235	>P
+T37	Mention 237 239	HM
+T38	Mention 244 250	JRJXWN
+T39	Mention 256 259	JDJ
+T40	Mention 259 261	HM
+T41	Mention 268 274	JMJCWN
+T42	Mention 275 279	RGLJ
+T43	Mention 279 281	HM
+T44	Mention 286 291	JHLKW
+T45	Mention 295 299	JHGW
+T46	Mention 301 305	GRWN
+T47	Mention 305 306	M
+T48	Mention 315 317	HM
+T49	Mention 318 322	JHJW
+T50	Mention 323 326	<FJ
+T51	Mention 326 328	HM
+T52	Mention 329 331	KL
+T53	Mention 336 339	BVX
+T54	Mention 341 343	HM
+T55	Mention 349 354	JFR>L
+T56	Mention 355 358	BVX
+T57	Mention 360 364	JHWH
+T58	Mention 365 368	<ZR
+T59	Mention 368 369	M
+T60	Mention 371 374	MGN
+T61	Mention 374 375	M
+T62	Mention 376 379	HW>
+T63	Mention 386 394	BJT >HRN
+T64	Mention 395 399	BVXW
+T65	Mention 401 405	JHWH
+T66	Mention 406 409	<ZR
+T67	Mention 409 410	M
+T68	Mention 412 415	MGN
+T69	Mention 415 416	M
+T70	Mention 417 420	HW>
+T71	Mention 427 436	JR>J JHWH
+T72	Mention 437 441	BVXW
+T73	Mention 443 447	JHWH
+T74	Mention 448 451	<ZR
+T75	Mention 451 452	M
+T76	Mention 454 457	MGN
+T77	Mention 457 458	M
+T78	Mention 459 462	HW>
+T79	Mention 469 473	JHWH
+T80	Mention 474 477	ZKR
+T81	Mention 477 479	NW
+T82	Mention 480 484	JBRK
+T83	Mention 485 489	JBRK
+T84	Mention 493 502	BJT JFR>L
+T85	Mention 503 507	JBRK
+T86	Mention 511 519	BJT >HRN
+T87	Mention 526 530	JBRK
+T88	Mention 531 540	JR>J JHWH
+T89	Mention 542 547	QVNJM
+T90	Mention 552 557	GDLJM
+T91	Mention 564 567	JSP
+T92	Mention 568 572	JHWH
+T93	Mention 576 578	KM
+T94	Mention 582 584	KM
+T95	Mention 589 592	BNJ
+T96	Mention 592 594	KM
+T97	Mention 601 607	BRWKJM
+T98	Mention 610 611	M
+T99	Mention 613 617	JHWH
+T100	Mention 618 631	<FH CMJM W>RY
+T102	Mention 639 643	CMJM
+T103	Mention 644 648	CMJM
+T104	Mention 650 654	JHWH
+T105	Mention 657 660	>RY
+T106	Mention 661 664	NTN
+T107	Mention 666 673	BNJ&>DM
+T108	Mention 684 688	MTJM
+T109	Mention 689 694	JHLLW
+T110	Mention 695 697	JH
+T111	Mention 702 714	KL&JRDJ DWMH
+T112	Mention 722 727	>NXNW
+T113	Mention 730 734	NBRK
+T114	Mention 735 737	JH
+T115	Mention 747 751	<WLM
+T116	Mention 752 756	HLLW
+T117	Mention 757 759	JH
+*	Coreference T5 T2 T14 T16 T20 T21 T57 T62 T65 T70 T73 T78 T79 T80 T82 T83 T85 T87 T91 T92 T99 T100 T104 T106 T110 T114 T117
+*	Coreference T9 T11
+*	Coreference T13 T12 T23
+*	Coreference T28 T22 T29 T31 T32 T34 T35 T37 T38 T40 T41 T43 T44 T45 T47 T51 T48 T54
+*	Coreference T50 T49
+*	Coreference T52 T53
+*	Coreference T56 T55 T59 T61
+#1	AnnotatorNotes T63	Nested mention: (house of (Aaron)).
+*	Coreference T64 T63 T67 T69 T86
+*	Coreference T66 T58 T74
+*	Coreference T68 T60 T76
+#2	AnnotatorNotes T71	Nested mention: (fearers of (YHWH)).
+#3	AnnotatorNotes T86	Nested mention: (house of (Aaron)).
+#4	AnnotatorNotes T84	Nested mention: (house of (Israel)).
+#5	AnnotatorNotes T88	Nested mention: (fearers of (YHWH)).
+*	Coreference T98 T97 T94 T93 T77 T75 T72 T71 T88 T96
+*	Coreference T103 T102
+*	Coreference T109 T108 T111
+*	Coreference T113 T112 T3 T1 T15 T17 T81 T84 T116

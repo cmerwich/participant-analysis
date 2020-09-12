@@ -1,0 +1,122 @@
+T1	Mention 14 18	MNYX
+T2	Mention 22 31	CWCN <DWT
+T3	Mention 32 36	MKTM
+T4	Mention 38 41	DWD
+T7	Mention 53 58	HYWTW
+T8	Mention 64 73	>RM_NHRJM
+T9	Mention 78 86	>RM YWBH
+T10	Mention 88 91	JCB
+T11	Mention 92 96	JW>B
+T12	Mention 98 100	JK
+T13	Mention 104 108	>DWM
+T14	Mention 110 117	GJ>_MLX
+T15	Mention 118 130	CNJM <FR >LP
+T16	Mention 136 141	>LHJM
+T17	Mention 146 148	NW
+T18	Mention 142 146	ZNXT
+T19	Mention 153 155	NW
+T20	Mention 149 153	PRYT
+T21	Mention 156 160	>NPT
+T22	Mention 161 166	TCWBB
+T23	Mention 168 170	NW
+T24	Mention 176 182	HR<CTH
+T25	Mention 183 186	>RY
+T26	Mention 191 192	H
+T27	Mention 187 191	PYMT
+T28	Mention 193 196	RPH
+T29	Mention 201 202	H
+T30	Mention 197 201	CBRJ
+T31	Mention 206 209	MVH
+T32	Mention 215 221	HR>JTH
+T33	Mention 224 225	K
+T34	Mention 222 224	<M
+T35	Mention 226 229	QCH
+T36	Mention 235 237	NW
+T37	Mention 230 235	HCQJT
+T38	Mention 238 241	JJN
+T39	Mention 253 257	NTTH
+T40	Mention 263 264	K
+T41	Mention 259 263	JR>J
+T42	Mention 265 267	NS
+T44	Mention 277 284	PNJ QCV
+T45	Mention 299 305	JXLYWN
+T46	Mention 311 312	K
+T47	Mention 306 311	JDJDJ
+T48	Mention 313 319	HWCJ<H
+T49	Mention 324 325	K
+T50	Mention 320 324	JMJN
+T51	Mention 329 331	NW
+T52	Mention 327 329	<N
+T53	Mention 335 340	>LHJM
+T54	Mention 343 346	DBR
+T55	Mention 351 352	W
+T56	Mention 348 351	QDC
+T57	Mention 353 358	><LZH
+T58	Mention 359 364	>XLQH
+T59	Mention 365 368	CKM
+T60	Mention 370 378	<MQ SKWT
+T61	Mention 379 383	>MDD
+T62	Mention 390 391	J
+T63	Mention 392 396	GL<D
+T64	Mention 401 402	J
+T65	Mention 403 407	MNCH
+T66	Mention 409 414	>PRJM
+T67	Mention 416 423	<WZ R>C
+T68	Mention 423 424	J
+T69	Mention 425 430	JHWDH
+T70	Mention 435 436	J
+T71	Mention 431 435	MXQQ
+T72	Mention 443 447	MW>B
+T73	Mention 457 458	J
+T74	Mention 450 457	SJR RXY
+T75	Mention 462 466	>DWM
+T76	Mention 467 472	>CLJK
+T77	Mention 476 477	J
+T78	Mention 473 476	N<L
+T79	Mention 480 481	J
+T80	Mention 482 486	PLCT
+T81	Mention 487 493	HTR<<J
+T82	Mention 506 508	NJ
+T83	Mention 503 506	JBL
+T84	Mention 509 517	<JR MYWR
+T85	Mention 523 525	NJ
+T86	Mention 521 523	NX
+T87	Mention 529 533	>DWM
+T88	Mention 544 547	>TH
+T89	Mention 548 553	>LHJM
+T90	Mention 558 560	NW
+T91	Mention 554 558	ZNXT
+T92	Mention 565 568	TY>
+T93	Mention 569 574	>LHJM
+T94	Mention 582 584	NW
+T95	Mention 576 582	YB>WTJ
+T96	Mention 591 594	HBH
+T97	Mention 596 598	NW
+T98	Mention 599 603	<ZRT
+T99	Mention 605 607	YR
+T100	Mention 609 612	CW>
+T101	Mention 613 622	TCW<T >DM
+T102	Mention 630 635	>LHJM
+T103	Mention 636 640	N<FH
+T104	Mention 641 644	XJL
+T105	Mention 646 649	HW>
+T106	Mention 650 654	JBWS
+T107	Mention 658 660	NW
+T108	Mention 655 658	YRJ
+*	Coreference T7 T4
+*	Coreference T11 T10 T12
+*	Coreference T18 T16 T20 T21 T22 T24 T27 T31 T32 T33 T37 T39 T40 T46 T48 T49 T52 T53 T54 T55 T57 T58 T61 T62 T64 T68 T70 T73 T76 T77 T79 T88 T89 T91 T92 T93 T96 T102 T105 T106 T28
+*	Coreference T26 T25 T29
+*	Coreference T36 T34 T19 T17 T23 T51 T90 T94 T97 T103 T107
+T6	Mention 242 247	TR<LH
+*	Coreference T47 T45
+#1	AnnotatorNotes T60	Nested mention: (valley of (Succoth)). 
+*	Coreference T81 T80
+*	Coreference T87 T75
+#2	AnnotatorNotes T82	Who is 1Csg?
+*	Coreference T86 T83
+*	Coreference T85 T82
+#3	AnnotatorNotes T85	Who is 1Csg?
+#4	AnnotatorNotes T84	Nested mention: (city of (Egypt)). 
+*	Coreference T108 T99
+#5	AnnotatorNotes T7	Infc with PreS.

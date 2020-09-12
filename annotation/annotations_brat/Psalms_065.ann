@@ -1,0 +1,131 @@
+T1	Mention 14 18	MNYX
+T2	Mention 19 24	MZMWR
+T3	Mention 26 29	DWD
+T4	Mention 30 33	CJR
+T5	Mention 52 57	>LHJM
+T7	Mention 40 41	K
+T8	Mention 42 46	DMJH
+T9	Mention 47 51	THLH
+T10	Mention 59 63	YJWN
+T11	Mention 66 67	K
+T12	Mention 68 72	JCLM
+T13	Mention 73 76	NDR
+T14	Mention 82 90	CM< TPLH
+T15	Mention 94 95	K
+T16	Mention 96 102	KL&BFR
+T17	Mention 103 107	JB>W
+T18	Mention 113 122	DBRJ <WNT
+T19	Mention 123 127	GBRW
+T20	Mention 130 131	J
+T21	Mention 136 138	NW
+T22	Mention 132 136	PC<J
+T23	Mention 154 158	>CRJ
+T24	Mention 161 165	TBXR
+T25	Mention 168 171	QRB
+T26	Mention 172 176	JCKN
+T27	Mention 181 182	K
+T28	Mention 177 181	XYRJ
+T29	Mention 183 188	NFB<H
+T30	Mention 197 198	K
+T31	Mention 190 197	VWB BJT
+T32	Mention 199 207	QDC HJKL
+T33	Mention 207 208	K
+#1	AnnotatorNotes T32	In apposition with "your holy palace".
+T34	Mention 214 220	NWR>WT
+T35	Mention 224 227	YDQ
+T36	Mention 231 233	NW
+T37	Mention 228 231	T<N
+T38	Mention 242 244	NW
+T39	Mention 234 242	>LHJ JC<
+T40	Mention 245 249	MBVX
+T41	Mention 250 261	KL&QYWJ&>RY
+T42	Mention 263 271	JM RXQJM
+T43	Mention 277 281	MKJN
+T44	Mention 282 286	HRJM
+T45	Mention 290 291	W
+T46	Mention 288 290	KX
+T47	Mention 292 296	N>ZR
+T48	Mention 298 303	GBWRH
+T49	Mention 309 314	MCBJX
+T50	Mention 317 326	C>WN JMJM
+T51	Mention 327 335	C>WN GLJ
+T52	Mention 335 337	HM
+T53	Mention 339 349	HMWN L>MJM
+T54	Mention 356 361	JJR>W
+T55	Mention 364 373	JCBJ QYWT
+T56	Mention 375 380	>WTTJ
+T57	Mention 380 381	K
+T58	Mention 382 391	MWY>J&BQR
+T59	Mention 393 396	<RB
+T60	Mention 397 402	TRNJN
+T61	Mention 409 413	PQDT
+T62	Mention 415 418	>RY
+T63	Mention 426 427	H
+T64	Mention 422 426	TCQQ
+T65	Mention 437 438	H
+T66	Mention 433 437	<CRN
+T6	Mention 439 448	PLG >LHJM
+T67	Mention 449 452	ML>
+T68	Mention 453 456	MJM
+T69	Mention 457 461	TKJN
+T70	Mention 465 466	M
+T71	Mention 462 465	DGN
+T72	Mention 477 478	H
+T73	Mention 473 477	TKJN
+T74	Mention 485 489	TLMJ
+T75	Mention 491 494	RWH
+T76	Mention 495 498	NXT
+T77	Mention 504 505	H
+T78	Mention 499 504	GDWDJ
+T79	Mention 507 513	RBJBJM
+T80	Mention 519 520	H
+T81	Mention 514 519	TMGGN
+T82	Mention 524 525	H
+T83	Mention 521 524	YMX
+T84	Mention 527 530	BRK
+T85	Mention 537 541	<VRT
+T86	Mention 542 550	CNT VWBT
+T87	Mention 550 551	K
+T88	Mention 558 559	K
+T89	Mention 553 558	M<GLJ
+T90	Mention 560 566	JR<PWN
+T91	Mention 567 570	DCN
+T92	Mention 577 582	JR<PW
+T93	Mention 583 592	N>WT MDBR
+T94	Mention 594 597	GJL
+T95	Mention 598 603	GB<WT
+T96	Mention 604 610	TXGRNH
+T97	Mention 617 621	LBCW
+T98	Mention 622 626	KRJM
+T99	Mention 630 633	Y>N
+T100	Mention 635 640	<MQJM
+T101	Mention 641 646	J<VPW
+T102	Mention 647 649	BR
+T103	Mention 650 657	JTRW<<W
+T104	Mention 661 666	JCJRW
+*	Coreference T13 T12
+*	Coreference T17 T16
+*	Coreference T19 T18
+T105	Mention 139 142	>TH
+T106	Mention 143 147	TKPR
+T107	Mention 147 148	M
+*	Coreference T107 T22
+#2	AnnotatorNotes T21	Are the 1Cpl and 1Csg corereferent, i.e. the same participant?
+#3	AnnotatorNotes T20	Are the 1Cpl and 1Csg corereferent, i.e. the same participant?
+*	Coreference T26 T23
+*	Coreference T29 T21 T36 T38
+*	Coreference T32 T31
+#4	AnnotatorNotes T39	Nested mention: (God of (our (help)). 
+*	Coreference T43 T39 T5 T7 T11 T15 T105 T106 T24 T25 T27 T30 T33 T37 T45 T47 T49 T57 T61 T64 T66 T69 T73 T75 T76 T81 T84 T85 T87 T88
+*	Coreference T52 T50
+*	Coreference T55 T54
+*	Coreference T63 T62 T65 T72 T108 T77 T80 T82
+#5	AnnotatorNotes T6	Nested mention: (stream of (God)).
+*	Coreference T67 T6
+#6	AnnotatorNotes T70	Who is 3Mpl?
+T108	Mention 489 490	H
+*	Coreference T90 T89
+*	Coreference T93 T92
+*	Coreference T96 T95
+*	Coreference T98 T97
+*	Coreference T101 T100 T103 T104

@@ -1,0 +1,218 @@
+T1	Mention 13 17	HWDW
+T2	Mention 19 23	JHWH
+T3	Mention 27 30	VWB
+T4	Mention 35 39	<WLM
+T5	Mention 40 43	XSD
+T6	Mention 43 44	W
+T7	Mention 50 54	J>MR
+T8	Mention 58 63	JFR>L
+T9	Mention 68 72	<WLM
+T10	Mention 73 76	XSD
+T11	Mention 76 77	W
+T12	Mention 83 88	J>MRW
+T13	Mention 92 100	BJT&>HRN
+T14	Mention 105 109	<WLM
+T15	Mention 110 113	XSD
+T16	Mention 113 114	W
+T17	Mention 120 125	J>MRW
+T18	Mention 129 138	JR>J JHWH
+T19	Mention 143 147	<WLM
+T20	Mention 148 151	XSD
+T21	Mention 151 152	W
+T22	Mention 162 165	MYR
+T23	Mention 166 171	QR>TJ
+T24	Mention 172 174	JH
+T25	Mention 175 177	<N
+T26	Mention 177 179	NJ
+T27	Mention 181 185	MRXB
+T28	Mention 186 188	JH
+T29	Mention 194 198	JHWH
+T30	Mention 200 201	J
+T31	Mention 205 209	>JR>
+T32	Mention 213 217	J<FH
+T33	Mention 219 220	J
+T34	Mention 221 224	>DM
+T35	Mention 230 234	JHWH
+T36	Mention 236 237	J
+T37	Mention 239 242	<ZR
+T38	Mention 242 243	J
+T39	Mention 245 248	>NJ
+T40	Mention 249 253	>R>H
+T41	Mention 255 258	FN>
+T42	Mention 258 259	J
+T43	Mention 270 274	XSWT
+T44	Mention 276 280	JHWH
+T45	Mention 282 285	BVX
+T46	Mention 287 290	>DM
+T47	Mention 301 305	XSWT
+T48	Mention 307 311	JHWH
+T49	Mention 313 316	BVX
+T50	Mention 318 324	NDJBJM
+T51	Mention 331 338	KL&GWJM
+T52	Mention 339 343	SBBW
+T53	Mention 343 345	NJ
+T54	Mention 347 354	CM JHWH
+T55	Mention 358 362	>MJL
+T56	Mention 362 363	M
+T57	Mention 370 373	SBW
+T58	Mention 373 375	NJ
+T59	Mention 379 383	SBBW
+T60	Mention 383 385	NJ
+T61	Mention 387 394	CM JHWH
+T62	Mention 398 402	>MJL
+T63	Mention 402 403	M
+T64	Mention 410 413	SBW
+T65	Mention 413 415	NJ
+T66	Mention 417 423	DBWRJM
+T67	Mention 424 428	D<KW
+T68	Mention 430 438	>C QWYJM
+T69	Mention 440 447	CM JHWH
+T70	Mention 451 455	>MJL
+T71	Mention 455 456	M
+T72	Mention 467 471	DXJT
+T73	Mention 471 473	NJ
+T75	Mention 480 484	JHWH
+T76	Mention 485 488	<ZR
+T77	Mention 488 490	NJ
+T78	Mention 497 499	<Z
+T79	Mention 499 500	J
+T80	Mention 502 506	ZMRT
+T81	Mention 507 509	JH
+T82	Mention 511 514	JHJ
+T83	Mention 516 517	J
+T84	Mention 519 524	JCW<H
+T85	Mention 531 540	QWL05 RNH
+T86	Mention 542 547	JCW<H
+T87	Mention 549 560	>HLJ YDJQJM
+T88	Mention 561 570	JMJN JHWH
+T89	Mention 571 574	<FH
+T90	Mention 575 578	XJL
+T91	Mention 585 594	JMJN JHWH
+T92	Mention 595 600	RWMMH
+T93	Mention 601 610	JMJN JHWH
+T94	Mention 611 614	<FH
+T95	Mention 615 618	XJL
+T96	Mention 628 632	>MWT
+T97	Mention 636 640	>XJH
+T98	Mention 642 646	>SPR
+T99	Mention 647 654	M<FJ JH
+T100	Mention 665 668	JSR
+T101	Mention 668 670	NJ
+T102	Mention 671 673	JH
+T103	Mention 676 679	MWT
+T104	Mention 683 686	NTN
+T105	Mention 686 688	NJ
+T106	Mention 695 699	PTXW
+T107	Mention 701 702	J
+T108	Mention 703 711	C<RJ&YDQ
+T109	Mention 712 715	>B>
+T110	Mention 717 718	M
+T111	Mention 719 723	>WDH
+T112	Mention 724 726	JH
+T113	Mention 733 735	ZH
+T114	Mention 737 740	C<R
+T115	Mention 742 746	JHWH
+T116	Mention 747 753	YDJQJM
+T117	Mention 754 758	JB>W
+T118	Mention 760 761	W
+T119	Mention 768 771	>WD
+T120	Mention 771 772	K
+T121	Mention 776 780	<NJT
+T122	Mention 780 782	NJ
+T123	Mention 784 787	THJ
+T124	Mention 789 790	J
+T125	Mention 792 797	JCW<H
+T126	Mention 804 807	>BN
+T127	Mention 808 812	M>SW
+T128	Mention 814 819	BWNJM
+T129	Mention 820 824	HJTH
+T130	Mention 826 833	R>C PNH
+T131	Mention 844 848	JHWH
+T132	Mention 849 853	HJTH
+T133	Mention 854 857	Z>T
+T134	Mention 858 861	HJ>
+T135	Mention 862 867	NPL>T
+T136	Mention 869 873	<JNJ
+T137	Mention 873 875	NW
+T138	Mention 882 884	ZH
+T139	Mention 886 889	JWM
+T140	Mention 890 893	<FH
+T141	Mention 894 898	JHWH
+T142	Mention 899 904	NGJLH
+T143	Mention 906 911	NFMXH
+T144	Mention 913 914	W
+T145	Mention 925 929	JHWH
+T146	Mention 930 936	HWCJ<H
+T147	Mention 944 948	JHWH
+T148	Mention 949 955	HYLJXH
+T149	Mention 965 969	BRWK
+T150	Mention 971 973	B>
+T151	Mention 975 982	CM JHWH
+T152	Mention 983 988	BRKNW
+T153	Mention 988 990	KM
+T154	Mention 992 1000	BJT JHWH
+T155	Mention 1007 1009	>L
+T156	Mention 1012 1016	JHWH
+T157	Mention 1018 1021	J>R
+T158	Mention 1023 1025	NW
+T159	Mention 1026 1030	>SRW
+T160	Mention 1031 1033	XG
+T161	Mention 1035 1040	<BTJM
+T162	Mention 1044 1055	QRNWT HMZBX
+T163	Mention 1062 1064	>L
+T164	Mention 1064 1065	J
+T165	Mention 1066 1069	>TH
+T166	Mention 1071 1074	>WD
+T167	Mention 1074 1075	K
+T168	Mention 1076 1079	>LH
+T169	Mention 1079 1080	J
+T170	Mention 1081 1086	>RWMM
+T171	Mention 1086 1087	K
+T172	Mention 1094 1098	HWDW
+T173	Mention 1100 1104	JHWH
+T174	Mention 1108 1111	VWB
+T175	Mention 1116 1120	<WLM
+T176	Mention 1121 1124	XSD
+T177	Mention 1124 1125	W
+*	Coreference T6 T2 T3 T11 T16 T21 T24 T28 T25 T29 T35 T44 T48
+*	Coreference T8 T7
+*	Coreference T10 T5 T15 T20 T176
+*	Coreference T13 T12
+#1	AnnotatorNotes T13	Nested mention: (house of (Aaron)).
+*	Coreference T18 T17
+#2	AnnotatorNotes T18	Nested mention: (fearers of (YHWH)).
+*	Coreference T26 T23 T30 T31 T33 T36 T38 T39 T40 T42 T53 T55 T58 T60 T62 T65 T70 T73 T77 T79 T83 T96 T97 T98 T101 T105 T107 T109 T111 T119 T122 T124
+*	Coreference T34 T32
+*	Coreference T49 T47 T45 T43
+*	Coreference T52 T51 T56 T57 T59 T63 T64 T67 T71
+#3	AnnotatorNotes T54	Nested mention: (name of (YHWH)).
+#4	AnnotatorNotes T61	Nested mention: (name of (YHWH)).
+*	Coreference T61 T54 T69 T151
+#5	AnnotatorNotes T69	Nested mention: (name of (YHWH)).
+#6	AnnotatorNotes T72	To whom refers 2Msg?
+#7	AnnotatorNotes T88	Nested mention: (right hand of (YHWH)). 
+*	Coreference T89 T88 T91 T92 T93 T94
+#8	AnnotatorNotes T91	Nested mention: (right hand of (YHWH)).
+#9	AnnotatorNotes T93	Nested mention: (right hand of (YHWH)).
+*	Coreference T95 T90
+#10	AnnotatorNotes T99	Nested mention: (deeds of (YH)).
+*	Coreference T106 T1 T153 T159 T172
+#11	AnnotatorNotes T106	The same 2Mpl group seems to be addressed in this psalm.
+*	Coreference T110 T108
+*	Coreference T114 T113 T118
+*	Coreference T116 T117
+*	Coreference T125 T84
+*	Coreference T126 T127 T128
+*	Coreference T129 T130
+*	Coreference T132 T133 T134 T135
+#12	AnnotatorNotes T137	Who is 1Cpl?
+*	Coreference T138 T139
+*	Coreference T142 T137 T143 T152 T158
+#13	AnnotatorNotes T144	3Msg refers to "YHWH" or "the day"?
+*	Coreference T150 T149
+#14	AnnotatorNotes T151	Nested mention: (name of (YHWH)).
+#15	AnnotatorNotes T154	Nested mention: (house of (YHWH)). 
+*	Coreference T164 T169 T166 T170
+*	Coreference T165 T163 T141 T140 T100 T102 T75 T72 T76 T81 T82 T104 T112 T115 T120 T121 T123 T131 T144 T145 T146 T147 T148 T155 T156 T157 T167 T168 T171 T173 T174 T177
+#16	AnnotatorNotes T49	Lexical match with previous "to trust".
+#17	AnnotatorNotes T47	Lexical match with previous "to seek refuge". 

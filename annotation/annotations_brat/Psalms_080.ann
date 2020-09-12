@@ -1,0 +1,164 @@
+T1	Mention 14 18	MNYX
+T2	Mention 22 27	CCNJM
+T3	Mention 28 32	<DWT
+T4	Mention 34 37	>SP
+T5	Mention 38 43	MZMWR
+T6	Mention 49 58	R<H JFR>L
+T7	Mention 61 67	H>ZJNH
+T8	Mention 68 71	NHG
+T9	Mention 73 76	Y>N
+T10	Mention 77 81	JWSP
+T11	Mention 82 85	JCB
+T12	Mention 87 93	KRWBJM
+T13	Mention 94 100	HWPJ<H
+T14	Mention 107 116	PNJ >PRJM
+T15	Mention 120 125	BNJMN
+T16	Mention 127 131	MNCH
+T17	Mention 132 137	<WRRH
+T18	Mention 141 146	GBWRT
+T19	Mention 146 147	K
+T20	Mention 149 152	LKH
+T21	Mention 154 159	JC<TH
+T22	Mention 161 163	NW
+T23	Mention 169 174	>LHJM
+T24	Mention 179 181	NW
+T25	Mention 175 179	HCJB
+T26	Mention 183 186	H>R
+T27	Mention 190 191	K
+T28	Mention 187 190	PNJ
+T29	Mention 193 198	NWC<H
+T30	Mention 204 208	JHWH
+T31	Mention 209 220	>LHJM YB>WT
+#1	AnnotatorNotes T31	In apposition with "YHWH". 
+T32	Mention 228 232	<CNT
+T33	Mention 234 241	TPLT <M
+T34	Mention 241 242	K
+T35	Mention 253 254	M
+T36	Mention 249 253	>KLT
+T37	Mention 256 263	XM DM<H
+T38	Mention 268 270	MW
+T39	Mention 265 268	TCQ
+T40	Mention 272 282	DM<WT CLJC
+T41	Mention 292 294	NW
+T42	Mention 288 292	TFJM
+T43	Mention 295 299	MDWN
+T44	Mention 305 307	NW
+T45	Mention 301 305	CKNJ
+T46	Mention 313 315	NW
+T47	Mention 309 313	>JBJ
+T48	Mention 316 321	JL<GW
+T49	Mention 323 325	MW
+T50	Mention 331 342	>LHJM YB>WT
+T51	Mention 347 349	NW
+T52	Mention 343 347	HCJB
+T53	Mention 351 354	H>R
+T54	Mention 358 359	K
+T55	Mention 355 358	PNJ
+T56	Mention 361 366	NWC<H
+T57	Mention 372 375	GPN
+T58	Mention 377 382	MYRJM
+T59	Mention 383 387	TSJ<
+T60	Mention 388 392	TGRC
+T61	Mention 393 397	GWJM
+T62	Mention 399 402	TV<
+T63	Mention 402 403	H
+T64	Mention 410 414	PNJT
+T65	Mention 416 419	PNJ
+T66	Mention 419 420	H
+T67	Mention 422 426	TCRC
+T68	Mention 427 431	CRCJ
+T69	Mention 431 432	H
+T70	Mention 434 438	TML>
+T71	Mention 439 442	>RY
+T72	Mention 449 452	KSW
+T73	Mention 453 457	HRJM
+T74	Mention 458 460	YL
+T75	Mention 463 467	<NPJ
+T76	Mention 467 468	H
+T77	Mention 469 476	>RZJ&>L
+T78	Mention 483 487	TCLX
+T79	Mention 488 492	QYJR
+T80	Mention 492 493	H
+T81	Mention 497 499	JM
+T82	Mention 504 507	NHR
+T83	Mention 508 515	JWNQWTJ
+T84	Mention 515 516	H
+T85	Mention 527 531	PRYT
+T86	Mention 532 536	GDRJ
+T87	Mention 536 537	H
+T88	Mention 539 542	>RW
+T89	Mention 542 543	H
+T90	Mention 544 555	KL&<BRJ DRK
+T91	Mention 562 568	JKRSMN
+T92	Mention 568 569	H
+T93	Mention 570 574	XZJR
+T95	Mention 581 588	ZJZ FDJ
+T96	Mention 589 593	JR<N
+T97	Mention 593 594	H
+T98	Mention 601 612	>LHJM YB>WT
+T99	Mention 613 616	CWB
+T100	Mention 620 623	HBV
+T101	Mention 625 629	CMJM
+T102	Mention 631 634	R>H
+T103	Mention 636 639	PQD
+T104	Mention 644 647	Z>T
+T105	Mention 641 643	PN
+T106	Mention 655 658	KNH
+T107	Mention 663 667	NV<H
+T108	Mention 668 672	JMJN
+T109	Mention 672 673	K
+T110	Mention 678 680	BN
+T111	Mention 681 686	>MYTH
+T112	Mention 688 689	K
+T113	Mention 696 700	FRPH
+T114	Mention 702 704	>C
+T115	Mention 705 710	KSWXH
+T116	Mention 712 720	G<RT PNJ
+T117	Mention 720 721	K
+T118	Mention 722 727	J>BDW
+T119	Mention 734 737	THJ
+T120	Mention 738 740	JD
+T121	Mention 740 741	K
+T122	Mention 745 753	>JC JMJN
+T123	Mention 753 754	K
+T124	Mention 758 764	BN&>DM
+T125	Mention 765 769	>MYT
+T126	Mention 771 772	K
+T127	Mention 783 787	NSWG
+T128	Mention 790 791	K
+T129	Mention 795 797	NW
+T130	Mention 792 795	TXJ
+T131	Mention 802 803	K
+T132	Mention 800 802	CM
+T133	Mention 804 808	NQR>
+T134	Mention 815 819	JHWH
+T135	Mention 820 831	>LHJM YB>WT
+#2	AnnotatorNotes T135	In apposition with "YHWH".
+T136	Mention 832 836	HCJB
+T137	Mention 836 838	NW
+T138	Mention 839 842	H>R
+T139	Mention 843 846	PNJ
+T140	Mention 846 847	K
+T141	Mention 849 854	NWC<H
+#3	AnnotatorNotes T6	Nested mention: (shepherd of (Israel)). 
+*	Coreference T7 T6 T8 T11 T13 T19 T17 T20 T23 T25 T26 T27 T30 T31 T32 T34 T36 T39 T42 T50 T52 T53 T54 T59 T60 T62 T64 T85 T98 T99 T100 T102 T103 T109 T111 T112 T117 T121 T123 T125 T126 T128 T130 T131 T134 T135 T136 T138 T140
+#4	AnnotatorNotes T14	Nested mention: (face of (Ephraim)). 
+#5	AnnotatorNotes T22	Who is 1Cpl?
+*	Coreference T24 T22 T29 T35 T38 T41 T44 T46 T49 T51 T56 T118 T127 T129 T133 T137 T141
+#6	AnnotatorNotes T33	Nested mention: (prayer of (your (people))). 
+*	Coreference T48 T47
+#7	AnnotatorNotes T50	Nested mention: (God of (hosts)). 
+*	Coreference T28 T55 T139
+*	Coreference T73 T72
+T142	Mention 460 461	H
+*	Coreference T90 T88
+*	Coreference T93 T91
+*	Coreference T96 T95
+T94	Mention 576 579	J<R
+#8	AnnotatorNotes T98	Nested mention: (God of (hosts)). 
+*	Coreference T104 T105 T57 T63 T66 T67 T69 T70 T142 T76 T78 T80 T84 T87 T89 T92 T97 T113 T115
+*	Coreference T108 T107
+#9	AnnotatorNotes T118	Does the 3Mpl refer to "the people" in v.8?
+*	Coreference T119 T120
+*	Coreference T124 T122
+#10	AnnotatorNotes T122	Unclear: is this the same person as the "son" in v.16? The semantic parallel with "your right hand" could suggest this. 

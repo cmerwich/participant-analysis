@@ -1,0 +1,176 @@
+T1	Mention 14 18	MNYX
+T2	Mention 28 31	DWD
+T3	Mention 32 36	MKTM
+T4	Mention 22 26	TCXT
+T6	Mention 42 46	C>WL
+T7	Mention 48 53	JCMRW
+T8	Mention 58 61	BJT
+T9	Mention 67 68	W
+T10	Mention 63 67	HMJT
+T11	Mention 78 80	NJ
+T12	Mention 74 78	HYJL
+T13	Mention 82 85	>JB
+T14	Mention 85 86	J
+T15	Mention 92 93	J
+T16	Mention 89 92	>LH
+T17	Mention 101 102	J
+T18	Mention 94 101	MMTQWMM
+T19	Mention 107 109	NJ
+T20	Mention 103 107	TFGB
+T21	Mention 119 121	NJ
+T22	Mention 115 119	HYJL
+T23	Mention 123 131	P<LJ >WN
+T24	Mention 134 143	>NCJ DMJM
+T25	Mention 149 151	NJ
+T26	Mention 144 149	HWCJ<
+T27	Mention 164 168	>RBW
+T28	Mention 170 173	NPC
+T29	Mention 173 174	J
+T30	Mention 175 180	JGWRW
+T31	Mention 183 184	J
+T32	Mention 185 189	<ZJM
+T33	Mention 196 197	J
+T34	Mention 193 196	PC<
+T35	Mention 208 212	JHWH
+T36	Mention 202 206	XV>T
+T37	Mention 206 207	J
+T38	Mention 222 225	<WN
+T39	Mention 226 232	JRWYWN
+T40	Mention 234 240	JKWNNW
+T41	Mention 241 245	<WRH
+T42	Mention 247 251	QR>T
+T43	Mention 254 257	R>H
+T44	Mention 264 267	>TH
+T45	Mention 268 272	JHWH
+T46	Mention 273 286	>LHJM05 YB>WT
+#1	AnnotatorNotes T46	In apposition with "YHWH".
+T47	Mention 287 297	>LHJ JFR>L
+#2	AnnotatorNotes T47	In apposition with "YHWH".
+T48	Mention 298 303	HQJYH
+T50	Mention 309 317	KL&HGWJM
+T51	Mention 321 324	TXN
+T52	Mention 325 336	KL&BGDJ >WN
+T53	Mention 346 351	JCWBW
+T54	Mention 353 356	<RB
+T55	Mention 357 361	JHMW
+T56	Mention 363 366	KLB
+T57	Mention 368 374	JSWBBW
+T58	Mention 375 378	<JR
+T59	Mention 390 396	JBJ<WN
+T60	Mention 398 400	PJ
+T61	Mention 400 402	HM
+T62	Mention 403 408	XRBWT
+T63	Mention 410 416	FPTWTJ
+T64	Mention 416 418	HM
+T65	Mention 425 428	CM<
+T66	Mention 435 438	>TH
+T67	Mention 439 443	JHWH
+T68	Mention 444 448	TFXQ
+T69	Mention 450 452	MW
+T70	Mention 453 457	TL<G
+T71	Mention 459 466	KL&GWJM
+T72	Mention 475 476	W
+T73	Mention 473 475	<Z
+T74	Mention 480 481	K
+T75	Mention 482 487	>CMRH
+T76	Mention 491 496	>LHJM
+T77	Mention 501 502	J
+T78	Mention 497 501	MFGB
+T79	Mention 517 518	W
+T80	Mention 509 517	>LHJ XSD
+T81	Mention 523 525	NJ
+T82	Mention 519 523	JQDM
+T83	Mention 526 531	>LHJM
+T84	Mention 535 537	NJ
+T85	Mention 532 535	JR>
+T86	Mention 542 543	J
+T87	Mention 539 542	CRR
+T88	Mention 557 558	M
+T89	Mention 553 557	THRG
+T90	Mention 564 569	JCKXW
+T91	Mention 572 573	J
+T92	Mention 570 572	<M
+T93	Mention 578 580	MW
+T94	Mention 574 578	HNJ<
+T95	Mention 585 586	K
+T96	Mention 582 585	XJL
+T97	Mention 593 595	MW
+T98	Mention 588 593	HWRJD
+T99	Mention 599 601	NW
+T100	Mention 596 599	MGN
+T101	Mention 602 606	>DNJ
+T102	Mention 613 620	XV>T&PJ
+T103	Mention 620 622	MW
+T105	Mention 631 633	MW
+T106	Mention 623 631	DBR&FPTJ
+T107	Mention 635 640	JLKDW
+T108	Mention 646 647	M
+T109	Mention 642 646	G>WN
+T110	Mention 650 653	>LH
+T111	Mention 656 659	KXC
+T112	Mention 660 665	JSPRW
+T113	Mention 672 675	KLH
+T114	Mention 677 680	XMH
+T115	Mention 681 684	KLH
+T116	Mention 689 691	MW
+T117	Mention 694 697	D<W
+T118	Mention 701 706	>LHJM
+T119	Mention 707 710	MCL
+T120	Mention 712 716	J<QB
+T121	Mention 718 727	>PSJ H>RY
+T122	Mention 739 744	JCWBW
+T123	Mention 746 749	<RB
+T124	Mention 750 754	JHMW
+T125	Mention 756 759	KLB
+T126	Mention 761 767	JSWBBW
+T127	Mention 768 771	<JR
+T128	Mention 778 781	HMH
+T129	Mention 782 788	JNW<WN
+T131	Mention 800 805	JFB<W
+T132	Mention 807 812	JLJNW
+T133	Mention 820 823	>NJ
+T134	Mention 826 830	>CJR
+T135	Mention 833 834	K
+T136	Mention 831 833	<Z
+T137	Mention 836 840	>RNN
+T138	Mention 842 845	BQR
+T139	Mention 849 850	K
+T140	Mention 846 849	XSD
+T141	Mention 854 858	HJJT
+T142	Mention 859 863	MFGB
+T143	Mention 865 866	J
+T144	Mention 868 872	MNWS
+T145	Mention 874 877	JWM
+T146	Mention 878 880	YR
+T147	Mention 882 883	J
+T148	Mention 890 892	<Z
+T149	Mention 892 893	J
+T150	Mention 897 898	K
+T151	Mention 899 904	>ZMRH
+T152	Mention 908 913	>LHJM
+T153	Mention 918 919	J
+T154	Mention 914 918	MFGB
+T155	Mention 920 928	>LHJ XSD
+T156	Mention 928 929	J
+*	Coreference T10 T7
+*	Coreference T9 T2
+*	Coreference T14 T11 T15 T17 T19 T21 T25 T29 T31 T33 T37 T157 T75 T77 T81 T84 T86 T72 T79 T91 T133 T134 T137 T143 T147 T149 T151 T153 T156
+*	Coreference T27 T23 T24
+*	Coreference T32 T30 T39 T40
+T157	Mention 251 252	J
+*	Coreference T71 T50
+#3	AnnotatorNotes T71	"All the nations" is not determined here, in contrast to v.6. Does seem to corefer, i.e. the same group. 
+#4	AnnotatorNotes T72	To whom does 3Msg refer?
+#5	AnnotatorNotes T79	To whom does 3Msg refer?
+*	Coreference T88 T87 T93 T97 T103 T105 T107 T108 T112 T116 T117 T122 T124 T53 T52 T55 T57 T59 T61 T64 T69 T129 T131 T132 T126 T128
+*	Coreference T92 T90
+#6	AnnotatorNotes T99	To whom refers 1Cpl?
+#7	AnnotatorNotes T100	Both "Lord" and "shield" have phrase function=Voct. The rela=Appo, therefore they corefer. 
+*	Coreference T115 T113 T83 T82 T85 T80 T89 T94 T95 T98 T101 T100 T118 T119 T135 T139 T141 T146 T150 T152 T155 T76 T74 T67 T66 T16 T12 T20 T22 T26 T35 T41 T42 T43 T44 T45 T46 T47 T48 T51 T68 T70
+*	Coreference T125 T56
+*	Coreference T127 T58
+#8	AnnotatorNotes T128	Starts a chain of 3Mpl references. Wordplay: does 3Mpl refer to the "dog" (sg)? or to the wicked (pl)? 
+*	Coreference T142 T154 T78
+*	Coreference T136 T73
+#9	AnnotatorNotes T10	Infc with PreO.
+#10	AnnotatorNotes T42	Infc with PreO.

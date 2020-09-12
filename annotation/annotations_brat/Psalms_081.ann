@@ -1,0 +1,145 @@
+T1	Mention 13 18	LMNYX
+T2	Mention 25 29	GTJT
+T3	Mention 31 34	>SP
+T4	Mention 40 46	HRNJNW
+T5	Mention 48 53	>LHJM
+T6	Mention 57 59	NW
+T7	Mention 54 57	<WZ
+#1	AnnotatorNotes T7	In apposition with "God".
+T8	Mention 60 65	HRJ<W
+T9	Mention 67 76	>LHJ J<QB
+T10	Mention 82 85	F>W
+T11	Mention 86 90	ZMRH
+T12	Mention 92 95	TNW
+T13	Mention 99 108	KNWR N<JM
+T14	Mention 112 115	NBL
+T15	Mention 121 125	TQ<W
+T16	Mention 127 130	XDC
+T17	Mention 131 135	CWPR
+T18	Mention 137 140	KSH
+T19	Mention 142 148	JWM XG
+T20	Mention 148 150	NW
+T21	Mention 159 161	XQ
+T22	Mention 163 168	JFR>L
+T23	Mention 169 172	HW>
+T24	Mention 173 177	MCPV
+T25	Mention 179 188	>LHJ J<QB
+T26	Mention 194 198	<DWT
+T27	Mention 202 207	JHWSP
+T28	Mention 208 210	FM
+T29	Mention 213 217	Y>TW
+T30	Mention 221 230	>RY MYRJM
+T31	Mention 231 234	FPT
+T32	Mention 238 243	JD<TJ
+T33	Mention 244 248	>CM<
+T34	Mention 254 261	HSJRWTJ
+T35	Mention 263 266	SBL
+T36	Mention 267 270	CKM
+T37	Mention 270 271	W
+T38	Mention 275 276	W
+T39	Mention 272 275	KPJ
+T40	Mention 278 281	DWD
+T41	Mention 282 288	T<BRNH
+T42	Mention 295 298	YRH
+T43	Mention 299 303	QR>T
+T44	Mention 305 309	>XLY
+T45	Mention 309 310	K
+T46	Mention 311 314	><N
+T47	Mention 314 315	K
+T48	Mention 317 324	STR R<M
+T49	Mention 325 329	>BXN
+T50	Mention 329 330	K
+T51	Mention 334 342	MJ MRJBH
+T52	Mention 352 355	CM<
+T53	Mention 358 359	J
+T54	Mention 356 358	<M
+T55	Mention 361 366	><JDH
+T56	Mention 368 369	K
+T57	Mention 370 375	JFR>L
+T58	Mention 379 383	TCM<
+T59	Mention 385 386	J
+T60	Mention 396 400	JHJH
+T61	Mention 402 403	K
+T62	Mention 404 409	>L ZR
+T63	Mention 414 420	TCTXWH
+T64	Mention 422 428	>L NKR
+T65	Mention 435 439	>NKJ
+T66	Mention 442 446	JHWH
+T67	Mention 447 451	>LHJ
+T68	Mention 451 452	K
+T69	Mention 454 457	M<L
+T70	Mention 457 458	K
+T71	Mention 460 469	>RY MYRJM
+T72	Mention 470 474	HRXB
+T73	Mention 475 477	PJ
+T74	Mention 477 478	K
+T75	Mention 480 484	>ML>
+T76	Mention 484 486	HW
+T77	Mention 497 500	CM<
+T78	Mention 501 503	<M
+T79	Mention 503 504	J
+T80	Mention 506 509	QWL
+T81	Mention 509 510	J
+T82	Mention 512 517	JFR>L
+T83	Mention 521 524	>BH
+T84	Mention 526 527	J
+T85	Mention 535 539	>CLX
+T86	Mention 539 541	HW
+T87	Mention 543 552	CRJRWT LB
+T88	Mention 552 553	M
+T89	Mention 554 558	JLKW
+T90	Mention 560 567	MW<YWTJ
+T91	Mention 567 569	HM
+T92	Mention 579 581	<M
+T93	Mention 581 582	J
+T94	Mention 583 586	CM<
+T95	Mention 588 589	J
+T96	Mention 590 595	JFR>L
+T97	Mention 597 600	DRK
+T98	Mention 602 607	JHLKW
+T99	Mention 619 624	>WJBJ
+T100	Mention 624 626	HM
+T101	Mention 627 632	>KNJ<
+T102	Mention 637 640	YRJ
+T103	Mention 640 642	HM
+T104	Mention 643 647	>CJB
+T105	Mention 648 650	JD
+T106	Mention 650 651	J
+T107	Mention 658 668	MFN>J JHWH
+T108	Mention 669 674	JKXCW
+T109	Mention 676 677	W
+T110	Mention 679 682	JHJ
+T111	Mention 683 685	<T
+T112	Mention 685 686	M
+T113	Mention 700 705	J>KJL
+T114	Mention 705 707	HW
+T115	Mention 709 716	XLB XVH
+T116	Mention 719 722	YWR
+T117	Mention 723 726	DBC
+T118	Mention 727 732	>FBJ<
+T119	Mention 732 733	K
+*	Coreference T8 T4 T6 T10 T12 T15 T20
+*	Coreference T7 T5 T9 T25 T28 T29
+#2	AnnotatorNotes T9	Nested mention: (God of (Jacob)). 
+*	Coreference T23 T21
+#3	AnnotatorNotes T25	Nested mention: (God of (Jacob)). 
+T120	Mention 210 211	W
+*	Coreference T120 T27
+#4	AnnotatorNotes T29	Infc with PreS. Predicate subject could refer to God or Joseph.
+#5	AnnotatorNotes T32	Who is 1Csg?
+*	Coreference T33 T32
+*	Coreference T41 T39
+*	Coreference T38 T37
+*	Coreference T44 T34 T46 T49 T53 T55 T59 T65 T66 T67 T69 T75 T79 T81 T84 T85 T93 T95 T121 T101 T104 T106 T109 T113 T118
+#6	AnnotatorNotes T45	Who is 2Msg?
+#7	AnnotatorNotes T51	Nested mention: (waters of (Meribah)). 
+*	Coreference T62 T60
+#8	AnnotatorNotes T71	Nested mention: (land of (Egypt)). 
+*	Coreference T76 T73
+*	Coreference T78 T77 T54 T52 T47 T45 T50 T56 T57 T58 T61 T63 T68 T70 T72 T74 T82 T83 T86 T88 T89 T91 T92 T94 T96 T98 T100 T103 T114 T119
+T121	Mention 600 601	J
+#9	AnnotatorNotes T107	Nested mention: (haters of (YHWH)). 
+*	Coreference T108 T107 T112
+*	Coreference T111 T110
+#10	AnnotatorNotes T37	Does the 3Msg refer to Joseph or to Israel? 
+#11	AnnotatorNotes T38	Does the 3Msg refer to Joseph or to Israel? 

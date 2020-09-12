@@ -1,0 +1,60 @@
+T1	Mention 20 23	DWD
+T2	Mention 24 28	JHWH
+T3	Mention 31 32	J
+T4	Mention 29 31	R<
+T5	Mention 36 40	>XSR
+T6	Mention 47 55	N>WT DC>
+T7	Mention 61 63	NJ
+T8	Mention 56 61	JRBJY
+T9	Mention 67 75	MJ MNXWT
+T10	Mention 80 82	NJ
+T11	Mention 76 80	JNHL
+T12	Mention 91 92	J
+T13	Mention 88 91	NPC
+T14	Mention 93 98	JCWBB
+T15	Mention 102 104	NJ
+T16	Mention 99 102	JNX
+T17	Mention 106 115	M<GLJ&YDQ
+T18	Mention 123 124	W
+T19	Mention 121 123	CM
+T20	Mention 136 139	>LK
+T21	Mention 141 150	GJ> YLMWT
+T22	Mention 154 158	>JR>
+T23	Mention 159 161	R<
+T24	Mention 165 168	>TH
+T25	Mention 172 173	J
+T26	Mention 177 178	K
+T27	Mention 174 177	CBV
+T28	Mention 185 186	K
+T29	Mention 180 185	MC<NT
+T30	Mention 187 190	HMH
+T31	Mention 195 197	NJ
+T32	Mention 191 195	JNXM
+T33	Mention 203 207	T<RK
+T34	Mention 211 212	J
+T35	Mention 209 211	PN
+T36	Mention 215 219	CLXN
+T37	Mention 224 227	YRR
+T38	Mention 227 228	J
+T39	Mention 229 233	DCNT
+T40	Mention 235 238	CMN
+T41	Mention 242 243	J
+T42	Mention 239 242	R>C
+T43	Mention 244 247	KWS
+T44	Mention 247 248	J
+T45	Mention 249 253	RWJH
+#1	AnnotatorNotes T45	Is this an ellipsis?
+T46	Mention 264 267	VWB
+T47	Mention 278 280	NJ
+T48	Mention 273 278	JRDPW
+T49	Mention 281 290	KL&JMJ XJ
+T50	Mention 290 291	J
+T51	Mention 293 297	CBTJ
+T52	Mention 299 307	BJT&JHWH
+T53	Mention 309 317	>RK JMJM
+T54	Mention 13 18	MZMWR
+*	Coreference T5 T3 T7 T10 T12 T15 T20 T22 T25 T31 T34 T38 T41 T44 T47 T50
+*	Coreference T8 T2 T11 T14 T16 T18 T24 T26 T28 T33 T39 T52
+*	Coreference T30 T29 T27 T32
+T55	Mention 269 272	XSD
+*	Coreference T48 T55 T46

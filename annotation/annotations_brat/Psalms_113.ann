@@ -1,0 +1,50 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 23 27	HLLW
+T4	Mention 28 37	<BDJ JHWH
+T5	Mention 38 42	HLLW
+T6	Mention 46 53	CM JHWH
+T7	Mention 59 62	JHJ
+T8	Mention 63 70	CM JHWH
+T9	Mention 71 75	MBRK
+T10	Mention 85 89	<WLM
+T11	Mention 96 104	MZRX&CMC
+T12	Mention 108 112	MBW>
+T13	Mention 112 113	W
+T14	Mention 114 118	MHLL
+T15	Mention 119 126	CM JHWH
+T16	Mention 132 134	RM
+T17	Mention 138 145	KL&GWJM
+T18	Mention 148 152	JHWH
+T19	Mention 157 161	CMJM
+T20	Mention 162 166	KBWD
+T21	Mention 166 167	W
+T22	Mention 177 181	JHWH
+T23	Mention 182 186	>LHJ
+T24	Mention 186 188	NW
+#1	AnnotatorNotes T23	In apposition with "YHWH".
+T25	Mention 190 196	MGBJHJ
+T27	Mention 208 214	MCPJLJ
+T29	Mention 222 226	CMJM
+T30	Mention 229 232	>RY
+T31	Mention 238 243	MQJMJ
+T32	Mention 245 248	<PR
+T33	Mention 249 251	DL
+T34	Mention 253 257	>CPT
+T35	Mention 258 262	JRJM
+T36	Mention 263 268	>BJWN
+T38	Mention 285 291	NDJBJM
+T39	Mention 295 303	NDJBJ <M
+T40	Mention 303 304	W
+T41	Mention 310 316	MWCJBJ
+T42	Mention 319 323	<QRT
+T43	Mention 325 328	BJT
+T44	Mention 329 337	>M&HBNJM
+T46	Mention 343 347	HLLW
+T47	Mention 348 350	JH
+*	Coreference T5 T3 T1 T4 T24 T46
+#2	AnnotatorNotes T4	Nested mention: (servant of (YHWH)).
+*	Coreference T13 T11
+*	Coreference T15 T14 T8 T6 T2 T9 T7
+*	Coreference T16 T18 T21 T22 T23 T25 T27 T31 T35 T40 T41 T47
+*	Coreference T19 T29

@@ -1,0 +1,108 @@
+T1	Mention 13 16	CJR
+T2	Mention 17 22	MZMWR
+T3	Mention 24 27	DWD
+T4	Mention 33 37	NKWN
+T5	Mention 38 40	LB
+T6	Mention 40 41	J
+T7	Mention 42 47	>LHJM
+T8	Mention 48 53	>CJRH
+T9	Mention 55 60	>ZMRH
+T10	Mention 64 68	KBWD
+T11	Mention 68 69	J
+T12	Mention 75 79	<WRH
+T13	Mention 81 84	NBL
+T14	Mention 86 90	KNWR
+T15	Mention 91 96	><JRH
+T16	Mention 97 100	CXR
+T17	Mention 106 109	>WD
+T18	Mention 109 110	K
+T19	Mention 112 116	<MJM
+T20	Mention 119 123	JHWH
+T21	Mention 125 129	>ZMR
+T22	Mention 129 130	K
+T23	Mention 134 138	>MJM
+T24	Mention 156 160	CMJM
+T25	Mention 161 164	XSD
+T26	Mention 164 165	K
+T27	Mention 186 190	RWMH
+T28	Mention 194 198	CMJM
+T29	Mention 199 204	>LHJM
+T30	Mention 209 216	KL&H>RY
+T31	Mention 217 221	KBWD
+T32	Mention 221 222	K
+T33	Mention 233 239	JXLYWN
+T34	Mention 240 245	JDJDJ
+T35	Mention 245 246	K
+T36	Mention 247 253	HWCJ<H
+T37	Mention 254 258	JMJN
+T38	Mention 258 259	K
+T39	Mention 261 263	<N
+T40	Mention 263 265	NJ
+T41	Mention 271 276	>LHJM
+T42	Mention 279 282	DBR
+T43	Mention 284 287	QDC
+T44	Mention 287 288	W
+T45	Mention 289 294	><LZH
+T46	Mention 295 300	>XLQH
+T47	Mention 301 304	CKM
+T48	Mention 306 314	<MQ SKWT
+T49	Mention 315 319	>MDD
+T50	Mention 326 327	J
+T51	Mention 328 332	GL<D
+T52	Mention 336 337	J
+T53	Mention 338 342	MNCH
+T54	Mention 344 349	>PRJM
+T55	Mention 350 358	M<WZ R>C
+T56	Mention 358 359	J
+T57	Mention 360 365	JHWDH
+T58	Mention 366 370	MXQQ
+T59	Mention 370 371	J
+T60	Mention 378 382	MW>B
+T61	Mention 385 392	SJR RXY
+T62	Mention 392 393	J
+T63	Mention 397 401	>DWM
+T64	Mention 402 407	>CLJK
+T65	Mention 408 411	N<L
+T66	Mention 411 412	J
+T67	Mention 417 421	PLCT
+T68	Mention 422 428	>TRW<<
+T69	Mention 438 441	JBL
+T70	Mention 441 443	NJ
+T71	Mention 444 452	<JR MBYR
+T72	Mention 456 458	NX
+T73	Mention 458 460	NJ
+T74	Mention 464 468	>DWM
+T75	Mention 479 484	>LHJM
+T76	Mention 485 489	ZNXT
+T77	Mention 489 491	NW
+T78	Mention 496 499	TY>
+T79	Mention 500 505	>LHJM
+T80	Mention 507 512	YB>TJ
+T81	Mention 512 514	NW
+T82	Mention 521 524	HBH
+T83	Mention 526 528	NW
+T84	Mention 529 533	<ZRT
+T85	Mention 535 537	YR
+T86	Mention 539 542	CW>
+T87	Mention 543 552	TCW<T >DM
+T88	Mention 560 565	>LHJM
+T89	Mention 566 570	N<FH
+T90	Mention 571 574	XJL
+T91	Mention 576 579	HW>
+T92	Mention 580 584	JBWS
+T93	Mention 585 588	YRJ
+T94	Mention 588 590	NW
+*	Coreference T5 T4
+*	Coreference T8 T6 T9 T11 T15 T17 T21 T40 T70 T73
+*	Coreference T14 T13 T12
+*	Coreference T23 T19
+T95	Mention 179 180	K
+T96	Mention 176 179	>MT
+T97	Mention 170 175	CXQJM
+*	Coreference T24 T28
+*	Coreference T34 T33
+*	Coreference T46 T45 T18 T7 T20 T22 T26 T95 T27 T29 T32 T35 T36 T38 T39 T41 T42 T44 T49 T50 T52 T56 T59 T62 T64 T66 T68 T75 T76 T79 T78 T82 T88 T91 T92
+#1	AnnotatorNotes T48	Nested mention: (valley of (Succoth)). 
+*	Coreference T72 T69
+*	Coreference T63 T74
+*	Coreference T81 T77 T83 T89 T94

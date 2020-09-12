@@ -1,0 +1,141 @@
+T1	Mention 13 18	>HBTJ
+T2	Mention 22 26	JCM<
+T3	Mention 29 33	JHWH
+T4	Mention 37 40	QWL
+T5	Mention 40 41	J
+T6	Mention 42 47	TXNWN
+T7	Mention 47 48	J
+#1	AnnotatorNotes T6	In apposition with "my voice".
+T8	Mention 57 60	HVH
+T9	Mention 61 64	>ZN
+T10	Mention 64 65	W
+T11	Mention 67 68	J
+T12	Mention 71 73	JM
+T13	Mention 73 74	J
+T14	Mention 75 79	>QR>
+T15	Mention 85 89	>PPW
+T16	Mention 89 91	NJ
+T17	Mention 94 102	XBLJ&MWT
+T18	Mention 104 113	MYRJ C>WL
+T19	Mention 114 118	MY>W
+T20	Mention 118 120	NJ
+T21	Mention 121 124	YRH
+T22	Mention 126 130	JGWN
+T23	Mention 131 135	>MY>
+T24	Mention 143 150	CM&JHWH
+T25	Mention 151 155	>QR>
+T26	Mention 160 164	JHWH
+T27	Mention 165 169	MLVH
+T28	Mention 170 173	NPC
+T29	Mention 173 174	J
+T30	Mention 185 189	JHWH
+T31	Mention 197 201	>LHJ
+T32	Mention 201 203	NW
+T33	Mention 204 208	MRXM
+T34	Mention 214 217	CMR
+T35	Mention 218 223	PT>JM
+T36	Mention 224 228	JHWH
+T37	Mention 229 234	DLWTJ
+T38	Mention 237 238	J
+T39	Mention 239 245	JHWCJ<
+T40	Mention 251 255	CWBJ
+T41	Mention 256 259	NPC
+T42	Mention 259 260	J
+T43	Mention 262 267	MNWXJ
+T44	Mention 267 269	KJ
+T45	Mention 273 277	JHWH
+T46	Mention 278 281	GML
+T47	Mention 285 287	KJ
+T48	Mention 296 300	XLYT
+T49	Mention 301 304	NPC
+T50	Mention 304 305	J
+T51	Mention 307 310	MWT
+T52	Mention 314 317	<JN
+T53	Mention 317 318	J
+T54	Mention 322 326	DM<H
+T55	Mention 330 333	RGL
+T56	Mention 333 334	J
+T57	Mention 336 338	DX
+T58	Mention 338 339	J
+T59	Mention 345 350	>THLK
+T60	Mention 352 360	PNJ JHWH
+T61	Mention 362 373	>RYWT HXJJM
+T62	Mention 380 386	H>MNTJ
+T63	Mention 390 394	>DBR
+T64	Mention 395 398	>NJ
+T65	Mention 399 404	<NJTJ
+T66	Mention 415 418	>NJ
+T67	Mention 419 424	>MRTJ
+T68	Mention 426 430	XPZJ
+T70	Mention 431 438	KL&H>DM
+T71	Mention 439 442	KZB
+T72	Mention 452 456	>CJB
+T73	Mention 458 462	JHWH
+T74	Mention 463 472	KL&TGMWLW
+T75	Mention 472 474	HJ
+T76	Mention 477 478	J
+T77	Mention 485 495	KWS&JCW<WT
+T78	Mention 496 499	>F>
+T79	Mention 502 509	CM JHWH
+T80	Mention 510 514	>QR>
+T81	Mention 521 524	NDR
+T82	Mention 524 525	J
+T83	Mention 527 531	JHWH
+T84	Mention 532 536	>CLM
+T85	Mention 537 541	NGDH
+T86	Mention 546 551	KL&<M
+T87	Mention 551 552	W
+T88	Mention 564 573	<JNJ JHWH
+T89	Mention 575 579	MWTH
+T90	Mention 581 586	XSJDJ
+T91	Mention 586 587	W
+T92	Mention 598 602	JHWH
+T93	Mention 606 609	>NJ
+T94	Mention 610 613	<BD
+T95	Mention 613 614	K
+T96	Mention 615 618	>NJ
+T97	Mention 619 622	<BD
+T98	Mention 622 623	K
+T99	Mention 624 630	BN&>MT
+T100	Mention 630 631	K
+T101	Mention 632 636	PTXT
+T102	Mention 638 642	MWSR
+T103	Mention 642 643	J
+T104	Mention 651 652	K
+T105	Mention 653 657	>ZBX
+T106	Mention 658 666	ZBX TWDH
+T107	Mention 669 676	CM JHWH
+T108	Mention 677 681	>QR>
+T109	Mention 688 691	NDR
+T110	Mention 691 692	J
+T111	Mention 694 698	JHWH
+T112	Mention 699 703	>CLM
+T113	Mention 704 708	NGDH
+T114	Mention 713 718	KL&<M
+T115	Mention 718 719	W
+T116	Mention 727 743	XYRWT05 BJT JHWH
+T117	Mention 745 748	TWK
+T118	Mention 748 750	KJ
+T119	Mention 751 757	JRWCLM
+T120	Mention 758 762	HLLW
+T121	Mention 763 765	JH
+*	Coreference T3 T2 T8 T10
+*	Coreference T6 T4
+*	Coreference T17 T15
+*	Coreference T18 T19
+#2	AnnotatorNotes T24	Nested mention: (name of (YHWH)).
+*	Coreference T33 T31 T30 T26 T24 T27 T34 T36 T39 T45 T46 T48 T60 T73 T75 T79 T83 T87 T91 T92 T95 T98 T100 T101 T104 T107 T111 T115 T121
+#3	AnnotatorNotes T32	Who is 1Cpl?
+*	Coreference T38 T37 T5 T1 T7 T11 T13 T14 T16 T20 T23 T25 T29 T42 T50 T53 T56 T58 T59 T62 T63 T64 T65 T66
+*	Coreference T41 T40 T28 T44 T47 T49
+#4	AnnotatorNotes T60	Nested mention: (faces of (YHWH)).
+*	Coreference T68 T67 T72 T76 T78 T80 T82 T84 T93 T94 T96 T97 T103 T105 T108 T110 T112
+*	Coreference T70 T71
+#5	AnnotatorNotes T79	Nested mention: (name of (YHWH)).
+*	Coreference T114 T86
+#6	AnnotatorNotes T88	Nested mention: (eyes of (YHWH)).
+#7	AnnotatorNotes T107	Nested mention: (name of (YHWH)).
+*	Coreference T81 T109
+#8	AnnotatorNotes T116	Nested mention: (courts of (the house of (YHWH))).
+*	Coreference T118 T116
+#9	AnnotatorNotes T68	Infc with PreS. 

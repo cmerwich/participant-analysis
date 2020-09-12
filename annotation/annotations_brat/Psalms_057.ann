@@ -1,0 +1,127 @@
+T1	Mention 14 18	MNYX
+T2	Mention 22 26	TCXT
+T3	Mention 28 31	DWD
+T4	Mention 32 36	MKTM
+T5	Mention 38 42	BRXW
+T6	Mention 44 52	PNJ&C>WL
+T7	Mention 54 58	M<RH
+T8	Mention 66 68	NJ
+T9	Mention 64 66	XN
+T10	Mention 69 74	>LHJM
+T11	Mention 79 81	NJ
+T12	Mention 77 79	XN
+T13	Mention 86 87	K
+T14	Mention 88 92	XSJH
+T15	Mention 96 97	J
+T16	Mention 93 96	NPC
+T17	Mention 100 107	YL&KNPJ
+T18	Mention 107 108	K
+T19	Mention 109 113	>XSH
+T20	Mention 117 121	J<BR
+T21	Mention 122 126	HWWT
+T22	Mention 132 136	>QR>
+T23	Mention 138 143	>LHJM
+T24	Mention 144 149	<LJWN
+#1	AnnotatorNotes T24	In apposition with "God".
+T25	Mention 151 153	>L
+T26	Mention 154 157	GMR
+T27	Mention 160 161	J
+T28	Mention 167 171	JCLX
+T29	Mention 173 177	CMJM
+T30	Mention 186 188	NJ
+T31	Mention 181 186	JWCJ<
+T32	Mention 189 192	XRP
+T33	Mention 196 197	J
+T34	Mention 193 196	C>P
+T35	Mention 202 206	JCLX
+T36	Mention 207 212	>LHJM
+T37	Mention 216 217	W
+T38	Mention 213 216	XSD
+T39	Mention 219 222	>MT
+T40	Mention 222 223	W
+T41	Mention 232 233	J
+T42	Mention 229 232	NPC
+T43	Mention 237 245	TWK LB>M
+T44	Mention 246 251	>CKBH
+T45	Mention 252 257	LHVJM
+T46	Mention 258 265	BNJ&>DM
+T47	Mention 269 271	HM
+T48	Mention 266 269	CNJ
+T49	Mention 272 276	XNJT
+T50	Mention 278 282	XYJM
+T51	Mention 288 289	M
+T52	Mention 284 288	LCWN
+T53	Mention 290 297	XRB XDH
+T54	Mention 303 307	RWMH
+T55	Mention 312 316	CMJM
+T56	Mention 317 322	>LHJM
+T57	Mention 326 333	KL&H>RY
+T58	Mention 334 338	KBWD
+T59	Mention 338 339	K
+T60	Mention 345 348	RCT
+T61	Mention 351 356	HKJNW
+T62	Mention 361 362	J
+T63	Mention 358 361	P<M
+T64	Mention 363 366	KPP
+T65	Mention 367 370	NPC
+T66	Mention 370 371	J
+T67	Mention 372 375	KRW
+T68	Mention 379 380	J
+T69	Mention 377 379	PN
+T70	Mention 381 385	CJXH
+T71	Mention 386 390	NPLW
+T72	Mention 395 396	H
+T73	Mention 392 395	TWK
+T74	Mention 406 410	NKWN
+T75	Mention 413 414	J
+T76	Mention 411 413	LB
+T77	Mention 415 420	>LHJM
+T78	Mention 421 425	NKWN
+T79	Mention 428 429	J
+T80	Mention 426 428	LB
+T81	Mention 430 435	>CJRH
+T82	Mention 437 442	>ZMRH
+T83	Mention 448 452	<WRH
+T84	Mention 457 458	J
+T85	Mention 453 457	KBWD
+T86	Mention 459 463	<WRH
+T87	Mention 465 467	NB
+T88	Mention 470 474	KNWR
+T89	Mention 475 480	><JRH
+T90	Mention 481 484	CXR
+T91	Mention 494 495	K
+T92	Mention 491 494	>WD
+T93	Mention 497 501	<MJM
+T94	Mention 504 508	>DNJ
+T95	Mention 513 514	K
+T96	Mention 509 513	>ZMR
+T97	Mention 518 522	>MJM
+T98	Mention 539 543	CMJM
+T99	Mention 547 548	K
+T100	Mention 544 547	XSD
+T101	Mention 553 558	CXQJM
+T102	Mention 559 562	>MT
+T103	Mention 562 563	K
+T104	Mention 570 574	RWMH
+T105	Mention 578 582	CMJM
+T106	Mention 583 588	>LHJM
+T107	Mention 592 599	KL&H>RY
+T108	Mention 604 605	K
+T109	Mention 600 604	KBWD
+*	Coreference T5 T3
+#2	AnnotatorNotes T6	Nested mention: (face of (Saul)). 
+*	Coreference T11 T8 T15 T19 T22 T27 T30 T33 T41 T44 T62 T66 T68 T75 T79 T81 T82 T83 T84 T89 T92 T96
+*	Coreference T16 T14 T42
+*	Coreference T21 T20
+*	Coreference T24 T23 T10 T9 T12 T13 T18 T25 T26 T28 T31 T32 T35 T36 T37 T40 T54 T56 T59 T77 T91 T94 T95 T99 T103 T104 T106 T108
+*	Coreference T47 T46 T51 T61 T67 T71
+*	Coreference T55 T29 T98 T105
+*	Coreference T65 T64
+*	Coreference T72 T70
+*	Coreference T76 T74 T80 T78
+*	Coreference T86 T87 T88
+*	Coreference T100 T38
+*	Coreference T102 T39
+*	Coreference T109 T58
+*	Coreference T107 T57
+#3	AnnotatorNotes T5	Infc with PreS.

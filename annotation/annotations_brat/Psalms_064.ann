@@ -1,0 +1,84 @@
+T1	Mention 26 29	DWD
+T2	Mention 14 18	MNYX
+T3	Mention 19 24	MZMWR
+T4	Mention 35 38	CM<
+T5	Mention 39 44	>LHJM
+T6	Mention 45 48	QWL
+T7	Mention 48 49	J
+T8	Mention 54 55	J
+T9	Mention 51 54	FJX
+T10	Mention 57 65	PXD >WJB
+T11	Mention 66 69	TYR
+T12	Mention 70 72	XJ
+T13	Mention 72 73	J
+T14	Mention 84 86	NJ
+T15	Mention 79 84	TSTJR
+T16	Mention 88 97	SWD MR<JM
+T17	Mention 99 112	RGCT P<LJ >WN
+T18	Mention 122 126	CNNW
+T19	Mention 128 131	XRB
+T20	Mention 136 137	M
+T21	Mention 132 136	LCWN
+T24	Mention 145 146	M
+T25	Mention 143 145	XY
+T22	Mention 138 142	DRKW
+T23	Mention 147 153	DBR MR
+T27	Mention 166 172	MSTRJM
+T28	Mention 173 175	TM
+T29	Mention 184 185	W
+T30	Mention 181 184	JRH
+T31	Mention 190 195	JJR>W
+T32	Mention 201 206	JXZQW
+T33	Mention 208 210	MW
+T34	Mention 213 219	DBR R<
+T35	Mention 220 225	JSPRW
+T37	Mention 232 238	MWQCJM
+T38	Mention 239 243	>MRW
+T39	Mention 247 251	JR>H
+T40	Mention 253 255	MW
+T41	Mention 261 266	JXPFW
+T42	Mention 267 271	<WLT
+T43	Mention 272 276	TMNW
+T44	Mention 277 285	XPF MXPF
+T45	Mention 287 294	QRB >JC
+T46	Mention 296 298	LB
+T47	Mention 309 312	JRM
+T48	Mention 313 318	>LHJM
+T49	Mention 319 321	XY
+T50	Mention 328 331	HJW
+T51	Mention 336 337	M
+T52	Mention 332 336	MKWT
+T53	Mention 344 350	JKCJLW
+T54	Mention 350 352	HW
+T55	Mention 356 358	MW
+T57	Mention 363 364	M
+T56	Mention 359 363	LCWN
+T58	Mention 365 371	JTNDDW
+T59	Mention 372 374	KL
+T60	Mention 375 378	R>H
+T61	Mention 380 381	M
+T62	Mention 389 394	JJR>W
+T63	Mention 395 401	KL&>DM
+T64	Mention 403 408	JGJDW
+T65	Mention 409 418	P<L >LHJM
+T66	Mention 420 424	M<FH
+T67	Mention 424 425	W
+T68	Mention 426 432	HFKJLW
+T69	Mention 450 454	JHWH
+T70	Mention 439 443	JFMX
+T71	Mention 444 448	YDJQ
+T72	Mention 456 459	XSH
+T73	Mention 461 462	W
+T74	Mention 464 470	JTHLLW
+T75	Mention 471 481	KL&JCRJ&LB
+*	Coreference T8 T7 T13 T14
+*	Coreference T20 T18 T16 T17 T10 T22 T24 T30 T31 T32 T33 T35 T38 T39 T40 T41 T43 T50 T51 T53 T55 T57
+*	Coreference T29 T28
+*	Coreference T48 T47 T5 T4 T11 T15 T54 T67 T69
+*	Coreference T56 T21
+*	Coreference T59 T58 T61 T60
+*	Coreference T63 T62 T64 T68
+#1	AnnotatorNotes T65	Nested mention: (doings of (God)). 
+*	Coreference T66 T65
+*	Coreference T71 T70 T72
+*	Coreference T75 T74

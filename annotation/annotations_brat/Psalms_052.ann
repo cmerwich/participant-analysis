@@ -1,0 +1,92 @@
+T2	Mention 19 24	MFKJL
+T3	Mention 26 29	DWD
+T5	Mention 42 46	DW>G
+T6	Mention 48 52	>DMJ
+#1	AnnotatorNotes T6	In apposition with "Doeg".
+T7	Mention 54 57	JGD
+T8	Mention 59 63	C>WL
+T9	Mention 65 69	J>MR
+T10	Mention 71 72	W
+T11	Mention 73 75	B>
+T12	Mention 76 79	DWD
+T13	Mention 83 93	BJT >XJMLK
+T14	Mention 102 107	TTHLL
+T15	Mention 109 112	R<H
+T16	Mention 114 118	GBWR
+T17	Mention 119 125	XSD >L
+T18	Mention 126 133	KL&HJWM
+T19	Mention 139 143	HWWT
+T20	Mention 144 148	TXCB
+T21	Mention 153 154	K
+T22	Mention 149 153	LCWN
+T23	Mention 156 164	T<R MLVC
+T24	Mention 165 168	<FH
+T25	Mention 169 173	RMJH
+T26	Mention 179 183	>HBT
+T27	Mention 184 186	R<
+T28	Mention 188 191	VWB
+T29	Mention 192 195	CQR
+T31	Mention 203 206	YDQ
+T32	Mention 216 220	>HBT
+T33	Mention 221 232	KL&DBRJ&BL<
+T34	Mention 233 242	LCWN MRMH
+T35	Mention 251 253	>L
+T36	Mention 254 257	JTY
+T37	Mention 260 263	NYX
+T38	Mention 267 268	K
+T39	Mention 264 267	JXT
+T40	Mention 270 273	JSX
+T41	Mention 273 274	K
+T42	Mention 276 279	>HL
+T43	Mention 284 285	K
+T44	Mention 281 284	CRC
+T45	Mention 287 295	>RY XJJM
+T46	Mention 306 310	JR>W
+T47	Mention 311 317	YDJQJM
+T48	Mention 319 324	JJR>W
+T49	Mention 329 330	W
+T50	Mention 331 336	JFXQW
+T51	Mention 347 350	GBR
+T52	Mention 354 358	JFJM
+T53	Mention 359 364	>LHJM
+T54	Mention 369 370	W
+T55	Mention 365 369	M<WZ
+T56	Mention 372 376	JBVX
+T57	Mention 378 384	RB <CR
+T58	Mention 384 385	W
+T59	Mention 386 389	J<Z
+T60	Mention 391 394	HWT
+T61	Mention 394 395	W
+T62	Mention 403 406	>NJ
+T63	Mention 410 418	ZJT R<NN
+T64	Mention 420 429	BJT >LHJM
+T65	Mention 430 435	BVXTJ
+T66	Mention 437 446	XSD&>LHJM
+T67	Mention 447 451	<WLM
+T68	Mention 465 466	K
+T69	Mention 462 465	>WD
+T70	Mention 468 472	<WLM
+T71	Mention 476 480	<FJT
+T72	Mention 482 486	>QWH
+T73	Mention 489 490	K
+T74	Mention 487 489	CM
+T75	Mention 494 497	VWB
+T76	Mention 502 507	XSJDJ
+T77	Mention 507 508	K
+T1	Mention 14 18	MNYX
+*	Coreference T5 T6 T7 T9
+*	Coreference T10 T8
+*	Coreference T12 T11
+#2	AnnotatorNotes T13	Nested mention: (house of (Ahimelech)). 
+*	Coreference T22 T24
+T78	Mention 257 258	K
+*	Coreference T41 T78 T16 T14 T20 T21 T26 T32 T38 T43 T49 T51 T52 T54 T56 T58 T59 T61
+*	Coreference T47 T46 T48 T50
+#3	AnnotatorNotes T49	3Msg corefers with 2Msg in v.7?
+#4	AnnotatorNotes T62	Who is 1Csg?
+*	Coreference T65 T62 T69 T72
+#5	AnnotatorNotes T64	Nested mention: (house of (God)). 
+#6	AnnotatorNotes T66	Nested mention: (loyalty of (God)). 
+T79	Mention 453 455	<D
+*	Coreference T71 T68 T36 T35 T39 T40 T44 T53 T73 T77
+*	Coreference T74 T75

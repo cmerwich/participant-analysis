@@ -1,0 +1,54 @@
+T1	Mention 14 21	BNJ&QRX
+T2	Mention 22 27	MZMWR
+T3	Mention 28 31	CJR
+T4	Mention 32 37	JSWDT
+T5	Mention 37 38	W
+T6	Mention 40 48	HRRJ&QDC
+T7	Mention 54 57	>HB
+T8	Mention 58 62	JHWH
+T9	Mention 63 72	C<RJ YJWN
+T10	Mention 74 88	KL MCKNWT J<QB
+T11	Mention 94 100	NKBDWT
+T12	Mention 101 105	MDBR
+T13	Mention 107 108	K
+T14	Mention 109 119	<JR H>LHJM
+T15	Mention 129 134	>ZKJR
+T16	Mention 137 140	RHB
+T17	Mention 142 145	BBL
+T18	Mention 147 150	JD<
+T19	Mention 150 151	J
+T20	Mention 156 160	PLCT
+T21	Mention 162 165	YWR
+T22	Mention 169 172	KWC
+T23	Mention 173 175	ZH
+T24	Mention 176 179	JLD
+T25	Mention 190 194	YJWN
+T26	Mention 197 201	J>MR
+T27	Mention 202 205	>JC
+T28	Mention 207 210	>JC
+T29	Mention 211 214	JLD
+T30	Mention 216 217	H
+T31	Mention 219 222	HW>
+T32	Mention 223 228	JKWNN
+T33	Mention 228 229	H
+T34	Mention 230 235	<LJWN
+T35	Mention 241 245	JHWH
+T36	Mention 246 250	JSPR
+T38	Mention 257 261	<MJM
+T39	Mention 262 264	ZH
+T40	Mention 265 268	JLD
+T41	Mention 282 286	CRJM
+T42	Mention 288 293	XLLJM
+T43	Mention 294 301	KL&M<JN
+T44	Mention 301 302	J
+T45	Mention 304 305	K
+#1	AnnotatorNotes T9	Nested mention: (gates of (Zion)). 
+#2	AnnotatorNotes T10	Nested mention: (all of (the (dwelling places of (Jacob))). 
+*	Coreference T12 T11
+#3	AnnotatorNotes T14	Nested mention: (city of (God)). 
+*	Coreference T19 T15
+*	Coreference T30 T25 T33
+*	Coreference T32 T31 T34 T5 T7 T8 T13 T35 T36 T45
+*	Coreference T40 T39 T24 T23 T29 T28 T27
+#4	AnnotatorNotes T44	Who is 1Csg?
+#5	AnnotatorNotes T1	Nested mention: (sons of (Korah)). 

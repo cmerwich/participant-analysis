@@ -1,0 +1,101 @@
+T2	Mention 32 35	DWD
+T1	Mention 22 30	<BD&JHWH
+T3	Mention 41 48	N>M&PC<
+T4	Mention 50 53	RC<
+T5	Mention 55 61	QRB LB
+T6	Mention 61 62	J
+T7	Mention 67 76	PXD >LHJM
+T8	Mention 78 86	NGD <JNJ
+T9	Mention 86 87	W
+T10	Mention 96 101	HXLJQ
+T11	Mention 105 106	W
+T12	Mention 112 113	W
+T13	Mention 108 112	<JNJ
+T15	Mention 122 123	W
+T16	Mention 119 122	<WN
+T18	Mention 134 141	DBRJ&PJ
+T19	Mention 141 142	W
+T20	Mention 143 146	>WN
+T21	Mention 153 156	XDL
+T24	Mention 176 179	>WN
+T25	Mention 182 186	JXCB
+T26	Mention 190 194	MCKB
+T27	Mention 194 195	W
+T28	Mention 196 201	JTJYB
+T29	Mention 205 208	DRK
+T30	Mention 216 218	R<
+T31	Mention 222 226	JM>S
+T32	Mention 232 236	JHWH
+T33	Mention 340 345	>LHJM
+T34	Mention 318 322	JHWH
+T35	Mention 239 243	CMJM
+T36	Mention 247 248	K
+T37	Mention 244 247	XSD
+T38	Mention 254 255	K
+T39	Mention 249 254	>MWNT
+T40	Mention 259 264	CXQJM
+T41	Mention 274 275	K
+T42	Mention 270 274	YDQT
+T43	Mention 279 286	HRRJ&>L
+T44	Mention 287 291	MCPV
+T45	Mention 291 292	K
+T46	Mention 293 301	THWM RBH
+T47	Mention 302 305	>DM
+T48	Mention 312 317	TWCJ<
+T49	Mention 335 338	XSD
+T50	Mention 338 339	K
+T51	Mention 347 354	BNJ >DM
+T52	Mention 356 363	YL KNPJ
+T53	Mention 363 364	K
+T54	Mention 365 371	JXSJWN
+T55	Mention 377 382	JRWJN
+T56	Mention 384 391	DCN BJT
+T57	Mention 391 392	K
+T58	Mention 394 402	NXL <DNJ
+T59	Mention 402 403	K
+T60	Mention 407 408	M
+T61	Mention 404 407	TCQ
+T62	Mention 420 421	K
+T63	Mention 422 431	MQWR XJJM
+T64	Mention 433 436	>WR
+T65	Mention 436 437	K
+T66	Mention 438 442	NR>H
+T67	Mention 443 446	>WR
+T68	Mention 453 456	MCK
+T69	Mention 460 461	K
+T70	Mention 457 460	XSD
+T71	Mention 467 468	K
+T72	Mention 463 467	JD<J
+T73	Mention 470 474	YDQT
+T74	Mention 474 475	K
+T75	Mention 477 484	JCRJ&LB
+T76	Mention 494 498	TBW>
+T77	Mention 498 500	NJ
+T78	Mention 501 509	RGL G>WH
+T79	Mention 511 519	JD&RC<JM
+T80	Mention 526 528	NJ
+T81	Mention 523 526	TND
+T82	Mention 538 542	NPLW
+T83	Mention 543 547	P<LJ
+T84	Mention 548 551	>WN
+T85	Mention 552 555	DXW
+T86	Mention 560 564	JKLW
+T88	Mention 14 18	MNYX
+#1	AnnotatorNotes T1	Nested mention: (servant of (YHWH)). 
+#2	AnnotatorNotes T7	Nested mention: (fear of (God)). 
+#3	AnnotatorNotes T2	In apposition with "servant of YHWH". 
+*	Coreference T2 T1
+*	Coreference T9 T4 T10 T11 T12 T15 T19 T25 T27 T28 T31
+T89	Mention 148 152	MRMH
+*	Coreference T21 T18
+*	Coreference T24 T20
+*	Coreference T36 T32 T38 T41 T45 T48 T34 T50 T33 T53 T57 T59 T61 T62 T65 T68 T69 T71 T74
+T90	Mention 307 311	BHMH
+*	Coreference T49 T37 T70
+*	Coreference T51 T47 T54 T55 T60 T66
+#4	AnnotatorNotes T66	Who is the 1Cpl? Coreference with 3Mpl in v.9? 
+*	Coreference T73 T42
+*	Coreference T78 T76
+*	Coreference T77 T6 T80
+*	Coreference T81 T79
+*	Coreference T85 T82 T86 T83 T84

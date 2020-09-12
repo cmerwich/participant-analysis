@@ -1,0 +1,57 @@
+T1	Mention 13 23	CJR HM<LWT
+T2	Mention 25 28	DWD
+T3	Mention 34 38	JHWH
+T4	Mention 40 43	HJH
+T5	Mention 45 47	NW
+T6	Mention 48 52	J>MR
+T7	Mention 56 61	JFR>L
+T8	Mention 72 76	JHWH
+T9	Mention 78 81	HJH
+T10	Mention 83 85	NW
+T12	Mention 94 96	NW
+T13	Mention 97 100	>DM
+T14	Mention 115 119	BL<W
+T15	Mention 119 121	NW
+T17	Mention 128 130	>P
+T18	Mention 130 131	M
+T19	Mention 133 135	NW
+T20	Mention 146 149	MJM
+T21	Mention 150 154	CVPW
+T22	Mention 154 156	NW
+T23	Mention 157 161	NXLH
+T24	Mention 162 165	<BR
+T25	Mention 169 172	NPC
+T26	Mention 172 174	NW
+T27	Mention 184 187	<BR
+T28	Mention 191 194	NPC
+T29	Mention 194 196	NW
+T30	Mention 198 210	MJM HZJDWNJM
+T31	Mention 216 220	BRWK
+T32	Mention 221 225	JHWH
+T33	Mention 230 233	NTN
+T34	Mention 233 235	NW
+T35	Mention 236 239	VRP
+T36	Mention 241 244	CNJ
+T37	Mention 244 246	HM
+T38	Mention 252 255	NPC
+T39	Mention 255 257	NW
+T40	Mention 259 263	YPWR
+T41	Mention 264 269	NMLVH
+T42	Mention 271 280	PX JWQCJM
+T43	Mention 282 284	PX
+T44	Mention 285 289	NCBR
+T45	Mention 291 296	>NXNW
+T46	Mention 297 303	NMLVNW
+T47	Mention 309 312	<ZR
+T48	Mention 312 314	NW
+T49	Mention 316 323	CM JHWH
+T50	Mention 324 337	<FH CMJM W>RY
+*	Coreference T7 T6 T12 T10 T5 T15 T19 T22 T26 T29 T34 T39 T45 T46 T48
+*	Coreference T13 T14 T18 T37
+*	Coreference T21 T20
+*	Coreference T23 T24
+*	Coreference T30 T27
+*	Coreference T25 T28 T38 T41
+*	Coreference T44 T43
+#1	AnnotatorNotes T49	Nested mention: (name of (YHWH)). 
+*	Coreference T50 T49 T32 T31 T4 T3 T9 T8 T33

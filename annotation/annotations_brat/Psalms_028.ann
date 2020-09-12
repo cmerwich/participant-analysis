@@ -1,0 +1,107 @@
+T1	Mention 14 17	DWD
+T2	Mention 21 22	K
+T3	Mention 23 27	JHWH
+T4	Mention 30 34	>QR>
+T5	Mention 50 52	NJ
+T7	Mention 369 373	JHWH
+T8	Mention 434 438	JHWH
+T9	Mention 341 345	JHWH
+T10	Mention 92 95	CM<
+T11	Mention 38 39	J
+T12	Mention 35 38	YWR
+T13	Mention 43 47	TXRC
+T14	Mention 56 60	TXCH
+T15	Mention 63 65	NJ
+T16	Mention 67 73	NMCLTJ
+T17	Mention 77 82	JWRDJ
+T18	Mention 83 86	BWR
+T19	Mention 105 106	J
+T20	Mention 96 105	QWL TXNWN
+T21	Mention 108 112	CW<J
+T23	Mention 116 117	K
+T24	Mention 119 123	NF>J
+T26	Mention 126 127	J
+T27	Mention 124 126	JD
+T28	Mention 139 140	K
+T29	Mention 131 139	DBJR QDC
+T30	Mention 153 155	NJ
+T31	Mention 149 153	TMCK
+T32	Mention 159 164	RC<JM
+T33	Mention 169 177	P<LJ >WN
+T34	Mention 178 182	DBRJ
+T35	Mention 183 187	CLWM
+T36	Mention 194 196	HM
+T37	Mention 191 194	R<J
+T38	Mention 198 201	R<H
+T39	Mention 206 207	M
+T40	Mention 203 206	LBB
+T41	Mention 213 215	TN
+T42	Mention 217 219	HM
+T43	Mention 221 224	P<L
+T44	Mention 224 225	M
+T45	Mention 228 236	R< M<LLJ
+T46	Mention 236 238	HM
+T47	Mention 240 248	M<FH JDJ
+T48	Mention 248 250	HM
+T49	Mention 251 253	TN
+T50	Mention 255 257	HM
+T51	Mention 258 261	HCB
+T52	Mention 266 267	M
+T53	Mention 262 266	GMWL
+T54	Mention 269 271	HM
+T55	Mention 283 288	JBJNW
+T6	Mention 292 301	P<LT JHWH
+T56	Mention 306 314	M<FH JDJ
+T57	Mention 314 315	W
+T58	Mention 320 321	M
+T59	Mention 316 320	JHRS
+T60	Mention 329 330	M
+T61	Mention 326 329	JBN
+T62	Mention 336 340	BRWK
+T63	Mention 349 352	CM<
+T64	Mention 362 363	J
+T65	Mention 353 362	QWL TXNWN
+T66	Mention 378 379	J
+T67	Mention 376 378	<Z
+T68	Mention 384 385	J
+T69	Mention 381 384	MGN
+T70	Mention 387 388	W
+T71	Mention 389 392	BVX
+T72	Mention 395 396	J
+T73	Mention 393 395	LB
+T74	Mention 398 404	N<ZRTJ
+T75	Mention 406 410	J<LZ
+T76	Mention 413 414	J
+T77	Mention 411 413	LB
+T78	Mention 420 421	J
+T79	Mention 417 420	CJR
+T80	Mention 427 428	W
+T81	Mention 422 427	>HWDN
+T82	Mention 439 441	<Z
+T83	Mention 443 445	MW
+T84	Mention 447 463	M<WZ JCW<WT MCJX
+T85	Mention 463 464	W
+T86	Mention 465 468	HW>
+T87	Mention 474 480	HWCJ<H
+T88	Mention 488 489	K
+T89	Mention 486 488	<M
+T90	Mention 491 494	BRK
+T91	Mention 502 503	K
+T92	Mention 498 502	NXLT
+T93	Mention 505 507	R<
+T94	Mention 513 514	M
+T95	Mention 510 513	NF>
+T96	Mention 519 523	<WLM
+*	Coreference T36 T34 T39 T42 T44 T46 T48 T33 T32 T50 T52 T54 T55 T58 T60
+#1	AnnotatorNotes T6	Nested mention: (deeds of (YHWH)). 
+*	Coreference T56 T6
+*	Coreference T9 T62 T63 T7 T3 T2 T12 T13 T14 T10 T23 T28 T31 T41 T49 T51 T57 T59 T61 T67 T69 T70 T80 T8 T85 T86 T87 T88 T90 T91 T93 T95
+*	Coreference T65 T20
+*	Coreference T68 T66 T11 T4 T5 T15 T16 T17 T19 T21 T24 T26 T30 T64 T72 T74 T76 T78 T81
+*	Coreference T73 T71
+*	Coreference T77 T75
+#2	AnnotatorNotes T83	Unclear: who is 3Mpl? Connected to "your people" in v.9? 
+T22	Mention 507 508	M
+*	Coreference T22 T89 T94 T83
+#3	AnnotatorNotes T21	Infc with PreS.
+#4	AnnotatorNotes T24	Infc with PreS.

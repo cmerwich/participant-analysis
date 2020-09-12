@@ -1,0 +1,111 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 23 27	HLLW
+T4	Mention 31 35	JHWH
+T5	Mention 40 44	CMJM
+T6	Mention 45 49	HLLW
+T7	Mention 49 51	HW
+T8	Mention 53 59	MRWMJM
+T9	Mention 65 69	HLLW
+T10	Mention 69 71	HW
+T11	Mention 72 80	KL&ML>KJ
+T12	Mention 80 81	W
+T13	Mention 82 86	HLLW
+T14	Mention 86 88	HW
+T15	Mention 89 95	KL&YB>
+T16	Mention 95 96	W
+T17	Mention 100 104	HLLW
+T18	Mention 104 106	HW
+T19	Mention 107 110	CMC
+T20	Mention 112 115	JRX
+T21	Mention 116 120	HLLW
+T22	Mention 120 122	HW
+T23	Mention 123 135	KL&KWKBJ >WR
+T24	Mention 141 145	HLLW
+T25	Mention 145 147	HW
+T26	Mention 148 157	CMJ HCMJM
+T27	Mention 160 163	MJM
+T28	Mention 175 179	CMJM
+T29	Mention 185 190	JHLLW
+T30	Mention 194 201	CM JHWH
+T31	Mention 205 208	HW>
+T32	Mention 209 212	YWH
+T33	Mention 214 219	NBR>W
+T34	Mention 226 231	J<MJD
+T35	Mention 231 232	M
+T36	Mention 234 236	<D
+T37	Mention 238 242	<WLM
+T38	Mention 243 245	XQ
+T39	Mention 246 249	NTN
+T40	Mention 254 259	J<BWR
+T41	Mention 265 269	HLLW
+T42	Mention 273 277	JHWH
+T43	Mention 282 285	>RY
+T44	Mention 286 292	TNJNJM
+T45	Mention 294 302	KL&THMWT
+T46	Mention 308 310	>C
+T47	Mention 312 315	BRD
+T48	Mention 316 319	CLG
+T49	Mention 321 326	QJVWR
+T50	Mention 327 335	RWX S<RH
+T51	Mention 336 339	<FH
+T52	Mention 340 343	DBR
+T53	Mention 343 344	W
+T54	Mention 351 355	HRJM
+T55	Mention 357 365	KL&GB<WT
+T56	Mention 366 372	<Y PRJ
+T57	Mention 374 382	KL&>RZJM
+T58	Mention 390 393	XJH
+T59	Mention 395 402	KL&BHMH
+T60	Mention 403 406	RMF
+T61	Mention 408 416	YPWR KNP
+T62	Mention 423 431	MLKJ&>RY
+T63	Mention 433 441	KL&L>MJM
+T64	Mention 442 446	FRJM
+T65	Mention 448 459	KL&CPVJ >RY
+T66	Mention 466 472	BXWRJM
+T67	Mention 477 483	BTWLWT
+T68	Mention 484 489	ZQNJM
+T69	Mention 493 498	N<RJM
+T70	Mention 505 510	JHLLW
+T71	Mention 516 523	CM JHWH
+T72	Mention 527 531	NFGB
+T73	Mention 532 534	CM
+T74	Mention 534 535	W
+T75	Mention 537 539	BD
+T76	Mention 539 540	W
+T77	Mention 541 544	HWD
+T78	Mention 544 545	W
+T79	Mention 549 552	>RY
+T80	Mention 554 558	CMJM
+T81	Mention 566 569	JRM
+T82	Mention 570 573	QRN
+T83	Mention 577 579	<M
+T84	Mention 579 580	W
+T85	Mention 581 585	THLH
+T86	Mention 587 595	KL&XSJDJ
+T87	Mention 595 596	W
+T88	Mention 598 607	BNJ JFR>L
+T89	Mention 608 614	<M&QRB
+T90	Mention 614 615	W
+#1	AnnotatorNotes T89	In apposition with "people of Israel".
+T91	Mention 616 620	HLLW
+T92	Mention 621 623	JH
+*	Coreference T3 T1 T6 T91
+*	Coreference T11 T9
+*	Coreference T13 T15
+*	Coreference T21 T23
+*	Coreference T19 T17 T20
+*	Coreference T26 T24 T27 T28
+*	Coreference T33 T29 T35
+#2	AnnotatorNotes T30	Nested mention: (name of (YHWH)). 
+*	Coreference T31 T30 T2 T4 T7 T10 T12 T14 T16 T18 T22 T25 T32 T34 T39 T42 T53 T71 T74 T76 T78 T81 T84 T87 T90 T92
+*	Coreference T38 T40
+#3	AnnotatorNotes T29	Inclusive or non-inclusive 3Mpl? 
+*	Coreference T44 T41 T45
+*	Coreference T51 T50
+#4	AnnotatorNotes T70	Inclusive or non-inclusive 3Mpl?
+*	Coreference T72 T73
+*	Coreference T43 T79
+*	Coreference T80 T5
+*	Coreference T83 T86 T88

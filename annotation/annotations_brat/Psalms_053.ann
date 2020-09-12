@@ -1,0 +1,72 @@
+T2	Mention 22 26	MXLT
+T3	Mention 27 32	MFKJL
+T4	Mention 34 37	DWD
+T5	Mention 43 46	>MR
+T6	Mention 47 50	NBL
+T7	Mention 52 54	LB
+T8	Mention 54 55	W
+T9	Mention 60 65	>LHJM
+T10	Mention 66 72	HCXJTW
+T11	Mention 74 80	HT<JBW
+T12	Mention 81 84	<WL
+T13	Mention 89 96	<FH&VWB
+T14	Mention 102 107	>LHJM
+T15	Mention 109 113	CMJM
+T16	Mention 114 119	HCQJP
+T17	Mention 123 130	BNJ >DM
+T19	Mention 138 140	JC
+T20	Mention 141 146	MFKJL
+T21	Mention 147 150	DRC
+T22	Mention 154 159	>LHJM
+T23	Mention 167 168	W
+T24	Mention 165 167	KL
+T25	Mention 169 171	SG
+T27	Mention 177 182	N>LXW
+T28	Mention 187 194	<FH&VWB
+T29	Mention 202 205	>XD
+T30	Mention 215 219	JD<W
+T31	Mention 220 228	P<LJ >WN
+T34	Mention 238 242	>KLW
+T35	Mention 243 246	LXM
+T36	Mention 247 252	>LHJM
+T37	Mention 256 260	QR>W
+T32	Mention 229 236	>KLJ <M
+T38	Mention 236 237	J
+T39	Mention 271 275	PXDW
+T40	Mention 276 279	PXD
+T41	Mention 283 286	HJH
+T42	Mention 287 290	PXD
+T43	Mention 294 299	>LHJM
+T44	Mention 300 303	PZR
+T45	Mention 312 313	K
+T47	Mention 304 312	<YMWT XN
+T48	Mention 314 319	HBCTH
+T49	Mention 323 328	>LHJM
+T50	Mention 332 333	M
+T51	Mention 329 332	M>S
+T52	Mention 342 345	JTN
+T53	Mention 347 351	YJWN
+T55	Mention 352 363	JC<WT JFR>L
+T57	Mention 369 374	>LHJM
+T58	Mention 375 382	CBWT <M
+T59	Mention 382 383	W
+T60	Mention 384 387	JGL
+T61	Mention 388 392	J<QB
+T62	Mention 393 397	JFMX
+T63	Mention 398 403	JFR>L
+T1	Mention 14 18	MNYX
+*	Coreference T6 T5 T8
+#1	AnnotatorNotes T10	3Cpl refers to "Gods"?
+#2	AnnotatorNotes T11	3Cpl refers to "Gods"?
+*	Coreference T21 T20
+*	Coreference T11 T10
+*	Coreference T25 T23 T24 T27 T30 T31
+*	Coreference T28 T13
+*	Coreference T34 T32 T37 T39 T50
+*	Coreference T42 T40 T41
+#3	AnnotatorNotes T45	Who is 2Msg?
+*	Coreference T48 T45
+*	Coreference T55 T52
+#4	AnnotatorNotes T55	Nested mention: (salvation of (Israel)). 
+*	Coreference T57 T16 T22 T14 T9 T38 T36 T43 T44 T49 T51 T59
+*	Coreference T63 T62 T61 T60

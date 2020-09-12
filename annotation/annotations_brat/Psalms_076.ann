@@ -1,0 +1,87 @@
+T1	Mention 14 18	MNYX
+T2	Mention 20 25	NGJNT
+T3	Mention 26 31	MZMWR
+T4	Mention 33 36	>SP
+T5	Mention 37 40	CJR
+T6	Mention 46 50	NWD<
+T7	Mention 52 57	JHWDH
+T8	Mention 58 63	>LHJM
+T9	Mention 65 70	JFR>L
+T10	Mention 78 79	W
+T11	Mention 76 78	CM
+T12	Mention 86 89	JHJ
+T13	Mention 91 94	CLM
+T14	Mention 97 98	W
+T15	Mention 105 106	W
+T16	Mention 100 105	M<WNT
+T17	Mention 108 112	YJWN
+T18	Mention 122 125	CBR
+T19	Mention 126 134	RCPJ&QCT
+T20	Mention 135 138	MGN
+T21	Mention 140 150	XRB WMLXMH
+T22	Mention 165 168	>TH
+T23	Mention 175 183	HRRJ&VRP
+T24	Mention 189 196	>CTWLLW
+T25	Mention 199 207	>BJRJ LB
+T26	Mention 208 211	NMW
+T27	Mention 215 216	M
+T28	Mention 212 215	CNT
+T29	Mention 221 225	MY>W
+T30	Mention 226 237	KL&>NCJ&XJL
+T31	Mention 241 243	HM
+T32	Mention 238 241	JDJ
+T33	Mention 254 255	K
+T34	Mention 250 254	G<RT
+T35	Mention 256 265	>LHJ J<QB
+T36	Mention 266 270	NRDM
+T37	Mention 272 275	RKB
+T38	Mention 277 280	SWS
+T39	Mention 286 289	>TH
+T40	Mention 297 300	>TH
+T41	Mention 305 309	J<MD
+T42	Mention 314 315	K
+T43	Mention 311 314	PNJ
+T44	Mention 322 323	K
+T45	Mention 320 322	>P
+T46	Mention 330 334	CMJM
+T47	Mention 335 340	HCM<T
+T48	Mention 341 344	DJN
+T49	Mention 345 348	>RY
+T50	Mention 349 353	JR>H
+T51	Mention 355 359	CQVH
+T53	Mention 377 382	>LHJM
+T54	Mention 372 376	MCPV
+T56	Mention 390 401	KL&<NWJ&>RY
+T57	Mention 415 422	XMT >DM
+T58	Mention 426 427	K
+T59	Mention 423 426	TWD
+T60	Mention 428 437	C>RJT XMT
+T61	Mention 438 442	TXGR
+T62	Mention 449 453	NDRW
+T63	Mention 455 459	CLMW
+T64	Mention 461 465	JHWH
+T65	Mention 470 472	KM
+T66	Mention 466 470	>LHJ
+#1	AnnotatorNotes T66	In apposition with "JHWH".
+T67	Mention 473 481	KL&SBJBJ
+T68	Mention 481 482	W
+T69	Mention 483 489	JWBJLW
+T70	Mention 490 492	CJ
+T71	Mention 494 498	MWR>
+T72	Mention 505 509	JBYR
+T73	Mention 510 520	RWX NGJDJM
+T74	Mention 521 525	NWR>
+T75	Mention 527 535	MLKJ&>RY
+*	Coreference T9 T7
+*	Coreference T13 T17
+T76	Mention 95 97	SK
+*	Coreference T76 T12 T16
+*	Coreference T24 T25 T26 T27 T28 T29 T30 T32 T31
+*	Coreference T36 T37 T38
+*	Coreference T49 T50 T51
+*	Coreference T59 T57
+*	Coreference T62 T63 T65
+*	Coreference T68 T66 T71 T40 T39 T6 T8 T10 T11 T14 T15 T18 T22 T33 T34 T35 T42 T43 T45 T44 T47 T53 T58 T61 T64 T72
+*	Coreference T67 T69
+*	Coreference T73 T74 T75
+#2	AnnotatorNotes T35	Nested mention: (God(s) of (Jacob)). 

@@ -1,0 +1,100 @@
+T1	Mention 14 18	MNYX
+T2	Mention 20 27	BNJ&QRX
+T7	Mention 281 285	GWJM
+T9	Mention 46 51	>LHJM
+T3	Mention 31 36	<LMWT
+T10	Mention 37 40	CJR
+T11	Mention 53 55	NW
+T12	Mention 56 60	MXSH
+T13	Mention 65 69	<ZRH
+T14	Mention 71 75	YRWT
+T15	Mention 76 80	NMY>
+T16	Mention 99 103	NJR>
+T18	Mention 110 113	>RY
+T20	Mention 120 124	HRJM
+T21	Mention 126 133	LB JMJM
+T22	Mention 139 143	JHMW
+T23	Mention 144 149	JXMRW
+T24	Mention 154 155	W
+T25	Mention 150 154	MJMJ
+T26	Mention 156 161	JR<CW
+T27	Mention 162 166	HRJM
+T28	Mention 172 173	W
+T29	Mention 168 172	G>WT
+T30	Mention 183 186	NHR
+T31	Mention 191 192	W
+T32	Mention 187 191	PLGJ
+T33	Mention 193 198	JFMXW
+T8	Mention 199 208	<JR&>LHJM
+T34	Mention 209 224	QDC MCKNJ <LJWN
+T35	Mention 230 235	>LHJM
+T36	Mention 240 241	H
+T37	Mention 237 240	QRB
+T38	Mention 245 249	TMWV
+T39	Mention 254 255	H
+T40	Mention 250 254	J<ZR
+T41	Mention 256 261	>LHJM
+T43	Mention 268 271	BQR
+T44	Mention 277 280	HMW
+T45	Mention 286 289	MVW
+T46	Mention 290 296	MMLKWT
+T47	Mention 297 300	NTN
+T48	Mention 302 305	QWL
+T49	Mention 305 306	W
+T50	Mention 307 311	TMWG
+T51	Mention 312 315	>RY
+T5	Mention 321 331	JHWH YB>WT
+T52	Mention 334 336	NW
+T53	Mention 337 341	MFGB
+T54	Mention 343 345	NW
+T55	Mention 346 355	>LHJ J<QB
+T56	Mention 365 368	LKW
+T57	Mention 369 372	XZW
+T6	Mention 373 384	MP<LWT JHWH
+T58	Mention 389 391	FM
+T59	Mention 392 396	CMWT
+T60	Mention 398 401	>RY
+T61	Mention 408 413	MCBJT
+T62	Mention 414 420	MLXMWT
+T63	Mention 424 432	QYH H>RY
+T64	Mention 433 436	QCT
+T65	Mention 437 441	JCBR
+T66	Mention 443 446	QYY
+T67	Mention 447 451	XNJT
+T68	Mention 452 457	<GLWT
+T69	Mention 458 462	JFRP
+T70	Mention 464 466	>C
+T71	Mention 473 477	HRPW
+T72	Mention 479 482	D<W
+T73	Mention 486 490	>NKJ
+T74	Mention 491 496	>LHJM
+T75	Mention 497 501	>RWM
+T76	Mention 503 507	GWJM
+T77	Mention 508 512	>RWM
+T78	Mention 514 517	>RY
+T4	Mention 524 534	JHWH YB>WT
+T79	Mention 537 539	NW
+T80	Mention 540 544	MFGB
+T81	Mention 546 548	NW
+T82	Mention 549 558	>LHJ J<QB
+#1	AnnotatorNotes T2	Nested mention: (sons of (Korah)). 
+T83	Mention 62 64	<Z
+*	Coreference T16 T11 T52 T54 T79 T81
+*	Coreference T23 T22 T25
+*	Coreference T24 T21
+*	Coreference T27 T26 T28
+*	Coreference T31 T30
+*	Coreference T33 T32
+#2	AnnotatorNotes T8	Nested mention: (city of (God)). 
+*	Coreference T34 T8 T36 T38 T39
+#3	AnnotatorNotes T36	3Fsg refers to "the city of God". 
+#4	AnnotatorNotes T34	God(s) == "the most High" /"city of God" == "holy dwelling place of the most High", therefore coreference. 
+*	Coreference T46 T45
+*	Coreference T51 T50 T60 T18 T78
+#5	AnnotatorNotes T5	Nested mention: (YHWH of (hosts)). 
+*	Coreference T57 T56 T71 T72
+#6	AnnotatorNotes T6	Nested mention: (works of (YHWH)). 
+*	Coreference T58 T6 T15 T9 T35 T40 T41 T47 T49 T5 T55 T61 T65 T66 T69 T73 T74 T75 T77 T4 T82
+*	Coreference T7 T44
+#7	AnnotatorNotes T55	Nested mention: (God of (Jacob)). 
+#8	AnnotatorNotes T82	Nested mention: (God of (Jacob)). 

@@ -1,0 +1,80 @@
+T1	Mention 13 18	MZMWR
+T2	Mention 19 23	CJRW
+T3	Mention 25 29	JHWH
+T4	Mention 32 39	CJR XDC
+T5	Mention 43 49	NPL>WT
+T6	Mention 50 53	<FH
+T7	Mention 54 60	HWCJ<H
+T8	Mention 62 63	W
+T9	Mention 64 68	JMJN
+T10	Mention 68 69	W
+T11	Mention 71 79	ZRW< QDC
+T12	Mention 79 80	W
+T13	Mention 86 91	HWDJ<
+T14	Mention 92 96	JHWH
+T15	Mention 97 102	JCW<T
+T16	Mention 102 103	W
+T17	Mention 105 115	<JNJ HGWJM
+T18	Mention 116 119	GLH
+T19	Mention 120 124	YDQT
+T20	Mention 124 125	W
+T21	Mention 131 134	ZKR
+T22	Mention 135 138	XSD
+T23	Mention 138 139	W
+T24	Mention 143 148	>MWNT
+T25	Mention 148 149	W
+T26	Mention 151 160	BJT JFR>L
+T27	Mention 161 164	R>W
+T28	Mention 165 176	KL&>PSJ&>RY
+T29	Mention 180 190	JCW<T >LHJ
+T30	Mention 190 192	NW
+T31	Mention 198 203	HRJ<W
+T32	Mention 205 209	JHWH
+T33	Mention 210 217	KL&H>RY
+T34	Mention 218 222	PYXW
+T35	Mention 224 228	RNNW
+T36	Mention 230 234	ZMRW
+T37	Mention 240 244	ZMRW
+T38	Mention 246 250	JHWH
+T39	Mention 252 256	KNWR
+T40	Mention 258 262	KNWR
+T41	Mention 264 272	QWL ZMRH
+T42	Mention 279 285	XYYRWT
+T43	Mention 287 295	QWL CWPR
+T44	Mention 296 301	HRJ<W
+T45	Mention 303 313	PNJ05 HMLK
+T46	Mention 314 318	JHWH
+#1	AnnotatorNotes T46	In apposition with "face of the King".
+T47	Mention 324 328	JR<M
+T48	Mention 329 332	HJM
+T49	Mention 334 337	ML>
+T50	Mention 339 342	TBL
+T51	Mention 344 348	JCBJ
+T52	Mention 350 351	H
+T53	Mention 357 362	NHRWT
+T54	Mention 363 368	JMX>W
+T55	Mention 369 371	KP
+T56	Mention 376 380	HRJM
+T57	Mention 381 386	JRNNW
+T58	Mention 393 401	PNJ&JHWH
+T59	Mention 405 407	B>
+T60	Mention 409 412	CPV
+T61	Mention 414 417	>RY
+T62	Mention 418 422	JCPV
+T63	Mention 423 426	TBL
+T64	Mention 433 437	<MJM
+*	Coreference T7 T9 T11
+#2	AnnotatorNotes T26	Nested mention: (house of (Israel)). 
+*	Coreference T28 T27
+*	Coreference T30 T26
+#3	AnnotatorNotes T29	Nested mention: (salvation of (our (God))). 
+*	Coreference T2 T31 T33 T34 T35 T36 T37 T44
+*	Coreference T40 T39
+*	Coreference T46 T45 T14 T13 T6 T3 T8 T10 T12 T16 T20 T18 T21 T23 T25 T32 T38 T58 T59 T60 T62
+*	Coreference T48 T47 T49 T65
+T65	Mention 337 338	W
+*	Coreference T52 T50 T63
+*	Coreference T54 T53
+*	Coreference T57 T56
+#4	AnnotatorNotes T58	Nested mention: (face of (YHWH)). 
+#5	AnnotatorNotes T60	Lexical match with "to judge". 

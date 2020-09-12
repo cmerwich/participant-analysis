@@ -1,0 +1,135 @@
+T1	Mention 13 18	MZMWR
+T2	Mention 20 23	>SP
+T3	Mention 24 29	>LHJM
+T4	Mention 30 33	B>W
+T5	Mention 34 38	GWJM
+T6	Mention 46 47	K
+T7	Mention 42 46	NXLT
+T8	Mention 48 52	VM>W
+T9	Mention 64 65	K
+T10	Mention 56 64	HJKL QDC
+T11	Mention 66 69	FMW
+T12	Mention 73 79	JRWCLM
+T14	Mention 91 95	NTNW
+T15	Mention 99 108	NBLT <BDJ
+T16	Mention 108 109	K
+T17	Mention 110 114	M>KL
+T18	Mention 116 125	<WP HCMJM
+T19	Mention 127 135	FR XSJDJ
+T20	Mention 135 136	K
+T21	Mention 138 146	XJTW&>RY
+T13	Mention 81 85	<JJM
+T22	Mention 152 156	CPKW
+T23	Mention 159 160	M
+T24	Mention 157 159	DM
+T25	Mention 164 167	MJM
+T26	Mention 168 181	SBJBWT JRWCLM
+T27	Mention 187 191	QWBR
+T28	Mention 197 202	HJJNW
+T29	Mention 203 207	XRPH
+T30	Mention 209 213	CKNJ
+T31	Mention 213 215	NW
+T32	Mention 216 219	L<G
+T33	Mention 221 224	QLS
+T34	Mention 226 233	SBJBWTJ
+T35	Mention 233 235	NW
+T36	Mention 247 251	JHWH
+T37	Mention 252 256	T>NP
+T38	Mention 258 260	NY
+T39	Mention 262 266	TB<R
+T40	Mention 271 273	>C
+T41	Mention 278 279	K
+T42	Mention 274 278	QN>T
+T43	Mention 285 288	CPK
+T44	Mention 289 292	XMT
+T45	Mention 292 293	K
+T46	Mention 298 302	GWJM
+T47	Mention 310 314	JD<W
+T48	Mention 314 315	K
+T49	Mention 320 326	MMLKWT
+T50	Mention 332 334	CM
+T51	Mention 334 335	K
+T52	Mention 339 343	QR>W
+T53	Mention 352 355	>KL
+T54	Mention 359 363	J<QB
+T57	Mention 373 377	HCMW
+T55	Mention 368 370	NW
+T56	Mention 370 372	HW
+T58	Mention 386 390	TZKR
+T59	Mention 392 394	NW
+T60	Mention 395 406	<WNT R>CNJM
+T61	Mention 407 410	MHR
+T62	Mention 416 418	NW
+T63	Mention 411 416	JQDMW
+T64	Mention 423 424	K
+T65	Mention 419 423	RXMJ
+T66	Mention 428 433	DLWNW
+T67	Mention 443 446	<ZR
+T68	Mention 451 459	>LHJ JC<
+T69	Mention 459 461	NW
+T70	Mention 465 476	DBR KBWD&CM
+T71	Mention 476 477	K
+T72	Mention 483 485	NW
+T73	Mention 479 483	HYJL
+T74	Mention 487 490	KPR
+T75	Mention 494 499	XV>TJ
+T76	Mention 499 501	NW
+T77	Mention 507 509	CM
+T78	Mention 509 510	K
+T79	Mention 523 528	J>MRW
+T80	Mention 530 534	GWJM
+T81	Mention 543 545	HM
+T82	Mention 539 543	>LHJ
+T83	Mention 546 550	JWD<
+T84	Mention 552 556	GJJM
+T85	Mention 558 562	<JNJ
+T86	Mention 562 564	NW
+T87	Mention 565 577	NQMT DM&<BDJ
+T88	Mention 577 578	K
+T89	Mention 580 584	CPWK
+T91	Mention 591 595	TBW>
+T92	Mention 600 601	K
+T93	Mention 597 600	PNJ
+T94	Mention 602 611	>NQT >SJR
+T95	Mention 613 621	GDL ZRW<
+T96	Mention 621 622	K
+T97	Mention 623 627	HWTR
+T98	Mention 628 637	BNJ TMWTH
+T99	Mention 645 648	HCB
+T100	Mention 650 654	CKNJ
+T101	Mention 654 656	NW
+T102	Mention 667 670	XJQ
+T103	Mention 676 677	M
+T104	Mention 672 676	XRPT
+T105	Mention 686 687	K
+T106	Mention 682 686	XRPW
+T107	Mention 688 692	>DNJ
+T108	Mention 700 705	>NXNW
+T109	Mention 708 709	K
+T110	Mention 706 708	<M
+T111	Mention 713 722	Y>N MR<JT
+T112	Mention 722 723	K
+T113	Mention 724 728	NWDH
+T114	Mention 730 731	K
+T115	Mention 733 737	<WLM
+T116	Mention 739 741	DR
+T117	Mention 743 745	DR
+T118	Mention 746 750	NSPR
+T119	Mention 755 756	K
+T120	Mention 751 755	THLT
+*	Coreference T6 T3 T9 T16 T20 T36 T37 T41 T43 T45 T48 T51 T58 T61 T64 T67 T68 T71 T73 T74 T78 T82 T88 T92 T96 T97 T99 T105 T107 T109 T112 T114 T119
+*	Coreference T23 T19 T28 T31 T35 T54 T56 T59 T62 T66 T121 T69 T72 T76 T81 T86 T101 T108 T110 T111 T113 T118
+#1	AnnotatorNotes T26	Nested mention: (surrounding of (Jerusalem)). 
+*	Coreference T42 T39
+#2	AnnotatorNotes T57	Refers to both "the nations" and "the kingdoms".
+*	Coreference T65 T63
+T121	Mention 446 448	NW
+*	Coreference T77 T50
+*	Coreference T80 T79 T52 T49 T57 T5 T4 T8 T11 T14 T22 T46 T47 T84
+*	Coreference T87 T83 T89
+*	Coreference T94 T91
+*	Coreference T100 T30 T90 T103 T106
+T90	Mention 670 671	M
+*	Coreference T104 T29
+#3	AnnotatorNotes T111	In apposition with "we".
+#4	AnnotatorNotes T110	In apposition with "we".

@@ -1,0 +1,27 @@
+T1	Mention 13 23	CJR HM<LWT
+T2	Mention 25 28	DWD
+T4	Mention 53 57	>XJM
+T5	Mention 71 74	CMN
+T6	Mention 76 79	VWB
+T7	Mention 86 89	R>C
+T8	Mention 90 93	JRD
+T9	Mention 98 101	ZQN
+T10	Mention 102 110	ZQN&>HRN
+#1	AnnotatorNotes T10	In apposition with "the beard".
+T11	Mention 112 115	JRD
+T12	Mention 119 127	PJ MDWTJ
+T13	Mention 127 128	W
+T14	Mention 135 143	VL&XRMWN
+T15	Mention 145 148	JRD
+T16	Mention 152 161	HRRJ YJWN
+T17	Mention 170 173	YWH
+T18	Mention 174 178	JHWH
+T19	Mention 183 187	BRKH
+T20	Mention 188 192	XJJM
+T21	Mention 197 201	<WLM
+*	Coreference T10 T9 T13
+*	Coreference T6 T8 T5 T11
+#2	AnnotatorNotes T14	Nested mention: (dew of (Hermon)). 
+*	Coreference T15 T14
+#3	AnnotatorNotes T16	Nested mention: (mountains of (Zion)). 
+*	Coreference T17 T18

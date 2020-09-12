@@ -20,8 +20,9 @@ This folder contains a notebook [intro](https://github.com/cmerwich/participant-
 In `annotation` a method is set up to annotate Biblical Hebrew for coreference. The folder contains: 
 1. A notebook that [produces annotation files](https://github.com/cmerwich/participant-analysis/blob/master/annotation/1.file_preparation_for_annotation.ipynb) that can be imported in annotation tool *brat*.
 2. An [annotation model](https://github.com/cmerwich/participant-analysis/blob/master/annotation/annotation_model.ipynb) for Biblical Hebrew that defines which reference information and coreference relation is considered for annotation.
-3. An [annotation aid](https://github.com/cmerwich/participant-analysis/blob/master/annotation/2.annotation_aid.ipynb) that can be used to annotate coreference data. The annotation aid visualises potential mentions and features and syntactic relations that are useful and informative for coreference annotation. 
-4. A notebook '[counts](https://github.com/cmerwich/participant-analysis/blob/master/annotation/3.counts.ipynb)' that does some data exploration. 
+3. An [annotation aid](https://github.com/cmerwich/participant-analysis/blob/master/annotation/2.annotation_aid.ipynb) that can be used to annotate coreference data. The annotation aid visualises potential mentions and features and syntactic relations that are useful and informative for coreference annotation.
+4. A folder [annotations_brat)](https://github.com/cmerwich/participant-analysis/blob/master/annotation/annotations_brat) containing the coreference annotations of the Psalms. 
+5. A notebook '[counts](https://github.com/cmerwich/participant-analysis/blob/master/annotation/3.counts.ipynb)' that does some data exploration. 
 
 ### 3. Text-Fabric Conversion
 With the code in `tf_conversion` the coreference annotations can be converted to data that can be processed with Text-Fabric. This means that the annotations are enriched with other features that are not included in the annotations. 
@@ -50,10 +51,10 @@ MiMi produces descriptive statistics in tables and graphs for both stages. It is
 MiMi produces descriptive statistics in tables and a graph for the mention detection and coreference resolution stages.
 
 ### 7. Inter-annotator Agreement Analysis of the Annotations and MiMi
-in the [iaa-ann-vs-mimi](https://github.com/cmerwich/participant-analysis/tree/master/iaa-ann-vs-mimi) folder MiMi's results are crossvalidated with the authors' coreference annotations (available through [analyseParticipants](https://github.com/cmerwich/participant-analysis/blob/master/tf_conversion/analyseParticipants.ipynb), since they are based on a similar ontology, namely the [annotation model](https://github.com/cmerwich/participant-analysis/blob/master/annotation/annotation_model.ipynb)). This comparison gives an impression of both the quality of the annotations and the quality of the results that MiMi has produced. The comparison is done in [validation](https://github.com/cmerwich/participant-analysis/blob/master/iaa-ann-vs-mimi/validation.ipynb)
+In the [iaa-ann-vs-mimi](https://github.com/cmerwich/participant-analysis/tree/master/iaa-ann-vs-mimi) folder MiMi's results are crossvalidated with the authors' coreference annotations (available through [analyseParticipants](https://github.com/cmerwich/participant-analysis/blob/master/tf_conversion/analyseParticipants.ipynb), since they are based on a similar ontology, namely the [annotation model](https://github.com/cmerwich/participant-analysis/blob/master/annotation/annotation_model.ipynb)). This comparison gives an impression of both the quality of the annotations and the quality of the results that MiMi has produced. The comparison is done in [validation](https://github.com/cmerwich/participant-analysis/blob/master/iaa-ann-vs-mimi/validation.ipynb)
 
 ### 8. Confrontation 
-[Add Description]
+The [confrontation](https://github.com/cmerwich/participant-analysis/blob/master/confrontation/confrontation-ps75.ipynb) notebook aims to analyse Psalm 75 - as test case - with the coreference data that has been produced by the coreference annotation method and coreference resolution algorithm MiMi. Search functions are used to analyse the entities that have been detected in Psalm 75. The search results are brought into discussion with exegetical commentaries on Psalm 75. I refer to my dissertation for this in-depth discussion.
 
 ### Issues or fixes 
 TO DO Shorterm

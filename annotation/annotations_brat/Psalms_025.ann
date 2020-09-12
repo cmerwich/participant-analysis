@@ -1,0 +1,184 @@
+T1	Mention 14 17	DWD
+T2	Mention 21 22	K
+T3	Mention 23 27	JHWH
+T4	Mention 31 32	J
+T5	Mention 28 31	NPC
+T6	Mention 33 36	>F>
+T7	Mention 45 46	J
+T8	Mention 42 45	>LH
+T9	Mention 48 49	K
+T10	Mention 50 55	BVXTJ
+T11	Mention 59 64	>BWCH
+T12	Mention 68 73	J<LYW
+T13	Mention 74 77	>JB
+T14	Mention 77 78	J
+T15	Mention 80 81	J
+T16	Mention 90 96	KL&QWJ
+T17	Mention 96 97	K
+T18	Mention 101 105	JBCW
+T19	Mention 106 110	JBCW
+T20	Mention 112 118	BWGDJM
+T21	Mention 133 134	K
+T22	Mention 129 133	DRKJ
+T23	Mention 135 139	JHWH
+T24	Mention 145 147	NJ
+T25	Mention 140 145	HWDJ<
+T26	Mention 154 155	K
+T27	Mention 148 154	>RXWTJ
+T28	Mention 159 161	NJ
+T29	Mention 156 159	LMD
+T30	Mention 172 174	NJ
+T31	Mention 167 172	HDRJK
+T32	Mention 179 180	K
+T33	Mention 176 179	>MT
+T34	Mention 187 189	NJ
+T35	Mention 184 187	LMD
+T36	Mention 193 196	>TH
+T37	Mention 197 205	>LHJ JC<
+T38	Mention 205 206	J
+T39	Mention 210 211	K
+T40	Mention 212 217	QWJTJ
+T41	Mention 218 225	KL&HJWM
+T42	Mention 231 234	ZKR
+T43	Mention 235 239	RXMJ
+T44	Mention 239 240	K
+T45	Mention 241 245	JHWH
+T46	Mention 247 251	XSDJ
+T47	Mention 251 252	K
+T49	Mention 262 265	HMH
+T48	Mention 271 281	XV>WT N<WR
+T50	Mention 281 282	J
+T51	Mention 286 289	PC<
+T52	Mention 289 290	J
+T53	Mention 294 298	TZKR
+T54	Mention 303 304	K
+T55	Mention 300 303	XSD
+T56	Mention 305 308	ZKR
+T57	Mention 310 311	J
+T58	Mention 312 315	>TH
+T59	Mention 324 325	K
+T60	Mention 321 324	VWB
+T61	Mention 326 330	JHWH
+T62	Mention 345 349	JHWH
+T64	Mention 474 478	JHWH
+T65	Mention 518 526	JR> JHWH
+T66	Mention 635 639	JHWH
+T68	Mention 901 906	>LHJM
+T69	Mention 356 360	JWRH
+T70	Mention 361 366	XV>JM
+T71	Mention 368 371	DRK
+T72	Mention 377 381	JDRK
+T73	Mention 382 387	<NWJM
+T74	Mention 389 393	MCPV
+T75	Mention 395 399	JLMD
+T76	Mention 400 405	<NWJM
+T77	Mention 406 409	DRK
+T78	Mention 409 410	W
+T63	Mention 417 430	KL&>RXWT JHWH
+T79	Mention 431 434	XSD
+T80	Mention 436 439	>MT
+T81	Mention 441 445	NYRJ
+T82	Mention 450 451	W
+T83	Mention 446 450	BRJT
+T84	Mention 453 457	<DTJ
+T85	Mention 457 458	W
+T86	Mention 472 473	K
+T87	Mention 470 472	CM
+T88	Mention 480 484	SLXT
+T89	Mention 489 490	J
+T90	Mention 486 489	<WN
+T91	Mention 497 500	HW>
+T92	Mention 510 512	ZH
+T93	Mention 514 517	>JC
+T94	Mention 534 537	DRK
+T95	Mention 538 542	JBXR
+T96	Mention 531 532	W
+T97	Mention 527 531	JWRN
+T98	Mention 552 553	W
+T99	Mention 549 552	NPC
+T100	Mention 559 563	TLJN
+T101	Mention 568 569	W
+T102	Mention 565 568	ZR<
+T103	Mention 575 578	>RY
+T104	Mention 570 574	JJRC
+T67	Mention 585 593	SWD JHWH
+T105	Mention 599 600	W
+T106	Mention 595 599	JR>J
+T107	Mention 606 607	W
+T108	Mention 602 606	BRJT
+T109	Mention 609 614	HWDJ<
+T110	Mention 614 615	M
+T111	Mention 622 625	<JN
+T112	Mention 625 626	J
+T113	Mention 643 646	HW>
+T114	Mention 647 652	JWYJ>
+T115	Mention 654 657	RCT
+T116	Mention 661 662	J
+T117	Mention 658 661	RGL
+T118	Mention 669 672	PNH
+T119	Mention 675 676	J
+T122	Mention 696 699	>NJ
+T120	Mention 680 682	NJ
+T121	Mention 678 680	XN
+T123	Mention 706 714	YRWT LBB
+T124	Mention 714 715	J
+T125	Mention 716 722	HRXJBW
+T126	Mention 730 731	J
+T127	Mention 724 730	MYWQWT
+T128	Mention 737 739	NJ
+T129	Mention 732 737	HWYJ>
+T130	Mention 746 749	R>H
+T131	Mention 750 753	<NJ
+T132	Mention 753 754	J
+T133	Mention 759 760	J
+T134	Mention 756 759	<ML
+T135	Mention 762 764	F>
+T136	Mention 766 774	KL&XV>WT
+T137	Mention 774 775	J
+T138	Mention 782 785	R>H
+T139	Mention 786 790	>WJB
+T140	Mention 790 791	J
+T141	Mention 795 798	RBW
+T142	Mention 800 808	FN>T XMS
+T143	Mention 809 813	FN>W
+T144	Mention 813 815	NJ
+T145	Mention 822 826	CMRH
+T146	Mention 830 831	J
+T147	Mention 827 830	NPC
+T148	Mention 837 839	NJ
+T149	Mention 833 837	HYJL
+T150	Mention 843 847	>BWC
+T151	Mention 851 856	XSJTJ
+T152	Mention 858 859	K
+T155	Mention 878 880	NJ
+T156	Mention 874 878	JYRW
+T153	Mention 866 868	TM
+#1	AnnotatorNotes T153	Completeness and uprightness corefer with "they protect".
+T154	Mention 889 890	K
+T157	Mention 884 889	QWJTJ
+T158	Mention 897 900	PDH
+T159	Mention 910 915	JFR>L
+T160	Mention 917 925	KL YRWTJ
+T161	Mention 925 926	W
+*	Coreference T6 T4 T7 T10 T11 T14 T15 T24 T28 T30 T34 T38 T40 T50 T52 T57 T89 T112 T116 T119 T120 T122 T124 T126 T128 T132 T133 T137 T140 T144 T146 T148 T150 T151 T155 T157
+*	Coreference T13 T12 T139 T141 T143
+*	Coreference T18 T16
+*	Coreference T20 T19
+*	Coreference T23 T21 T3 T2 T8 T9 T17 T25 T26 T29 T31 T32 T35 T36 T37 T39 T42 T44 T45 T47 T53 T54 T56 T58 T59 T61 T62 T69 T72 T75 T78 T82 T85 T86 T64 T88 T97 T95 T67 T105 T107 T109 T66 T113 T114 T118 T121 T129 T130 T135 T138 T145 T149 T152 T154 T158 T68
+*	Coreference T49 T46 T43 T55
+*	Coreference T76 T73
+*	Coreference T71 T77 T94
+#2	AnnotatorNotes T63	This is a nested mention: (all paths of (YHWH)). 
+*	Coreference T91 T90
+*	Coreference T93 T92 T96 T98 T101 T104
+#3	AnnotatorNotes T65	Nested mention: (fearer of (YHWH)). 
+T162	Mention 555 558	VWB
+*	Coreference T100 T99
+*	Coreference T65 T106 T110
+#4	AnnotatorNotes T67	Nested mention: (confidence of (YHWH)). 
+*	Coreference T123 T125
+T163	Mention 870 873	JCR
+*	Coreference T156 T163 T153
+#5	AnnotatorNotes T163	Completeness and uprightness corefer with "they protect".
+*	Coreference T161 T159
+#6	AnnotatorNotes T109	Infc with PreO.

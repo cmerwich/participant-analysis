@@ -1,0 +1,108 @@
+T1	Mention 13 18	MZMWR
+T2	Mention 20 23	DWD
+T3	Mention 24 28	JHWH
+T4	Mention 29 34	QR>TJ
+T5	Mention 34 35	K
+T6	Mention 36 40	XWCH
+T7	Mention 42 43	J
+T8	Mention 44 50	H>ZJNH
+T9	Mention 51 54	QWL
+T11	Mention 57 61	QR>J
+T13	Mention 63 64	K
+T14	Mention 70 74	TKWN
+T15	Mention 75 79	TPLT
+T16	Mention 79 80	J
+T17	Mention 81 85	QVRT
+T18	Mention 87 90	PNJ
+T19	Mention 90 91	K
+T20	Mention 92 99	MF>T KP
+T21	Mention 99 100	J
+T22	Mention 101 109	MNXT&<RB
+T23	Mention 115 119	CJTH
+T24	Mention 120 124	JHWH
+T25	Mention 125 129	CMRH
+T26	Mention 131 132	P
+T27	Mention 132 133	J
+T28	Mention 134 138	NYRH
+T29	Mention 142 148	DL FPT
+T30	Mention 148 149	J
+T31	Mention 158 160	TV
+T32	Mention 161 163	LB
+T33	Mention 163 164	J
+T34	Mention 166 174	DBR05 R<
+T36	Mention 183 188	<LLWT
+T37	Mention 192 195	RC<
+T38	Mention 199 204	>JCJM
+T39	Mention 205 209	P<LJ
+T40	Mention 210 213	>WN
+T41	Mention 218 222	>LXM
+T42	Mention 224 229	MN<MJ
+T43	Mention 229 231	HM
+T44	Mention 237 241	JHLM
+T45	Mention 241 243	NJ
+T46	Mention 244 248	YDJQ
+T47	Mention 251 254	XSD
+T48	Mention 256 261	JWKJX
+T49	Mention 261 263	NJ
+T50	Mention 264 271	CMN R>C
+T51	Mention 275 278	JNJ
+T52	Mention 279 282	R>C
+T53	Mention 282 283	J
+T54	Mention 287 290	<WD
+T55	Mention 292 296	TPLT
+T56	Mention 296 297	J
+T57	Mention 299 304	R<WTJ
+T58	Mention 304 306	HM
+T59	Mention 312 317	NCMVW
+T60	Mention 319 326	JDJ&SL<
+T61	Mention 327 331	CPVJ
+T62	Mention 331 333	HM
+T63	Mention 335 339	CM<W
+T64	Mention 340 343	>MR
+T65	Mention 348 352	N<MW
+T66	Mention 362 365	PLX
+T67	Mention 367 370	BQ<
+T68	Mention 372 375	>RY
+T69	Mention 376 381	NPZRW
+T70	Mention 382 386	<YMJ
+T71	Mention 386 388	NW
+T72	Mention 390 397	PJ C>WL
+T73	Mention 409 410	K
+T74	Mention 413 417	JHWH
+T75	Mention 423 426	<JN
+T76	Mention 426 427	J
+T77	Mention 429 431	KH
+T78	Mention 432 437	XSJTJ
+T79	Mention 441 444	T<R
+T80	Mention 445 448	NPC
+T81	Mention 448 449	J
+T82	Mention 455 458	CMR
+T83	Mention 458 460	NJ
+T84	Mention 462 468	JDJ PX
+T85	Mention 469 473	JQCW
+T86	Mention 475 476	J
+T87	Mention 478 492	MQCWT P<LJ >WN
+T88	Mention 499 503	JPLW
+T89	Mention 505 510	MKMRJ
+T90	Mention 510 511	W
+T91	Mention 512 517	RC<JM
+T92	Mention 522 526	>NKJ
+T93	Mention 530 535	><BWR
+*	Coreference T7 T4 T10 T11 T16 T21 T27 T30 T33 T41 T45 T49 T53 T56 T12 T76 T78 T81 T83 T86 T92 T93
+T10	Mention 54 55	J
+*	Coreference T15 T14 T55
+*	Coreference T24 T23 T28 T31
+*	Coreference T43 T39 T58 T62 T63
+*	Coreference T44 T46 T48
+*	Coreference T52 T51
+*	Coreference T61 T59
+T12	Mention 343 344	J
+*	Coreference T64 T65
+*	Coreference T66 T67
+*	Coreference T70 T69
+#1	AnnotatorNotes T71	Who is 1Cpl?
+T94	Mention 418 422	>DNJ
+*	Coreference T73 T74 T94 T5 T3 T6 T8 T13 T19 T77 T79 T82
+*	Coreference T84 T85
+*	Coreference T91 T88 T90
+#2	AnnotatorNotes T11	Infc with PreS. 

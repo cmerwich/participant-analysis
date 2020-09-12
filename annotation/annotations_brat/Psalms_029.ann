@@ -1,0 +1,90 @@
+T1	Mention 20 23	DWD
+T2	Mention 24 27	HBW
+T3	Mention 29 33	JHWH
+T5	Mention 146 150	JHWH
+T9	Mention 225 229	JHWH
+T13	Mention 347 351	JHWH
+T14	Mention 428 432	JHWH
+T15	Mention 469 473	JHWH
+T16	Mention 448 452	JHWH
+T17	Mention 486 490	JHWH
+T18	Mention 493 497	JBRK
+T19	Mention 72 76	JHWH
+T20	Mention 34 42	BNJ >LJM
+T21	Mention 43 46	HBW
+T22	Mention 48 52	JHWH
+T23	Mention 53 57	KBWD
+T24	Mention 59 61	<Z
+T25	Mention 67 70	HBW
+T26	Mention 77 84	KBWD CM
+T27	Mention 84 85	W
+T28	Mention 86 92	HCTXWW
+T29	Mention 94 98	JHWH
+T30	Mention 100 108	HDRT&QDC
+T4	Mention 114 122	QWL JHWH
+T31	Mention 126 130	HMJM
+T32	Mention 131 139	>L&HKBWD
+T33	Mention 140 145	HR<JM
+T34	Mention 154 162	MJM RBJM
+T6	Mention 168 176	QWL&JHWH
+T35	Mention 178 180	KX
+T7	Mention 181 189	QWL JHWH
+T36	Mention 191 194	HDR
+T8	Mention 200 208	QWL JHWH
+T37	Mention 209 212	CBR
+T38	Mention 213 218	>RZJM
+T39	Mention 220 224	JCBR
+T40	Mention 233 244	>RZJ HLBNWN
+T41	Mention 256 257	M
+T42	Mention 251 256	JRQJD
+T43	Mention 262 265	<GL
+T44	Mention 266 271	LBNWN
+T45	Mention 273 277	FRJN
+T46	Mention 282 290	BN&R>MJM
+T10	Mention 296 304	QWL&JHWH
+T47	Mention 305 308	XYB
+T48	Mention 309 317	LHBWT >C
+T11	Mention 323 331	QWL JHWH
+T49	Mention 332 336	JXJL
+T50	Mention 337 341	MDBR
+T51	Mention 342 346	JXJL
+T52	Mention 352 360	MDBR QDC
+T12	Mention 366 374	QWL JHWH
+T53	Mention 377 382	JXWLL
+T54	Mention 383 388	>JLWT
+T55	Mention 390 394	JXFP
+T56	Mention 395 400	J<RWT
+T57	Mention 403 407	HJKL
+T58	Mention 407 408	W
+T59	Mention 411 412	W
+T60	Mention 409 411	KL
+T61	Mention 413 416	>MR
+T62	Mention 417 421	KBWD
+T63	Mention 439 442	JCB
+T64	Mention 444 447	JCB
+T65	Mention 434 438	MBWL
+T66	Mention 458 462	<WLM
+T67	Mention 453 456	MLK
+T68	Mention 474 476	<Z
+T69	Mention 480 481	W
+T70	Mention 478 480	<M
+T71	Mention 482 485	JTN
+T72	Mention 503 504	W
+T73	Mention 501 503	<M
+T74	Mention 506 510	CLWM
+T75	Mention 13 18	MZMWR
+*	Coreference T20 T2 T21 T25 T28
+#1	AnnotatorNotes T4	Nested mention: (voice of (YHWH)). 
+#2	AnnotatorNotes T6	Nested mention: (voice of (YHWH)). 
+#3	AnnotatorNotes T8	Nested mention: (voice of (YHWH)). 
+#4	AnnotatorNotes T10	Nested mention: (voice of (YHWH)). 
+#5	AnnotatorNotes T11	Nested mention: (voice of (YHWH)). 
+#6	AnnotatorNotes T12	Nested mention: (voice of (YHWH)). 
+#7	AnnotatorNotes T7	Nested mention: (voice of (YHWH)). 
+*	Coreference T9 T39 T22 T3 T19 T27 T29 T32 T5 T42
+#8	AnnotatorNotes T40	Nested mention: (cedars of (Lebanon)). 
+*	Coreference T41 T40
+*	Coreference T51 T13 T14 T63 T64 T16 T15 T69 T71 T17 T18 T72
+*	Coreference T59 T58 T6 T4 T7 T8 T37 T10 T47 T11 T49 T12 T53 T55
+*	Coreference T60 T61
+*	Coreference T73 T70

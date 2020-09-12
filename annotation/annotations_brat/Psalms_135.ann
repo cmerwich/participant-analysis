@@ -1,0 +1,166 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 23 27	HLLW
+T4	Mention 31 38	CM JHWH
+T5	Mention 39 43	HLLW
+T6	Mention 44 53	<BDJ JHWH
+T7	Mention 60 65	<MDJM
+T8	Mention 67 75	BJT JHWH
+T9	Mention 77 91	XYRWT BJT >LHJ
+T10	Mention 91 93	NW
+#1	AnnotatorNotes T9	In apposition with "house of YHWH".
+T11	Mention 99 103	HLLW
+T12	Mention 104 106	JH
+T13	Mention 114 118	JHWH
+T14	Mention 119 123	ZMRW
+T15	Mention 125 127	CM
+T16	Mention 127 128	W
+T17	Mention 145 149	J<QB
+T18	Mention 150 153	BXR
+T19	Mention 155 156	W
+T20	Mention 157 159	JH
+T21	Mention 160 165	JFR>L
+T22	Mention 167 171	SGLT
+T23	Mention 171 172	W
+T24	Mention 181 184	>NJ
+T25	Mention 185 190	JD<TJ
+T26	Mention 199 203	JHWH
+T27	Mention 205 209	>DNJ
+T28	Mention 209 211	NW
+T29	Mention 213 221	KL&>LHJM
+T30	Mention 227 229	KL
+T31	Mention 234 237	XPY
+T32	Mention 238 242	JHWH
+T33	Mention 243 246	<FH
+T34	Mention 248 252	CMJM
+T35	Mention 255 258	>RY
+T36	Mention 260 264	JMJM
+T37	Mention 266 275	KL&THWMWT
+T38	Mention 281 285	M<LH
+T39	Mention 286 291	NF>JM
+T40	Mention 293 301	QYH H>RY
+T41	Mention 303 307	RQJM
+T42	Mention 309 312	MVR
+T43	Mention 313 316	<FH
+T44	Mention 317 321	MWY>
+T45	Mention 322 325	RWX
+T46	Mention 327 334	>WYRWTJ
+T47	Mention 334 335	W
+T48	Mention 342 345	HKH
+T49	Mention 346 357	BKWRJ MYRJM
+T50	Mention 359 362	>DM
+T51	Mention 366 370	BHMH
+T52	Mention 376 379	CLX
+T53	Mention 382 386	>TWT
+T54	Mention 388 393	MPTJM
+T55	Mention 395 398	TWK
+T56	Mention 398 400	KJ
+T57	Mention 401 406	MYRJM
+T58	Mention 408 412	PR<H
+T59	Mention 415 422	KL&<BDJ
+T60	Mention 422 423	W
+T61	Mention 431 434	HKH
+T62	Mention 435 444	GWJM RBJM
+T63	Mention 446 449	HRG
+T64	Mention 450 462	MLKJM <YWMJM
+T65	Mention 470 475	SJXWN
+T66	Mention 478 487	MLK H>MRJ
+T67	Mention 490 493	<WG
+T68	Mention 494 502	MLK HBCN
+T69	Mention 505 519	KL MMLKWT KN<N
+T70	Mention 527 530	NTN
+T71	Mention 531 534	>RY
+T72	Mention 536 540	NXLH
+T73	Mention 541 545	NXLH
+T74	Mention 547 552	JFR>L
+T75	Mention 553 555	<M
+T76	Mention 555 556	W
+T77	Mention 563 567	JHWH
+T78	Mention 568 570	CM
+T79	Mention 570 571	K
+T80	Mention 573 577	<WLM
+T81	Mention 578 582	JHWH
+T82	Mention 583 586	ZKR
+T83	Mention 586 587	K
+T84	Mention 589 591	DR
+T85	Mention 593 595	DR
+T86	Mention 605 609	JDJN
+T87	Mention 610 614	JHWH
+T88	Mention 615 617	<M
+T89	Mention 617 618	W
+T90	Mention 623 627	<BDJ
+T91	Mention 627 628	W
+T92	Mention 629 634	JTNXM
+T93	Mention 641 651	<YBJ HGWJM
+T94	Mention 652 655	KSP
+T95	Mention 657 660	ZHB
+T96	Mention 661 673	M<FH JDJ >DM
+T97	Mention 680 682	PH
+T98	Mention 684 686	HM
+T99	Mention 691 696	JDBRW
+T100	Mention 697 702	<JNJM
+T101	Mention 704 706	HM
+T102	Mention 711 715	JR>W
+T103	Mention 722 727	>ZNJM
+T104	Mention 729 731	HM
+T105	Mention 736 742	J>ZJNW
+T106	Mention 750 752	JC
+T107	Mention 753 756	RWX
+T108	Mention 758 760	PJ
+T109	Mention 760 762	HM
+T110	Mention 772 774	HM
+T111	Mention 775 779	JHJW
+T112	Mention 780 783	<FJ
+T113	Mention 783 785	HM
+T114	Mention 786 788	KL
+T115	Mention 793 796	BVX
+T116	Mention 798 800	HM
+T117	Mention 807 816	BJT JFR>L
+T118	Mention 817 821	BRKW
+T119	Mention 825 829	JHWH
+T120	Mention 830 838	BJT >HRN
+T121	Mention 839 843	BRKW
+T122	Mention 847 851	JHWH
+T123	Mention 858 866	BJT HLWJ
+T124	Mention 867 871	BRKW
+T125	Mention 875 879	JHWH
+T126	Mention 880 889	JR>J JHWH
+T127	Mention 890 894	BRKW
+T128	Mention 898 902	JHWH
+T129	Mention 909 913	BRWK
+T130	Mention 914 918	JHWH
+T131	Mention 922 926	YJWN
+T132	Mention 927 930	CKN
+T133	Mention 931 937	JRWCLM
+T134	Mention 938 942	HLLW
+T135	Mention 943 945	JH
+*	Coreference T1 T3 T5 T6 T7 T11 T14 T134
+#2	AnnotatorNotes T4	Nested mention: (name of (YHWH)). 
+#3	AnnotatorNotes T8	Nested mention: (house of (YHWH)). 
+*	Coreference T9 T8
+#4	AnnotatorNotes T6	Nested mention: (servants of (YHWH)). 
+*	Coreference T15 T4 T78
+*	Coreference T25 T24
+#5	AnnotatorNotes T10	Who is 1Cpl?
+*	Coreference T28 T10
+#6	AnnotatorNotes T49	Nested mention: (first-born of (Egypt)). 
+*	Coreference T56 T57
+*	Coreference T60 T58
+#7	AnnotatorNotes T66	In apposition with "Sihon". 
+*	Coreference T68 T67 T66 T65 T136 T69
+#8	AnnotatorNotes T68	In apposition with "Og". 
+T136	Mention 534 535	M
+*	Coreference T72 T73
+*	Coreference T75 T74 T88 T90
+*	Coreference T93 T98 T99 T101 T102 T104 T105 T109 T110 T113 T116
+*	Coreference T112 T111
+*	Coreference T114 T115
+*	Coreference T118 T117
+#9	AnnotatorNotes T117	Nested mention: (house of (Israel)).
+#10	AnnotatorNotes T120	Nested mention: (house of (Aaron)).
+*	Coreference T121 T120
+#11	AnnotatorNotes T123	Nested mention: (house of (Levi)).
+*	Coreference T124 T123
+*	Coreference T127 T126
+#12	AnnotatorNotes T126	Nested mention: (fearers of (YHWH)).
+*	Coreference T130 T129 T122 T119 T87 T86 T32 T31 T13 T12 T16 T18 T19 T20 T23 T26 T27 T33 T38 T43 T44 T47 T48 T52 T61 T63 T70 T76 T77 T79 T81 T83 T89 T91 T92 T125 T128 T132 T135

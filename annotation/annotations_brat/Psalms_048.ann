@@ -1,0 +1,112 @@
+T1	Mention 13 16	CJR
+T2	Mention 17 22	MZMWR
+T3	Mention 24 31	BNJ&QRX
+T5	Mention 42 46	JHWH
+T4	Mention 48 52	MHLL
+T6	Mention 58 66	<JR >LHJ
+T7	Mention 66 68	NW
+T8	Mention 69 75	HR&QDC
+T9	Mention 75 76	W
+#1	AnnotatorNotes T8	In apposition with "the city of our God".
+T10	Mention 82 89	JPH NWP
+T11	Mention 90 102	MFWF KL&H>RY
+T12	Mention 103 110	HR&YJWN
+T13	Mention 111 121	JRKTJ YPWN
+T14	Mention 122 133	QRJT MLK RB
+T15	Mention 139 144	>LHJM
+T16	Mention 146 153	>RMNWTJ
+T17	Mention 153 154	H
+T18	Mention 155 159	NWD<
+T19	Mention 161 165	MFGB
+T20	Mention 179 184	MLKJM
+T21	Mention 185 190	NW<DW
+T22	Mention 191 195	<BRW
+T23	Mention 206 209	HMH
+T24	Mention 210 213	R>W
+T25	Mention 217 221	TMHW
+T26	Mention 222 227	NBHLW
+T27	Mention 228 233	NXPZW
+T28	Mention 239 243	R<DH
+T29	Mention 248 249	M
+T30	Mention 244 248	>XZT
+T31	Mention 253 256	XJL
+T32	Mention 258 263	JWLDH
+T33	Mention 270 278	RWX QDJM
+T34	Mention 279 283	TCBR
+T35	Mention 284 295	>NJWT TRCJC
+T36	Mention 306 311	CM<NW
+T37	Mention 317 322	R>JNW
+T38	Mention 324 338	<JR&JHWH YB>WT
+T39	Mention 340 348	<JR >LHJ
+T40	Mention 348 350	NW
+#2	AnnotatorNotes T39	In apposition with"the city of YHWH".
+T41	Mention 351 356	>LHJM
+T42	Mention 362 363	H
+T43	Mention 357 362	JKWNN
+T44	Mention 367 371	<WLM
+T45	Mention 382 387	DMJNW
+T46	Mention 388 393	>LHJM
+T47	Mention 397 398	K
+T48	Mention 394 397	XSD
+T49	Mention 408 409	K
+T50	Mention 400 408	QRB HJKL
+T51	Mention 417 419	CM
+T52	Mention 419 420	K
+T53	Mention 421 426	>LHJM
+T54	Mention 434 435	K
+T55	Mention 430 434	THLT
+T56	Mention 439 447	QYWJ&>RY
+T57	Mention 448 451	YDQ
+T58	Mention 452 456	ML>H
+T59	Mention 457 461	JMJN
+T60	Mention 461 462	K
+T61	Mention 469 473	JFMX
+T62	Mention 476 483	HR&YJWN
+T63	Mention 484 489	TGLNH
+T64	Mention 490 500	BNWT JHWDH
+T65	Mention 511 512	K
+T66	Mention 506 511	MCPVJ
+T67	Mention 519 522	SBW
+T68	Mention 523 527	YJWN
+T69	Mention 534 535	H
+T70	Mention 529 534	HQJPW
+T71	Mention 536 540	SPRW
+T72	Mention 546 547	H
+T73	Mention 541 546	MGDLJ
+T74	Mention 554 558	CJTW
+T75	Mention 559 561	LB
+T76	Mention 561 563	KM
+T77	Mention 570 571	H
+T78	Mention 567 570	XJL
+T79	Mention 572 576	PSGW
+T80	Mention 584 585	H
+T81	Mention 577 584	>RMNWTJ
+T82	Mention 591 596	TSPRW
+T83	Mention 598 607	DWR >XRWN
+T84	Mention 617 619	ZH
+T85	Mention 622 627	>LHJM
+T86	Mention 628 632	>LHJ
+T87	Mention 632 634	NW
+T88	Mention 635 639	<WLM
+T89	Mention 644 647	HW>
+T90	Mention 652 654	NW
+T91	Mention 648 652	JNHG
+#3	AnnotatorNotes T3	Nested mention: (sons of (Korah)). 
+*	Coreference T4 T5 T9 T15 T18 T34 T41 T43 T46 T47 T49 T52 T53 T54 T60 T65
+*	Coreference T8 T6 T38 T39 T42
+#4	AnnotatorNotes T12	Nested mention: (mountain of (Zion)). 
+*	Coreference T17 T14
+*	Coreference T21 T20 T22 T23 T24 T25 T26 T27 T29
+*	Coreference T30 T28
+#5	AnnotatorNotes T35	Nested mention: (ships of (Tarshish)). 
+*	Coreference T36 T7 T37 T40 T45 T87 T90
+#6	AnnotatorNotes T38	Nested mention: (city of (YHWH of (hosts))). 
+*	Coreference T59 T58
+#7	AnnotatorNotes T62	Nested mention: (mountain of (Zion)). 
+*	Coreference T62 T61 T12 T69 T72 T77 T80
+*	Coreference T64 T63
+#8	AnnotatorNotes T64	Nested mention: (daughters of (Judah)). 
+*	Coreference T70 T67 T71 T74 T76 T79 T82
+#9	AnnotatorNotes T67	Unclear: to whom refers 2Mpl?
+*	Coreference T85 T84 T86 T89 T91
+T93	Mention 641 643	<D

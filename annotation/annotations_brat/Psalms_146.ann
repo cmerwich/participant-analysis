@@ -1,0 +1,97 @@
+T1	Mention 13 17	HLLW
+T2	Mention 18 20	JH
+T3	Mention 21 25	HLLJ
+T4	Mention 26 29	NPC
+T5	Mention 29 30	J
+T6	Mention 34 38	JHWH
+T7	Mention 44 49	>HLLH
+T8	Mention 50 54	JHWH
+T9	Mention 56 58	XJ
+T10	Mention 58 59	J
+T11	Mention 60 65	>ZMRH
+T12	Mention 67 70	>LH
+T13	Mention 70 71	J
+T14	Mention 73 76	<WD
+T15	Mention 76 77	J
+T16	Mention 86 91	TBVXW
+T17	Mention 93 99	NDJBJM
+T18	Mention 101 107	BN&>DM
+T19	Mention 116 117	W
+T20	Mention 118 123	TCW<H
+T21	Mention 129 132	TY>
+T22	Mention 133 136	RWX
+T23	Mention 136 137	W
+T24	Mention 138 141	JCB
+T25	Mention 143 147	>DMT
+T26	Mention 147 148	W
+T27	Mention 150 153	JWM
+T28	Mention 156 158	W>
+T29	Mention 159 163	>BDW
+T30	Mention 164 170	<CTNTJ
+T31	Mention 170 171	W
+T32	Mention 177 181	>CRJ
+T33	Mention 183 190	>L J<QB
+T34	Mention 192 195	<ZR
+T35	Mention 195 196	W
+T36	Mention 197 200	FBR
+T37	Mention 200 201	W
+T38	Mention 205 209	JHWH
+T39	Mention 210 214	>LHJ
+T40	Mention 214 215	W
+#1	AnnotatorNotes T39	In apposition with "YHWH". 
+T41	Mention 221 224	<FH
+T42	Mention 227 231	CMJM
+T43	Mention 233 236	>RY
+T44	Mention 241 243	JM
+T45	Mention 248 250	KL
+T46	Mention 256 257	M
+T47	Mention 259 262	CMR
+T48	Mention 263 266	>MT
+T49	Mention 268 272	<WLM
+T50	Mention 278 281	<FH
+T51	Mention 282 286	MCPV
+T52	Mention 290 296	<CWQJM
+T53	Mention 297 300	NTN
+T54	Mention 301 304	LXM
+T55	Mention 306 311	R<BJM
+T56	Mention 312 316	JHWH
+T57	Mention 317 321	MTJR
+T58	Mention 322 328	>SWRJM
+T59	Mention 334 338	JHWH
+T60	Mention 341 344	PQX
+T61	Mention 345 350	<WRJM
+T62	Mention 351 355	JHWH
+T63	Mention 356 359	ZQP
+T64	Mention 360 366	KPWPJM
+T65	Mention 367 371	JHWH
+T66	Mention 372 375	>HB
+T67	Mention 376 382	YDJQJM
+T68	Mention 388 392	JHWH
+T69	Mention 395 398	CMR
+T70	Mention 402 406	GRJM
+T71	Mention 407 411	JTWM
+T72	Mention 413 418	>LMNH
+T73	Mention 419 424	J<WDD
+T74	Mention 426 435	DRK RC<JM
+T75	Mention 436 440	J<WT
+T76	Mention 447 451	JMLK
+T77	Mention 452 456	JHWH
+T78	Mention 460 464	<WLM
+T79	Mention 465 469	>LHJ
+T80	Mention 469 470	K
+T81	Mention 471 475	YJWN
+T82	Mention 477 479	DR
+T83	Mention 481 483	DR
+T84	Mention 484 488	HLLW
+T85	Mention 489 491	JH
+*	Coreference T3 T4
+*	Coreference T10 T5 T7 T11 T13 T15
+*	Coreference T1 T16 T84
+*	Coreference T19 T18 T23 T24 T26 T29 T31
+*	Coreference T22 T21
+*	Coreference T28 T27
+#2	AnnotatorNotes T33	Nested mention: (God of (Jacob)). 
+*	Coreference T35 T32 T37 T40
+*	Coreference T42 T43 T44 T46
+*	Coreference T77 T76 T6 T2 T8 T12 T33 T38 T39 T41 T47 T50 T53 T56 T57 T59 T60 T62 T63 T65 T66 T68 T69 T73 T75 T79 T85
+*	Coreference T80 T81

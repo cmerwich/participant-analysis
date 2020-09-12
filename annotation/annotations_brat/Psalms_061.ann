@@ -1,0 +1,73 @@
+T1	Mention 14 18	MNYX
+T2	Mention 24 29	NGJNT
+T3	Mention 31 34	DWD
+T4	Mention 40 44	CM<H
+T5	Mention 45 50	>LHJM
+T6	Mention 54 55	J
+T7	Mention 51 54	RNT
+T8	Mention 56 62	HQCJBH
+T9	Mention 67 68	J
+T10	Mention 63 67	TPLT
+T11	Mention 75 83	QYH H>RY
+T12	Mention 89 90	K
+T13	Mention 91 95	>QR>
+T15	Mention 103 104	J
+T16	Mention 101 103	LB
+T17	Mention 106 109	YWR
+T18	Mention 110 114	JRWM
+T19	Mention 117 119	NJ
+T20	Mention 123 125	NJ
+T21	Mention 120 123	TNX
+T22	Mention 134 138	HJJT
+T23	Mention 139 143	MXSH
+T24	Mention 145 146	J
+T25	Mention 148 154	GDL&<Z
+T26	Mention 156 164	PNJ >WJB
+T27	Mention 170 175	>GWRH
+T28	Mention 180 181	K
+T29	Mention 177 180	>HL
+T30	Mention 182 188	<WLMJM
+T31	Mention 189 193	>XSH
+T32	Mention 203 204	K
+T33	Mention 195 203	STR KNPJ
+T34	Mention 217 220	>TH
+T35	Mention 221 226	>LHJM
+T36	Mention 227 231	CM<T
+T37	Mention 236 237	J
+T38	Mention 238 241	NTT
+T40	Mention 254 255	K
+T42	Mention 233 236	NDR
+T39	Mention 242 254	JRCT JR>J CM
+T41	Mention 261 265	JMJM
+T43	Mention 269 276	JMJ&MLK
+T44	Mention 277 282	TWSJP
+T45	Mention 288 289	W
+T46	Mention 283 288	CNWTJ
+T47	Mention 294 296	DR
+T48	Mention 306 309	JCB
+T49	Mention 310 314	<WLM
+T50	Mention 316 325	PNJ >LHJM
+T51	Mention 326 329	XSD
+T52	Mention 331 334	>MT
+T53	Mention 335 337	MN
+T54	Mention 338 342	JNYR
+T55	Mention 342 344	HW
+T56	Mention 353 358	>ZMRH
+T57	Mention 361 362	K
+T58	Mention 359 361	CM
+T59	Mention 364 366	<D
+T60	Mention 368 372	CLMJ
+T61	Mention 376 377	J
+T62	Mention 373 376	NDR
+T63	Mention 378 387	JWM05 JWM
+*	Coreference T9 T6 T13 T15 T19 T20 T24 T27 T31 T37 T56 T60 T61
+*	Coreference T45 T43 T48 T55
+#1	AnnotatorNotes T43	Nested mention: (days of the (king)). 
+T64	Mention 298 300	DR
+#2	AnnotatorNotes T50	Nested mention: (face of (God)). 
+*	Coreference T5 T4 T8 T12 T21 T22 T28 T32 T34 T35 T36 T38 T40 T44 T50 T53 T57
+*	Coreference T54 T52 T51
+*	Coreference T62 T42
+#3	AnnotatorNotes T39	Nested mention: (heritage of (the fearers of (your (name)))). (your (name)) corefers with (your (name)) in v.9.
+#4	AnnotatorNotes T58	Nested mention: (your (name)) corefers with (your (name)) in v.6.
+#5	AnnotatorNotes T60	Infc with PreS.

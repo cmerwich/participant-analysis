@@ -1,0 +1,194 @@
+T1	Mention 20 23	DWD
+T2	Mention 36 40	JHWH
+T3	Mention 676 680	JHWH
+T4	Mention 927 931	JHWH
+T6	Mention 45 48	QYP
+T7	Mention 55 57	NJ
+T8	Mention 50 55	TWKJX
+T9	Mention 63 64	K
+T10	Mention 60 63	XMT
+T11	Mention 69 71	NJ
+T12	Mention 65 69	TJSR
+T13	Mention 80 83	XYJ
+T14	Mention 83 84	K
+T15	Mention 85 89	NXTW
+T16	Mention 91 92	J
+T17	Mention 94 98	TNXT
+T18	Mention 101 102	J
+T19	Mention 103 105	JD
+T20	Mention 105 106	K
+T21	Mention 116 119	MTM
+T22	Mention 124 125	J
+T23	Mention 121 124	BFR
+T24	Mention 127 134	PNJ Z<M
+T25	Mention 134 135	K
+T26	Mention 140 144	CLWM
+T27	Mention 149 150	J
+T28	Mention 146 149	<YM
+T29	Mention 152 160	PNJ XV>T
+T30	Mention 160 161	J
+T31	Mention 174 175	J
+T32	Mention 170 174	<WNT
+T33	Mention 176 180	<BRW
+T34	Mention 184 185	J
+T35	Mention 181 184	R>C
+T36	Mention 187 194	MF> KBD
+T37	Mention 195 200	JKBDW
+T38	Mention 203 205	NJ
+T39	Mention 211 217	HB>JCW
+T40	Mention 218 222	NMQW
+T41	Mention 228 229	J
+T42	Mention 223 228	XBWRT
+T43	Mention 239 240	J
+T44	Mention 231 239	PNJ >WLT
+T45	Mention 246 252	N<WJTJ
+T46	Mention 253 257	CXTJ
+T47	Mention 265 272	KL&HJWM
+T48	Mention 277 282	HLKTJ
+T49	Mention 294 295	J
+T50	Mention 291 294	KSL
+T51	Mention 296 300	ML>W
+T52	Mention 301 305	NQLH
+T53	Mention 311 314	MTM
+T54	Mention 316 319	BFR
+T55	Mention 319 320	J
+T56	Mention 326 333	NPWGWTJ
+T57	Mention 335 341	NDKJTJ
+T58	Mention 349 354	C>GTJ
+T59	Mention 356 363	NHMT LB
+T60	Mention 363 364	J
+T61	Mention 371 375	>DNJ
+T62	Mention 379 380	K
+T63	Mention 388 389	J
+T64	Mention 381 388	KL&T>WT
+T65	Mention 395 396	J
+T66	Mention 391 395	>NXT
+T67	Mention 399 400	K
+T68	Mention 404 409	NSTRH
+T69	Mention 418 419	J
+T70	Mention 416 418	LB
+T71	Mention 420 425	SXRXR
+T72	Mention 429 431	NJ
+T73	Mention 426 429	<ZB
+T74	Mention 434 435	J
+T75	Mention 432 434	KX
+T76	Mention 437 444	>WR&<JN
+T77	Mention 444 445	J
+T78	Mention 458 459	J
+T79	Mention 449 451	HM
+T80	Mention 466 469	>HB
+T81	Mention 469 470	J
+T82	Mention 474 476	R<
+T83	Mention 476 477	J
+T84	Mention 479 486	NGD NG<
+T85	Mention 486 487	J
+T86	Mention 488 493	J<MDW
+T87	Mention 499 500	J
+T88	Mention 495 499	QRWB
+T89	Mention 502 505	RXQ
+#1	AnnotatorNotes T84	NGD could also function as prep here. Annotate as mention or not?
+T90	Mention 506 510	<MDW
+T91	Mention 518 523	JNQCW
+T92	Mention 526 531	MBQCJ
+T93	Mention 535 536	J
+T94	Mention 532 535	NPC
+T95	Mention 538 542	DRCJ
+T96	Mention 546 547	J
+T97	Mention 543 546	R<T
+T98	Mention 548 552	DBRW
+T99	Mention 553 557	HWWT
+T100	Mention 559 564	MRMWT
+T101	Mention 565 572	KL&HJWM
+T102	Mention 573 577	JHGW
+T103	Mention 585 588	>NJ
+T104	Mention 590 593	XRC
+T105	Mention 597 601	>CM<
+T106	Mention 604 607	>LM
+T107	Mention 611 615	JPTX
+T108	Mention 616 618	PJ
+T109	Mention 618 619	W
+T110	Mention 627 630	>HJ
+T111	Mention 632 635	>JC
+T112	Mention 643 646	CM<
+T113	Mention 653 655	PJ
+T114	Mention 655 656	W
+T115	Mention 657 663	TWKXWT
+T116	Mention 674 675	K
+T117	Mention 681 687	HWXLTJ
+T118	Mention 688 691	>TH
+T119	Mention 692 696	T<NH
+T120	Mention 705 706	J
+T121	Mention 702 705	>LH
+#2	AnnotatorNotes T121	In apposition with "Lord".
+T122	Mention 697 701	>DNJ
+T123	Mention 716 721	>MRTJ
+T124	Mention 725 730	JFMXW
+T125	Mention 732 733	J
+T127	Mention 739 742	RGL
+T128	Mention 742 743	J
+T129	Mention 746 747	J
+T130	Mention 748 754	HGDJLW
+T131	Mention 764 767	>NJ
+T132	Mention 769 772	YL<
+T133	Mention 789 790	J
+T134	Mention 773 777	NKWN
+T135	Mention 779 784	MK>WB
+T136	Mention 784 785	J
+T137	Mention 805 808	<WN
+T138	Mention 808 809	J
+T139	Mention 810 814	>GJD
+T140	Mention 815 819	>D>G
+T141	Mention 825 826	J
+T142	Mention 821 825	XV>T
+T143	Mention 837 838	J
+T144	Mention 834 837	>JB
+T145	Mention 844 848	<YMW
+T146	Mention 850 853	RBW
+T147	Mention 854 857	FN>
+T148	Mention 857 858	J
+T149	Mention 870 875	MCLMJ
+T150	Mention 876 879	R<H
+T151	Mention 884 888	VWBH
+T152	Mention 894 896	NJ
+T153	Mention 889 894	JFVNW
+T155	Mention 901 906	RDWPJ
+T156	Mention 907 910	VWB
+T157	Mention 924 926	NJ
+T158	Mention 920 924	T<ZB
+T159	Mention 932 935	>LH
+T160	Mention 935 936	J
+#3	AnnotatorNotes T159	In apposition with "YHWH".
+T161	Mention 940 944	TRXQ
+T162	Mention 947 949	NJ
+T163	Mention 956 960	XWCH
+T164	Mention 966 967	J
+T165	Mention 962 966	<ZRT
+T166	Mention 968 972	>DNJ
+T167	Mention 978 979	J
+T168	Mention 973 978	TCW<T
+#4	AnnotatorNotes T168	In apposition with "Lord".
+T169	Mention 13 18	MZMWR
+T170	Mention 48 49	K
+*	Coreference T11 T7 T16 T18 T22 T27 T30 T31 T34 T38 T41 T43 T45 T46 T48 T49 T55 T56 T57 T58 T60 T63 T65 T69 T72 T74 T77 T78 T81 T83 T85 T87 T93 T96 T103 T105 T110 T117 T120 T123 T125 T128 T129 T131 T134 T136 T133 T138 T139 T140 T141 T143 T148 T152 T155 T157 T160 T162 T164 T167
+*	Coreference T15 T13
+*	Coreference T19 T17
+*	Coreference T33 T32 T37 T137
+*	Coreference T40 T39 T42
+*	Coreference T51 T50
+*	Coreference T53 T21
+*	Coreference T54 T23
+*	Coreference T68 T66
+*	Coreference T71 T70
+*	Coreference T75 T73
+*	Coreference T79 T76
+*	Coreference T86 T82 T80
+*	Coreference T90 T88
+*	Coreference T92 T91 T95 T98 T102 T124 T130
+*	Coreference T107 T106 T109
+*	Coreference T112 T111 T114
+*	Coreference T3 T116 T170 T2 T8 T9 T12 T14 T20 T25 T61 T62 T67 T118 T119 T122 T121 T158 T4 T159 T161 T163 T166 T168
+#5	AnnotatorNotes T124	Intuition: coreference with 3Mpl the 'harmers' of 1Csg in v.13.
+*	Coreference T145 T144
+*	Coreference T147 T146
+*	Coreference T153 T149
+#6	AnnotatorNotes T155	Infc with PreS.

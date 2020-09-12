@@ -1,0 +1,82 @@
+T1	Mention 25 29	JHWH
+T2	Mention 31 34	>RY
+T3	Mention 36 40	MLW>
+T4	Mention 40 41	H
+T5	Mention 42 45	TBL
+T6	Mention 47 51	JCBJ
+T7	Mention 53 54	H
+T8	Mention 63 66	HW>
+T9	Mention 70 74	JMJM
+T10	Mention 78 79	H
+T11	Mention 75 78	JSD
+T12	Mention 84 89	NHRWT
+T13	Mention 95 96	H
+T14	Mention 90 95	JKWNN
+T15	Mention 105 109	J<LH
+T16	Mention 111 118	HR&JHWH
+T17	Mention 123 127	JQWM
+T18	Mention 129 137	MQWM QDC
+T19	Mention 137 138	W
+T20	Mention 144 152	NQJ KPJM
+T21	Mention 154 160	BR&LBB
+T22	Mention 170 173	NF>
+T23	Mention 175 178	CW>
+T24	Mention 179 182	NPC
+T25	Mention 182 183	J
+T26	Mention 188 192	NCB<
+T27	Mention 194 198	MRMH
+T28	Mention 204 207	JF>
+T29	Mention 208 212	BRKH
+T30	Mention 217 221	JHWH
+T31	Mention 223 227	YDQH
+T32	Mention 229 237	>LHJ JC<
+T33	Mention 237 238	W
+T34	Mention 244 246	ZH
+T35	Mention 247 254	DWR DRC
+T36	Mention 254 255	W
+T37	Mention 256 265	MBQCJ PNJ
+T38	Mention 265 266	K
+T40	Mention 267 271	J<QB
+T41	Mention 281 284	F>W
+T42	Mention 285 290	C<RJM
+T43	Mention 297 299	KM
+T44	Mention 293 297	R>CJ
+T45	Mention 301 306	HNF>W
+T46	Mention 307 316	PTXJ <WLM
+T47	Mention 318 322	JBW>
+T48	Mention 323 332	MLK HKBWD
+T49	Mention 341 343	ZH
+T50	Mention 344 353	MLK HKBWD
+T51	Mention 354 358	JHWH
+T52	Mention 370 374	JHWH
+T53	Mention 391 394	F>W
+T54	Mention 395 400	C<RJM
+T55	Mention 403 407	R>CJ
+T56	Mention 407 409	KM
+T57	Mention 411 414	F>W
+T58	Mention 415 424	PTXJ <WLM
+T59	Mention 426 429	JB>
+T60	Mention 430 439	MLK HKBWD
+T61	Mention 449 452	HW>
+T62	Mention 453 455	ZH
+T63	Mention 456 465	MLK HKBWD
+T64	Mention 466 476	JHWH YB>WT
+T65	Mention 477 480	HW>
+T66	Mention 481 490	MLK HKBWD
+#1	AnnotatorNotes T63	In apposition with "this".
+T67	Mention 14 17	DWD
+T68	Mention 18 23	MZMWR
+*	Coreference T4 T2 T7 T5 T10 T13
+*	Coreference T8 T1 T11 T14 T19 T30 T32 T36 T38
+#2	AnnotatorNotes T16	This is a nested mention: (mountain of (YHWH)).
+*	Coreference T18 T16
+*	Coreference T17 T15 T22 T26 T20 T21 T28 T33
+#3	AnnotatorNotes T25	Unclear: who is 1Csg?
+*	Coreference T40 T34
+*	Coreference T42 T41 T43 T45 T53 T54 T56 T57
+*	Coreference T48 T47 T50 T49 T51 T52 T59 T60 T61 T62 T63 T64 T65 T66
+T39	Mention 359 363	<ZWZ
+T69	Mention 365 369	GBWR
+T70	Mention 375 385	GBWR MLXMH
+*	Coreference T55 T44
+*	Coreference T58 T46

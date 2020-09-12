@@ -1,0 +1,55 @@
+T1	Mention 13 23	CJR LM<LWT
+T2	Mention 24 27	>F>
+T3	Mention 28 31	<JN
+T4	Mention 31 32	J
+T5	Mention 37 41	HRJM
+T6	Mention 47 50	JB>
+T7	Mention 51 54	<ZR
+T8	Mention 54 55	J
+T9	Mention 61 64	<ZR
+T10	Mention 64 65	J
+T11	Mention 70 74	JHWH
+T12	Mention 75 88	<FH CMJM W>RY
+T14	Mention 97 100	JTN
+T15	Mention 102 105	MWV
+T16	Mention 106 109	RGL
+T17	Mention 109 110	K
+T18	Mention 114 118	JNWM
+T19	Mention 119 122	CMR
+T20	Mention 122 123	K
+T21	Mention 136 140	JNWM
+T22	Mention 145 149	JJCN
+T23	Mention 150 160	CWMR JFR>L
+T24	Mention 166 170	JHWH
+T25	Mention 171 174	CMR
+T26	Mention 174 175	K
+T27	Mention 176 180	JHWH
+T28	Mention 181 183	YL
+T29	Mention 183 184	K
+T30	Mention 188 195	JD JMJN
+T31	Mention 195 196	K
+T32	Mention 208 211	CMC
+T33	Mention 215 218	JKK
+T34	Mention 221 224	JRX
+T35	Mention 226 230	LJLH
+T36	Mention 236 240	JHWH
+T37	Mention 241 245	JCMR
+T38	Mention 245 246	K
+T39	Mention 248 253	KL&R<
+T40	Mention 254 258	JCMR
+T41	Mention 262 265	NPC
+T42	Mention 265 266	K
+T43	Mention 272 276	JHWH
+T44	Mention 277 281	JCMR
+T46	Mention 282 286	Y>TK
+T48	Mention 288 292	BW>K
+T49	Mention 302 306	<WLM
+*	Coreference T4 T2 T8 T10
+*	Coreference T7 T6 T9
+*	Coreference T20 T17 T26 T29 T31 T38 T42 T46 T48
+*	Coreference T19 T18 T11 T12 T14 T21 T22 T23 T24 T27 T36 T37 T40 T43 T44 T25
+#1	AnnotatorNotes T23	Nested mention: (keeper of (Israel)). 
+T50	Mention 218 219	H
+*	Coreference T33 T32
+#2	AnnotatorNotes T46	Infc with PreS. 
+#3	AnnotatorNotes T48	Infc with PreS. 

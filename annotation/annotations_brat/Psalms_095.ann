@@ -1,0 +1,90 @@
+T1	Mention 13 16	LKW
+T2	Mention 17 22	NRNNH
+T3	Mention 24 28	JHWH
+T4	Mention 29 34	NRJ<H
+T5	Mention 36 43	YWR JC<
+T6	Mention 43 45	NW
+T7	Mention 51 56	NQDMH
+T8	Mention 57 60	PNJ
+T9	Mention 60 61	W
+T10	Mention 75 79	NRJ<
+T11	Mention 81 82	W
+T12	Mention 91 98	>L GDWL
+T13	Mention 99 103	JHWH
+T14	Mention 105 113	MLK GDWL
+T15	Mention 117 125	KL&>LHJM
+T16	Mention 136 138	JD
+T17	Mention 138 139	W
+T18	Mention 141 149	XQRJ&>RY
+T19	Mention 151 162	TW<PWT HRJM
+T20	Mention 164 165	W
+T21	Mention 176 177	W
+T22	Mention 179 181	JM
+T23	Mention 183 186	HW>
+T24	Mention 187 190	<FH
+T25	Mention 190 191	W
+T26	Mention 193 197	JBCT
+T27	Mention 198 201	JDJ
+T28	Mention 201 202	W
+T29	Mention 203 207	JYRW
+T30	Mention 213 216	B>W
+T31	Mention 217 223	NCTXWH
+T32	Mention 225 230	NKR<H
+T33	Mention 231 236	NBRKH
+T34	Mention 238 246	PNJ&JHWH
+T35	Mention 247 249	<F
+T36	Mention 249 251	NW
+T37	Mention 260 263	HW>
+T38	Mention 264 268	>LHJ
+T39	Mention 268 270	NW
+T40	Mention 272 277	>NXNW
+T41	Mention 278 286	<M MR<JT
+T42	Mention 286 287	W
+T43	Mention 289 295	Y>N JD
+T44	Mention 295 296	W
+T45	Mention 298 301	JWM
+T46	Mention 306 308	QL
+T47	Mention 308 309	W
+T48	Mention 310 315	TCM<W
+T49	Mention 324 328	TQCW
+T50	Mention 329 332	LBB
+T51	Mention 332 334	KM
+T52	Mention 336 341	MRJBH
+T53	Mention 343 350	JWM MSH
+T54	Mention 352 356	MDBR
+T55	Mention 366 369	NSW
+T56	Mention 369 371	NJ
+T57	Mention 372 377	>BWTJ
+T58	Mention 377 379	KM
+T59	Mention 380 384	BXNW
+T60	Mention 384 386	NJ
+T61	Mention 390 393	R>W
+T62	Mention 394 397	P<L
+T63	Mention 397 398	J
+T64	Mention 405 415	>RB<JM CNH
+T65	Mention 418 422	>QWV
+T66	Mention 424 427	DWR
+T67	Mention 429 432	>MR
+T68	Mention 433 435	<M
+T69	Mention 436 443	T<J LBB
+T70	Mention 444 446	HM
+T71	Mention 448 450	HM
+T72	Mention 454 458	JD<W
+T73	Mention 459 462	DRK
+T74	Mention 462 463	J
+T75	Mention 474 480	NCB<TJ
+T76	Mention 482 484	>P
+T77	Mention 484 485	J
+T78	Mention 489 494	JB>WN
+T79	Mention 498 503	MNWXT
+T80	Mention 503 504	J
+T81	Mention 69 74	ZMRWT
+*	Coreference T13 T12 T5 T3 T9 T11 T14 T17 T20 T21 T23 T24
+*	Coreference T27 T29
+*	Coreference T1 T30 T48 T49 T2 T4 T6 T7 T10 T31 T32 T33 T36 T39 T40 T51 T58
+*	Coreference T35 T34 T25 T22 T28 T37 T38 T42 T44 T47 T56 T60 T63 T65 T67 T74 T75 T77 T80
+#1	AnnotatorNotes T34	Nested mention: (face of (YHWH)).
+#2	AnnotatorNotes T41	Nested mention: (people of (his (pasture))).
+#3	AnnotatorNotes T53	Nested mention: (day of (Massah)).
+*	Coreference T57 T55 T59 T61 T66 T68 T71 T70 T72 T78
+#4	AnnotatorNotes T66	Though det=und, it specifically refers to "ancestors" in v.9; see also subsequent 2x 3Mpl prps. 

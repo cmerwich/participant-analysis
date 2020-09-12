@@ -1,0 +1,63 @@
+T1	Mention 13 16	CPV
+T2	Mention 16 18	NJ
+T3	Mention 19 24	>LHJM
+T4	Mention 28 32	RJBH
+T5	Mention 36 37	J
+T6	Mention 33 36	RJB
+T7	Mention 39 42	GWJ
+T8	Mention 46 50	XSJD
+T9	Mention 52 60	>JC&MRMH
+T10	Mention 62 66	<WLH
+T11	Mention 71 73	NJ
+T12	Mention 67 71	TPLV
+T13	Mention 82 85	>TH
+T14	Mention 88 97	>LHJ M<WZ
+T15	Mention 97 98	J
+T16	Mention 103 107	ZNXT
+T17	Mention 107 109	NJ
+T18	Mention 118 123	>THLK
+T19	Mention 125 133	LXY >WJB
+T20	Mention 139 142	CLX
+T21	Mention 146 147	K
+T22	Mention 143 146	>WR
+T23	Mention 152 153	K
+T24	Mention 149 152	>MT
+T25	Mention 154 157	HMH
+T26	Mention 162 164	NJ
+T27	Mention 158 162	JNXW
+T28	Mention 170 172	NJ
+T29	Mention 165 170	JBJ>W
+T30	Mention 176 182	HR&QDC
+T31	Mention 182 183	K
+T32	Mention 195 196	K
+T33	Mention 188 195	MCKNWTJ
+T34	Mention 203 208	>BW>H
+T35	Mention 214 224	MZBX >LHJM
+T36	Mention 228 239	>L FMXT GJL
+T37	Mention 239 240	J
+T38	Mention 245 246	K
+T39	Mention 242 245	>WD
+T40	Mention 248 252	KNWR
+T41	Mention 253 258	>LHJM
+T42	Mention 262 263	J
+T43	Mention 259 262	>LH
+T44	Mention 272 279	TCTWXXJ
+T45	Mention 285 286	J
+T46	Mention 282 285	NPC
+T47	Mention 291 295	THMJ
+T48	Mention 298 299	J
+T49	Mention 300 306	HWXJLJ
+T50	Mention 308 313	>LHJM
+T51	Mention 325 326	W
+T52	Mention 321 325	>WDN
+T53	Mention 327 335	JCW<T PN
+T54	Mention 335 336	J
+T55	Mention 338 341	>LH
+T56	Mention 341 342	J
+*	Coreference T5 T2 T11 T15 T17 T18 T26 T28 T34 T37 T39 T42 T45 T48 T52 T54 T56
+#1	AnnotatorNotes T14	Nested mention: (God of (my (stronghold))). 
+*	Coreference T25 T24 T22 T27 T29
+#2	AnnotatorNotes T35	Nested mention: (altar of (God)). 
+*	Coreference T38 T35 T41 T43 T50 T51 T36 T3 T1 T4 T12 T13 T16 T20 T21 T23 T31 T32 T55 T14
+*	Coreference T46 T44 T47 T49
+#3	AnnotatorNotes T36	Nested mention: (God of (joy (my (rejoicing)))). 

@@ -1,0 +1,123 @@
+T1	Mention 19 24	MZMWR
+T2	Mention 26 29	DWD
+T3	Mention 36 40	CMJM
+T4	Mention 41 47	MSPRJM
+T5	Mention 48 55	KBWD&>L
+T6	Mention 72 77	HRQJ<
+T7	Mention 67 71	MGJD
+T8	Mention 57 65	M<FH JDJ
+T9	Mention 65 66	W
+T10	Mention 83 86	JWM
+T11	Mention 88 91	JWM
+T12	Mention 92 96	JBJ<
+T13	Mention 97 100	>MR
+T14	Mention 102 106	LJLH
+T15	Mention 108 112	LJLH
+T16	Mention 113 117	JXWH
+T17	Mention 118 121	D<T
+T18	Mention 131 134	>MR
+T19	Mention 140 145	DBRJM
+T20	Mention 150 154	NCM<
+T21	Mention 158 159	M
+T22	Mention 155 158	QWL
+T23	Mention 166 173	KL&H>RY
+T24	Mention 176 179	JY>
+T25	Mention 180 182	QW
+T26	Mention 186 193	QYH TBL
+T27	Mention 198 199	M
+T28	Mention 194 198	MLJH
+T29	Mention 201 204	CMC
+T30	Mention 205 207	FM
+T31	Mention 208 211	>HL
+T32	Mention 213 215	HM
+T33	Mention 222 225	HW>
+T34	Mention 227 230	XTN
+T35	Mention 231 234	JY>
+T36	Mention 239 240	W
+T37	Mention 236 239	XPT
+T38	Mention 241 245	JFJF
+T39	Mention 247 251	GBWR
+T41	Mention 257 260	>RX
+T42	Mention 267 276	QYH HCMJM
+T43	Mention 283 284	W
+T44	Mention 279 283	MWY>
+T45	Mention 291 292	W
+T46	Mention 286 291	TQWPT
+T47	Mention 300 301	M
+T48	Mention 296 300	QYWT
+T49	Mention 307 311	NSTR
+T50	Mention 316 317	W
+T51	Mention 313 316	XMT
+T52	Mention 323 332	TWRT JHWH
+T53	Mention 339 344	MCJBT
+T54	Mention 345 348	NPC
+T55	Mention 349 358	<DWT JHWH
+T56	Mention 365 371	MXKJMT
+T57	Mention 372 375	PTJ
+T58	Mention 381 391	PQWDJ JHWH
+T59	Mention 398 403	MFMXJ
+T60	Mention 404 406	LB
+T61	Mention 407 416	MYWT JHWH
+T62	Mention 421 426	M>JRT
+T63	Mention 427 432	<JNJM
+T66	Mention 718 722	JHWH
+T64	Mention 439 448	JR>T JHWH
+T67	Mention 457 462	<WMDT
+T68	Mention 464 466	<D
+T65	Mention 467 477	MCPVJ&JHWH
+T69	Mention 478 481	>MT
+T70	Mention 482 486	YDQW
+T71	Mention 499 505	NXMDJM
+T72	Mention 507 510	ZHB
+T73	Mention 513 518	PZ RB
+T74	Mention 528 531	DBC
+T75	Mention 533 542	NPT YWPJM
+T76	Mention 555 556	K
+T77	Mention 552 555	<BD
+T78	Mention 557 561	NZHR
+T79	Mention 563 565	HM
+T80	Mention 567 570	CMR
+T81	Mention 572 578	<QB RB
+T82	Mention 585 591	CGJ>WT
+T83	Mention 595 599	JBJN
+T84	Mention 601 607	NSTRWT
+T85	Mention 610 612	NJ
+T86	Mention 608 610	NQ
+T87	Mention 623 627	ZDJM
+T88	Mention 630 633	XFK
+T89	Mention 637 638	K
+T90	Mention 634 637	<BD
+T91	Mention 642 647	JMCLW
+T92	Mention 649 650	J
+T93	Mention 654 658	>JTM
+T94	Mention 660 665	NQJTJ
+T95	Mention 667 673	PC< RB
+T96	Mention 680 684	JHJW
+T97	Mention 686 690	RYWN
+T98	Mention 699 700	J
+T99	Mention 693 699	>MRJ&P
+T100	Mention 702 710	HGJWN LB
+T101	Mention 710 711	J
+T102	Mention 716 717	K
+T103	Mention 713 716	PNJ
+T104	Mention 726 727	J
+T105	Mention 723 726	YWR
+T106	Mention 729 732	G>L
+T107	Mention 732 733	J
+#1	AnnotatorNotes T105	In apposition with "YHWH".
+#2	AnnotatorNotes T106	In apposition with "YHWH".
+T108	Mention 14 18	MNYX
+*	Coreference T6 T7 T12 T4 T3 T16 T20 T21 T109 T27 T32
+*	Coreference T18 T13
+T109	Mention 182 183	M
+*	Coreference T25 T24
+*	Coreference T33 T29 T35 T36 T38 T43 T45 T50
+*	Coreference T47 T42
+*	Coreference T55 T52 T53 T56 T58 T59 T61 T62 T64 T67 T65 T70 T79 T110 T9 T5 T30 T76 T86 T89 T88 T102 T66 T105 T106
+*	Coreference T71 T72 T73
+T110	Mention 570 571	M
+*	Coreference T85 T77 T90 T92 T93 T94 T98 T101 T104 T107
+#3	AnnotatorNotes T85	Is 1Csg "the servant"?
+*	Coreference T91 T87
+*	Coreference T99 T96 T100
+#4	AnnotatorNotes T80	Infc with PreO.

@@ -1,0 +1,45 @@
+T1	Mention 13 23	CJR HM<LWT
+T2	Mention 25 30	BVXJM
+T3	Mention 32 36	JHWH
+T4	Mention 38 45	HR&YJWN
+T5	Mention 49 53	JMWV
+T6	Mention 55 59	<WLM
+T7	Mention 60 63	JCB
+T8	Mention 69 75	JRWCLM
+T9	Mention 76 80	HRJM
+T10	Mention 87 88	H
+T11	Mention 90 94	JHWH
+T12	Mention 101 103	<M
+T13	Mention 103 104	W
+T14	Mention 114 118	<WLM
+T15	Mention 130 134	JNWX
+T16	Mention 135 143	CBV HRC<
+T17	Mention 147 159	GWRL HYDJQJM
+T18	Mention 168 173	JCLXW
+T19	Mention 175 181	YDJQJM
+T20	Mention 183 188	<WLTH
+T21	Mention 189 192	JDJ
+T22	Mention 192 194	HM
+T23	Mention 200 206	HJVJBH
+T24	Mention 207 211	JHWH
+T25	Mention 213 218	VWBJM
+T26	Mention 221 226	JCRJM
+T27	Mention 228 232	LBWT
+T28	Mention 232 233	M
+T29	Mention 241 245	MVJM
+T30	Mention 246 253	<QLQLWT
+T31	Mention 253 254	M
+T32	Mention 255 260	JWLJK
+T33	Mention 260 261	M
+T34	Mention 262 266	JHWH
+T35	Mention 270 279	P<LJ H>WN
+T36	Mention 280 284	CLWM
+T37	Mention 288 293	JFR>L
+#1	AnnotatorNotes T4	Nested mention: (mountain of (Zion)).
+*	Coreference T4 T5 T7
+*	Coreference T11 T3 T13 T24 T23 T34 T32
+*	Coreference T10 T8
+*	Coreference T16 T15
+*	Coreference T18 T19 T22
+*	Coreference T28 T26
+*	Coreference T33 T31

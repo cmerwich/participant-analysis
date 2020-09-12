@@ -1,0 +1,52 @@
+T1	Mention 13 18	MZMWR
+T2	Mention 20 23	>SP
+T3	Mention 24 29	>LHJM
+T4	Mention 30 33	NYB
+T5	Mention 35 41	<DT&>L
+T6	Mention 43 52	QRB >LHJM
+T7	Mention 53 57	JCPV
+T8	Mention 70 75	TCPVW
+T9	Mention 76 79	<WL
+T10	Mention 81 90	PNJ RC<JM
+T11	Mention 91 95	TF>W
+T12	Mention 105 109	CPVW
+T13	Mention 110 112	DL
+T14	Mention 114 118	JTWM
+T15	Mention 119 122	<NJ
+T16	Mention 124 126	RC
+T17	Mention 127 133	HYDJQW
+T18	Mention 139 143	PLVW
+T19	Mention 144 146	DL
+T20	Mention 148 153	>BJWN
+T21	Mention 155 163	JD RC<JM
+T22	Mention 164 169	HYJLW
+T23	Mention 178 182	JD<W
+T24	Mention 189 194	JBJNW
+T25	Mention 196 200	XCKH
+T26	Mention 201 207	JTHLKW
+T27	Mention 208 213	JMWVW
+T28	Mention 214 226	KL&MWSDJ >RY
+T29	Mention 232 235	>NJ
+T30	Mention 236 241	>MRTJ
+T31	Mention 242 247	>LHJM
+T32	Mention 250 251	M
+T33	Mention 253 262	BNJ <LJWN
+T34	Mention 263 265	KL
+T35	Mention 265 267	KM
+T36	Mention 278 281	>DM
+T37	Mention 282 288	TMWTWN
+T38	Mention 291 300	>XD HFRJM
+T39	Mention 301 305	TPLW
+T40	Mention 311 315	QWMH
+T41	Mention 316 321	>LHJM
+T42	Mention 322 326	CPVH
+T43	Mention 328 331	>RY
+T44	Mention 335 338	>TH
+T45	Mention 339 343	TNXL
+T46	Mention 345 353	KL&HGWJM
+*	Coreference T19 T13
+*	Coreference T23 T24 T26 T27 T11 T8 T12 T17 T18 T22 T6
+*	Coreference T35 T34 T32 T31 T33 T37 T39
+*	Coreference T41 T40 T30 T29 T42 T44 T45 T4 T3 T7
+#1	AnnotatorNotes T8	Does 2Mpl refer to "the Gods" in v.1?
+#2	AnnotatorNotes T23	Does 3Cpl refer to the 2Mpl in v.5? Is this the same entity?
